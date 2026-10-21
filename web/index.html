@@ -368,16 +368,40 @@ claude mcp add gobmx-inventario -- \\
 <span class="c"># verificar</span>
 claude mcp list        <span class="c"># debe decir: gobmx-inventario ... ✔ Connected</span></pre>
   <p>Luego pregúntale, p.ej.: <i>"dame las estadísticas del inventario gobmx"</i> o <i>"busca apps de identidad digital estatal"</i>.</p>
+  <h3 class="sect">Referencia de herramientas</h3>
   <div class="toolgrid">
-    ${[['stats','Totales y conteos por nivel/sector/estatus'],
-       ['buscar_apps','Apps con filtros (nivel, estado, sector, estatus, texto)'],
-       ['buscar_sitios','Portales web por nivel/estado/texto'],
-       ['buscar_servicios','Trámites y brechas (CONAMER + cruce)'],
-       ['dependencia','Apps + sitios de una dependencia'],
-       ['buscar_subdominio','Los 12k+ subdominios .gob.mx (activos opcional)']]
-      .map(([n,d])=>`<div class="toolcard"><div class="tn">${n}()</div><div class="td">${d}</div></div>`).join('')}
+    ${[
+      ['stats()','Resumen del inventario. Sin parámetros.','Devuelve <code>apps</code>, <code>sitios</code>, <code>servicios</code> (totales) y los desgloses <code>apps_por_nivel</code>, <code>apps_por_sector</code>, <code>apps_por_estatus</code>, <code>apps_con_android</code>, <code>apps_con_ios</code>.'],
+      ['buscar_apps(nivel, estado, sector, estatus, texto, limite=50)','Busca apps. Filtros opcionales, match parcial sin distinguir mayúsculas.','<b>nivel</b>: federal · estatal · municipal · paraestatal · autonomo · no_oficial<br><b>sector</b>: seguridad · movilidad · salud · fiscal · finanzas · identidad · trámites · educación · turismo · clima · vivienda · energía · trabajo · elecciones · otro<br><b>estatus</b>: activa · retirada · «sin actualizar &gt;2 años» · desconocido<br><b>texto</b>: busca en nombre/dependencia/propósito'],
+      ['buscar_sitios(nivel, estado, texto, limite=50)','Busca portales web.','Cada resultado trae <code>url</code>, <code>plataforma</code>, <code>anti_bot</code>, <code>autenticacion</code> y <code>estado_real</code> (evidencia fechada).'],
+      ['buscar_servicios(texto, limite=50)','Busca trámites y brechas (CONAMER + cruce apps×sitios).','<b>texto</b> busca en servicio/nombre_tramite/dependencia/brecha.'],
+      ['dependencia(nombre)','Todo lo de una dependencia en un llamado.','Devuelve <code>{apps:[…], sitios:[…]}</code>. <b>nombre</b> hace match en dependencia o siglas.'],
+      ['buscar_subdominio(texto, solo_activos=false, limite=100)','Busca en los 12,812 subdominios .gob.mx (CT + dotgob-mx).','<b>solo_activos</b>: solo los marcados activos por dotgob-mx. Cada fila: host, fuente, activo_dotgob, dependencia.'],
+    ].map(([n,d,p])=>`<div class="toolcard"><div class="tn">${n}</div><div class="td">${d}</div><div class="td" style="margin-top:7px;color:var(--ink-faint)">${p}</div></div>`).join('')}
   </div>
+  <p>Ejemplo de llamada y respuesta:</p>
+  <pre><span class="c"># el agente llama</span>
+buscar_apps(sector="identidad", estado="Jalisco")
+<span class="c"># respuesta (recortada)</span>
+[{ "nombre":"Llave Jalisco", "nivel":"estatal", "estado":"Jalisco",
+   "sector":"identidad", "estatus":"activa",
+   "android":"…", "ios":"…", "inst":123456,
+   "play_score":4.1, "prop":"Identidad digital del estado…" }]</pre>
   <p class="c" style="font-family:var(--mono);font-size:11.5px;color:var(--ink-faint)">Nota: <code>uv run --with "mcp&lt;2"</code> también funciona pero en arranque frío puede pasar el timeout de 30 s; por eso se recomienda el venv.</p>
+
+  <h2>Para agentes — integración directa</h2>
+  <p>¿Un agente o LLM sin cliente MCP? Hay dos caminos sin instalar nada:</p>
+  <ul>
+    <li><b>llms.txt</b> — archivo pensado para modelos, con el resumen del proyecto y enlaces a todos los datos: <a href="https://elimorals.github.io/gob-mx-reverse-engineering/llms.txt" target="_blank" rel="noopener">/llms.txt</a></li>
+    <li><b>Datos crudos (JSON/CSV)</b> — consumibles por HTTP, sin auth:</li>
+  </ul>
+  <pre><span class="c"># inventario de apps (+ permisos en apps/permisos/permisos.json)</span>
+https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.json
+<span class="c"># sitios web, servicios y subdominios</span>
+.../main/sitios/federal.json   .../main/servicios/brechas.json
+.../main/sitios/subdominios-consolidado.csv</pre>
+  <p>Esquema de cada app (campos principales): <code>nombre</code>, <code>dependencia</code>, <code>siglas</code>, <code>nivel</code>, <code>estado</code>, <code>sector</code>, <code>estatus</code>, <code>android_id</code>, <code>ios_id</code>, <code>requiere_cuenta</code>, <code>play</code>/<code>appstore</code> (métricas), <code>proposito</code>, <code>fuentes</code>, <code>notas</code>. Esquemas completos en <code>scripts/esquema.md</code> y <code>scripts/esquema-sitios-servicios.md</code>.</p>
+  <p>El MCP es el camino más rico (filtros + cruces en un llamado); el JSON crudo sirve para pipelines y análisis masivo.</p>
 
   <h2>Cómo se regenera</h2>
   <p>El inventario vive en JSON/CSV versionados; los derivados se reconstruyen con scripts:</p>
