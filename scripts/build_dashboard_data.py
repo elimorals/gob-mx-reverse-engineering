@@ -52,6 +52,18 @@ def servicios():
             for s in json.loads(f.read_text()):
                 s["_fuente"] = name.replace(".json", "")
                 out.append(s)
+    # catálogo federal CONAMER recortado (solo campos útiles para el dashboard)
+    cnts = R / "servicios/cnts-federal.json"
+    if cnts.exists():
+        for t in json.loads(cnts.read_text()):
+            out.append({
+                "_fuente": "cnts",
+                "nombre_tramite": t.get("nombre_tramite") or t.get("nombre"),
+                "dependencia": t.get("dependencia"), "siglas": t.get("siglas"),
+                "homoclave": t.get("homoclave"),
+                "nivel_digitalizacion": t.get("nivel_digitalizacion"),
+                "nivel": "federal",
+            })
     return out
 
 

@@ -127,6 +127,30 @@ nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:26px 0 18px;position:sticky;
 .filters input{flex:1;min-width:180px}
 .filters select:focus,.filters input:focus{outline:none;border-color:var(--oro)}
 .count{font-family:var(--mono);font-size:12px;color:var(--ink-faint);margin-left:auto}
+.intro{color:var(--ink-dim);font-size:13.5px;margin:0 0 16px;max-width:74ch}
+.intro b{color:var(--ink)}
+.tc{font-family:var(--mono);font-size:9.5px;opacity:.6;margin-left:6px;font-weight:400}
+.sortsel{margin-left:auto}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 16px}
+.chip{font-family:var(--mono);font-size:11px;background:var(--guinda-deep);color:#fff;border:none;
+  padding:5px 10px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+.chip .cx{opacity:.65;font-size:13px;line-height:1}
+.chip:hover .cx{opacity:1}
+.chip.clear{background:transparent;border:1px solid var(--line);color:var(--ink-dim)}
+.chip.clear:hover{border-color:var(--oro-dim);color:var(--ink)}
+.secttitle{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--oro);margin:28px 0 12px;display:flex;align-items:baseline;gap:9px;border-top:1px solid var(--line);padding-top:16px}
+.secttitle:first-child{border-top:none;padding-top:0;margin-top:4px}
+.secttitle .sc{color:var(--ink-faint);font-size:10px;letter-spacing:.06em}
+.brow.btn{cursor:pointer;border-radius:6px;padding:3px 5px;margin:2px -5px}
+.brow.btn:hover{background:var(--panel2)}
+.brow.on{background:var(--panel2)}
+.brow.on .bl{color:var(--ink)}
+.distcard h3 .hint{float:right;font-size:8.5px;color:var(--ink-faint);letter-spacing:.04em;text-transform:none}
+.more{display:block;margin:24px auto 0;font-family:var(--mono);font-size:12px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-dim);background:var(--panel);border:1px solid var(--line);
+  padding:12px 22px;border-radius:999px;cursor:pointer}
+.more:hover{border-color:var(--oro-dim);color:var(--ink);box-shadow:var(--shadow)}
 
 /* distribution bars */
 .dist{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:22px}
@@ -294,31 +318,58 @@ $('#kpis').innerHTML='';
 const TABS=[['apps','Apps'],['sitios','Sitios'],['servicios','Servicios'],['subdominios','Subdominios'],['guia','Guía']];
 let cur='apps';
 const nav=$('#tabs');
-TABS.forEach(([id,label])=>{const b=el('button','tab'+(id===cur?' on':''),label);b.onclick=()=>{cur=id;[...nav.children].forEach(c=>c.classList.remove('on'));b.classList.add('on');render();};nav.appendChild(b);});
+const fmtK = n => n>=10000?(n/1000).toFixed(0)+'k':n>=1000?(n/1000).toFixed(1)+'k':String(n);
+const TABCOUNT={apps:D.apps.length,sitios:D.sitios.length,servicios:D.servicios.length,subdominios:D.subdominios.total};
+TABS.forEach(([id,label])=>{
+  const n=TABCOUNT[id];
+  const b=el('button','tab'+(id===cur?' on':''),label+(n!=null?` <span class="tc">${fmtK(n)}</span>`:''));
+  b.onclick=()=>{cur=id;F={};[...nav.children].forEach(c=>c.classList.remove('on'));b.classList.add('on');render();};
+  nav.appendChild(b);});
 
 const SCORE = s => s==null?['','—']: s>=4?['sc-good',s.toFixed(1)]: s>=3?['sc-mid',s.toFixed(1)]:['sc-bad',s.toFixed(1)];
 const STCLASS = s => s==='activa'?'st-activa':s==='retirada'?'st-retirada':(s||'').includes('actualizar')?'st-sin':'st-desconocido';
 
-function bars(title,counter,color){
-  const c=el('div','distcard');c.innerHTML=`<h3>${title}</h3>`;
+function bars(title,counter,color,filterKey){
+  const c=el('div','distcard');
+  c.innerHTML=`<h3>${title}${filterKey?'<span class="hint">clic para filtrar</span>':''}</h3>`;
   const max=Math.max(...counter.map(x=>x[1]),1);
-  counter.forEach(([k,v])=>{const row=el('div','brow');
+  counter.forEach(([k,v])=>{
+    const on=filterKey&&F[filterKey]===k;
+    const row=el('div','brow'+(filterKey?' btn':'')+(on?' on':''));
     row.innerHTML=`<span class="bl" title="${k}">${k}</span><span class="bar" style="width:${Math.max(2,v/max*120)}px${color?';background:'+color:''}"></span><span class="bn">${num(v)}</span>`;
+    if(filterKey)row.onclick=()=>{F[filterKey]=on?undefined:k;render();};
     c.appendChild(row);});
   return c;
 }
 function tally(arr,k){const m={};arr.forEach(x=>{const v=x[k]||'—';m[v]=(m[v]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);}
 
 let F={}; // filtros activos
+const FLABEL={nivel:'Nivel',estado:'Entidad',sector:'Sector',estatus:'Estatus',anti_bot:'Anti-bot',q:'Buscar'};
+function chipsRow(){
+  const act=Object.keys(F).filter(k=>F[k]);
+  if(!act.length)return null;
+  const box=el('div','chips');
+  act.forEach(k=>{const ch=el('button','chip',`${FLABEL[k]||k}: ${F[k]} <span class="cx">×</span>`);
+    ch.onclick=()=>{F[k]=undefined;render();};box.appendChild(ch);});
+  if(act.length>1){const cl=el('button','chip clear','limpiar todo');cl.onclick=()=>{F={};render();};box.appendChild(cl);}
+  return box;
+}
 function selectRow(opts){
   const bar=el('div','filters');
   opts.forEach(o=>{
-    if(o.search){const inp=el('input');inp.placeholder=o.ph||'Buscar…';inp.value=F.q||'';inp.oninput=()=>{F.q=inp.value;render();};bar.appendChild(inp);return;}
+    if(o.search){const inp=el('input');inp.placeholder=o.ph||'Buscar…';inp.value=F.q||'';inp.oninput=()=>{F.q=inp.value||undefined;_keep=true;render();setTimeout(()=>{const n=$('#'+'srch');if(n){n.focus();n.setSelectionRange(n.value.length,n.value.length);}});};inp.id='srch';bar.appendChild(inp);return;}
+    if(o.sort){const sel=el('select','sortsel');sel.innerHTML=o.opts.map(([val,lab])=>`<option value="${val}"${SORT===val?' selected':''}>↕ ${lab}</option>`).join('');sel.onchange=()=>{SORT=sel.value;render();};bar.appendChild(sel);return;}
     const sel=el('select');sel.innerHTML=`<option value="">${o.label}</option>`+o.vals.map(v=>`<option${F[o.key]===v?' selected':''}>${v}</option>`).join('');
-    sel.onchange=()=>{F[o.key]=sel.value;render();};bar.appendChild(sel);
+    sel.onchange=()=>{F[o.key]=sel.value||undefined;render();};bar.appendChild(sel);
   });
   const c=el('span','count');c.id='cnt';bar.appendChild(c);
   return bar;
+}
+let SORT='inst', PAGE=60, _keep=false;
+function moreBtn(total,shown,onMore){
+  if(shown>=total)return null;
+  const b=el('button','more',`cargar más · ${shown} de ${num(total)}`);
+  b.onclick=()=>{_keep=true;PAGE+=60;onMore();};return b;
 }
 function match(x){
   for(const k of ['nivel','estado','sector','estatus','tipo','anti_bot']) if(F[k]&&x[k]!==F[k]) return false;
@@ -328,7 +379,7 @@ function match(x){
 
 function render(){
   const v=$('#view');v.innerHTML='';
-  if(cur!=='subdominios'){F.tipo=undefined;F.anti_bot=undefined;}
+  if(!_keep)PAGE=60; _keep=false;
   if(cur==='apps') renderApps(v);
   else if(cur==='sitios') renderSitios(v);
   else if(cur==='servicios') renderServicios(v);
@@ -417,30 +468,37 @@ https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps
   v.appendChild(g);
 }
 
+const SORTS={inst:(a,b)=>b.inst-a.inst, score:(a,b)=>(b.play_score??b.ios_score??0)-(a.play_score??a.ios_score??0),
+  nombre:(a,b)=>(a.nombre||'').localeCompare(b.nombre||'','es'), ratings:(a,b)=>(b.play_ratings||0)-(a.play_ratings||0)};
 function renderApps(v){
+  v.appendChild(el('p','intro','<b>Apps móviles oficiales</b> del gobierno de México. Clic en una barra para filtrar; clic en una tarjeta para ver su ficha y permisos. Ordenadas por instalaciones.'));
   v.appendChild(selectRow([
     {search:true,ph:'Buscar app o dependencia…'},
     {key:'nivel',label:'Nivel',vals:uniq(D.apps,'nivel')},
     {key:'estado',label:'Entidad',vals:uniq(D.apps,'estado')},
     {key:'sector',label:'Sector',vals:uniq(D.apps,'sector')},
     {key:'estatus',label:'Estatus',vals:uniq(D.apps,'estatus')},
+    {sort:true,opts:[['inst','instalaciones'],['score','calificación'],['ratings','reseñas'],['nombre','nombre']]},
   ]));
+  const chips=chipsRow();if(chips)v.appendChild(chips);
   let list=D.apps.filter(match);
   const dist=el('div','dist');
-  dist.appendChild(bars('Por nivel',tally(list,'nivel')));
-  dist.appendChild(bars('Por sector',tally(list,'sector').slice(0,8),'var(--oro)'));
-  dist.appendChild(bars('Por estatus',tally(list,'estatus')));
+  dist.appendChild(bars('Por nivel',tally(list,'nivel'),null,'nivel'));
+  dist.appendChild(bars('Por sector',tally(list,'sector').slice(0,8),'var(--oro)','sector'));
+  dist.appendChild(bars('Por estatus',tally(list,'estatus'),null,'estatus'));
   v.appendChild(dist);
-  list=list.sort((a,b)=>b.inst-a.inst);
+  list=list.sort(SORTS[SORT]||SORTS.inst);
   $('#cnt').textContent=list.length+' apps';
   const g=el('div','grid');
-  list.slice(0,300).forEach((a,i)=>{
-    const c=el('div','card');c.style.animationDelay=Math.min(i*12,400)+'ms';
+  list.slice(0,PAGE).forEach((a,i)=>{
+    const c=el('div','card');c.style.animationDelay=Math.min(i*10,300)+'ms';
     const [sc,sv]=SCORE(a.play_score??a.ios_score);
+    const perm=(D.permisos||[]).find(p=>p.android_id===a.android);
     c.innerHTML=`<div class="stat ${STCLASS(a.estatus)}">${a.estatus||''}</div>
       <p class="nm">${a.nombre||'—'}</p><p class="dep">${a.dependencia||''}</p>
       <div class="tags"><span class="tag nivel">${a.nivel||''}</span>${a.sector?`<span class="tag">${a.sector}</span>`:''}
-        ${a.estado&&a.estado!=='Nacional'?`<span class="tag">${a.estado}</span>`:''}</div>
+        ${a.estado&&a.estado!=='Nacional'?`<span class="tag">${a.estado}</span>`:''}
+        ${perm?`<span class="tag" style="border-color:var(--bad);color:var(--bad)">⚑ ${(perm.permisos_peligrosos||[]).length} permisos</span>`:''}</div>
       <div class="meta">
         <span class="${a.android?'badge-a':'badge-i'}">${a.android?'▸ Android':'· sin Android'}</span>
         <span class="${a.ios?'badge-a':'badge-i'}">${a.ios?'▸ iOS':'· sin iOS'}</span>
@@ -451,42 +509,73 @@ function renderApps(v){
     g.appendChild(c);
   });
   v.appendChild(g);
+  const more=moreBtn(list.length,Math.min(PAGE,list.length),render);
+  if(more)v.appendChild(more);
 }
 
 function renderSitios(v){
+  v.appendChild(el('p','intro','<b>Portales web</b> de dependencias federales, estatales y municipales, con su plataforma, anti-bot y el resultado de un GET pasivo fechado. Clic en una barra para filtrar por nivel.'));
   v.appendChild(selectRow([
     {search:true,ph:'Buscar portal o dependencia…'},
     {key:'nivel',label:'Nivel',vals:uniq(D.sitios,'nivel')},
     {key:'estado',label:'Entidad',vals:uniq(D.sitios,'estado')},
     {key:'anti_bot',label:'Anti-bot',vals:uniq(D.sitios,'anti_bot')},
   ]));
+  const chips=chipsRow();if(chips)v.appendChild(chips);
   const list=D.sitios.filter(match);
+  const dist=el('div','dist');
+  dist.appendChild(bars('Por nivel',tally(list,'nivel'),null,'nivel'));
+  dist.appendChild(bars('Por plataforma',tally(list,'plataforma').filter(x=>x[0]!=='—').slice(0,8),'var(--oro)'));
+  dist.appendChild(bars('Por anti-bot',tally(list.filter(s=>s.anti_bot&&s.anti_bot!=='ninguno'),'anti_bot').slice(0,8),null,'anti_bot'));
+  v.appendChild(dist);
   $('#cnt').textContent=list.length+' portales';
   const rows=el('div','rows');
-  list.forEach((s,i)=>{const r=el('div','r');r.style.animationDelay=Math.min(i*8,300)+'ms';
+  list.slice(0,PAGE).forEach((s,i)=>{const r=el('div','r');r.style.animationDelay=Math.min(i*8,300)+'ms';
     r.innerHTML=`<div class="rt">${s.siglas||s.dependencia||'—'}</div>
       <div class="dep" style="font-size:12px;color:var(--ink-dim)">${s.dependencia||''}</div>
       <a class="ru" href="${s.url}" target="_blank" rel="noopener">${s.url||''}</a>
       <div class="tags"><span class="tag nivel">${s.nivel||''}</span>
+        ${s.estado&&s.estado!=='Nacional'?`<span class="tag">${s.estado}</span>`:''}
         ${s.plataforma?`<span class="tag plat">${(s.plataforma||'').slice(0,40)}</span>`:''}
         ${s.anti_bot&&s.anti_bot!=='ninguno'?`<span class="tag">⛨ ${s.anti_bot}</span>`:''}</div>
       ${s.resultado?`<div class="meta"><span>${s.resultado}</span></div>`:''}`;
     rows.appendChild(r);});
   v.appendChild(rows);
+  const more=moreBtn(list.length,Math.min(PAGE,list.length),render);if(more)v.appendChild(more);
 }
 
 function renderServicios(v){
-  v.appendChild(selectRow([{search:true,ph:'Buscar servicio o brecha…'}]));
+  v.appendChild(el('p','intro','<b>Servicios y trámites.</b> Primero las <b>brechas</b> detectadas al cruzar apps y sitios (qué servicio falta o solo existe en un canal); después el catálogo federal de CONAMER con su homoclave.'));
+  v.appendChild(selectRow([{search:true,ph:'Buscar servicio, trámite o dependencia…'}]));
+  const chips=chipsRow();if(chips)v.appendChild(chips);
   const list=D.servicios.filter(match);
-  $('#cnt').textContent=list.length+' registros';
-  const g=el('div','grid');
-  list.forEach((s,i)=>{const c=el('div','card');c.style.cursor='default';c.style.animationDelay=Math.min(i*15,400)+'ms';
-    c.innerHTML=`<p class="nm">${s.servicio||s.nombre_tramite||'—'}</p>
-      <p class="dep">${s.dependencia||''} ${s.nivel?'· '+s.nivel:''}</p>
-      ${s.brecha?`<div class="meta" style="color:var(--bad)">⚠ ${s.brecha}</div>`:''}
-      ${s.canales?`<div class="tags">${Object.entries(s.canales).map(([k,val])=>`<span class="tag">${k}: ${val}</span>`).join('')}</div>`:''}`;
-    g.appendChild(c);});
-  v.appendChild(g);
+  const tramites=list.filter(s=>s._fuente==='cnts');
+  const brechas=list.filter(s=>s._fuente!=='cnts');
+  $('#cnt').textContent=`${brechas.length} clave · ${num(tramites.length)} trámites federales`;
+
+  if(brechas.length){
+    v.appendChild(el('div','secttitle',`Brechas y servicios clave <span class="sc">${brechas.length}</span>`));
+    const g=el('div','grid');
+    brechas.forEach((s,i)=>{const c=el('div','card');c.style.cursor='default';c.style.animationDelay=Math.min(i*15,300)+'ms';
+      c.innerHTML=`<p class="nm">${s.servicio||s.nombre_tramite||'—'}</p>
+        <p class="dep">${s.dependencia||''} ${s.nivel?'· '+s.nivel:''}</p>
+        ${s.brecha?`<div class="meta" style="color:var(--bad)">⚠ ${s.brecha}</div>`:''}
+        ${s.canales?`<div class="tags">${Object.entries(s.canales).map(([k,val])=>`<span class="tag">${k}: ${val}</span>`).join('')}</div>`:''}`;
+      g.appendChild(c);});
+    v.appendChild(g);
+  }
+  if(tramites.length){
+    v.appendChild(el('div','secttitle',`Catálogo federal de trámites · CONAMER <span class="sc">${num(tramites.length)}</span>`));
+    const rows=el('div','rows');
+    tramites.slice(0,PAGE).forEach((s,i)=>{const r=el('div','r');r.style.animationDelay=Math.min(i*6,250)+'ms';
+      r.innerHTML=`<div class="rt" style="font-size:15px">${s.nombre_tramite||s.servicio||'—'}</div>
+        <div class="dep" style="font-size:12px;color:var(--ink-dim)">${s.dependencia||s.siglas||''}</div>
+        ${s.homoclave?`<span class="ru" style="color:var(--ink-faint)">${s.homoclave}</span>`:''}
+        ${s.nivel_digitalizacion?`<div class="tags"><span class="tag">${s.nivel_digitalizacion}</span></div>`:''}`;
+      rows.appendChild(r);});
+    v.appendChild(rows);
+    const more=moreBtn(tramites.length,Math.min(PAGE,tramites.length),render);if(more)v.appendChild(more);
+  }
 }
 
 function renderSub(v){
