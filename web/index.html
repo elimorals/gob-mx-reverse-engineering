@@ -9,37 +9,37 @@
 <meta name="author" content="Elias Rashid Morales Mendoza (elimorals)">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#13110f">
-<link rel="canonical" href="https://elimorals.github.io/gob-mx-reverse-engineering/web/">
+<link rel="canonical" href="https://elimorals.github.io/gobmx-presencia-digital/web/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Observatorio de gobierno digital · México">
 <meta property="og:title" content="Presencia digital del Estado mexicano">
 <meta property="og:description" content="466 apps móviles, 231 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios del gobierno de México — federal, estatal y municipal — con evidencia técnica fechada.">
-<meta property="og:url" content="https://elimorals.github.io/gob-mx-reverse-engineering/web/">
-<meta property="og:image" content="https://elimorals.github.io/gob-mx-reverse-engineering/og.png">
+<meta property="og:url" content="https://elimorals.github.io/gobmx-presencia-digital/web/">
+<meta property="og:image" content="https://elimorals.github.io/gobmx-presencia-digital/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="es_MX">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Presencia digital del Estado mexicano">
 <meta name="twitter:description" content="Inventario de apps, sitios y servicios del gobierno de México, con evidencia técnica y análisis de privacidad.">
-<meta name="twitter:image" content="https://elimorals.github.io/gob-mx-reverse-engineering/og.png">
+<meta name="twitter:image" content="https://elimorals.github.io/gobmx-presencia-digital/og.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%237c1c38'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23caa24b' stroke-width='2.5'/%3E%3Cpath d='M16 9 a7 7 0 0 1 0 14z' fill='%23caa24b'/%3E%3C/svg%3E">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@graph":[
-    {"@type":"Dataset","@id":"https://elimorals.github.io/gob-mx-reverse-engineering/web/#dataset",
+    {"@type":"Dataset","@id":"https://elimorals.github.io/gobmx-presencia-digital/web/#dataset",
      "name":"Presencia digital del gobierno de México",
      "description":"Inventario de aplicaciones móviles, sitios web, servicios en línea y subdominios del gobierno de México (federal, estatal y municipal), construido con observación pasiva de fuentes públicas y con análisis de permisos y privacidad de las apps.",
-     "url":"https://elimorals.github.io/gob-mx-reverse-engineering/web/",
+     "url":"https://elimorals.github.io/gobmx-presencia-digital/web/",
      "keywords":["gobierno de México","apps gubernamentales","trámites","gob.mx","gobierno digital","privacidad de apps"],
      "creator":{"@type":"Person","name":"Elias Rashid Morales Mendoza","url":"https://github.com/elimorals"},
      "license":"https://opensource.org/licenses/MIT",
      "isAccessibleForFree":true,
      "spatialCoverage":{"@type":"Country","name":"México"},
      "distribution":[
-       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.json"},
-       {"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.csv"}
+       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.json"},
+       {"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.csv"}
      ]},
     {"@type":"SoftwareApplication","name":"gobmx CLI","applicationCategory":"DeveloperApplication",
      "operatingSystem":"Python 3","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
@@ -397,8 +397,8 @@ function renderGuia(v){
   <h2>CLI — <code>gobmx</code></h2>
   <p>Consulta el inventario desde la terminal. Único requisito: Python 3, sin dependencias externas.</p>
   <pre><span class="c"># clonar el repo</span>
-git clone https://github.com/elimorals/gob-mx-reverse-engineering
-cd gob-mx-reverse-engineering
+git clone https://github.com/elimorals/gobmx-presencia-digital
+cd gobmx-presencia-digital
 
 <span class="c"># comandos</span>
 python3 gobmx.py stats                    <span class="c"># resumen por nivel/sector/estatus</span>
@@ -428,7 +428,7 @@ claude mcp list        <span class="c"># debe decir: gobmx-inventario ... ✔ Co
       ['buscar_sitios(nivel, estado, texto, limite=50)','Busca portales web.','Cada resultado trae <code>url</code>, <code>plataforma</code>, <code>anti_bot</code>, <code>autenticacion</code> y <code>estado_real</code> (evidencia fechada).'],
       ['buscar_servicios(texto, limite=50)','Busca trámites y brechas (CONAMER + cruce apps×sitios).','<b>texto</b> busca en servicio/nombre_tramite/dependencia/brecha.'],
       ['dependencia(nombre)','Todo lo de una dependencia en un llamado.','Devuelve <code>{apps:[…], sitios:[…]}</code>; cada app trae sus <code>permisos</code> si existen. <b>nombre</b> hace match en dependencia o siglas.'],
-      ['permisos(texto, limite=50)','Permisos peligrosos y trackers por app (piloto, 20 apps).','Cada entrada: <code>permisos_peligrosos</code>, <code>trackers</code> y notas de qué no cuadra con el propósito.'],
+      ['permisos(texto, limite=50)','Permisos peligrosos y trackers por app (351 apps con Android).','Cada entrada: <code>permisos_peligrosos</code>, <code>trackers</code> y notas de qué no cuadra con el propósito.'],
       ['buscar_subdominio(texto, solo_activos=false, limite=100)','Busca en los 12,812 subdominios .gob.mx (CT + dotgob-mx).','<b>solo_activos</b>: solo los marcados activos por dotgob-mx. Cada fila: host, fuente, activo_dotgob, dependencia.'],
     ].map(([n,d,p])=>`<div class="toolcard"><div class="tn">${n}</div><div class="td">${d}</div><div class="td" style="margin-top:7px;color:var(--ink-faint)">${p}</div></div>`).join('')}
   </div>
@@ -445,11 +445,11 @@ buscar_apps(sector="identidad", estado="Jalisco")
   <h2>Para agentes — integración directa</h2>
   <p>¿Un agente o LLM sin cliente MCP? Hay dos caminos sin instalar nada:</p>
   <ul>
-    <li><b>llms.txt</b> — archivo pensado para modelos, con el resumen del proyecto y enlaces a todos los datos: <a href="https://elimorals.github.io/gob-mx-reverse-engineering/llms.txt" target="_blank" rel="noopener">/llms.txt</a></li>
+    <li><b>llms.txt</b> — archivo pensado para modelos, con el resumen del proyecto y enlaces a todos los datos: <a href="https://elimorals.github.io/gobmx-presencia-digital/llms.txt" target="_blank" rel="noopener">/llms.txt</a></li>
     <li><b>Datos crudos (JSON/CSV)</b> — consumibles por HTTP, sin auth:</li>
   </ul>
   <pre><span class="c"># inventario de apps (+ permisos en apps/permisos/permisos.json)</span>
-https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.json
+https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.json
 <span class="c"># sitios web, servicios y subdominios</span>
 .../main/sitios/federal.json   .../main/servicios/brechas.json
 .../main/sitios/subdominios-consolidado.csv</pre>
@@ -466,7 +466,7 @@ https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps
     <li><code>scripts/regenerar.sh</code> — corre todo lo anterior en orden.</li>
   </ul>
   <p>Un <b>GitHub Action</b> refresca los subdominios y reconstruye este dashboard una vez al mes.</p>
-  <p style="margin-top:20px"><a href="https://github.com/elimorals/gob-mx-reverse-engineering" target="_blank" rel="noopener">Repositorio completo en GitHub ↗</a></p>`;
+  <p style="margin-top:20px"><a href="https://github.com/elimorals/gobmx-presencia-digital" target="_blank" rel="noopener">Repositorio completo en GitHub ↗</a></p>`;
   v.appendChild(g);
 }
 
@@ -672,7 +672,7 @@ function closeDrawer(){$('#drawer').classList.remove('on');$('#scrim').classList
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer();});
 
 $('#foot').innerHTML=`Datos: Google Play · App Store · Certificate Transparency · <a href="https://github.com/AlejandroTC/dotgob-mx" target="_blank" rel="noopener">dotgob-mx</a> · CONAMER.
-  Observación pasiva de fuentes públicas. Corte ${D.corte}. &nbsp;·&nbsp; <a href="https://github.com/elimorals/gob-mx-reverse-engineering" target="_blank" rel="noopener">repositorio ↗</a>`;
+  Observación pasiva de fuentes públicas. Corte ${D.corte}. &nbsp;·&nbsp; <a href="https://github.com/elimorals/gobmx-presencia-digital" target="_blank" rel="noopener">repositorio ↗</a>`;
 
 render();
 </script>

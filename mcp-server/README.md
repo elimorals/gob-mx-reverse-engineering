@@ -74,13 +74,13 @@ dependencia("CFE")    → 5 apps + sitio
 ```
 
 ### `permisos(texto="", limite=50) -> list`
-Análisis de permisos y privacidad de apps (piloto, 20 apps). Cada entrada trae
+Análisis de permisos y privacidad de apps (351 apps con Android). Cada entrada trae
 `permisos_peligrosos`, `trackers` (si hay) y `notas` de qué no cuadra con el propósito.
 `texto` hace match en nombre/dependencia/android_id.
 
 ```
 permisos(texto="IMSS")   → IMSS Digital: 10 permisos peligrosos (micrófono, calendario…)
-permisos()               → las 20 apps analizadas
+permisos()               → las 351 apps analizadas
 ```
 
 ### `buscar_subdominio(texto="", solo_activos=False, limite=100) -> list`

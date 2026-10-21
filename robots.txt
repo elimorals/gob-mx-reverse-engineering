@@ -11,4 +11,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://elimorals.github.io/gob-mx-reverse-engineering/sitemap.xml
+Sitemap: https://elimorals.github.io/gobmx-presencia-digital/sitemap.xml

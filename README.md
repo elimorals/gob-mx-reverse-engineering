@@ -1,4 +1,4 @@
-# gob-mx-reverse-engineering
+# gobmx-presencia-digital
 
 Inventario y análisis de la **presencia digital del Estado mexicano**: aplicaciones
 móviles, sitios web y servicios en línea de dependencias federales, organismos
@@ -8,7 +8,7 @@ Todo se construye con **observación pasiva** de fuentes públicas (tiendas de a
 Certificate Transparency, páginas públicas) y búsqueda web. No hay escaneo intrusivo,
 ni login con credenciales ajenas, ni envío de datos personales.
 
-🔗 **Dashboard en vivo:** https://elimorals.github.io/gob-mx-reverse-engineering/
+🔗 **Dashboard en vivo:** https://elimorals.github.io/gobmx-presencia-digital/
 
 ## Cifras (corte 2026-10-21)
 
@@ -18,7 +18,7 @@ ni login con credenciales ajenas, ni envío de datos personales.
 | Sitios web | **231** portales |
 | Subdominios `.gob.mx` | **12,812** (CT + dotgob-mx) |
 | Servicios / trámites | **6,141** (6,125 federales CONAMER + 16 brechas/clave) |
-| Apps con análisis de permisos | **20** (piloto) |
+| Apps con análisis de permisos | **351** (todas las que tienen Android; 311 con permisos peligrosos) |
 
 No existe un equivalente oficial: los catálogos del gobierno están en silos separados y el
 nivel subnacional no se publica de forma central (ver `analisis/benchmark-existentes.md`).
@@ -26,7 +26,7 @@ nivel subnacional no se publica de forma central (ver `analisis/benchmark-existe
 ## Estructura
 
 ```
-gob-mx-reverse-engineering/
+gobmx-presencia-digital/
 ├── README.md                    ← este archivo
 ├── index.html                   ← redirect de GitHub Pages al dashboard
 ├── llms.txt · robots.txt · sitemap.xml   ← SEO / GEO (descubrimiento por buscadores y LLMs)
@@ -34,7 +34,7 @@ gob-mx-reverse-engineering/
 │   ├── inventario/*.json        ← apps por segmento (federal, autónomos, estatal A/B/C+CDMX+municipal)
 │   ├── apps.json                ← consolidado + métricas de tienda (genera consolidar_incremental.py)
 │   ├── apps.csv                 ← mismo, tabular
-│   └── permisos/                ← permisos peligrosos por app (piloto, 20 apps) + README
+│   └── permisos/                ← permisos peligrosos por app (351) + README
 ├── sitios/
 │   ├── *.json                   ← portales web por segmento (esquema-sitios-servicios.md)
 │   ├── subdominios/*.txt        ← subdominios por dependencia desde Certificate Transparency
@@ -56,7 +56,7 @@ gob-mx-reverse-engineering/
 
 ## Dashboard web
 
-Navegador visual del inventario, en **https://elimorals.github.io/gob-mx-reverse-engineering/**
+Navegador visual del inventario, en **https://elimorals.github.io/gobmx-presencia-digital/**
 (claro/oscuro, responsive). Pestañas: Apps, Sitios, Servicios, Subdominios y **Guía** (documentación
 del CLI y el MCP). Las barras filtran al hacer clic; cada app abre una ficha con sus permisos.
 

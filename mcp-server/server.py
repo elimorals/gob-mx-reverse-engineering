@@ -93,12 +93,21 @@ def dependencia(nombre: str) -> dict:
 
 
 @mcp.tool()
-def permisos(texto: str = "", limite: int = 50) -> list:
-    """Análisis de permisos y privacidad de apps (piloto). Cada entrada trae
-    permisos_peligrosos, trackers (si hay) y notas de qué no cuadra con el propósito.
-    'texto' hace match en nombre/dependencia/android_id."""
+def permisos(nivel: str = "", estado: str = "", sector: str = "", texto: str = "",
+             solo_peligrosos: bool = False, limite: int = 50) -> list:
+    """Análisis de permisos y privacidad de apps. Cada entrada trae permisos_peligrosos,
+    trackers (si hay) y notas. Filtros: nivel, estado (entidad), sector, texto
+    (nombre/dependencia/android_id); solo_peligrosos deja solo las que tienen algún permiso peligroso."""
     out = []
     for p in gobmx.permisos():
+        if nivel and nivel.lower() not in str(p.get("nivel", "")).lower():
+            continue
+        if estado and estado.lower() not in str(p.get("estado", "")).lower():
+            continue
+        if sector and sector.lower() not in str(p.get("sector", "")).lower():
+            continue
+        if solo_peligrosos and not p.get("permisos_peligrosos"):
+            continue
         if texto:
             blob = f"{p.get('nombre','')} {p.get('dependencia','')} {p.get('android_id','')}".lower()
             if texto.lower() not in blob:

@@ -2,29 +2,29 @@
 
 > Inventario y análisis abierto (MIT) de la presencia digital del Estado mexicano: aplicaciones móviles, sitios web, servicios en línea y subdominios `.gob.mx` de los tres órdenes de gobierno (federal, estatal, municipal). Construido con observación pasiva de fuentes públicas (tiendas de apps, Certificate Transparency, un GET a páginas públicas) y con análisis de permisos/privacidad de las apps. Corte: 2026-10-21.
 
-Cifras del corte: 466 apps móviles (351 Android, 326 iOS), 231 sitios web, 12,812 subdominios `.gob.mx`, 6,141 servicios (6,125 trámites federales de CONAMER + brechas), y una capa piloto de permisos/privacidad sobre 20 apps. Es el único inventario conocido que cruza las tres capas (apps + sitios + servicios) con evidencia técnica fechada por activo. No existe un equivalente oficial: los catálogos del gobierno están en silos separados y el nivel subnacional no se publica de forma central.
+Cifras del corte: 466 apps móviles (351 Android, 326 iOS), 231 sitios web, 12,812 subdominios `.gob.mx`, 6,141 servicios (6,125 trámites federales de CONAMER + brechas), y una capa de permisos/privacidad sobre 351 apps (todas las que tienen Android). Es el único inventario conocido que cruza las tres capas (apps + sitios + servicios) con evidencia técnica fechada por activo. No existe un equivalente oficial: los catálogos del gobierno están en silos separados y el nivel subnacional no se publica de forma central.
 
 ## Datos (JSON/CSV)
 
-- [Inventario de apps consolidado (JSON)](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.json): 466 apps con metadatos de tienda, nivel, sector, estatus.
-- [Inventario de apps (CSV)](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.csv): la misma tabla, tabular.
-- [Permisos y privacidad (JSON)](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/permisos/permisos.json): permisos peligrosos por app (piloto, 20 apps).
-- [Servicios y brechas (JSON)](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/servicios/brechas.json): trámites y por qué canal se pueden hacer.
-- [Trámites federales CONAMER (JSON)](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/servicios/cnts-federal.json): 6,125 trámites federales con homoclave.
-- [Subdominios .gob.mx consolidados (CSV)](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/sitios/subdominios-consolidado.csv): 12,812 hosts (CT + dotgob-mx) con marca de actividad.
+- [Inventario de apps consolidado (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.json): 466 apps con metadatos de tienda, nivel, sector, estatus.
+- [Inventario de apps (CSV)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.csv): la misma tabla, tabular.
+- [Permisos y privacidad (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/permisos/permisos.json): permisos peligrosos por app (351 apps con Android).
+- [Servicios y brechas (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/servicios/brechas.json): trámites y por qué canal se pueden hacer.
+- [Trámites federales CONAMER (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/servicios/cnts-federal.json): 6,125 trámites federales con homoclave.
+- [Subdominios .gob.mx consolidados (CSV)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/sitios/subdominios-consolidado.csv): 12,812 hosts (CT + dotgob-mx) con marca de actividad.
 
 ## Análisis
 
-- [Comparación a detalle](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/analisis/comparacion.md): el documento principal.
-- [Hallazgos de seguridad](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/analisis/seguridad.md): TLS obsoleto, entornos de prueba expuestos en Certificate Transparency, apps publicadas por proveedores.
-- [Benchmark de catálogos existentes](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/analisis/benchmark-existentes.md): por qué no hay nada equivalente.
+- [Comparación a detalle](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/analisis/comparacion.md): el documento principal.
+- [Hallazgos de seguridad](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/analisis/seguridad.md): TLS obsoleto, entornos de prueba expuestos en Certificate Transparency, apps publicadas por proveedores.
+- [Benchmark de catálogos existentes](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/analisis/benchmark-existentes.md): por qué no hay nada equivalente.
 
 ## Herramientas
 
-- [Dashboard web](https://elimorals.github.io/gob-mx-reverse-engineering/web/): navegador visual del inventario (claro/oscuro, responsive).
-- [CLI gobmx](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/gobmx.py): consulta por terminal (`python3 gobmx.py stats|apps|sitios|dep`).
-- [MCP server](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/mcp-server/README.md): 6 herramientas consultables desde Claude u otro cliente MCP.
-- [README del repositorio](https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/README.md): metodología y estructura.
+- [Dashboard web](https://elimorals.github.io/gobmx-presencia-digital/web/): navegador visual del inventario (claro/oscuro, responsive).
+- [CLI gobmx](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/gobmx.py): consulta por terminal (`python3 gobmx.py stats|apps|sitios|dep`).
+- [MCP server](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/mcp-server/README.md): 7 herramientas consultables desde Claude u otro cliente MCP.
+- [README del repositorio](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/README.md): metodología y estructura.
 
 ## Notas
 
