@@ -36,15 +36,16 @@ jobs:
             python3 -I scripts/ct_dominio.py "$d" > "sitios/subdominios/${d%%.*}.txt" || true
           done
 
-      - name: Consolidar subdominios y QA
+      - name: Consolidar subdominios, QA y reconstruir dashboard
         run: |
           python3 -I scripts/merge_subdominios.py || true
           python3 -I scripts/qa.py || true
+          python3 -I scripts/build_dashboard_data.py   # regenera web/data.js para el dashboard
 
       - name: Commit si hubo cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sitios/
-          git diff --cached --quiet || git commit -m "chore: refresh mensual de subdominios (CT)"
+          git add sitios/ web/data.js
+          git diff --cached --quiet || git commit -m "chore: refresh mensual de subdominios (CT) + dashboard"
           git push

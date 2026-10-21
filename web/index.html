@@ -3,7 +3,53 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Observatorio · Presencia digital del gobierno de México</title>
+<title>Observatorio de gobierno digital · Presencia digital del Estado mexicano</title>
+<meta name="description" content="Inventario y análisis de la presencia digital del gobierno de México: 466 apps móviles, 231 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios en los tres órdenes de gobierno (federal, estatal, municipal), con evidencia técnica fechada y análisis de permisos/privacidad.">
+<meta name="keywords" content="gobierno de México, apps gubernamentales, trámites en línea, gob.mx, transformación digital, catálogo nacional de trámites, gobierno digital, datos abiertos, IMSS, SAT, CFE, permisos de apps, privacidad, Certificate Transparency">
+<meta name="author" content="Elias Rashid Morales Mendoza (elimorals)">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#13110f">
+<link rel="canonical" href="https://elimorals.github.io/gob-mx-reverse-engineering/web/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Observatorio de gobierno digital · México">
+<meta property="og:title" content="Presencia digital del Estado mexicano">
+<meta property="og:description" content="466 apps móviles, 231 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios del gobierno de México — federal, estatal y municipal — con evidencia técnica fechada.">
+<meta property="og:url" content="https://elimorals.github.io/gob-mx-reverse-engineering/web/">
+<meta property="og:image" content="https://elimorals.github.io/gob-mx-reverse-engineering/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Presencia digital del Estado mexicano">
+<meta name="twitter:description" content="Inventario de apps, sitios y servicios del gobierno de México, con evidencia técnica y análisis de privacidad.">
+<meta name="twitter:image" content="https://elimorals.github.io/gob-mx-reverse-engineering/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%237c1c38'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23caa24b' stroke-width='2.5'/%3E%3Cpath d='M16 9 a7 7 0 0 1 0 14z' fill='%23caa24b'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Dataset","@id":"https://elimorals.github.io/gob-mx-reverse-engineering/web/#dataset",
+     "name":"Presencia digital del gobierno de México",
+     "description":"Inventario de aplicaciones móviles, sitios web, servicios en línea y subdominios del gobierno de México (federal, estatal y municipal), construido con observación pasiva de fuentes públicas y con análisis de permisos y privacidad de las apps.",
+     "url":"https://elimorals.github.io/gob-mx-reverse-engineering/web/",
+     "keywords":["gobierno de México","apps gubernamentales","trámites","gob.mx","gobierno digital","privacidad de apps"],
+     "creator":{"@type":"Person","name":"Elias Rashid Morales Mendoza","url":"https://github.com/elimorals"},
+     "license":"https://opensource.org/licenses/MIT",
+     "isAccessibleForFree":true,
+     "spatialCoverage":{"@type":"Country","name":"México"},
+     "distribution":[
+       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.json"},
+       {"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://raw.githubusercontent.com/elimorals/gob-mx-reverse-engineering/main/apps/apps.csv"}
+     ]},
+    {"@type":"SoftwareApplication","name":"gobmx CLI","applicationCategory":"DeveloperApplication",
+     "operatingSystem":"Python 3","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+     "description":"Interfaz de línea de comandos para consultar el inventario de presencia digital del gobierno de México."},
+    {"@type":"SoftwareApplication","name":"gobmx-inventario (MCP server)","applicationCategory":"DeveloperApplication",
+     "operatingSystem":"Python 3","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+     "description":"Servidor MCP (Model Context Protocol) que expone el inventario como herramientas consultables desde Claude y otros clientes."}
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,800;1,6..72,500;1,6..72,600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -139,6 +185,22 @@ nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:26px 0 18px;position:sticky;
   color:var(--bad);padding:3px 7px;border-radius:5px;margin:2px}
 .trk{color:var(--warn);border-color:var(--oro-dim)}
 
+/* guía / docs */
+.doc{max-width:760px}
+.doc h2{font-family:var(--disp);font-weight:800;font-size:26px;letter-spacing:-.01em;margin:30px 0 6px}
+.doc p{color:var(--ink-dim);font-size:14.5px;margin:8px 0}
+.doc ul{color:var(--ink-dim);font-size:14px;padding-left:18px}
+.doc li{margin:5px 0}
+.doc code{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:1px solid var(--line);
+  padding:1px 5px;border-radius:4px;color:var(--oro)}
+pre{font-family:var(--mono);font-size:12.5px;background:var(--panel);border:1px solid var(--line);
+  border-left:3px solid var(--guinda);border-radius:9px;padding:14px 16px;overflow-x:auto;color:var(--ink);line-height:1.55}
+pre .c{color:var(--ink-faint)}
+.toolgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:14px 0}
+.toolcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.toolcard .tn{font-family:var(--mono);font-size:12.5px;color:var(--oro);font-weight:600}
+.toolcard .td{font-size:12.5px;color:var(--ink-dim);margin-top:4px}
+
 footer{border-top:1px solid var(--line);margin-top:50px;padding:24px 0 40px;color:var(--ink-faint);
   font-family:var(--mono);font-size:11px}
 
@@ -229,7 +291,7 @@ $('#kpis').innerHTML='';
 .forEach(([n,l],i)=>{const k=el('div','kpi');k.innerHTML=`<div class="n">${typeof n==='number'?num(n):n}</div><div class="l">${l}</div>`;$('#kpis').appendChild(k);});
 
 // Tabs
-const TABS=[['apps','Apps'],['sitios','Sitios'],['servicios','Servicios'],['subdominios','Subdominios']];
+const TABS=[['apps','Apps'],['sitios','Sitios'],['servicios','Servicios'],['subdominios','Subdominios'],['guia','Guía']];
 let cur='apps';
 const nav=$('#tabs');
 TABS.forEach(([id,label])=>{const b=el('button','tab'+(id===cur?' on':''),label);b.onclick=()=>{cur=id;[...nav.children].forEach(c=>c.classList.remove('on'));b.classList.add('on');render();};nav.appendChild(b);});
@@ -270,7 +332,65 @@ function render(){
   if(cur==='apps') renderApps(v);
   else if(cur==='sitios') renderSitios(v);
   else if(cur==='servicios') renderServicios(v);
-  else renderSub(v);
+  else if(cur==='subdominios') renderSub(v);
+  else renderGuia(v);
+}
+
+function renderGuia(v){
+  const g=el('div','doc');
+  g.innerHTML=`
+  <h2>Qué es esto</h2>
+  <p>Un inventario y análisis de la <b>presencia digital del Estado mexicano</b>: apps móviles, sitios web, servicios en línea y subdominios <code>.gob.mx</code> de los tres órdenes de gobierno. Todo se construye con <b>observación pasiva de fuentes públicas</b> (tiendas de apps, Certificate Transparency, un GET a páginas públicas) — sin escaneo intrusivo ni datos personales.</p>
+  <p>Fuentes: Google Play · App Store · Certificate Transparency (crt.sh) · <a href="https://github.com/AlejandroTC/dotgob-mx" target="_blank" rel="noopener">dotgob-mx</a> · CONAMER · Exodus Privacy (permisos).</p>
+
+  <h2>CLI — <code>gobmx</code></h2>
+  <p>Consulta el inventario desde la terminal. Único requisito: Python 3, sin dependencias externas.</p>
+  <pre><span class="c"># clonar el repo</span>
+git clone https://github.com/elimorals/gob-mx-reverse-engineering
+cd gob-mx-reverse-engineering
+
+<span class="c"># comandos</span>
+python3 gobmx.py stats                    <span class="c"># resumen por nivel/sector/estatus</span>
+python3 gobmx.py apps --estado Jalisco    <span class="c"># apps de un estado</span>
+python3 gobmx.py apps --sector seguridad --json
+python3 gobmx.py sitios --nivel federal
+python3 gobmx.py servicios --busca CURP
+python3 gobmx.py dep IMSS                  <span class="c"># apps + sitios de una dependencia</span></pre>
+  <p>Filtros de <code>apps</code>: <code>--nivel</code>, <code>--estado</code>, <code>--sector</code>, <code>--estatus</code>, <code>--busca</code>, <code>--json</code>.</p>
+
+  <h2>MCP — <code>gobmx-inventario</code></h2>
+  <p>Servidor <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a> de solo lectura: expone el inventario como herramientas que puedes consultar en lenguaje natural desde Claude u otro cliente MCP.</p>
+  <pre><span class="c"># instalar en Claude Code (vía rápida con venv del proyecto)</span>
+uv venv .venv && VIRTUAL_ENV=.venv uv pip install "mcp&lt;2"
+claude mcp add gobmx-inventario -- \\
+  /ruta/al/repo/.venv/bin/python -I /ruta/al/repo/mcp-server/server.py
+
+<span class="c"># verificar</span>
+claude mcp list        <span class="c"># debe decir: gobmx-inventario ... ✔ Connected</span></pre>
+  <p>Luego pregúntale, p.ej.: <i>"dame las estadísticas del inventario gobmx"</i> o <i>"busca apps de identidad digital estatal"</i>.</p>
+  <div class="toolgrid">
+    ${[['stats','Totales y conteos por nivel/sector/estatus'],
+       ['buscar_apps','Apps con filtros (nivel, estado, sector, estatus, texto)'],
+       ['buscar_sitios','Portales web por nivel/estado/texto'],
+       ['buscar_servicios','Trámites y brechas (CONAMER + cruce)'],
+       ['dependencia','Apps + sitios de una dependencia'],
+       ['buscar_subdominio','Los 12k+ subdominios .gob.mx (activos opcional)']]
+      .map(([n,d])=>`<div class="toolcard"><div class="tn">${n}()</div><div class="td">${d}</div></div>`).join('')}
+  </div>
+  <p class="c" style="font-family:var(--mono);font-size:11.5px;color:var(--ink-faint)">Nota: <code>uv run --with "mcp&lt;2"</code> también funciona pero en arranque frío puede pasar el timeout de 30 s; por eso se recomienda el venv.</p>
+
+  <h2>Cómo se regenera</h2>
+  <p>El inventario vive en JSON/CSV versionados; los derivados se reconstruyen con scripts:</p>
+  <ul>
+    <li><code>scripts/consolidar_incremental.py</code> — une el inventario y refresca métricas de tienda (solo las nuevas).</li>
+    <li><code>scripts/merge_subdominios.py</code> — fusiona subdominios de Certificate Transparency + dotgob-mx.</li>
+    <li><code>scripts/qa.py</code> — QA de consistencia (duplicados, enums, campos).</li>
+    <li><code>scripts/build_dashboard_data.py</code> — empaqueta todo en <code>web/data.js</code> para este dashboard.</li>
+    <li><code>scripts/regenerar.sh</code> — corre todo lo anterior en orden.</li>
+  </ul>
+  <p>Un <b>GitHub Action</b> refresca los subdominios y reconstruye este dashboard una vez al mes.</p>
+  <p style="margin-top:20px"><a href="https://github.com/elimorals/gob-mx-reverse-engineering" target="_blank" rel="noopener">Repositorio completo en GitHub ↗</a></p>`;
+  v.appendChild(g);
 }
 
 function renderApps(v){

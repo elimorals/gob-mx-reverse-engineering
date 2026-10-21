@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g1" cx="85%" cy="-5%" r="70%">
+      <stop offset="0%" stop-color="#b5375c" stop-opacity="0.22"/><stop offset="60%" stop-color="#b5375c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#caa24b" stop-opacity="0.14"/><stop offset="55%" stop-color="#caa24b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#13110f"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+  <text x="80" y="110" font-family="IBM Plex Mono, monospace" font-size="20" letter-spacing="6" fill="#caa24b">OBSERVATORIO DE GOBIERNO DIGITAL · MÉXICO</text>
+  <text x="76" y="230" font-family="Georgia, serif" font-weight="700" font-size="92" fill="#ece4d8">Presencia digital</text>
+  <text x="76" y="330" font-family="Georgia, serif" font-weight="700" font-size="92" fill="#ece4d8">del <tspan font-style="italic" fill="#b5375c">Estado mexicano</tspan></text>
+  <text x="80" y="400" font-family="IBM Plex Sans, sans-serif" font-size="25" fill="#a89d8e">Apps móviles · sitios web · servicios · subdominios .gob.mx — con evidencia técnica fechada</text>
+  <g font-family="Georgia, serif" font-weight="700">
+    <text x="80"  y="540" font-size="66" fill="#caa24b">466</text><text x="80"  y="572" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="2" fill="#a89d8e">APPS</text>
+    <text x="300" y="540" font-size="66" fill="#b5375c">231</text><text x="300" y="572" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="2" fill="#a89d8e">SITIOS</text>
+    <text x="520" y="540" font-size="66" fill="#ece4d8">12,812</text><text x="520" y="572" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="2" fill="#a89d8e">SUBDOMINIOS</text>
+    <text x="880" y="540" font-size="66" fill="#ece4d8">6,141</text><text x="880" y="572" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="2" fill="#a89d8e">SERVICIOS</text>
+  </g>
+</svg>
