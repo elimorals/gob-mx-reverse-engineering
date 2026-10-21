@@ -1519,6 +1519,24 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Descarga Cultura.UNAM",
+  "dependencia": "Universidad Nacional Autónoma de México – Coordinación de Difusión Cultural",
+  "siglas": "UNAM",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "educación",
+  "instalaciones": 104274,
+  "android_id": "mx.unam.codc.android.descargaculturaunam",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 4,
+  "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Veracruz Mujer Alerta",
   "dependencia": "C4 Veracruz",
   "siglas": "C4 Veracruz",
@@ -1885,6 +1903,28 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "PJEdomex",
+  "dependencia": "Poder Judicial del Estado de México",
+  "siglas": "PJEdomex",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "sector": "trámites",
+  "instalaciones": 68154,
+  "android_id": "com.pjedomex.pjedomex",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 15,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "México en Cifras",
   "dependencia": "Instituto Nacional de Estadística y Geografía",
   "siglas": "INEGI",
@@ -2129,6 +2169,24 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "APPrende INE Proceso Local",
+  "dependencia": "Instituto Nacional Electoral",
+  "siglas": "INE",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "elecciones",
+  "instalaciones": 54545,
+  "android_id": "mx.ine.app.apprendeine",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 2,
+  "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Lotería Nacional Mx",
   "dependencia": "Lotería Nacional",
   "siglas": "Lotenal",
@@ -2245,6 +2303,30 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "IECM Sistema Electrónico (SEI)",
+  "dependencia": "Instituto Electoral de la Ciudad de México",
+  "siglas": "IECM",
+  "nivel": "estatal",
+  "estado": "Ciudad de México",
+  "sector": "elecciones",
+  "instalaciones": 45337,
+  "android_id": "com.iecmutsi.seiiecm",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 14,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "CuelgApp",
   "dependencia": "Secretaría de Seguridad Pública Municipal de Querétaro",
   "siglas": "SSPMQ",
@@ -2262,6 +2344,28 @@
   "permisos_peligrosos": [
    "CALL_PHONE",
    "READ_PHONE_STATE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Tribunal Virtual",
+  "dependencia": "Poder Judicial del Estado de Nuevo León",
+  "siglas": "PJENL",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "sector": "trámites",
+  "instalaciones": 43546,
+  "android_id": "com.test.tribunalvirtual",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 6,
+  "permisos_peligrosos": [
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -2285,6 +2389,27 @@
    "ACCESS_FINE_LOCATION",
    "CALL_PHONE",
    "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Credencial SI",
+  "dependencia": "Universidad Nacional Autónoma de México – DGIRE",
+  "siglas": "UNAM",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "educación",
+  "instalaciones": 39639,
+  "android_id": "mx.unam.dgire.android.credencial_si",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 8,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -2717,6 +2842,29 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Brújula INEGI",
+  "dependencia": "Instituto Nacional de Estadística y Geografía",
+  "siglas": "INEGI",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "instalaciones": 25390,
+  "android_id": "mx.org.inegi.dggma.movil.brujula",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Playas MX",
   "dependencia": "SEMARNAT con Secretaría de Salud/COFEPRIS",
   "siglas": "SEMARNAT",
@@ -2873,6 +3021,24 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "APP-PJHIDALGO",
+  "dependencia": "Poder Judicial del Estado de Hidalgo",
+  "siglas": "PJEH",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "sector": "trámites",
+  "instalaciones": 21705,
+  "android_id": "com.pjhidalgo.portal.Portal",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 2,
+  "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "NO TE ENGANCHES",
   "dependencia": "Secretaría de Seguridad del Pueblo y Fiscalía General del Estado de Chiapas",
   "siglas": "SSP / FGE Chiapas",
@@ -3018,6 +3184,28 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "S.O.S UNAM",
+  "dependencia": "Universidad Nacional Autónoma de México – DGAPSU",
+  "siglas": "UNAM",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "seguridad",
+  "instalaciones": 17731,
+  "android_id": "com.opera.sosunam",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 4,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CALL_PHONE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "TramitesRH",
   "dependencia": "Poder Ejecutivo del Estado de Querétaro (Recursos Humanos)",
   "siglas": "",
@@ -3052,6 +3240,27 @@
   "permisos_total": 6,
   "permisos_peligrosos": [
    "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Canal del Congreso",
+  "dependencia": "Canal de Televisión del Congreso General de los Estados Unidos Mexicanos",
+  "siglas": "Canal del Congreso",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "instalaciones": 16187,
+  "android_id": "com.cic.canalcongreso",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -3201,6 +3410,24 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Poder Judicial Qro.",
+  "dependencia": "Poder Judicial del Estado de Querétaro",
+  "siglas": "PJQro",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "sector": "trámites",
+  "instalaciones": 13067,
+  "android_id": "mx.gob.tribunalqro.expediente",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 2,
+  "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Toluca en tus manos",
   "dependencia": "Municipio de Toluca",
   "siglas": null,
@@ -3268,6 +3495,30 @@
    "ACCESS_FINE_LOCATION",
    "READ_EXTERNAL_STORAGE",
    "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "SIS PJENL",
+  "dependencia": "Poder Judicial del Estado de Nuevo León",
+  "siglas": "PJENL",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "sector": "otro",
+  "instalaciones": 11982,
+  "android_id": "gob.pjenl.www",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
    "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
@@ -3442,6 +3693,31 @@
   "fecha": "2026-10-21",
   "permisos_total": 1,
   "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Escuela Judicial en Línea",
+  "dependencia": "Escuela Federal de Formación Judicial (PJF)",
+  "siglas": "EFFJ",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "educación",
+  "instalaciones": 10249,
+  "android_id": "com.openlms.escuelajudicial",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 18,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
@@ -3701,6 +3977,24 @@
    "CALL_PHONE",
    "WRITE_CONTACTS"
   ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "IEES Elecciones Juveniles",
+  "dependencia": "Instituto Electoral del Estado de Sinaloa",
+  "siglas": "IEES",
+  "nivel": "estatal",
+  "estado": "Sinaloa",
+  "sector": "elecciones",
+  "instalaciones": 7476,
+  "android_id": "mx.ieesinaloa.eleccionesjuvenilesapp2",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 5,
+  "permisos_peligrosos": [],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
@@ -4083,6 +4377,29 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "App Ciudadana ASF",
+  "dependencia": "Auditoría Superior de la Federación",
+  "siglas": "ASF",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "instalaciones": 5220,
+  "android_id": "com.selbor.asf3882",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 12,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Emergencias Colima",
   "dependencia": "Secretariado Ejecutivo del Sistema Estatal de Seguridad Pública de Colima – C5i",
   "siglas": "SESESP Colima",
@@ -4128,6 +4445,31 @@
    "ACCESS_COARSE_LOCATION",
    "ACCESS_FINE_LOCATION",
    "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "App Georreferenciación Obras (ORFIS)",
+  "dependencia": "Órgano de Fiscalización Superior del Estado de Veracruz",
+  "siglas": "ORFIS",
+  "nivel": "estatal",
+  "estado": "Veracruz",
+  "sector": "otro",
+  "instalaciones": 5117,
+  "android_id": "com.orfis.appSimver",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 10,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -4294,6 +4636,28 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Firma.Judicial",
+  "dependencia": "Poder Judicial de la Ciudad de México",
+  "siglas": "PJCDMX",
+  "nivel": "estatal",
+  "estado": "Ciudad de México",
+  "sector": "identidad",
+  "instalaciones": 4349,
+  "android_id": "mx.gob.cdmx.pjcdmx.firmajudicial",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 6,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Incendios y quemas MX",
   "dependencia": "Secretaría de Agricultura y Desarrollo Rural",
   "siglas": "SADER",
@@ -4359,6 +4723,32 @@
    "ACCESS_COARSE_LOCATION",
    "ACCESS_FINE_LOCATION",
    "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Violentómetro (CODHECAM)",
+  "dependencia": "Comisión de Derechos Humanos del Estado de Campeche",
+  "siglas": "CODHECAM",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "sector": "seguridad",
+  "instalaciones": 4176,
+  "android_id": "com.violento.violentometro",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 14,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_CONTACTS",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -4569,6 +4959,26 @@
   "permisos_peligrosos": [
    "READ_EXTERNAL_STORAGE",
    "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Archivo Electrónico QR",
+  "dependencia": "Poder Judicial del Estado de Guanajuato",
+  "siglas": "PJEG",
+  "nivel": "estatal",
+  "estado": "Guanajuato",
+  "sector": "trámites",
+  "instalaciones": 3384,
+  "android_id": "mx.gob.poderjudicialgto.archivo_electronico_app_v2",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 4,
+  "permisos_peligrosos": [
+   "CAMERA"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -4864,6 +5274,24 @@
    "RECORD_AUDIO",
    "WRITE_EXTERNAL_STORAGE"
   ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "TRIBELEC",
+  "dependencia": "Poder Judicial del Estado de Michoacán",
+  "siglas": "PJM",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "sector": "trámites",
+  "instalaciones": 2519,
+  "android_id": "tribunal.electronico.michoacan2",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 4,
+  "permisos_peligrosos": [],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
@@ -5604,6 +6032,27 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "SOS PJEdomex",
+  "dependencia": "Poder Judicial del Estado de México",
+  "siglas": "PJEdomex",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "sector": "seguridad",
+  "instalaciones": 1165,
+  "android_id": "com.pjedomex.sospjedomex.sospjedomex",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 4,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "SignaChiapas",
   "dependencia": "Gobierno del Estado de Chiapas – Firma Electrónica Avanzada",
   "siglas": "GECh",
@@ -5933,6 +6382,27 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "EJEM",
+  "dependencia": "Poder Judicial del Estado de México – Escuela Judicial",
+  "siglas": "EJEM",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "sector": "educación",
+  "instalaciones": 584,
+  "android_id": "gob.mx.ejem.ejem",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 6,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "SIAT Monterrey",
   "dependencia": "Municipio de Monterrey – Protección Civil",
   "siglas": null,
@@ -5996,6 +6466,55 @@
    "READ_EXTERNAL_STORAGE",
    "READ_PHONE_STATE",
    "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Revisión Física de Obra ORFIS",
+  "dependencia": "Órgano de Fiscalización Superior del Estado de Veracruz",
+  "siglas": "ORFIS",
+  "nivel": "estatal",
+  "estado": "Veracruz",
+  "sector": "otro",
+  "instalaciones": 501,
+  "android_id": "com.orfis.datop",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 11,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "PJHGO",
+  "dependencia": "Poder Judicial del Estado de Hidalgo",
+  "siglas": "PJEH",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "sector": "trabajo",
+  "instalaciones": 496,
+  "android_id": "com.pjeh.app",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 15,
+  "permisos_peligrosos": [
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_CONTACTS",
    "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
@@ -6230,6 +6749,30 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Auditesken",
+  "dependencia": "Órgano Superior de Fiscalización del Estado de Tabasco",
+  "siglas": "OSFE",
+  "nivel": "estatal",
+  "estado": "Tabasco",
+  "sector": "otro",
+  "instalaciones": 379,
+  "android_id": "art.osfe.auditesken",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 14,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "ABIM Tabasco",
   "dependencia": "Gobierno del Estado de Tabasco",
   "siglas": null,
@@ -6311,6 +6854,24 @@
   "sector": "educación",
   "instalaciones": 314,
   "android_id": "com.luca.inicialapp",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 2,
+  "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "TJAQRO",
+  "dependencia": "Tribunal de Justicia Administrativa del Estado de Querétaro",
+  "siglas": "TJAQRO",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "sector": "trámites",
+  "instalaciones": 298,
+  "android_id": "boletin.tjaqro",
   "trackers": [],
   "fuente": [
    "google-play"
@@ -6406,6 +6967,27 @@
    "ACCESS_COARSE_LOCATION",
    "ACCESS_FINE_LOCATION",
    "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Criterios PJENL",
+  "dependencia": "Poder Judicial del Estado de Nuevo León",
+  "siglas": "PJENL",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "sector": "otro",
+  "instalaciones": 279,
+  "android_id": "mx.gob.pjenl.criteriosmovil",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 7,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -6582,6 +7164,48 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "OSFE Tabasco",
+  "dependencia": "Órgano Superior de Fiscalización del Estado de Tabasco",
+  "siglas": "OSFE",
+  "nivel": "estatal",
+  "estado": "Tabasco",
+  "sector": "otro",
+  "instalaciones": 200,
+  "android_id": "com.osfetabascogobmx.tesken",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 4,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Judicial TV Jalisco",
+  "dependencia": "Poder Judicial del Estado de Jalisco",
+  "siglas": "PJEJ",
+  "nivel": "estatal",
+  "estado": "Jalisco",
+  "sector": "otro",
+  "instalaciones": 190,
+  "android_id": "mx.conceptowsmx.pjej",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "IEM Tabasco",
   "dependencia": "Instituto Estatal de las Mujeres de Tabasco",
   "siglas": "IEM",
@@ -6678,6 +7302,31 @@
   "permisos_peligrosos": [
    "ACCESS_COARSE_LOCATION",
    "ACCESS_FINE_LOCATION"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "Legislapp QRO MX",
+  "dependencia": "Poder Legislativo del Estado de Querétaro",
+  "siglas": "Legislatura Qro",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "sector": "otro",
+  "instalaciones": 153,
+  "android_id": "com.mobtk.legislapp",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 14,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CALL_PHONE",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -6948,6 +7597,26 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Temis Poder Judicial Michoacán",
+  "dependencia": "Poder Judicial del Estado de Michoacán",
+  "siglas": "PJM",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "sector": "trabajo",
+  "instalaciones": 81,
+  "android_id": "com.pjm.temis",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 5,
+  "permisos_peligrosos": [
+   "CAMERA"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Cero Corrupción Tabasco",
   "dependencia": "Secretaría de la Función Pública del Estado de Tabasco",
   "siglas": null,
@@ -6994,6 +7663,24 @@
    "RECORD_AUDIO",
    "WRITE_EXTERNAL_STORAGE"
   ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "ASF Niños",
+  "dependencia": "Auditoría Superior de la Federación",
+  "siglas": "ASF",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "educación",
+  "instalaciones": 63,
+  "android_id": "com.asfmx.games",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 2,
+  "permisos_peligrosos": [],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
@@ -7187,6 +7874,29 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "Congreso Sinaloa",
+  "dependencia": "H. Congreso del Estado de Sinaloa",
+  "siglas": "Congreso Sinaloa",
+  "nivel": "estatal",
+  "estado": "Sinaloa",
+  "sector": "otro",
+  "instalaciones": 45,
+  "android_id": "com.jesus.adan91.eventoscongreso",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 14,
+  "permisos_peligrosos": [
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Alerta Civil Tijuana",
   "dependencia": "Ayuntamiento de Tijuana – Protección Civil",
   "siglas": null,
@@ -7302,6 +8012,24 @@
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {
+  "nombre": "App Ciudadana ASEP",
+  "dependencia": "Auditoría Superior del Estado de Puebla",
+  "siglas": "ASEP",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "sector": "otro",
+  "instalaciones": 33,
+  "android_id": "mx.gob.auditoriapuebla.app1",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 3,
+  "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
   "nombre": "Sis balam",
   "dependencia": "Secretaría de Protección y Seguridad Ciudadana del Estado de Campeche",
   "siglas": "SPSC",
@@ -7357,6 +8085,26 @@
   "permisos_total": 5,
   "permisos_peligrosos": [
    "RECORD_AUDIO"
+  ],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "SITJA Móvil",
+  "dependencia": "Tribunal de Justicia Administrativa del Estado de Querétaro",
+  "siglas": "TJAQRO",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "sector": "trámites",
+  "instalaciones": 27,
+  "android_id": "sitja.movil.tjaqro",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 7,
+  "permisos_peligrosos": [
+   "CAMERA"
   ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
@@ -7745,6 +8493,28 @@
   "fecha": "2026-10-21",
   "permisos_total": 3,
   "permisos_peligrosos": [],
+  "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
+ },
+ {
+  "nombre": "CNNA IECM",
+  "dependencia": "Instituto Electoral de la Ciudad de México",
+  "siglas": "IECM",
+  "nivel": "estatal",
+  "estado": "Ciudad de México",
+  "sector": "elecciones",
+  "instalaciones": 2,
+  "android_id": "com.iecm.cnna",
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "permisos_total": 13,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
   "notas": "Permisos de Google Play (es). Clasificación mecánica de peligrosos; trackers no verificados (Exodus requiere token)."
  },
  {

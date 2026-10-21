@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
-datos/
+datos/*
+!datos/presupuesto/
 .playwright-mcp/
 web/.playwright-mcp/

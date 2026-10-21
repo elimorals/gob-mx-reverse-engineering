@@ -1,8 +1,8 @@
 # Capa de permisos y privacidad — apps del gobierno de México
 
-Fecha: 2026-10-21 · Alcance: **351 apps con Android** (solo México) · Sin descarga ni ejecución de APKs.
+Fecha: 2026-10-21 · Alcance: **387 apps con Android** (solo México) · Sin descarga ni ejecución de APKs.
 
-> Cobertura: las **20** más instaladas / sensibles se curaron a detalle (incluye el juicio "no cuadra con el propósito"); las otras **331** se clasificaron de forma **mecánica** a partir de los grupos de permisos de Google Play. 311 de 351 declaran algún permiso peligroso. Los hallazgos cualitativos de abajo son de las 20 curadas.
+> Cobertura: las **20** más instaladas / sensibles se curaron a detalle (incluye el juicio "no cuadra con el propósito"); las otras **367** se clasificaron de forma **mecánica** a partir de los grupos de permisos de Google Play. 338 de 387 declaran algún permiso peligroso. Los hallazgos cualitativos de abajo son de las 20 curadas.
 
 ## Qué es esto
 
@@ -83,7 +83,7 @@ del APK (fuera del alcance de este piloto).
 
 ## Limitaciones
 
-- Extendido a las 351 apps con `android_id`. Las 20 curadas traen juicio manual; las demás, clasificación mecánica.
+- Extendido a las 387 apps con `android_id`. Las 20 curadas traen juicio manual; las demás, clasificación mecánica.
 - Sin datos de Exodus: no hay trackers ni el set de permisos extraído del APK (que suele ser más
   amplio que el que Play muestra al usuario).
 - "No cuadra con el propósito" se juzga sobre permisos **declarados**, no sobre uso real.

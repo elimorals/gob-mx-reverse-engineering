@@ -2,13 +2,13 @@
 
 > Inventario y análisis abierto (MIT) de la presencia digital del Estado mexicano: aplicaciones móviles, sitios web, servicios en línea y subdominios `.gob.mx` de los tres órdenes de gobierno (federal, estatal, municipal). Construido con observación pasiva de fuentes públicas (tiendas de apps, Certificate Transparency, un GET a páginas públicas) y con análisis de permisos/privacidad de las apps. Corte: 2026-10-21.
 
-Cifras del corte: 466 apps móviles (351 Android, 326 iOS), 231 sitios web, 12,812 subdominios `.gob.mx`, 6,141 servicios (6,125 trámites federales de CONAMER + brechas), y una capa de permisos/privacidad sobre 351 apps (todas las que tienen Android). Es el único inventario conocido que cruza las tres capas (apps + sitios + servicios) con evidencia técnica fechada por activo. No existe un equivalente oficial: los catálogos del gobierno están en silos separados y el nivel subnacional no se publica de forma central.
+Cifras del corte: 519 apps móviles (387 Android, 371 iOS), 394 sitios web, 12,812 subdominios `.gob.mx`, 6,141 servicios (6,125 trámites federales de CONAMER + brechas), y una capa de permisos/privacidad sobre 387 apps (todas las que tienen Android). Es el único inventario conocido que cruza las tres capas (apps + sitios + servicios) con evidencia técnica fechada por activo. No existe un equivalente oficial: los catálogos del gobierno están en silos separados y el nivel subnacional no se publica de forma central.
 
 ## Datos (JSON/CSV)
 
-- [Inventario de apps consolidado (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.json): 466 apps con metadatos de tienda, nivel, sector, estatus.
+- [Inventario de apps consolidado (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.json): 519 apps con metadatos de tienda, nivel, sector, estatus.
 - [Inventario de apps (CSV)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/apps.csv): la misma tabla, tabular.
-- [Permisos y privacidad (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/permisos/permisos.json): permisos peligrosos por app (351 apps con Android).
+- [Permisos y privacidad (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/permisos/permisos.json): permisos peligrosos por app (387 apps con Android).
 - [Servicios y brechas (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/servicios/brechas.json): trámites y por qué canal se pueden hacer.
 - [Trámites federales CONAMER (JSON)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/servicios/cnts-federal.json): 6,125 trámites federales con homoclave.
 - [Subdominios .gob.mx consolidados (CSV)](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/sitios/subdominios-consolidado.csv): 12,812 hosts (CT + dotgob-mx) con marca de actividad.
@@ -23,7 +23,7 @@ Cifras del corte: 466 apps móviles (351 Android, 326 iOS), 231 sitios web, 12,8
 
 - [Dashboard web](https://elimorals.github.io/gobmx-presencia-digital/web/): navegador visual del inventario (claro/oscuro, responsive).
 - [CLI gobmx](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/gobmx.py): consulta por terminal (`python3 gobmx.py stats|apps|sitios|dep`).
-- [MCP server](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/mcp-server/README.md): 7 herramientas consultables desde Claude u otro cliente MCP.
+- [MCP server](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/mcp-server/README.md): 8 herramientas consultables (incluye comparar entidades o municipios) desde Claude u otro cliente MCP.
 - [README del repositorio](https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/README.md): metodología y estructura.
 
 ## Notas
@@ -32,3 +32,5 @@ Cifras del corte: 466 apps móviles (351 Android, 326 iOS), 231 sitios web, 12,8
 - Método: solo observación pasiva de fuentes públicas; sin escaneo intrusivo, sin login ajeno, sin datos personales.
 - Fuentes: Google Play, App Store, Certificate Transparency (crt.sh), dotgob-mx (MIT), CONAMER, Exodus Privacy.
 - Las cifras son piso, no techo: los límites de solicitud de las tiendas dejan huecos marcados en los JSON.
+- Clasificación: cada app, sitio y servicio trae `orden` (federal/estatal/municipal), `poder` (ejecutivo/legislativo/judicial/autonomo), `subtipo` (paraestatal, desconcentrado, universidad_autonoma, extinto…) y `municipio` (nombre INEGI si es municipal). `nivel` es el campo heredado; para filtrar usa `orden` y `poder`. `orden` y `poder` son null solo en apps no oficiales.
+- Comparación: solo entidad↔entidad (orden estatal) o municipio↔municipio (orden municipal); el orden federal no se compara con otros (presupuesto, extensión y población no comparables). Tasas por 100 mil habitantes (Censo 2020 INEGI) y por cada mil millones de pesos de egreso (INEGI EFIPEM); `null` = sin dato, nunca cero. Disponible en `gobmx.py comparar`, la tool MCP `comparar` y `window.GOBMX.entidades`/`.municipios` del dashboard.

@@ -1,0 +1,4711 @@
+[
+  {
+    "dependencia": "Congreso del Estado de Aguascalientes",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Aguascalientes",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://congresoags.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://congresoags.gob.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «LXVI Legislatura | H. Congreso del Estado de Aguascalientes», Server: Microsoft-IIS/8.5"
+      }
+    ],
+    "fuentes": [
+      "https://congresoags.gob.mx"
+    ],
+    "notas": "www.congresoags.gob.mx responde 404 (y con TLS no verificable); el apex responde 200 pero el certificado no valida (cadena incompleta: 'unable to get local issuer certificate')."
+  },
+  {
+    "dependencia": "Congreso del Estado de Baja California",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Baja California",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresobc.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresobc.gob.mx",
+        "resultado": "200, título «Congreso del Estado de Baja California», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresobc.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Baja California Sur",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Baja California Sur",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cbcs.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cbcs.gob.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «H. CONGRESO DEL ESTADO DE BAJA CALIFORNIA SUR», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cbcs.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Campeche",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Campeche",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresocam.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresocam.gob.mx",
+        "resultado": "200, título «Poder Legislativo del Estado de Campeche», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresocam.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Chiapas",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Chiapas",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresochiapas.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresochiapas.gob.mx",
+        "resultado": "200, Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresochiapas.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Chihuahua",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Chihuahua",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresochihuahua.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresochihuahua.gob.mx",
+        "resultado": "200, título «H. Congreso del Estado de Chihuahua», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresochihuahua.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso de la Ciudad de México",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Ciudad de México",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresocdmx.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresocdmx.gob.mx",
+        "resultado": "200, título «Congreso de la Ciudad de México | III Legislatura», Server: Apache/2.4.18 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresocdmx.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Coahuila",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Coahuila",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresocoahuila.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresocoahuila.gob.mx",
+        "resultado": "200, título «Domain Default page», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresocoahuila.gob.mx"
+    ],
+    "notas": "La portada responde 'Domain Default page' del hosting; /portal/ devolvió 500 'Database Error'. Portal aparentemente caído o en migración el día de la observación."
+  },
+  {
+    "dependencia": "Congreso del Estado de Colima",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Colima",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresocol.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresocol.gob.mx",
+        "resultado": "200, redirige a https://congresocol.gob.mx/web/www/index.php, TLS inválido (nombre de host no coincide; respondió solo sin verificar el certificado), título «H. Congreso del Estado de Colima», Server: LiteSpeed"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresocol.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Durango",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Durango",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresodurango.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresodurango.gob.mx",
+        "resultado": "200, redirige a https://congresodurango.gob.mx/, título «H. Congreso del Estado de Durango», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresodurango.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de México",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Estado de México",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.legislativoedomex.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.legislativoedomex.gob.mx",
+        "resultado": "200, redirige a https://www.congresoedomex.gob.mx/, título «Congreso del Estado de México», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.legislativoedomex.gob.mx"
+    ],
+    "notas": "legislativoedomex.gob.mx redirige al dominio actual congresoedomex.gob.mx."
+  },
+  {
+    "dependencia": "Congreso del Estado de Guanajuato",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Guanajuato",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresogto.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresogto.gob.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Inicio - Congreso del Estado de Guanajuato», Server: nginx/1.18.0 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresogto.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Guerrero",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Guerrero",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresogro.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresogro.gob.mx",
+        "resultado": "200, redirige a https://congresogro.gob.mx/inicio/, título «Congreso del Estado de Guerrero», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresogro.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Hidalgo",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Hidalgo",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congreso-hidalgo.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congreso-hidalgo.gob.mx",
+        "resultado": "200, redirige a https://congresohidalgo.gob.mx/, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Congreso - Congreso del Estado de Hidalgo», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congreso-hidalgo.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Jalisco",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Jalisco",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresojal.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Drupal",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresojal.gob.mx",
+        "resultado": "200, título «Inicio | Sitio Web del Congreso de Jalisco», Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresojal.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Michoacán",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Michoacán",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "http://www.congresomich.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.congresomich.gob.mx",
+        "resultado": "200, redirige a http://congresomich.gob.mx/, título «Congreso del Estado de Michoacán &#8211; LXXV Legislatura», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "http://www.congresomich.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Morelos",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Morelos",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresomorelos.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresomorelos.gob.mx",
+        "resultado": "200, redirige a https://congresomorelos.gob.mx/, título «H. Congreso del Estado Libre y Soberano de Morelos», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresomorelos.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Nayarit",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Nayarit",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresonayarit.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresonayarit.gob.mx",
+        "resultado": "200, redirige a https://congresonayarit.gob.mx/, título «H. Congreso del Estado de Nayarit &#8211; CONGRESONAYARIT.GOB.MX», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresonayarit.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Nuevo León",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Nuevo León",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.hcnl.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.hcnl.gob.mx",
+        "resultado": "200, título «H. Congreso de Nuevo León», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.hcnl.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Oaxaca",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Oaxaca",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresooaxaca.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresooaxaca.gob.mx",
+        "resultado": "200, título «H Congreso del Estado Libre y Soberano de Oaxaca», Server: nginx/1.18.0 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresooaxaca.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Puebla",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Puebla",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresopuebla.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "otro (PHP devolution)",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresopuebla.gob.mx",
+        "resultado": "200, título «H. Congreso del Estado Libre y Soberano de Puebla LXII Legislatura», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresopuebla.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Querétaro",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Querétaro",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "http://www.legislaturaqueretaro.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.legislaturaqueretaro.gob.mx",
+        "resultado": "200, redirige a http://legislaturaqueretaro.gob.mx/, título «LXI Legislatura Querétaro», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "http://www.legislaturaqueretaro.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Quintana Roo",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Quintana Roo",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresoqroo.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresoqroo.gob.mx",
+        "resultado": "200, título «Poder Legislativo del Estado de Quintana Roo.», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresoqroo.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de San Luis Potosí",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "San Luis Potosí",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresosanluis.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Sucuri",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresosanluis.gob.mx",
+        "resultado": "307, challenge Sucuri (JS), título «You are being redirected...», Server: Sucuri/Cloudproxy"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresosanluis.gob.mx"
+    ],
+    "notas": "Documentos oficiales citan congresoslp.gob.mx (conexión rechazada el 2026-10-21); Wikipedia y la SCJN citan congresosanluis.gob.mx, que está detrás de Sucuri Cloudproxy con desafío JavaScript (307 'You are being redirected...')."
+  },
+  {
+    "dependencia": "Congreso del Estado de Sinaloa",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Sinaloa",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresosinaloa.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare + reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresosinaloa.gob.mx",
+        "resultado": "200, título «H. Congreso del Estado de Sinaloa - Poder Legislativo», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresosinaloa.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Sonora",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Sonora",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://congresoson.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "otro (Astro v6.4.4)",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://congresoson.gob.mx",
+        "resultado": "200, título «Congreso del Estado de Sonora», Server: nginx/1.30.5"
+      }
+    ],
+    "fuentes": [
+      "https://congresoson.gob.mx"
+    ],
+    "notas": "www.congresoson.gob.mx respondió 403 con TLS inválido; el apex congresoson.gob.mx responde 200."
+  },
+  {
+    "dependencia": "Congreso del Estado de Tabasco",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Tabasco",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresotabasco.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresotabasco.gob.mx",
+        "resultado": "200, redirige a https://congresotabasco.gob.mx/, título «PORTADA - Congreso del Estado de Tabasco», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresotabasco.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Tamaulipas",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Tamaulipas",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresotamaulipas.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresotamaulipas.gob.mx",
+        "resultado": "200, título «Congreso del Estado Libre y Soberano de Tamaulipas», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresotamaulipas.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Tlaxcala",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Tlaxcala",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresodetlaxcala.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresodetlaxcala.gob.mx",
+        "resultado": "200, redirige a https://congresodetlaxcala.gob.mx/, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Congreso del Estado de Tlaxcala», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresodetlaxcala.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Veracruz",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Veracruz",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.legisver.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.legisver.gob.mx",
+        "resultado": "200, título «Congreso del Estado de Veracruz», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.legisver.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Yucatán",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Yucatán",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresoyucatan.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Imperva + reCAPTCHA",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresoyucatan.gob.mx",
+        "resultado": "200, título «CONGRESO DEL ESTADO DE YUCATÁN», Server: Apache/2.4.41 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresoyucatan.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Congreso del Estado de Zacatecas",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Zacatecas",
+    "orden": "estatal",
+    "poder": "legislativo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.congresozac.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Legislativo estatal: integración de la legislatura, iniciativas, gaceta, sesiones y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.congresozac.gob.mx",
+        "resultado": "200, redirige a https://www.congresozac.gob.mx/65/inicio, título «Poder Legislativo del Estado de Zacatecas - LXV Legislatura», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.congresozac.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Aguascalientes",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Aguascalientes",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialags.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialags.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Aguascalientes», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialags.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Baja California",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Baja California",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjbc.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjbc.gob.mx",
+        "resultado": "200, título «Poder Judicial de Baja California», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjbc.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Baja California Sur",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Baja California Sur",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tribunalbcs.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tribunalbcs.gob.mx",
+        "resultado": "200, título «Poder Judicial del estado de Baja California Sur», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.tribunalbcs.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Campeche",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Campeche",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialcampeche.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialcampeche.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Campeche», Server: Microsoft-IIS/8.5"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialcampeche.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Chiapas",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Chiapas",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialchiapas.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialchiapas.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Chiapas», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialchiapas.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Chihuahua",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Chihuahua",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.stj.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.stj.gob.mx",
+        "resultado": "200, redirige a https://www.tsj.gob.mx/pj/, título «TRIBUNAL SUPERIOR DE JUSTICIA»"
+      }
+    ],
+    "fuentes": [
+      "https://www.stj.gob.mx"
+    ],
+    "notas": "stj.gob.mx redirige a tsj.gob.mx/pj/."
+  },
+  {
+    "dependencia": "Poder Judicial de la Ciudad de México",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Ciudad de México",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialcdmx.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialcdmx.gob.mx",
+        "resultado": "200, redirige a https://poderjudicialcdmx.gob.mx/, título «Portal del Poder Judicial de la CDMX», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialcdmx.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Coahuila",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Coahuila",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjecz.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "otro (Pelican Static Site Generator, Powered b)",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjecz.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Coahuila de Zaragoza», Server: GitHub.com"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjecz.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Colima",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Colima",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.stjcolima.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Angular",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.stjcolima.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Colima», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.stjcolima.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Durango",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Durango",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjdgo.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjdgo.gob.mx",
+        "resultado": "200, redirige a https://pjdgo.gob.mx/, TLS inválido (certificado vencido; respondió solo sin verificar el certificado), título «Poder Judicial del Estado de Durango»"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjdgo.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de México",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Estado de México",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjedomex.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjedomex.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de México», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjedomex.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Guanajuato",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Guanajuato",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicial-gto.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicial-gto.gob.mx",
+        "resultado": "200, redirige a https://www.poderjudicial-gto.gob.mx/index.php, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Poder Judicial del Estado de Guanajuato», Server: Microsoft-IIS/8.5"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicial-gto.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Guerrero",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Guerrero",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsj-guerrero.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsj-guerrero.gob.mx",
+        "resultado": "200, redirige a https://tsj-guerrero.gob.mx/, título «En mantenimiento · Poder Judicial del Estado de Guerrero», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsj-guerrero.gob.mx"
+    ],
+    "notas": "Portada con título 'En mantenimiento' el día de la observación."
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Hidalgo",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Hidalgo",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjhidalgo.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjhidalgo.gob.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «PODER JUDICIAL DEL ESTADO DE HIDALGO», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjhidalgo.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Jalisco",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Jalisco",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://stjjalisco.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://stjjalisco.gob.mx",
+        "resultado": "200, título «Supremo Tribunal de Justicia del Estado de Jalisco», Server: stj"
+      }
+    ],
+    "fuentes": [
+      "https://stjjalisco.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Michoacán",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Michoacán",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialmichoacan.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialmichoacan.gob.mx",
+        "resultado": "200, redirige a https://www.poderjudicialmichoacan.gob.mx/web/default.aspx, título «Poder Judicial del Estado de Michoacán», Server: Microsoft-IIS/7.5"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialmichoacan.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Morelos",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Morelos",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsjmorelos.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsjmorelos.gob.mx",
+        "resultado": "200, redirige a https://tsjmorelos.gob.mx/, título «H. TSJEM &#8211; Tribunal Superior de Justicia del Estado de Morelos»"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsjmorelos.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Nayarit",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Nayarit",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsjnay.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsjnay.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Nayarit &#8211; Página oficial del Poder Judicial del Estado de Nayarit», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsjnay.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Nuevo León",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Nuevo León",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjenl.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Imperva",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjenl.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Nuevo León», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjenl.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Oaxaca",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Oaxaca",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tribunaloaxaca.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tribunaloaxaca.gob.mx",
+        "resultado": "200, título «Poder Judicial de Oaxaca», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.tribunaloaxaca.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Puebla",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Puebla",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.htsjpuebla.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.htsjpuebla.gob.mx",
+        "resultado": "200, redirige a https://www.pjpuebla.gob.mx/, título «Poder Judicial del Estado de Puebla», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.htsjpuebla.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Querétaro",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Querétaro",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialqro.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialqro.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Querétaro», Server: Apache/2.4.41 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialqro.gob.mx"
+    ],
+    "notas": "Los dominios poderjudicialqueretaro.gob.mx y tsjqro.gob.mx no resuelven; el vigente es poderjudicialqro.gob.mx."
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Quintana Roo",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Quintana Roo",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsjqroo.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsjqroo.gob.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Tribunal Superior», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsjqroo.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de San Luis Potosí",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "San Luis Potosí",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.stjslp.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.stjslp.gob.mx",
+        "resultado": "200, título «Inicio - PJESLP», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.stjslp.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Sinaloa",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Sinaloa",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.stj-sin.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.stj-sin.gob.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Supremo Tribunal de Justicia del Estado de Sinaloa», Server: Microsoft-IIS/8.5"
+      }
+    ],
+    "fuentes": [
+      "https://www.stj-sin.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Sonora",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Sonora",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.stjsonora.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.stjsonora.gob.mx",
+        "resultado": "200, redirige a https://stjsonora.gob.mx/, título «Poder Judicial del Estado de Sonora», Server: Apache/2.4.41 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.stjsonora.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Tabasco",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Tabasco",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsj-tabasco.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsj-tabasco.gob.mx",
+        "resultado": "200, título «Centro de Especialización Judicial», Server: Apache/2.4.65 (Debian)"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsj-tabasco.gob.mx"
+    ],
+    "notas": "La portada muestra el título 'Centro de Especialización Judicial'; dominio tsj-tabasco.gob.mx."
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Tamaulipas",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Tamaulipas",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjetam.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjetam.gob.mx",
+        "resultado": "200, redirige a https://pjetam.gob.mx/, título «Poder Judicial de Tamaulipas», Server: Apache/2.4.62 (Debian)"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjetam.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Tlaxcala",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Tlaxcala",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsjtlaxcala.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsjtlaxcala.gob.mx",
+        "resultado": "200, redirige a https://tsjtlaxcala.gob.mx/, TLS inválido (certificado vencido; respondió solo sin verificar el certificado), título «Poder Judicial del Estado de Tlaxcala &#8211; PJ Tlax»"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsjtlaxcala.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Veracruz",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Veracruz",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.pjeveracruz.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.pjeveracruz.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Veracruz &raquo; PJEV», Server: Apache/2.4.52 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.pjeveracruz.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Yucatán",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Yucatán",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.poderjudicialyucatan.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.poderjudicialyucatan.gob.mx",
+        "resultado": "200, redirige a https://www.pjyucatan.gob.mx/, título «Poder Judicial del Estado de Yucatán», Server: nginx/1.24.0 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.poderjudicialyucatan.gob.mx"
+    ],
+    "notas": "poderjudicialyucatan.gob.mx redirige a pjyucatan.gob.mx."
+  },
+  {
+    "dependencia": "Poder Judicial del Estado de Zacatecas",
+    "siglas": null,
+    "nivel": "estatal",
+    "estado": "Zacatecas",
+    "orden": "estatal",
+    "poder": "judicial",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.tsjzac.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Portal del Poder Judicial / Tribunal Superior de Justicia estatal: información institucional, listas de acuerdos, boletín judicial y transparencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tsjzac.gob.mx",
+        "resultado": "200, título «Poder Judicial del Estado de Zacatecas»"
+      }
+    ],
+    "fuentes": [
+      "https://www.tsjzac.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral de Aguascalientes",
+    "siglas": "IEE",
+    "nivel": "estatal",
+    "estado": "Aguascalientes",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieeags.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieeags.mx",
+        "resultado": "200, título «Inicio | Instituto Estatal Electoral de Aguascalientes», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieeags.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral de Baja California",
+    "siglas": "IEEBC",
+    "nivel": "estatal",
+    "estado": "Baja California",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieebc.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieebc.mx",
+        "resultado": "200, redirige a https://ieebc.mx/, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Instituto Estatal Electoral de Baja California - IEEBC», Server: Apache/2.4.6 (CentOS) PHP/7.4.27"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieebc.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral de Baja California Sur",
+    "siglas": "IEEBCS",
+    "nivel": "estatal",
+    "estado": "Baja California Sur",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieebcs.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieebcs.org.mx",
+        "resultado": "200, título «Instituto Estatal Electoral de Baja California Sur», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieebcs.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Campeche",
+    "siglas": "IEEC",
+    "nivel": "estatal",
+    "estado": "Campeche",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieec.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieec.org.mx",
+        "resultado": "200, título «Instituto Electoral del Estado de Campeche», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieec.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto de Elecciones y Participación Ciudadana de Chiapas",
+    "siglas": "IEPC",
+    "nivel": "estatal",
+    "estado": "Chiapas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iepc-chiapas.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iepc-chiapas.org.mx",
+        "resultado": "200, título «Bienvenidos al Sitio web del Instituto de Elecciones y Participación Ciudadana», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.iepc-chiapas.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral de Chihuahua",
+    "siglas": "IEE",
+    "nivel": "estatal",
+    "estado": "Chihuahua",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieechihuahua.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieechihuahua.org.mx",
+        "resultado": "200, redirige a https://ieechihuahua.org.mx/, título «IEE | Instituto Estatal Electoral»"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieechihuahua.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral de la Ciudad de México",
+    "siglas": "IECM",
+    "nivel": "estatal",
+    "estado": "Ciudad de México",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iecm.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Radware + reCAPTCHA + hCaptcha",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iecm.mx",
+        "resultado": "200, redirige a https://validate.perfdrive.com/, challenge Radware (CAPTCHA), título «Radware Captcha Page», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.iecm.mx"
+    ],
+    "notas": "La portada redirige a validate.perfdrive.com (página CAPTCHA de Radware Bot Manager) para un cliente sin JavaScript."
+  },
+  {
+    "dependencia": "Instituto Electoral de Coahuila",
+    "siglas": "IEC",
+    "nivel": "estatal",
+    "estado": "Coahuila",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iec.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iec.org.mx",
+        "resultado": "200, redirige a https://iec.org.mx/v1/, título «Instituto Electoral de Coahuila - Home»"
+      }
+    ],
+    "fuentes": [
+      "https://www.iec.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Colima",
+    "siglas": "IEE",
+    "nivel": "estatal",
+    "estado": "Colima",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieecolima.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieecolima.org.mx",
+        "resultado": "200, redirige a https://ieecolima.org.mx/, título «Instituto Electoral del Estado de Colima | IEE Colima», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieecolima.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral y de Participación Ciudadana del Estado de Durango",
+    "siglas": "IEPC",
+    "nivel": "estatal",
+    "estado": "Durango",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iepcdurango.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iepcdurango.mx",
+        "resultado": "200, título «IEPC Durango», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.iepcdurango.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de México",
+    "siglas": "IEEM",
+    "nivel": "estatal",
+    "estado": "Estado de México",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieem.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieem.org.mx",
+        "resultado": "200, título «Instituto Electoral del Estado de México», Server: Apache/2.4.62 (Red Hat Enterprise Linux) OpenSSL/3.5.8"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieem.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Guanajuato",
+    "siglas": "IEEG",
+    "nivel": "estatal",
+    "estado": "Guanajuato",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieeg.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieeg.mx",
+        "resultado": "200, redirige a https://ieeg.mx/, título «Inicio | IEEG - Instituto Electoral del Estado de Guanajuato», Server: AmazonS3"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieeg.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral y de Participación Ciudadana del Estado de Guerrero",
+    "siglas": "IEPC",
+    "nivel": "estatal",
+    "estado": "Guerrero",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iepcgro.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iepcgro.mx",
+        "resultado": "200, Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.iepcgro.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral de Hidalgo",
+    "siglas": "IEEH",
+    "nivel": "estatal",
+    "estado": "Hidalgo",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieehidalgo.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare + reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieehidalgo.org.mx",
+        "resultado": "200, título «IEE Hidalgo - IEEH Instituto Estatal Electoral de Hidalgo - Órgano ciudadano depositario de la función electoral en el Estado de Hidalgo», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieehidalgo.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral y de Participación Ciudadana del Estado de Jalisco",
+    "siglas": "IEPC",
+    "nivel": "estatal",
+    "estado": "Jalisco",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iepcjalisco.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Drupal",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iepcjalisco.org.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Instituto Electoral y de Participación Ciudadana de Jalisco», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.iepcjalisco.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral de Michoacán",
+    "siglas": "IEM",
+    "nivel": "estatal",
+    "estado": "Michoacán",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iem.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iem.org.mx",
+        "resultado": "200, redirige a https://iem.org.mx/, título «Instituto Electoral de Michoacán», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.iem.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Morelense de Procesos Electorales y Participación Ciudadana",
+    "siglas": "IMPEPAC",
+    "nivel": "estatal",
+    "estado": "Morelos",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.impepac.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.impepac.mx",
+        "resultado": "200, título «IMPEPAC · Instituto Morelense de Procesos Electorales y Participación Ciudadana», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.impepac.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral de Nayarit",
+    "siglas": "IEEN",
+    "nivel": "estatal",
+    "estado": "Nayarit",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieenayarit.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieenayarit.org",
+        "resultado": "200, título «Instituto Estatal Electoral de Nayarit», Server: nginx/1.29.8"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieenayarit.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral y de Participación Ciudadana de Nuevo León",
+    "siglas": "IEEPCNL",
+    "nivel": "estatal",
+    "estado": "Nuevo León",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieepcnl.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieepcnl.mx",
+        "resultado": "200, título «Instituto Estatal Electoral y de Participación Ciudadana de Nuevo León»"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieepcnl.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral y de Participación Ciudadana de Oaxaca",
+    "siglas": "IEEPCO",
+    "nivel": "estatal",
+    "estado": "Oaxaca",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieepco.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieepco.org.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «IEEPCO», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieepco.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Puebla",
+    "siglas": "IEE",
+    "nivel": "estatal",
+    "estado": "Puebla",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieepuebla.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare + reCAPTCHA",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieepuebla.org.mx",
+        "resultado": "200, título «:: Instituto Electoral del Estado - Puebla ::», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieepuebla.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Querétaro",
+    "siglas": "IEEQ",
+    "nivel": "estatal",
+    "estado": "Querétaro",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieeq.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieeq.mx",
+        "resultado": "200, redirige a https://ieeq.mx/, título «IEEQ», Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.6.40"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieeq.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral de Quintana Roo",
+    "siglas": "IEQROO",
+    "nivel": "estatal",
+    "estado": "Quintana Roo",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieqroo.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieqroo.org.mx",
+        "resultado": "200, título «IEQROO | Instituto Electoral de Quintana Roo», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieqroo.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Consejo Estatal Electoral y de Participación Ciudadana de San Luis Potosí",
+    "siglas": "CEEPAC",
+    "nivel": "estatal",
+    "estado": "San Luis Potosí",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ceepacslp.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ceepacslp.org.mx",
+        "resultado": "200"
+      }
+    ],
+    "fuentes": [
+      "https://www.ceepacslp.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Sinaloa",
+    "siglas": "IEES",
+    "nivel": "estatal",
+    "estado": "Sinaloa",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieesinaloa.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieesinaloa.mx",
+        "resultado": "200, título «IEES SINALOA», Server: Apache/2.4.52 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieesinaloa.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Estatal Electoral y de Participación Ciudadana de Sonora",
+    "siglas": "IEE Sonora",
+    "nivel": "estatal",
+    "estado": "Sonora",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieesonora.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare + reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieesonora.org.mx",
+        "resultado": "200, título «Inicio | IEESONORA», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieesonora.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral y de Participación Ciudadana de Tabasco",
+    "siglas": "IEPCT",
+    "nivel": "estatal",
+    "estado": "Tabasco",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iepct.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iepct.mx",
+        "resultado": "200, redirige a https://iepctabasco.mx/, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Instituto Electoral y de Participación Ciudadana de Tabasco», Server: Apache/2.4.58 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.iepct.mx"
+    ],
+    "notas": "iepct.mx redirige a iepctabasco.mx."
+  },
+  {
+    "dependencia": "Instituto Electoral de Tamaulipas",
+    "siglas": "IETAM",
+    "nivel": "estatal",
+    "estado": "Tamaulipas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ietam.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ietam.org.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.ietam.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Tlaxcalteca de Elecciones",
+    "siglas": "ITE",
+    "nivel": "estatal",
+    "estado": "Tlaxcala",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.itetlax.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itetlax.org.mx",
+        "resultado": "200, título «ITE», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.itetlax.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Organismo Público Local Electoral del Estado de Veracruz",
+    "siglas": "OPLE Veracruz",
+    "nivel": "estatal",
+    "estado": "Veracruz",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.oplever.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.oplever.org.mx",
+        "resultado": "200, título «Organismo Público Local Electoral del Estado de Veracruz | Ople Veracruz», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.oplever.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral y de Participación Ciudadana de Yucatán",
+    "siglas": "IEPAC",
+    "nivel": "estatal",
+    "estado": "Yucatán",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.iepac.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iepac.mx",
+        "resultado": "200, título «INSTITUTO ELECTORAL Y DE PARTICIPACIÓN CIUDADANA DE YUCATÁN», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.iepac.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Instituto Electoral del Estado de Zacatecas",
+    "siglas": "IEEZ",
+    "nivel": "estatal",
+    "estado": "Zacatecas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ieez.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo Público Local Electoral: organiza elecciones locales, resultados y participación ciudadana.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ieez.org.mx",
+        "resultado": "200, título «Instituto Electoral del Estado de Zacatecas», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.ieez.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Aguascalientes",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Aguascalientes",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.dhags.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.dhags.org",
+        "resultado": "200, redirige a https://dhags.org/, título «Inicio - Comisión de Derechos Humanos del Estado de Aguascalientes», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.dhags.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Baja California",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Baja California",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.derechoshumanosbc.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.derechoshumanosbc.org",
+        "resultado": "200, redirige a https://derechoshumanosbc.org/, título «CEDHBC», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.derechoshumanosbc.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Baja California Sur",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Baja California Sur",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.derechoshumanosbcs.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "otro (Wix)",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.derechoshumanosbcs.org.mx",
+        "resultado": "200, título «Bcs | Comisión Estatal de Derechos Humanos de Baja California Sur», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.derechoshumanosbcs.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Campeche",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Campeche",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.codhecam.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA + hCaptcha",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.codhecam.org.mx",
+        "resultado": "200, redirige a https://codhecam.org.mx/, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Comisión de Derechos Humanos del Estado de Campeche &#8211; CODHECAM», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.codhecam.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Chiapas",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Chiapas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://cedhchiapas.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://cedhchiapas.org",
+        "resultado": "200, redirige a https://cedhchiapas.org/cedh/, título «CEDH CHIAPAS &#8211; Comisión Estatal de los Derechos Humanos Chiapas», Server: LiteSpeed"
+      }
+    ],
+    "fuentes": [
+      "https://cedhchiapas.org"
+    ],
+    "notas": "OJO: el dominio histórico cedh-chiapas.org hoy sirve un sitio de apuestas (togel) en indonesio: dominio expirado y recapturado. El vigente es cedhchiapas.org."
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Chihuahua",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Chihuahua",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhchihuahua.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "otro (Astro v7.1.2)",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhchihuahua.org.mx",
+        "resultado": "200, redirige a https://cedhchihuahua.org.mx/, título «CEDH Chihuahua — Comisión Estatal de los Derechos Humanos de Chihuahua», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhchihuahua.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos de la Ciudad de México",
+    "siglas": "CDHCM",
+    "nivel": "estatal",
+    "estado": "Ciudad de México",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhcm.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhcm.org.mx",
+        "resultado": "200, redirige a https://cdhcm.org.mx/, título «Home - Comisión de Derechos Humanos de la Ciudad de México», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhcm.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Coahuila",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Coahuila",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhec.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhec.org.mx",
+        "resultado": "200, redirige a https://www.cdhec.org.mx/v2/, título «Comisión de derechos humanos del Estado de Coahuila», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhec.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Colima",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Colima",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhcolima.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhcolima.org.mx",
+        "resultado": "200, redirige a https://cdhcolima.org.mx/, título «Inicio &raquo; Comisión de Derechos Humanos del Estado de Colima», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhcolima.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Durango",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Durango",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedh-durango.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedh-durango.org.mx",
+        "resultado": "200, redirige a https://cedh-durango.org.mx/wp/, título «Comisión Estatal de Derechos Humanos de Durango &#8211; Comisión Estatal de Derechos Humanos de Durango», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedh-durango.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de México",
+    "siglas": "CODHEM",
+    "nivel": "estatal",
+    "estado": "Estado de México",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.codhem.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.codhem.org.mx",
+        "resultado": "200, título «Comisión de Derechos Humanos del Estado de México - CODHEM», Server: nginx/1.18.0 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.codhem.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Procuraduría de los Derechos Humanos del Estado de Guanajuato",
+    "siglas": "PRODHEG",
+    "nivel": "estatal",
+    "estado": "Guanajuato",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.derechoshumanosgto.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.derechoshumanosgto.org.mx",
+        "resultado": "200, título «PRODHEG», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.derechoshumanosgto.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Guerrero",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Guerrero",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhegro.org",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.cdhegro.org, https://cdhegro.org, http://www.cdhegro.org)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "No se encontró el portal: cdhegro.org, cdhegro.org.mx, cdheg.org.mx, cdheguerrero.org.mx, cdhguerrero.org(.mx) y cdheg.mx no resuelven DNS, y la búsqueda web no devolvió dominio propio. Domicilio citado en convenios: Juan Álvarez 18, Centro, Chilpancingo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Hidalgo",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Hidalgo",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhhgo.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhhgo.org",
+        "resultado": "200, redirige a https://cdhhgo.org/home/, título «INICIO - CDHEH», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhhgo.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión Estatal de Derechos Humanos Jalisco",
+    "siglas": "CEDHJ",
+    "nivel": "estatal",
+    "estado": "Jalisco",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhj.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhj.org.mx",
+        "resultado": "200, redirige a https://cedhj.org.mx//, título «CEDHJ&nbsp;|&nbsp;Comisión Estatal de Derechos Humanos Jalisco», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhj.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Michoacán",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Michoacán",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhmichoacan.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhmichoacan.org.mx",
+        "resultado": "522, título «cedhmichoacan.org.mx | 522: Connection timed out», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhmichoacan.org.mx"
+    ],
+    "notas": "Cloudflare devolvió 522 (el origen no respondió)."
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Morelos",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Morelos",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhmorelos.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhmorelos.org.mx",
+        "resultado": "200, título «CDHMORELOS», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhmorelos.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Defensa de los Derechos Humanos para el Estado de Nayarit",
+    "siglas": "CDDH",
+    "nivel": "estatal",
+    "estado": "Nayarit",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cddhnayarit.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cddhnayarit.org",
+        "resultado": "200, redirige a https://cddhnayarit.org/en/, título «CDDH Nayarit | CDDH Nayarit», Server: hcdn"
+      }
+    ],
+    "fuentes": [
+      "https://www.cddhnayarit.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Nuevo León",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Nuevo León",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhnl.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhnl.org.mx",
+        "resultado": "200, título «CEDHNL», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhnl.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Defensoría de los Derechos Humanos del Pueblo de Oaxaca",
+    "siglas": "DDHPO",
+    "nivel": "estatal",
+    "estado": "Oaxaca",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.derechoshumanosoaxaca.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.derechoshumanosoaxaca.org",
+        "resultado": "200, redirige a https://derechoshumanosoaxaca.org/, título «Defensoría de los Derechos Humanos del Pueblo de Oaxaca», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.derechoshumanosoaxaca.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Puebla",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Puebla",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhpuebla.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhpuebla.org.mx",
+        "resultado": "200, título «Inicio», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhpuebla.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Defensoría de los Derechos Humanos de Querétaro",
+    "siglas": "DDHQ",
+    "nivel": "estatal",
+    "estado": "Querétaro",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.ddhqro.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ddhqro.org",
+        "resultado": "200, redirige a https://ddhqro.org/, título «DDHQ», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.ddhqro.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Quintana Roo",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Quintana Roo",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdheqroo.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdheqroo.org.mx",
+        "resultado": "200, título «CDHEQROO &#8211; ¡Construimos la paz, trabajando por tus derechos!», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdheqroo.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de San Luis Potosí",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "San Luis Potosí",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhslp.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhslp.org.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «bienvenidos -», Server: nginx/1.19.10"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhslp.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Sinaloa",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Sinaloa",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhsinaloa.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA + hCaptcha",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhsinaloa.org.mx",
+        "resultado": "200, redirige a https://cedhsinaloa.org.mx/, título «- Comisión Estatal de los Derechos Humanos Sinaloa», Server: Apache/2.4.65 (Debian)"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhsinaloa.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Sonora",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Sonora",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhsonora.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhsonora.org.mx",
+        "resultado": "200, Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhsonora.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Tabasco",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Tabasco",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhtabasco.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhtabasco.org.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «CEDH Tabasco - Derechos Humanos»"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhtabasco.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Tamaulipas",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Tamaulipas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "http://www.codhet.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.codhet.org.mx",
+        "resultado": "200, redirige a http://codhet.org.mx/"
+      }
+    ],
+    "fuentes": [
+      "http://www.codhet.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Tlaxcala",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Tlaxcala",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cedhtlax.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cedhtlax.org.mx",
+        "resultado": "200, título «CEDH Tlaxcala | Bienvenido», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.cedhtlax.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Veracruz",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Veracruz",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "http://www.cedhveracruz.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.cedhveracruz.org.mx",
+        "resultado": "200, título «CEDHV», Server: Microsoft-IIS/7.5"
+      }
+    ],
+    "fuentes": [
+      "http://www.cedhveracruz.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Yucatán",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Yucatán",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.codhey.org",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Angular",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.codhey.org",
+        "resultado": "200, título «Comisión de Derechos Humanos del Estado de Yucatán», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.codhey.org"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Comisión de Derechos Humanos del Estado de Zacatecas",
+    "siglas": "CEDH",
+    "nivel": "estatal",
+    "estado": "Zacatecas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": null,
+    "municipio": null,
+    "url": "https://www.cdhezac.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Organismo público autónomo de protección de derechos humanos: quejas, recomendaciones y capacitación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cdhezac.org.mx",
+        "resultado": "200, redirige a https://cdhezac.org.mx/, TLS inválido (certificado vencido; respondió solo sin verificar el certificado)"
+      }
+    ],
+    "fuentes": [
+      "https://www.cdhezac.org.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Aguascalientes",
+    "siglas": "ITEA",
+    "nivel": "estatal",
+    "estado": "Aguascalientes",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itea.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.itea.org.mx, https://itea.org.mx, http://www.itea.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Baja California",
+    "siglas": "ITAIPBC",
+    "nivel": "estatal",
+    "estado": "Baja California",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaipbc.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.itaipbc.org.mx, https://itaipbc.org.mx, http://www.itaipbc.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Baja California Sur",
+    "siglas": "ITAIBCS",
+    "nivel": "estatal",
+    "estado": "Baja California Sur",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaibcs.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.itaibcs.org.mx, https://itaibcs.org.mx, http://www.itaibcs.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Campeche",
+    "siglas": "COTAIPEC",
+    "nivel": "estatal",
+    "estado": "Campeche",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cotaipec.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.cotaipec.org.mx, https://cotaipec.org.mx, http://www.cotaipec.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Chiapas",
+    "siglas": "ITAIPCH",
+    "nivel": "estatal",
+    "estado": "Chiapas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaipchiapas.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.itaipchiapas.org.mx, https://itaipchiapas.org.mx, http://www.itaipchiapas.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. El garante local se extinguió; lo sustituye 'Transparencia para el Pueblo de Chiapas', desconcentrado de la Secretaría Anticorrupción y Buen Gobierno estatal (Ejecutivo). Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Chihuahua",
+    "siglas": "ICHITAIP",
+    "nivel": "estatal",
+    "estado": "Chihuahua",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.ichitaip.org",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ichitaip.org",
+        "resultado": "200, redirige a https://www.ichitaip.org.mx/, título «ICHITAIP», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.ichitaip.org"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de la Ciudad de México",
+    "siglas": "INFO CDMX",
+    "nivel": "estatal",
+    "estado": "Ciudad de México",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.infocdmx.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Drupal",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.infocdmx.org.mx",
+        "resultado": "200, redirige a https://portal.infocdmx.org.mx/, título «Inicio | Instituto de Transparencia, Acceso a la Información Pública, Protección de Datos Personales y Rendición de Cuentas de la Ciudad», Server: openresty"
+      }
+    ],
+    "fuentes": [
+      "https://www.infocdmx.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Coahuila",
+    "siglas": "ICAI",
+    "nivel": "estatal",
+    "estado": "Coahuila",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.icai.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Joomla",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.icai.org.mx",
+        "resultado": "200, TLS inválido (certificado vencido; respondió solo sin verificar el certificado), título «INICIO - Instituto Coahuilense de Acceso a la Información Pública», Server: Microsoft-IIS/8.5"
+      }
+    ],
+    "fuentes": [
+      "https://www.icai.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Colima",
+    "siglas": "INFOCOL",
+    "nivel": "estatal",
+    "estado": "Colima",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.infocol.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.infocol.org.mx",
+        "resultado": "200, título «INFOCOL | Instituto de Transparencia, Acceso a la Información Pública y Protección de Datos del Estado de Colima», Server: LiteSpeed"
+      }
+    ],
+    "fuentes": [
+      "https://www.infocol.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Durango",
+    "siglas": "IDAIP",
+    "nivel": "estatal",
+    "estado": "Durango",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.idaip.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.idaip.org.mx, https://idaip.org.mx, http://www.idaip.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Estado de México",
+    "siglas": "INFOEM",
+    "nivel": "estatal",
+    "estado": "Estado de México",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.infoem.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "Drupal",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.infoem.org.mx",
+        "resultado": "200, redirige a https://infoem.org.mx/, título «Infoem | Somos tu acceso a la información | Somos tu acceso a la información y protegemos tus datos personales»"
+      }
+    ],
+    "fuentes": [
+      "https://www.infoem.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Guanajuato",
+    "siglas": "IACIP",
+    "nivel": "estatal",
+    "estado": "Guanajuato",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.iacip-gto.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iacip-gto.org.mx",
+        "resultado": "200, redirige a https://iacip.org.mx/, título «IACIP», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.iacip-gto.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. iacipgto.mx no resuelve; iacip-gto.org.mx redirige a iacip.org.mx."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Guerrero",
+    "siglas": "ITAIGro",
+    "nivel": "estatal",
+    "estado": "Guerrero",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itaigro.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaigro.org.mx",
+        "resultado": "200, redirige a https://itaigro.org.mx/, Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.itaigro.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Hidalgo",
+    "siglas": "ITAIH",
+    "nivel": "estatal",
+    "estado": "Hidalgo",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itaih.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaih.org.mx",
+        "resultado": "200, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado)"
+      }
+    ],
+    "fuentes": [
+      "https://www.itaih.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Jalisco",
+    "siglas": "ITEI",
+    "nivel": "estatal",
+    "estado": "Jalisco",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itei.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itei.org.mx",
+        "resultado": "200, Server: Apache/2"
+      }
+    ],
+    "fuentes": [
+      "https://www.itei.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Michoacán",
+    "siglas": "IMAIP",
+    "nivel": "estatal",
+    "estado": "Michoacán",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.imaip.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.imaip.org.mx",
+        "resultado": "200, Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.imaip.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Morelos",
+    "siglas": "IMIPE",
+    "nivel": "estatal",
+    "estado": "Morelos",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.imipe.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.imipe.org.mx, https://imipe.org.mx, http://www.imipe.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Nayarit",
+    "siglas": "ITAI",
+    "nivel": "estatal",
+    "estado": "Nayarit",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itainayarit.org",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "Cloudflare + reCAPTCHA + hCaptcha",
+    "plataforma": "otro (Blogger)",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itainayarit.org",
+        "resultado": "200, título «Bos88: Accessibility-First Design untuk Akses Informasi Game Online yang Lebih Inklusif», Server: cloudflare"
+      }
+    ],
+    "fuentes": [
+      "https://www.itainayarit.org"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. OJO: itainayarit.org hoy sirve un sitio de apuestas (Bos88) en indonesio: dominio expirado y recapturado."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Nuevo León",
+    "siglas": "COTAI / INFONL",
+    "nivel": "estatal",
+    "estado": "Nuevo León",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.cotai.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.cotai.org.mx",
+        "resultado": "200, redirige a https://infonl.mx/, título «INFONL &#8211; Instituto Estatal de Transparencia NL», Server: Apache/2.4.41 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.cotai.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. cotai.org.mx redirige a infonl.mx."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Oaxaca",
+    "siglas": "OGAIP",
+    "nivel": "estatal",
+    "estado": "Oaxaca",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.ogaipoaxaca.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ogaipoaxaca.org.mx",
+        "resultado": "200, TLS inválido (certificado vencido; respondió solo sin verificar el certificado), título «OGAIP Oaxaca»"
+      }
+    ],
+    "fuentes": [
+      "https://www.ogaipoaxaca.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Puebla",
+    "siglas": "ITAIPUE",
+    "nivel": "estatal",
+    "estado": "Puebla",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itaipue.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaipue.org.mx",
+        "resultado": "200, redirige a https://itaipue.org.mx/portal2020/, título «ITAIPUE», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.itaipue.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Querétaro",
+    "siglas": "INFOQRO",
+    "nivel": "estatal",
+    "estado": "Querétaro",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.infoqro.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.infoqro.mx",
+        "resultado": "200, título «INFOQRO», Server: hcdn"
+      }
+    ],
+    "fuentes": [
+      "https://www.infoqro.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Quintana Roo",
+    "siglas": "IDAIPQROO",
+    "nivel": "estatal",
+    "estado": "Quintana Roo",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "http://www.idaipqroo.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.idaipqroo.org.mx",
+        "resultado": "200, título «Instituto de Acceso a la Información y Protección de Datos Personales de Quintana Roo &#8211; IDAIPQROO», Server: Apache/2.4.52 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "http://www.idaipqroo.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de San Luis Potosí",
+    "siglas": "CEGAIP",
+    "nivel": "estatal",
+    "estado": "San Luis Potosí",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "http://www.cegaipslp.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.cegaipslp.org.mx",
+        "resultado": "200, título «CEGAIP Comisi�n Estatal de Garant�a de Acceso a la Informaci�n SLP», Server: Lotus-Domino"
+      }
+    ],
+    "fuentes": [
+      "http://www.cegaipslp.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Sinaloa",
+    "siglas": "CEAIP",
+    "nivel": "estatal",
+    "estado": "Sinaloa",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.ceaipsinaloa.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "reCAPTCHA",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ceaipsinaloa.org.mx",
+        "resultado": "200, título «CEAIP SINALOA &#8211; TRANSPARENCIA SINALOA», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.ceaipsinaloa.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Sonora",
+    "siglas": "ISTAI",
+    "nivel": "estatal",
+    "estado": "Sonora",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.transparenciasonora.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.transparenciasonora.org.mx",
+        "resultado": "200, Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.transparenciasonora.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Tabasco",
+    "siglas": "ITAIP",
+    "nivel": "estatal",
+    "estado": "Tabasco",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itaip.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itaip.org.mx",
+        "resultado": "200, Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.itaip.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Tamaulipas",
+    "siglas": "ITAIT",
+    "nivel": "estatal",
+    "estado": "Tamaulipas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.itait.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.itait.org.mx",
+        "resultado": "200, redirige a https://itait.org.mx/, TLS inválido (cadena incompleta: falta el intermedio; respondió solo sin verificar el certificado), título «Transparencia para el pueblo», Server: nginx/1.24.0 (Ubuntu)"
+      }
+    ],
+    "fuentes": [
+      "https://www.itait.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. El dominio ya muestra 'Transparencia para el pueblo': probablemente es el sucesor, no el garante autónomo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Tlaxcala",
+    "siglas": "IAIP",
+    "nivel": "estatal",
+    "estado": "Tlaxcala",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.iaiptlaxcala.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "WordPress",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.iaiptlaxcala.org.mx",
+        "resultado": "200, redirige a https://pruebas.iaiptlaxcala.org.mx/, título «IAIP Tlaxcala &#8211; Instituto de Acceso a la Informaci&oacute;n P&uacute;blica y Protecci&oacute;n de Datos Personales del Estado de Tlaxcala», Server: Apache"
+      }
+    ],
+    "fuentes": [
+      "https://www.iaiptlaxcala.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. itaiptlaxcala redirige a un subdominio 'pruebas.'. Decreto del 30-jun-2025 ordenó la extinción del IAIP Tlaxcala."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Veracruz",
+    "siglas": "IVAI",
+    "nivel": "estatal",
+    "estado": "Veracruz",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": null,
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.ivai.org.mx",
+        "resultado": "sin respuesta: DNS no resuelve (https://www.ivai.org.mx, https://ivai.org.mx, http://www.ivai.org.mx)"
+      }
+    ],
+    "fuentes": [],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. Portada no verificada: sin respuesta el 2026-10-21."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Yucatán",
+    "siglas": "INAIP",
+    "nivel": "estatal",
+    "estado": "Yucatán",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "https://www.inaipyucatan.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.inaipyucatan.org.mx",
+        "resultado": "200, título «Transparencia para el Pueblo de Yucatán», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.inaipyucatan.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo. El dominio ya muestra 'Transparencia para el Pueblo de Yucatán': probablemente es el sucesor, no el garante autónomo."
+  },
+  {
+    "dependencia": "Órgano garante de transparencia de Zacatecas",
+    "siglas": "IZAI",
+    "nivel": "estatal",
+    "estado": "Zacatecas",
+    "orden": "estatal",
+    "poder": "autonomo",
+    "subtipo": "extinto",
+    "municipio": null,
+    "url": "http://www.izai.org.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano garante local de acceso a la información y protección de datos personales (modelo previo a la reforma de 2024).",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "http://www.izai.org.mx",
+        "resultado": "200, título «izai.org.mx», Server: Caddy"
+      }
+    ],
+    "fuentes": [
+      "http://www.izai.org.mx"
+    ],
+    "notas": "La reforma constitucional de simplificación orgánica (DOF 20-dic-2024) y la Ley General de Transparencia (DOF 20-mar-2025) extinguieron el INAI y los organismos garantes estatales; las funciones pasan a autoridades garantes locales, típicamente dentro del Ejecutivo ('Transparencia para el Pueblo'). La fecha de extinción local no se verificó entidad por entidad. No duplica la entrada 'Órgano de Transparencia estatal / portal del Ejecutivo' de estatal-ab.json, que es el portal de obligaciones del Ejecutivo."
+  },
+  {
+    "dependencia": "Auditoría Superior de la Federación",
+    "siglas": "ASF",
+    "nivel": "poder_legislativo",
+    "estado": "Nacional",
+    "orden": "federal",
+    "poder": "legislativo",
+    "subtipo": "auditoria_superior",
+    "municipio": null,
+    "url": "https://www.asf.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Órgano técnico de fiscalización de la Cámara de Diputados: auditoría de la Cuenta Pública federal e informes de resultados.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "ASP.NET",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.asf.gob.mx",
+        "resultado": "200, redirige a https://www.asf.gob.mx/Default/Index, título «ASF», Server: Microsoft-IIS/10.0"
+      }
+    ],
+    "fuentes": [
+      "https://www.asf.gob.mx"
+    ],
+    "notas": null
+  },
+  {
+    "dependencia": "Tribunal Federal de Justicia Administrativa",
+    "siglas": "TFJA",
+    "nivel": "autonomo",
+    "estado": "Nacional",
+    "orden": "federal",
+    "poder": "autonomo",
+    "subtipo": "tribunal_administrativo",
+    "municipio": null,
+    "url": "https://www.tfja.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Tribunal federal de lo contencioso-administrativo y fiscal: juicio en línea, boletín y jurisprudencia.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "desconocido",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.tfja.gob.mx",
+        "resultado": "200, título «TFJA | INICIO», Server: nginx"
+      }
+    ],
+    "fuentes": [
+      "https://www.tfja.gob.mx"
+    ],
+    "notas": "Tribunal administrativo dotado de autonomía (art. 73 XXIX-H constitucional), no pertenece al Poder Judicial: clasificado poder=autonomo según el contrato."
+  },
+  {
+    "dependencia": "Canal del Congreso",
+    "siglas": "Canal del Congreso",
+    "nivel": "poder_legislativo",
+    "estado": "Nacional",
+    "orden": "federal",
+    "poder": "legislativo",
+    "subtipo": "organo_del_congreso",
+    "municipio": null,
+    "url": "https://www.canaldelcongreso.gob.mx",
+    "tipo": "portal_institucional",
+    "proposito": "Canal de televisión del Congreso de la Unión: transmisión de sesiones y programación.",
+    "servicios_en_linea": [],
+    "autenticacion": "ninguna",
+    "anti_bot": "desconocido",
+    "plataforma": "React",
+    "api_publica": null,
+    "estado_real": [
+      {
+        "fecha": "2026-10-21",
+        "url": "https://www.canaldelcongreso.gob.mx",
+        "resultado": "200, título «Canal del Congreso», Server: nginx/1.20.1"
+      }
+    ],
+    "fuentes": [
+      "https://www.canaldelcongreso.gob.mx"
+    ],
+    "notas": null
+  }
+]

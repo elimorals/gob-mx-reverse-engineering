@@ -14,11 +14,11 @@ ni login con credenciales ajenas, ni envío de datos personales.
 
 | | |
 |---|---:|
-| Apps móviles | **466** (351 Android · 326 iOS · 246 en ambas) |
-| Sitios web | **231** portales |
+| Apps móviles | **519** (387 Android · 371 iOS · 274 en ambas) |
+| Sitios web | **394** portales |
 | Subdominios `.gob.mx` | **12,812** (CT + dotgob-mx) |
 | Servicios / trámites | **6,141** (6,125 federales CONAMER + 16 brechas/clave) |
-| Apps con análisis de permisos | **351** (todas las que tienen Android; 311 con permisos peligrosos) |
+| Apps con análisis de permisos | **387** (todas las que tienen Android; 338 con permisos peligrosos) |
 
 No existe un equivalente oficial: los catálogos del gobierno están en silos separados y el
 nivel subnacional no se publica de forma central (ver `analisis/benchmark-existentes.md`).
@@ -34,7 +34,7 @@ gobmx-presencia-digital/
 │   ├── inventario/*.json        ← apps por segmento (federal, autónomos, estatal A/B/C+CDMX+municipal)
 │   ├── apps.json                ← consolidado + métricas de tienda (genera consolidar_incremental.py)
 │   ├── apps.csv                 ← mismo, tabular
-│   └── permisos/                ← permisos peligrosos por app (351) + README
+│   └── permisos/                ← permisos peligrosos por app (387) + README
 ├── sitios/
 │   ├── *.json                   ← portales web por segmento (esquema-sitios-servicios.md)
 │   ├── subdominios/*.txt        ← subdominios por dependencia desde Certificate Transparency
@@ -50,7 +50,7 @@ gobmx-presencia-digital/
 │   └── harvest-subnacional.md   ← por qué los trámites estatales/municipales no están centralizados
 ├── web/                         ← dashboard (index.html + data.js) y bundler
 ├── gobmx.py                     ← CLI para consultar el inventario
-├── mcp-server/                  ← MCP server (FastMCP) con 7 tools de consulta + README y prueba e2e
+├── mcp-server/                  ← MCP server (FastMCP) con 8 tools de consulta + README y prueba e2e
 └── scripts/                     ← helpers (tiendas, CT, consolidar, qa, stats, regenerar) + esquemas
 ```
 
@@ -68,17 +68,38 @@ El dato lo empaqueta `scripts/build_dashboard_data.py` en `web/data.js`.
 Consulta el inventario desde la terminal. Único requisito: Python 3, sin dependencias externas.
 
 ```bash
-python3 gobmx.py stats                    # 466 apps · 231 sitios · 6141 servicios
+python3 gobmx.py stats                    # 519 apps · 394 sitios · 6141 servicios
 python3 gobmx.py apps --estado Jalisco    # apps de un estado
 python3 gobmx.py apps --sector seguridad --json
 python3 gobmx.py sitios --nivel federal
 python3 gobmx.py servicios --busca CURP
 python3 gobmx.py dep IMSS                  # apps + sitios de una dependencia
+python3 gobmx.py apps --orden estatal --poder judicial    # filtros por orden de gobierno y poder
+python3 gobmx.py comparar --orden estatal --nombres "Jalisco,Nuevo León"
+python3 gobmx.py comparar --orden municipal --nombres Monterrey,Guadalajara
+python3 gobmx.py comparar --orden estatal --ordenar por_100k_hab.apps   # ranking de las 32
+python3 gobmx.py comparar --orden federal  # se rechaza: no es comparable
 ```
+
+## Orden de gobierno, poder y comparación
+
+Cada app, sitio y servicio lleva `orden` (federal · estatal · municipal), `poder` (ejecutivo ·
+legislativo · judicial · autónomo), `subtipo` (paraestatal, desconcentrado, universidad_autonoma,
+extinto…) y `municipio` (nombre INEGI cuando el orden es municipal). `nivel` se conserva por
+compatibilidad pero mezclaba orden con tipo de ente. Los asigna `scripts/clasificar_orden_poder.py`
+con reglas por nivel, patrones de nombre, una tabla de excepciones y una tabla de las 32 fiscalías
+estatales (autónoma o dependiente del Ejecutivo, con fuente). Reglas en `scripts/esquema.md`.
+
+**Comparación:** solo estatal↔estatal o municipal↔municipal; nunca federal contra otro orden
+(presupuesto, extensión y población no comparables). Métricas por entidad/municipio: apps, apps
+activas, instalaciones, sitios, subdominios, cobertura de poderes y, con `datos/presupuesto/`,
+tasas por 100 mil habitantes (Censo 2020 INEGI) y por cada mil millones de pesos de egreso (INEGI
+EFIPEM). Sin dato, las tasas son `null`, nunca 0. CLI (`comparar`), MCP (`comparar`) y dashboard
+(`window.GOBMX.entidades` / `.municipios`) usan la misma función de `gobmx.py`.
 
 ## MCP — `gobmx-inventario`
 
-Servidor [MCP](https://modelcontextprotocol.io) de solo lectura: expone el inventario como 7 tools
+Servidor [MCP](https://modelcontextprotocol.io) de solo lectura: expone el inventario como 8 tools
 consultables desde Claude u otro cliente. Instalación, referencia de tools y prueba end-to-end en
 [`mcp-server/README.md`](mcp-server/README.md).
 
@@ -99,7 +120,9 @@ claude mcp list   # debe decir: gobmx-inventario ... ✔ Connected
 ## Regenerar
 
 ```bash
-scripts/regenerar.sh   # consolida apps + fusiona subdominios + QA + reconstruye el dashboard
+scripts/regenerar.sh   # subdominios + clasifica orden/poder + consolida apps + QA + dashboard
+SIN_RED=1 scripts/regenerar.sh   # igual, sin consultar tiendas
+python3 -I scripts/test_orden_poder.py   # comprobación del clasificador y de comparar
 ```
 
 Un **GitHub Action** (`.github/workflows/refresh-subdominios.yml`) refresca los subdominios por

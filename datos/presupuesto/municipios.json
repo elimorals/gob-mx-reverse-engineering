@@ -1,0 +1,500 @@
+[
+ {
+  "estado": "Aguascalientes",
+  "cve_ent": "01",
+  "municipio": "Aguascalientes",
+  "cve_mun": "01001",
+  "poblacion_2020": 948990,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 4843600967,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Aguascalientes"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Baja California",
+  "cve_ent": "02",
+  "municipio": "Mexicali",
+  "cve_mun": "02002",
+  "poblacion_2020": 1049792,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 6394341930,
+   "disponibilidad_final_mxn": 38564756,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Ayuntamiento de Mexicali",
+   "Mexicali"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Baja California",
+  "cve_ent": "02",
+  "municipio": "Tijuana",
+  "cve_mun": "02004",
+  "poblacion_2020": 1922523,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 14559187502,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Ayuntamiento de Tijuana",
+   "Ayuntamiento de Tijuana – Protección Civil",
+   "Tijuana"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Coahuila",
+  "cve_ent": "05",
+  "municipio": "Saltillo",
+  "cve_mun": "05030",
+  "poblacion_2020": 879958,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 4386577501,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Instituto Municipal de la Juventud de Saltillo",
+   "Municipio de Saltillo",
+   "Municipio de Saltillo – Seguridad Ciudadana",
+   "Saltillo"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Coahuila",
+  "cve_ent": "05",
+  "municipio": "Torreón",
+  "cve_mun": "05035",
+  "poblacion_2020": 720848,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 4296415196,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Torreón"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Chihuahua",
+  "cve_ent": "08",
+  "municipio": "Chihuahua",
+  "cve_mun": "08019",
+  "poblacion_2020": 937674,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 6177491242,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Chihuahua",
+   "Instituto Municipal de Planeación de Chihuahua",
+   "Municipio de Chihuahua",
+   "Municipio de Chihuahua – Instituto Municipal de las Mujeres"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Chihuahua",
+  "cve_ent": "08",
+  "municipio": "Juárez",
+  "cve_mun": "08037",
+  "poblacion_2020": 1512450,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 9697938155,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Ayuntamiento de Juárez",
+   "Juárez",
+   "Municipio de Juárez – Instituto Municipal de las Mujeres",
+   "Secretaría de Seguridad Pública Municipal de Juárez"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Guanajuato",
+  "cve_ent": "11",
+  "municipio": "León",
+  "cve_mun": "11020",
+  "poblacion_2020": 1721215,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 10035576629,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "León",
+   "Municipio de León",
+   "Sistema de Agua Potable y Alcantarillado de León"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Jalisco",
+  "cve_ent": "14",
+  "municipio": "Guadalajara",
+  "cve_mun": "14039",
+  "poblacion_2020": 1385629,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 11915920133,
+   "disponibilidad_final_mxn": 495353,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Gobierno Municipal de Guadalajara",
+   "Gobierno Municipal de Guadalajara – Tesorería",
+   "Guadalajara"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Jalisco",
+  "cve_ent": "14",
+  "municipio": "Tlajomulco de Zúñiga",
+  "cve_mun": "14097",
+  "poblacion_2020": 727750,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 4723264838,
+   "disponibilidad_final_mxn": 208136432,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Municipio de Tlajomulco de Zúñiga",
+   "Tlajomulco de Zúñiga"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Jalisco",
+  "cve_ent": "14",
+  "municipio": "Zapopan",
+  "cve_mun": "14120",
+  "poblacion_2020": 1476491,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 12227166906,
+   "disponibilidad_final_mxn": 803035467,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "H. Ayuntamiento de Zapopan – Tesorería",
+   "Zapopan"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Estado de México",
+  "cve_ent": "15",
+  "municipio": "Ecatepec de Morelos",
+  "cve_mun": "15033",
+  "poblacion_2020": 1645352,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 6136911543,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Ecatepec de Morelos"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Estado de México",
+  "cve_ent": "15",
+  "municipio": "Naucalpan de Juárez",
+  "cve_mun": "15057",
+  "poblacion_2020": 834434,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 5708622754,
+   "disponibilidad_final_mxn": 349405930,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Naucalpan de Juárez"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Estado de México",
+  "cve_ent": "15",
+  "municipio": "Toluca",
+  "cve_mun": "15106",
+  "poblacion_2020": 910608,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 5051654565,
+   "disponibilidad_final_mxn": 19380252,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Municipio de Toluca",
+   "Toluca"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Michoacán",
+  "cve_ent": "16",
+  "municipio": "Morelia",
+  "cve_mun": "16053",
+  "poblacion_2020": 849053,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 3944894032,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Morelia",
+   "Municipio de Morelia",
+   "Municipio de Morelia – Policía Morelia",
+   "Municipio de Morelia – Secretaría de la Mujer Moreliana"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Nuevo León",
+  "cve_ent": "19",
+  "municipio": "San Pedro Garza García",
+  "cve_mun": "19019",
+  "poblacion_2020": 132169,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 4919771592,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "San Pedro Garza García"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Nuevo León",
+  "cve_ent": "19",
+  "municipio": "Monterrey",
+  "cve_mun": "19039",
+  "poblacion_2020": 1142994,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 10286997010,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Monterrey",
+   "Municipio de Monterrey",
+   "Municipio de Monterrey – Protección Civil"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Nuevo León",
+  "cve_ent": "19",
+  "municipio": "San Nicolás de los Garza",
+  "cve_mun": "19046",
+  "poblacion_2020": 412199,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 2617559628,
+   "disponibilidad_final_mxn": 17249119,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "San Nicolás de los Garza"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Puebla",
+  "cve_ent": "21",
+  "municipio": "Puebla",
+  "cve_mun": "21114",
+  "poblacion_2020": 1692181,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 7635756154,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "H. Ayuntamiento de Puebla",
+   "H. Ayuntamiento de Puebla – Secretaría de Seguridad Ciudadana",
+   "H. Ayuntamiento de Puebla – Tesorería",
+   "Puebla"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Querétaro",
+  "cve_ent": "22",
+  "municipio": "Querétaro",
+  "cve_mun": "22014",
+  "poblacion_2020": 1049777,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 7807348943,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Municipio de Querétaro",
+   "Municipio de Querétaro – Centro de Innovación BLOQUE",
+   "Municipio de Querétaro – Instituto Municipal de las Mujeres",
+   "Querétaro",
+   "Secretaría de Seguridad Pública Municipal de Querétaro"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Quintana Roo",
+  "cve_ent": "23",
+  "municipio": "Benito Juárez",
+  "cve_mun": "23005",
+  "poblacion_2020": 911503,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 7331181221,
+   "disponibilidad_final_mxn": 469891033,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Ayuntamiento de Benito Juárez (Cancún)",
+   "Benito Juárez",
+   "Benito Juárez (Cancún)",
+   "Secretaría Municipal de Seguridad Ciudadana y Tránsito de Benito Juárez (Cancún)"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "San Luis Potosí",
+  "cve_ent": "24",
+  "municipio": "San Luis Potosí",
+  "cve_mun": "24028",
+  "poblacion_2020": 911908,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 4145411389,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Municipio de San Luis Potosí",
+   "Municipio de San Luis Potosí – Dirección de Deporte",
+   "Municipio de San Luis Potosí – Policía Cibernética Municipal",
+   "Municipio de San Luis Potosí – Secretaría del Bienestar",
+   "Municipio de San Luis Potosí – Seguridad Pública Municipal",
+   "San Luis Potosí",
+   "San Luis Potosí (capital)"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Sinaloa",
+  "cve_ent": "25",
+  "municipio": "Culiacán",
+  "cve_mun": "25006",
+  "poblacion_2020": 1003530,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 5099666299,
+   "disponibilidad_final_mxn": 206876588,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Culiacán"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Sonora",
+  "cve_ent": "26",
+  "municipio": "Hermosillo",
+  "cve_mun": "26030",
+  "poblacion_2020": 936263,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 5914247544,
+   "disponibilidad_final_mxn": 204685288,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Agua de Hermosillo (organismo operador municipal)",
+   "H. Ayuntamiento de Hermosillo",
+   "H. Ayuntamiento de Hermosillo – Dirección de Servicios Públicos",
+   "Hermosillo",
+   "Instituto del Deporte de Hermosillo"
+  ],
+  "notas": null
+ },
+ {
+  "estado": "Yucatán",
+  "cve_ent": "31",
+  "municipio": "Mérida",
+  "cve_mun": "31050",
+  "poblacion_2020": 995129,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 6939591232,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_municipal_csv.zip"
+  },
+  "transferencias_pef": null,
+  "alias": [
+   "Ayuntamiento de Mérida",
+   "Ayuntamiento de Mérida – Desarrollo Urbano",
+   "Ayuntamiento de Mérida – Instituto Municipal de la Mujer",
+   "Ayuntamiento de Mérida – Turismo",
+   "Mérida"
+  ],
+  "notas": null
+ }
+]

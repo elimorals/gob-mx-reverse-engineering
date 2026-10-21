@@ -1,0 +1,642 @@
+[
+ {
+  "estado": "Aguascalientes",
+  "cve_ent": "01",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1425607,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 35089927606,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 15878531904,
+   "ramo33_mxn": 14697642094,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Baja California",
+  "cve_ent": "02",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3769020,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 92095983118,
+   "disponibilidad_final_mxn": 1215998922,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 45091482735,
+   "ramo33_mxn": 24456568766,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Baja California Sur",
+  "cve_ent": "03",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 798447,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 26417113629,
+   "disponibilidad_final_mxn": 1032160632,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 11307438617,
+   "ramo33_mxn": 8597862495,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Campeche",
+  "cve_ent": "04",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 928363,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 28284368911,
+   "disponibilidad_final_mxn": 912534362,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 10530057283,
+   "ramo33_mxn": 9922078522,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Coahuila",
+  "cve_ent": "05",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3146771,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 72937320498,
+   "disponibilidad_final_mxn": 1612803500,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 35151602359,
+   "ramo33_mxn": 24968545311,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Colima",
+  "cve_ent": "06",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 731391,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 24612820092,
+   "disponibilidad_final_mxn": 249712290,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 8471340421,
+   "ramo33_mxn": 7297762728,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Chiapas",
+  "cve_ent": "07",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 5543828,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 136890972675,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 55243070365,
+   "ramo33_mxn": 68947277329,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Chihuahua",
+  "cve_ent": "08",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3741869,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 108075083654,
+   "disponibilidad_final_mxn": 546786538,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 45236793350,
+   "ramo33_mxn": 30870408893,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Ciudad de México",
+  "cve_ent": "09",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 9209944,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 299585561217,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_trimestral_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 142981119025,
+   "ramo33_mxn": 18868570252,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": "CDMX no está en la EFIPEM anual estatal (31 gobiernos). Se usa la EFIPEM trimestral acumulada al 4T 2024 (cifras preliminares, clasificación económica, sin disponibilidad final): no es estrictamente comparable con las otras 31."
+ },
+ {
+  "estado": "Durango",
+  "cve_ent": "10",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1832650,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 51191133777,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 20534140116,
+   "ramo33_mxn": 19932383870,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Guanajuato",
+  "cve_ent": "11",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 6166934,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 133341859020,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 65936503540,
+   "ramo33_mxn": 42148716119,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Guerrero",
+  "cve_ent": "12",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3540685,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 93437249551,
+   "disponibilidad_final_mxn": 3689455388,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 33573141467,
+   "ramo33_mxn": 49462552724,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Hidalgo",
+  "cve_ent": "13",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3082841,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 71736069673,
+   "disponibilidad_final_mxn": 2985165310,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 29949988285,
+   "ramo33_mxn": 31956178364,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Jalisco",
+  "cve_ent": "14",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 8348151,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 172339654567,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 96672167762,
+   "ramo33_mxn": 50980147928,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Estado de México",
+  "cve_ent": "15",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 16992418,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 400452116981,
+   "disponibilidad_final_mxn": 20537028749,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 194623212222,
+   "ramo33_mxn": 98525769493,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": "Edomex: la EFIPEM anual incluye los tres poderes, organismos auxiliares y autónomos."
+ },
+ {
+  "estado": "Michoacán",
+  "cve_ent": "16",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 4748846,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 104630740231,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 46853348979,
+   "ramo33_mxn": 41776193726,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Morelos",
+  "cve_ent": "17",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1971520,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 41428569362,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 18901233946,
+   "ramo33_mxn": 16576249458,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Nayarit",
+  "cve_ent": "18",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1235456,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 33604752344,
+   "disponibilidad_final_mxn": 445165117,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 13183536752,
+   "ramo33_mxn": 12077490817,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Nuevo León",
+  "cve_ent": "19",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 5784442,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 159261257459,
+   "disponibilidad_final_mxn": 4249317164,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 76530008951,
+   "ramo33_mxn": 35966373401,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Oaxaca",
+  "cve_ent": "20",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 4132148,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 121567900693,
+   "disponibilidad_final_mxn": 516044900,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 39528949264,
+   "ramo33_mxn": 56489304507,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Puebla",
+  "cve_ent": "21",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 6583278,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 135347841154,
+   "disponibilidad_final_mxn": 3246115653,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 64718031019,
+   "ramo33_mxn": 48482007137,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Querétaro",
+  "cve_ent": "22",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 2368467,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 62411488566,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 28354794268,
+   "ramo33_mxn": 17472330827,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Quintana Roo",
+  "cve_ent": "23",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1857985,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 68207027056,
+   "disponibilidad_final_mxn": 691631704,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 21954910548,
+   "ramo33_mxn": 13533960768,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "San Luis Potosí",
+  "cve_ent": "24",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 2822255,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 66107505192,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 29101467954,
+   "ramo33_mxn": 26265496313,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Sinaloa",
+  "cve_ent": "25",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3026943,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 79005554998,
+   "disponibilidad_final_mxn": 17577931,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 33662377920,
+   "ramo33_mxn": 23933637683,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Sonora",
+  "cve_ent": "26",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 2944840,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 95810703169,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 36980218635,
+   "ramo33_mxn": 19772068163,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Tabasco",
+  "cve_ent": "27",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 2402598,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 67274723427,
+   "disponibilidad_final_mxn": 364676388,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 34122502945,
+   "ramo33_mxn": 19382131204,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Tamaulipas",
+  "cve_ent": "28",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 3527735,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 96791364385,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 43004035997,
+   "ramo33_mxn": 27140921097,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Tlaxcala",
+  "cve_ent": "29",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1342977,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 30422325823,
+   "disponibilidad_final_mxn": 22539736,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 14391601767,
+   "ramo33_mxn": 13120187430,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Veracruz",
+  "cve_ent": "30",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 8062579,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 173564225837,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 83582228424,
+   "ramo33_mxn": 70429737092,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Yucatán",
+  "cve_ent": "31",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 2320898,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 55482186826,
+   "disponibilidad_final_mxn": 67717487,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 24930430439,
+   "ramo33_mxn": 19131139251,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ },
+ {
+  "estado": "Zacatecas",
+  "cve_ent": "32",
+  "municipio": null,
+  "cve_mun": null,
+  "poblacion_2020": 1622138,
+  "egresos_inegi": {
+   "anio": 2024,
+   "total_mxn": 42554817284,
+   "disponibilidad_final_mxn": null,
+   "fuente": "https://www.inegi.org.mx/contenidos/programas/finanzas/datosabiertos/conjunto_de_datos_efipem_estatal_csv.zip"
+  },
+  "transferencias_pef": {
+   "anio": 2026,
+   "ramo28_mxn": 17786868922,
+   "ramo33_mxn": 15957021603,
+   "fuente": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Bases_de_datos_presupuesto/CSV/PEF_2026.csv"
+  },
+  "notas": null
+ }
+]
