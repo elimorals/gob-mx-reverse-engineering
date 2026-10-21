@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Observatorio · Presencia digital del gobierno de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,800;1,6..72,500;1,6..72,600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --mono:"IBM Plex Mono",ui-monospace,monospace; --sans:"IBM Plex Sans",system-ui,sans-serif;
+  --disp:"Newsreader",Georgia,serif;
+  /* claro (default) */
+  --bg:#f3ede2; --panel:#fbf8f1; --panel2:#efe7d8; --line:#e2d7c3;
+  --ink:#271f1b; --ink-dim:#6c5f52; --ink-faint:#9a8c7b;
+  --guinda:#9d2449; --guinda-deep:#7c1c38; --oro:#8c6a1f; --oro-dim:#b6974f;
+  --ok:#3d7d5c; --warn:#a8641b; --bad:#b03636;
+  --grad1:rgba(157,36,73,.08); --grad2:rgba(140,106,31,.07);
+  --shadow:0 10px 30px rgba(60,40,20,.10);
+}
+/* oscuro: por preferencia del sistema salvo que se fuerce claro, y forzado */
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#13110f; --panel:#1b1815; --panel2:#221e1a; --line:#332c26;
+  --ink:#ece4d8; --ink-dim:#a89d8e; --ink-faint:#6f655a;
+  --guinda:#b5375c; --guinda-deep:#7c1c38; --oro:#caa24b; --oro-dim:#8a6f33;
+  --ok:#5e9c7a; --warn:#c98a3c; --bad:#c85b5b;
+  --grad1:rgba(181,55,92,.12); --grad2:rgba(202,162,75,.08);
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --bg:#13110f; --panel:#1b1815; --panel2:#221e1a; --line:#332c26;
+  --ink:#ece4d8; --ink-dim:#a89d8e; --ink-faint:#6f655a;
+  --guinda:#b5375c; --guinda-deep:#7c1c38; --oro:#caa24b; --oro-dim:#8a6f33;
+  --ok:#5e9c7a; --warn:#c98a3c; --bad:#c85b5b;
+  --grad1:rgba(181,55,92,.12); --grad2:rgba(202,162,75,.08);
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+html{color-scheme:light dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;
+  background-image:radial-gradient(1200px 500px at 85% -10%,var(--grad1),transparent 60%),
+    radial-gradient(900px 400px at 0% 0%,var(--grad2),transparent 55%);
+  transition:background-color .35s ease,color .35s ease;}
+/* el cambio de tema se anima en todos los elementos con color/borde */
+.card,.r,.distcard,.kpi,.tab,.filters select,.filters input,.drawer,header.top,nav.tabs{
+  transition:background-color .35s ease,border-color .35s ease,color .2s ease,transform .16s ease,box-shadow .2s ease}
+a{color:var(--oro);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* header */
+header.top{border-bottom:1px solid var(--line);padding:30px 0 20px;position:relative;overflow:hidden}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--oro);margin:0 0 10px}
+h1{font-family:var(--disp);font-weight:800;font-size:clamp(30px,6vw,56px);line-height:.98;margin:0;letter-spacing:-.015em}
+h1 em{font-style:italic;color:var(--guinda);font-weight:400}
+.sub{color:var(--ink-dim);max-width:60ch;margin:14px 0 0;font-size:14px}
+.corte{font-family:var(--mono);font-size:11px;color:var(--ink-faint);margin-top:6px}
+
+/* kpis */
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line);
+  border-radius:10px;overflow:hidden;margin:26px 0 0}
+.kpi{background:var(--panel);padding:16px 14px}
+.kpi .n{font-family:var(--disp);font-weight:800;font-size:clamp(22px,4vw,34px);line-height:1;letter-spacing:-.02em}
+.kpi .l{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);margin-top:7px}
+.kpi:nth-child(1) .n{color:var(--oro)} .kpi:nth-child(2) .n{color:var(--guinda)}
+
+/* tabs */
+nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:26px 0 18px;position:sticky;top:0;z-index:20;
+  background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)}
+.tab{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-dim);
+  background:transparent;border:1px solid var(--line);padding:9px 14px;border-radius:999px;cursor:pointer;transition:.15s}
+.tab:hover{color:var(--ink);border-color:var(--oro-dim)}
+.tab.on{background:var(--guinda-deep);border-color:var(--guinda);color:#fff}
+
+/* filters */
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.filters select,.filters input{font-family:var(--mono);font-size:12.5px;background:var(--panel2);color:var(--ink);
+  border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+.filters input{flex:1;min-width:180px}
+.filters select:focus,.filters input:focus{outline:none;border-color:var(--oro)}
+.count{font-family:var(--mono);font-size:12px;color:var(--ink-faint);margin-left:auto}
+
+/* distribution bars */
+.dist{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:22px}
+.distcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.distcard h3{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);margin:0 0 12px}
+.brow{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px}
+.brow .bl{width:92px;color:var(--ink-dim);font-family:var(--mono);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brow .bar{height:9px;background:var(--guinda);border-radius:3px;min-width:2px;transform-origin:left;animation:grow .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.brow .bn{font-family:var(--mono);font-size:11px;color:var(--ink-faint)}
+
+/* cards grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px 16px;cursor:pointer;
+  transition:.16s;position:relative;animation:rise .5s both}
+.card:hover{border-color:var(--oro-dim);transform:translateY(-2px);background:var(--panel2)}
+.card .nm{font-family:var(--disp);font-size:18px;font-weight:600;letter-spacing:-.01em;line-height:1.15;margin:0 0 3px}
+.card .dep{font-size:12px;color:var(--ink-dim);margin:0 0 11px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;padding:3px 7px;border-radius:5px;
+  border:1px solid var(--line);color:var(--ink-dim)}
+.tag.nivel{border-color:var(--oro-dim);color:var(--oro)}
+.tag.plat{border-color:var(--guinda-deep);color:var(--guinda)}
+.meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:11px;font-family:var(--mono);font-size:11px;color:var(--ink-dim)}
+.meta b{color:var(--ink);font-weight:500}
+.pill{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+.sc-good{color:var(--ok)} .sc-mid{color:var(--warn)} .sc-bad{color:var(--bad)}
+.badge-a{color:var(--ok)} .badge-i{color:var(--ink-dim)}
+.stat{position:absolute;top:14px;right:14px;font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase}
+.st-activa{color:var(--ok)} .st-retirada{color:var(--bad)} .st-desconocido{color:var(--ink-faint)}
+.st-sin{color:var(--warn)}
+
+/* table-ish rows for sitios */
+.rows{display:flex;flex-direction:column;gap:8px}
+.r{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:12px 15px;animation:rise .5s both}
+.r:hover{border-color:var(--oro-dim)}
+.r .rt{font-family:var(--disp);font-size:16px;font-weight:600}
+.r .ru{font-family:var(--mono);font-size:11.5px;color:var(--oro);word-break:break-all}
+
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(5,4,3,.6);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:.2s;z-index:40}
+.scrim.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(460px,92vw);background:var(--panel);border-left:1px solid var(--guinda-deep);
+  transform:translateX(100%);transition:transform .28s cubic-bezier(.3,.9,.3,1);z-index:50;overflow-y:auto;padding:26px 24px 60px}
+.drawer.on{transform:none}
+.drawer h2{font-family:var(--disp);font-weight:800;font-size:26px;margin:0 6px 2px 0;letter-spacing:-.01em}
+.drawer .x{position:absolute;top:18px;right:18px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);
+  width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:16px}
+.kv{font-family:var(--mono);font-size:12px;margin:10px 0;color:var(--ink-dim)}
+.kv b{color:var(--ink);font-weight:500}
+.sect{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--oro);
+  margin:22px 0 8px;border-top:1px solid var(--line);padding-top:14px}
+.perm{display:inline-block;font-family:var(--mono);font-size:10.5px;background:var(--panel2);border:1px solid var(--line);
+  color:var(--bad);padding:3px 7px;border-radius:5px;margin:2px}
+.trk{color:var(--warn);border-color:var(--oro-dim)}
+
+footer{border-top:1px solid var(--line);margin-top:50px;padding:24px 0 40px;color:var(--ink-faint);
+  font-family:var(--mono);font-size:11px}
+
+/* toggle de tema */
+.theme-tg{position:absolute;top:24px;right:16px;display:flex;align-items:center;gap:7px;
+  background:var(--panel);border:1px solid var(--line);color:var(--ink-dim);
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:8px 12px;border-radius:999px;cursor:pointer;z-index:6}
+.theme-tg:hover{border-color:var(--oro-dim);color:var(--ink)}
+.theme-tg .ico{font-size:13px;line-height:1}
+.card:hover{box-shadow:var(--shadow)}
+.drawer{box-shadow:var(--shadow)}
+
+@media(max-width:720px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .count{margin-left:0;width:100%}
+  nav.tabs{top:0}
+  header.top{padding-top:62px}
+  .theme-tg{top:14px}
+  .filters select,.filters input{flex:1 1 100%;min-width:0}
+  .grid{grid-template-columns:1fr}
+  .dist{grid-template-columns:1fr}
+}
+@media(max-width:400px){ .kpis{grid-template-columns:1fr} }
+@media(prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important;scroll-behavior:auto!important} }
+</style>
+</head>
+<body>
+<button class="theme-tg" id="themeTg" aria-label="Cambiar tema"><span class="ico" id="themeIco">◐</span><span id="themeLbl">tema</span></button>
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Observatorio de gobierno digital · México</p>
+  <h1>Presencia digital<br>del <em>Estado mexicano</em></h1>
+  <p class="sub">Inventario de aplicaciones móviles, sitios web y servicios en línea del gobierno federal, estatal y municipal. Construido con observación pasiva de fuentes públicas.</p>
+  <p class="corte" id="corte"></p>
+  <div class="kpis" id="kpis"></div>
+</div></header>
+
+<div class="wrap">
+  <nav class="tabs" id="tabs"></nav>
+  <div id="view"></div>
+</div>
+
+<div class="scrim" id="scrim" onclick="closeDrawer()"></div>
+<aside class="drawer" id="drawer"></aside>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script src="data.js"></script>
+<script>
+// --- tema claro/oscuro ---
+const root=document.documentElement;
+function sysDark(){return window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;}
+function curTheme(){return root.getAttribute('data-theme')||(sysDark()?'dark':'light');}
+function applyTheme(t){
+  root.setAttribute('data-theme',t);
+  const dark=t==='dark';
+  const ico=document.getElementById('themeIco'),lbl=document.getElementById('themeLbl');
+  if(ico)ico.textContent=dark?'☾':'☀';
+  if(lbl)lbl.textContent=dark?'oscuro':'claro';
+  try{localStorage.setItem('gobmx-theme',t);}catch(e){}
+}
+(function initTheme(){let saved=null;try{saved=localStorage.getItem('gobmx-theme');}catch(e){}applyTheme(saved||(sysDark()?'dark':'light'));})();
+document.getElementById('themeTg').addEventListener('click',()=>applyTheme(curTheme()==='dark'?'light':'dark'));
+if(window.matchMedia){window.matchMedia('(prefers-color-scheme:dark)').addEventListener('change',e=>{let saved=null;try{saved=localStorage.getItem('gobmx-theme');}catch(_){}if(!saved)applyTheme(e.matches?'dark':'light');});}
+
+const D = window.GOBMX || {apps:[],sitios:[],servicios:[],permisos:[],subdominios:{top:[]}};
+const permByPkg = Object.fromEntries((D.permisos||[]).map(p=>[p.android_id,p]));
+const $ = (s,e=document)=>e.querySelector(s);
+const el = (t,c,h)=>{const n=document.createElement(t);if(c)n.className=c;if(h!=null)n.innerHTML=h;return n;};
+const num = n => (n||0).toLocaleString('es-MX');
+const uniq = (arr,k)=>[...new Set(arr.map(x=>x[k]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es'));
+
+$('#corte').textContent = 'Corte: '+(D.corte||'—')+' · '+D.apps.length+' apps · '+D.sitios.length+' portales · '+num(D.subdominios.total)+' subdominios';
+
+// KPIs
+const kpis=[
+  ['n'+num(D.apps.length),'Apps móviles'],
+  [num(D.sitios.length),'Portales web'],
+  [num(D.subdominios.total),'Subdominios .gob.mx'],
+  [D.apps.filter(a=>a.android).length+' / '+D.apps.filter(a=>a.ios).length,'Android / iOS'],
+  [D.apps.filter(a=>a.estatus&&a.estatus.indexOf('actualizar')>-1||a.estatus=='retirada').length,'Abandonadas / retiradas'],
+];
+D.apps.length; // noop
+$('#kpis').innerHTML='';
+[[D.apps.length,'Apps móviles'],[D.sitios.length,'Portales web'],[D.subdominios.total,'Subdominios .gob.mx'],
+ [D.apps.filter(a=>a.android).length+'/'+D.apps.filter(a=>a.ios).length,'Android / iOS'],
+ [D.apps.filter(a=>(a.estatus||'').includes('actualizar')||a.estatus==='retirada').length,'Sin mantener']]
+.forEach(([n,l],i)=>{const k=el('div','kpi');k.innerHTML=`<div class="n">${typeof n==='number'?num(n):n}</div><div class="l">${l}</div>`;$('#kpis').appendChild(k);});
+
+// Tabs
+const TABS=[['apps','Apps'],['sitios','Sitios'],['servicios','Servicios'],['subdominios','Subdominios']];
+let cur='apps';
+const nav=$('#tabs');
+TABS.forEach(([id,label])=>{const b=el('button','tab'+(id===cur?' on':''),label);b.onclick=()=>{cur=id;[...nav.children].forEach(c=>c.classList.remove('on'));b.classList.add('on');render();};nav.appendChild(b);});
+
+const SCORE = s => s==null?['','—']: s>=4?['sc-good',s.toFixed(1)]: s>=3?['sc-mid',s.toFixed(1)]:['sc-bad',s.toFixed(1)];
+const STCLASS = s => s==='activa'?'st-activa':s==='retirada'?'st-retirada':(s||'').includes('actualizar')?'st-sin':'st-desconocido';
+
+function bars(title,counter,color){
+  const c=el('div','distcard');c.innerHTML=`<h3>${title}</h3>`;
+  const max=Math.max(...counter.map(x=>x[1]),1);
+  counter.forEach(([k,v])=>{const row=el('div','brow');
+    row.innerHTML=`<span class="bl" title="${k}">${k}</span><span class="bar" style="width:${Math.max(2,v/max*120)}px${color?';background:'+color:''}"></span><span class="bn">${num(v)}</span>`;
+    c.appendChild(row);});
+  return c;
+}
+function tally(arr,k){const m={};arr.forEach(x=>{const v=x[k]||'—';m[v]=(m[v]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);}
+
+let F={}; // filtros activos
+function selectRow(opts){
+  const bar=el('div','filters');
+  opts.forEach(o=>{
+    if(o.search){const inp=el('input');inp.placeholder=o.ph||'Buscar…';inp.value=F.q||'';inp.oninput=()=>{F.q=inp.value;render();};bar.appendChild(inp);return;}
+    const sel=el('select');sel.innerHTML=`<option value="">${o.label}</option>`+o.vals.map(v=>`<option${F[o.key]===v?' selected':''}>${v}</option>`).join('');
+    sel.onchange=()=>{F[o.key]=sel.value;render();};bar.appendChild(sel);
+  });
+  const c=el('span','count');c.id='cnt';bar.appendChild(c);
+  return bar;
+}
+function match(x){
+  for(const k of ['nivel','estado','sector','estatus','tipo','anti_bot']) if(F[k]&&x[k]!==F[k]) return false;
+  if(F.q){const q=F.q.toLowerCase();const blob=[x.nombre,x.dependencia,x.siglas,x.url,x.servicio,x.prop,x.brecha].filter(Boolean).join(' ').toLowerCase();if(!blob.includes(q))return false;}
+  return true;
+}
+
+function render(){
+  const v=$('#view');v.innerHTML='';
+  if(cur!=='subdominios'){F.tipo=undefined;F.anti_bot=undefined;}
+  if(cur==='apps') renderApps(v);
+  else if(cur==='sitios') renderSitios(v);
+  else if(cur==='servicios') renderServicios(v);
+  else renderSub(v);
+}
+
+function renderApps(v){
+  v.appendChild(selectRow([
+    {search:true,ph:'Buscar app o dependencia…'},
+    {key:'nivel',label:'Nivel',vals:uniq(D.apps,'nivel')},
+    {key:'estado',label:'Entidad',vals:uniq(D.apps,'estado')},
+    {key:'sector',label:'Sector',vals:uniq(D.apps,'sector')},
+    {key:'estatus',label:'Estatus',vals:uniq(D.apps,'estatus')},
+  ]));
+  let list=D.apps.filter(match);
+  const dist=el('div','dist');
+  dist.appendChild(bars('Por nivel',tally(list,'nivel')));
+  dist.appendChild(bars('Por sector',tally(list,'sector').slice(0,8),'var(--oro)'));
+  dist.appendChild(bars('Por estatus',tally(list,'estatus')));
+  v.appendChild(dist);
+  list=list.sort((a,b)=>b.inst-a.inst);
+  $('#cnt').textContent=list.length+' apps';
+  const g=el('div','grid');
+  list.slice(0,300).forEach((a,i)=>{
+    const c=el('div','card');c.style.animationDelay=Math.min(i*12,400)+'ms';
+    const [sc,sv]=SCORE(a.play_score??a.ios_score);
+    c.innerHTML=`<div class="stat ${STCLASS(a.estatus)}">${a.estatus||''}</div>
+      <p class="nm">${a.nombre||'—'}</p><p class="dep">${a.dependencia||''}</p>
+      <div class="tags"><span class="tag nivel">${a.nivel||''}</span>${a.sector?`<span class="tag">${a.sector}</span>`:''}
+        ${a.estado&&a.estado!=='Nacional'?`<span class="tag">${a.estado}</span>`:''}</div>
+      <div class="meta">
+        <span class="${a.android?'badge-a':'badge-i'}">${a.android?'▸ Android':'· sin Android'}</span>
+        <span class="${a.ios?'badge-a':'badge-i'}">${a.ios?'▸ iOS':'· sin iOS'}</span>
+        ${a.inst?`<span><b>${num(a.inst)}</b> inst.</span>`:''}
+        ${sv!=='—'?`<span class="${sc}">★ ${sv}</span>`:''}
+      </div>`;
+    c.onclick=()=>openApp(a);
+    g.appendChild(c);
+  });
+  v.appendChild(g);
+}
+
+function renderSitios(v){
+  v.appendChild(selectRow([
+    {search:true,ph:'Buscar portal o dependencia…'},
+    {key:'nivel',label:'Nivel',vals:uniq(D.sitios,'nivel')},
+    {key:'estado',label:'Entidad',vals:uniq(D.sitios,'estado')},
+    {key:'anti_bot',label:'Anti-bot',vals:uniq(D.sitios,'anti_bot')},
+  ]));
+  const list=D.sitios.filter(match);
+  $('#cnt').textContent=list.length+' portales';
+  const rows=el('div','rows');
+  list.forEach((s,i)=>{const r=el('div','r');r.style.animationDelay=Math.min(i*8,300)+'ms';
+    r.innerHTML=`<div class="rt">${s.siglas||s.dependencia||'—'}</div>
+      <div class="dep" style="font-size:12px;color:var(--ink-dim)">${s.dependencia||''}</div>
+      <a class="ru" href="${s.url}" target="_blank" rel="noopener">${s.url||''}</a>
+      <div class="tags"><span class="tag nivel">${s.nivel||''}</span>
+        ${s.plataforma?`<span class="tag plat">${(s.plataforma||'').slice(0,40)}</span>`:''}
+        ${s.anti_bot&&s.anti_bot!=='ninguno'?`<span class="tag">⛨ ${s.anti_bot}</span>`:''}</div>
+      ${s.resultado?`<div class="meta"><span>${s.resultado}</span></div>`:''}`;
+    rows.appendChild(r);});
+  v.appendChild(rows);
+}
+
+function renderServicios(v){
+  v.appendChild(selectRow([{search:true,ph:'Buscar servicio o brecha…'}]));
+  const list=D.servicios.filter(match);
+  $('#cnt').textContent=list.length+' registros';
+  const g=el('div','grid');
+  list.forEach((s,i)=>{const c=el('div','card');c.style.cursor='default';c.style.animationDelay=Math.min(i*15,400)+'ms';
+    c.innerHTML=`<p class="nm">${s.servicio||s.nombre_tramite||'—'}</p>
+      <p class="dep">${s.dependencia||''} ${s.nivel?'· '+s.nivel:''}</p>
+      ${s.brecha?`<div class="meta" style="color:var(--bad)">⚠ ${s.brecha}</div>`:''}
+      ${s.canales?`<div class="tags">${Object.entries(s.canales).map(([k,val])=>`<span class="tag">${k}: ${val}</span>`).join('')}</div>`:''}`;
+    g.appendChild(c);});
+  v.appendChild(g);
+}
+
+function renderSub(v){
+  const s=D.subdominios;
+  const info=el('div','dist');
+  info.appendChild((()=>{const c=el('div','distcard');c.innerHTML=`<h3>Total consolidado</h3>
+    <div class="kpi" style="padding:0"><div class="n" style="font-family:var(--disp);font-weight:800;font-size:40px;color:var(--oro)">${num(s.total)}</div>
+    <div class="l">hosts .gob.mx (CT + dotgob-mx)</div></div>
+    <div class="kv" style="margin-top:14px"><b>${num(s.activos)}</b> marcados activos por dotgob-mx</div>`;return c;})());
+  info.appendChild(bars('Top dependencias / entidades',s.top.slice(0,20),'var(--guinda)'));
+  v.appendChild(info);
+}
+
+function openApp(a){
+  const d=$('#drawer');
+  const [sc,sv]=SCORE(a.play_score??a.ios_score);
+  const p=permByPkg[a.android];
+  d.innerHTML=`<button class="x" onclick="closeDrawer()">×</button>
+    <h2>${a.nombre||'—'}</h2>
+    <div class="kv">${a.dependencia||''}</div>
+    <div class="tags"><span class="tag nivel">${a.nivel||''}</span>${a.sector?`<span class="tag">${a.sector}</span>`:''}
+      <span class="tag ${STCLASS(a.estatus)}">${a.estatus||''}</span></div>
+    ${a.prop?`<p style="color:var(--ink-dim);font-size:13px;margin-top:14px">${a.prop}</p>`:''}
+    <div class="sect">Ficha</div>
+    <div class="kv">Entidad: <b>${a.estado||'—'}</b></div>
+    <div class="kv">Requiere cuenta: <b>${a.cuenta||'—'}</b></div>
+    <div class="kv">Android: <b>${a.android||'—'}</b></div>
+    <div class="kv">iOS: <b>${a.ios||'—'}</b></div>
+    <div class="kv">Instalaciones (Android): <b>${a.inst_txt||'—'}</b></div>
+    <div class="kv">Calificación: <b class="${sc}">${sv}</b> ${a.play_ratings?`(${num(a.play_ratings)} reseñas)`:''}</div>
+    ${p?`<div class="sect">Privacidad — permisos peligrosos</div>
+      ${(p.permisos_peligrosos&&p.permisos_peligrosos.length)?p.permisos_peligrosos.map(x=>`<span class="perm">${x}</span>`).join(''):'<div class="kv">ninguno declarado</div>'}
+      <div class="sect">Trackers (Exodus)</div>
+      ${(p.trackers&&p.trackers.length)?p.trackers.map(x=>`<span class="perm trk">${x}</span>`).join(''):'<div class="kv">sin trackers reportados</div>'}
+      ${p.notas?`<div class="kv" style="margin-top:12px;color:var(--warn)">${p.notas}</div>`:''}`
+      :`<div class="sect">Privacidad</div><div class="kv">Análisis de permisos/trackers pendiente para esta app.</div>`}
+    <div class="sect">Tiendas</div>
+    ${a.android?`<div class="kv"><a href="https://play.google.com/store/apps/details?id=${a.android}&hl=es_MX" target="_blank" rel="noopener">Ver en Google Play ↗</a></div>`:''}
+    ${a.ios?`<div class="kv"><a href="https://apps.apple.com/mx/app/id${a.ios}" target="_blank" rel="noopener">Ver en App Store ↗</a></div>`:''}`;
+  d.classList.add('on');$('#scrim').classList.add('on');
+}
+function closeDrawer(){$('#drawer').classList.remove('on');$('#scrim').classList.remove('on');}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer();});
+
+$('#foot').innerHTML=`Datos: Google Play · App Store · Certificate Transparency · <a href="https://github.com/AlejandroTC/dotgob-mx" target="_blank" rel="noopener">dotgob-mx</a> · CONAMER.
+  Observación pasiva de fuentes públicas. Corte ${D.corte}. &nbsp;·&nbsp; <a href="https://github.com/elimorals/gob-mx-reverse-engineering" target="_blank" rel="noopener">repositorio ↗</a>`;
+
+render();
+</script>
+</body>
+</html>

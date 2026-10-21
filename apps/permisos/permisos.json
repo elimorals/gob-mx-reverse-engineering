@@ -1,0 +1,415 @@
+[
+ {
+  "nombre": "CFE Contigo",
+  "android_id": "mx.com.cfe.cfecontigo",
+  "dependencia": "Comisión Federal de Electricidad",
+  "sector": "energía",
+  "instalaciones": 37450757,
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CALL_PHONE",
+   "CAMERA"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (utility): ACCESS_FINE_LOCATION, CALL_PHONE | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Banco del Bienestar Móvil",
+  "android_id": "gob.bancodelbienestar.bcobienapp",
+  "dependencia": "Banco del Bienestar, S.N.C.",
+  "sector": "finanzas",
+  "instalaciones": 35408620,
+  "permisos_total": 17,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_CONTACTS",
+   "READ_EXTERNAL_STORAGE",
+   "READ_PHONE_STATE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (financial): ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION, READ_CONTACTS | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "IMSS Digital",
+  "android_id": "st.android.imsspublico",
+  "dependencia": "Instituto Mexicano del Seguro Social",
+  "sector": "salud",
+  "instalaciones": 32254664,
+  "permisos_total": 26,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "GET_ACCOUNTS",
+   "READ_CALENDAR",
+   "READ_EXTERNAL_STORAGE",
+   "READ_PHONE_STATE",
+   "RECORD_AUDIO",
+   "WRITE_CALENDAR",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (portal): READ_CALENDAR, RECORD_AUDIO, WRITE_CALENDAR | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "AforeMóvil",
+  "android_id": "mx.com.procesar.aforemovil",
+  "dependencia": "Comisión Nacional del Sistema de Ahorro para el Retiro (operada por Procesar)",
+  "sector": "trabajo",
+  "instalaciones": 22059235,
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (financial): ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "SAT Móvil",
+  "android_id": "mx.gob.sat",
+  "dependencia": "Servicio de Administración Tributaria",
+  "sector": "fiscal",
+  "instalaciones": 12340388,
+  "permisos_total": 15,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (fiscal): ACCESS_COARSE_LOCATION, RECORD_AUDIO | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Mi Cuenta Infonavit Móvil",
+  "android_id": "com.infonavit.micuentainfonavit",
+  "dependencia": "Instituto del Fondo Nacional de la Vivienda para los Trabajadores",
+  "sector": "vivienda",
+  "instalaciones": 8636821,
+  "permisos_total": 6,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (financial): ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "BilletesMx",
+  "android_id": "org.banxico.dge.movil",
+  "dependencia": "Banco de México",
+  "sector": "finanzas",
+  "instalaciones": 7188393,
+  "permisos_total": 8,
+  "permisos_peligrosos": [
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (ar): READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "App CDMX",
+  "android_id": "mx.gob.cdmx.adip.apps",
+  "dependencia": "Agencia Digital de Innovación Pública (ADIP), Gobierno de la Ciudad de México",
+  "sector": "trámites",
+  "instalaciones": 6386996,
+  "permisos_total": 19,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_CALENDAR",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (superapp): WRITE_CALENDAR | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Urbani",
+  "android_id": "com.miruta.mty",
+  "dependencia": "Sistema de transporte público de Nuevo León (Metrorrey, Transmetro, rutas Muevo León)",
+  "sector": "movilidad",
+  "instalaciones": 2947629,
+  "permisos_total": 18,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (transport): RECORD_AUDIO | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Licencia Federal Digital",
+  "android_id": "mx.sct.licencia",
+  "dependencia": "Secretaría de Infraestructura, Comunicaciones y Transportes – DG Autotransporte Federal",
+  "sector": "movilidad",
+  "instalaciones": 2057848,
+  "permisos_total": 15,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (identity): ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION, RECORD_AUDIO | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "BanjeCel",
+  "android_id": "mx.com.banjercito.model.common.VTUserApplicationBJCTMB",
+  "dependencia": "Banco Nacional del Ejército, Fuerza Aérea y Armada",
+  "sector": "finanzas",
+  "instalaciones": 1799774,
+  "permisos_total": 19,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CAMERA",
+   "READ_CONTACTS",
+   "READ_EXTERNAL_STORAGE",
+   "READ_PHONE_STATE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "No cuadran con el propósito (financial): ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION, READ_CONTACTS | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Mi Policía",
+  "android_id": "com.moobky.MiPolicia",
+  "dependencia": "Secretaría de Seguridad Ciudadana de la Ciudad de México",
+  "sector": "seguridad",
+  "instalaciones": 1641238,
+  "permisos_total": 8,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CALL_PHONE",
+   "CAMERA"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (emergency). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "911 CDMX",
+  "android_id": "com.desarrollo.c5.app_066_android_2",
+  "dependencia": "Centro de Comando, Control, Cómputo, Comunicaciones y Contacto Ciudadano (C5)",
+  "sector": "seguridad",
+  "instalaciones": 1537625,
+  "permisos_total": 18,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CALL_PHONE",
+   "CAMERA",
+   "READ_CONTACTS",
+   "READ_EXTERNAL_STORAGE",
+   "READ_PHONE_STATE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (emergency). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Valida INE-QR",
+  "android_id": "mx.ine.rfe.lectorqr",
+  "dependencia": "Instituto Nacional Electoral",
+  "sector": "identidad",
+  "instalaciones": 1479702,
+  "permisos_total": 3,
+  "permisos_peligrosos": [
+   "CAMERA"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (identity). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Tarjeta Rosa",
+  "android_id": "gob.guanajuato.TarjetaRosa",
+  "dependencia": "Secretaría de las Mujeres / Gobierno del Estado de Guanajuato",
+  "sector": "otro",
+  "instalaciones": 1473536,
+  "permisos_total": 8,
+  "permisos_peligrosos": [
+   "CAMERA",
+   "READ_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (social). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Llave EdoMex",
+  "android_id": "gob.mx.edomex.llave",
+  "dependencia": "Secretaría de Finanzas del Gobierno del Estado de México",
+  "sector": "identidad",
+  "instalaciones": 573856,
+  "permisos_total": 9,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "READ_EXTERNAL_STORAGE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (portal). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Identidad Digital BC",
+  "android_id": "com.gobbc.identidaddigital",
+  "dependencia": "Agencia Digital del Estado / Secretaría de Hacienda del Estado de Baja California",
+  "sector": "identidad",
+  "instalaciones": 481956,
+  "permisos_total": 12,
+  "permisos_peligrosos": [
+   "READ_EXTERNAL_STORAGE",
+   "READ_PHONE_STATE",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (identity). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Seguridad Inmediata",
+  "android_id": "com.alertacontigo.mx",
+  "dependencia": "H. Ayuntamiento de Puebla – Secretaría de Seguridad Ciudadana",
+  "sector": "seguridad",
+  "instalaciones": 163164,
+  "permisos_total": 21,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "CALL_PHONE",
+   "CAMERA",
+   "READ_CONTACTS",
+   "READ_EXTERNAL_STORAGE",
+   "READ_PHONE_STATE",
+   "RECORD_AUDIO",
+   "WRITE_EXTERNAL_STORAGE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (emergency). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "REFAyGN",
+  "android_id": "com.sedena.refam",
+  "dependencia": "Secretaría de la Defensa Nacional",
+  "sector": "seguridad",
+  "instalaciones": 148388,
+  "permisos_total": 2,
+  "permisos_peligrosos": [],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Sin permisos peligrosos declarados en Play. | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ },
+ {
+  "nombre": "Botón de Auxilio Escudo Urbano",
+  "android_id": "com.c5.boton_auxilio_jalisco_flutter",
+  "dependencia": "C5 Escudo Urbano Jalisco",
+  "sector": "seguridad",
+  "instalaciones": 118965,
+  "permisos_total": 10,
+  "permisos_peligrosos": [
+   "ACCESS_COARSE_LOCATION",
+   "ACCESS_FINE_LOCATION",
+   "READ_CONTACTS",
+   "READ_PHONE_STATE"
+  ],
+  "trackers": [],
+  "fuente": [
+   "google-play"
+  ],
+  "fecha": "2026-10-21",
+  "notas": "Permisos peligrosos congruentes con el propósito (emergency). | Exodus: sin acceso (API 401 requiere token; páginas HTML con contenido anti-scraping) — trackers no verificados."
+ }
+]

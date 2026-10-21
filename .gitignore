@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 datos/
+.playwright-mcp/
+web/.playwright-mcp/
