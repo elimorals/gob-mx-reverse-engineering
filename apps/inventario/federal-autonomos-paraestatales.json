@@ -94,7 +94,7 @@
    "https://www.cronica.com.mx/nacional/2026/10/15/efirma-del-sat-se-puede-renovar-en-linea/",
    "https://satid.sat.gob.mx/"
   ],
-  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null."
+  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
  },
  {
   "nombre": "IMSS Digital",
@@ -439,7 +439,7 @@
   "nivel": "paraestatal",
   "estado": "Nacional",
   "sector": "energía",
-  "android_id": null,
+  "android_id": "com.axog.cfecalificadapp",
   "ios_id": "6741329995",
   "desarrollador_tienda": "CFE Calificados, S.A. de C.V.",
   "proposito": "App de la filial de CFE para suministro calificado (inferido del nombre).",
@@ -447,9 +447,10 @@
   "requiere_cuenta": "otra",
   "estatus": "desconocido",
   "fuentes": [
-   "https://apps.apple.com/mx/app/id6741329995"
+   "https://apps.apple.com/mx/app/id6741329995",
+   "https://play.google.com/store/apps/details?id=com.axog.cfecalificadapp"
   ],
-  "notas": "Propósito no verificado; Android no verificado."
+  "notas": "Propósito no verificado; Android no verificado. [android_id com.axog.cfecalificadapp verificado en Google Play 2026-10-20; Android publicado por cuenta de proveedor (axog); package cfecalificadapp coincide con el programa CFE Calificados.]"
  },
  {
   "nombre": "Internet para el Bienestar",
@@ -544,7 +545,7 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": "gob.bancodelbienestar.bcobienapp",
-  "ios_id": null,
+  "ios_id": "1645341041",
   "desarrollador_tienda": "Banco del Bienestar",
   "proposito": "Consulta de saldo y operaciones de cuentas del Banco del Bienestar (pensiones y becas).",
   "funciones": [
@@ -558,9 +559,10 @@
    "https://play.google.com/store/apps/details?id=gob.bancodelbienestar.bcobienapp",
    "https://www.nmas.com.mx/nacional/hay-fallas-app-bienestar-consultar-saldo-de-tarjeta-ya-cayo-pago-pension-beca-julio-2025/",
    "https://www.foxsports.com.mx/2024/02/02/pension-bienestar-2024-por-que-no-puedes-abrir-la-app-y-ves-el-mensaje-error/",
-   "https://vanguardia.com.mx/informacion/app-banco-del-bienestar-2026-como-usarla-hacer-transferencias-y-cuidar-tu-dinero-de-la-pension-del-bienestar-AM22487160"
+   "https://vanguardia.com.mx/informacion/app-banco-del-bienestar-2026-como-usarla-hacer-transferencias-y-cuidar-tu-dinero-de-la-pension-del-bienestar-AM22487160",
+   "https://apps.apple.com/mx/app/id1645341041"
   ],
-  "notas": "Play 10M+. Quejas recurrentes: errores de validación por saturación (2024), cierres de sesión (jul 2025), ~1 estrella en sus inicios. Activación con número de tarjeta + NIP. iOS no verificado (rate-limit)."
+  "notas": "Play 10M+. Quejas recurrentes: errores de validación por saturación (2024), cierres de sesión (jul 2025), ~1 estrella en sus inicios. Activación con número de tarjeta + NIP. iOS no verificado (rate-limit). [ios_id 1645341041 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Financiera para el Bienestar",
@@ -570,7 +572,7 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": "com.telecomm.vapp",
-  "ios_id": null,
+  "ios_id": "1641745926",
   "desarrollador_tienda": "Financiera para el Bienestar",
   "proposito": "App de Finabien (ex Telecomm): cuenta/tarjeta y remesas Finabien Paisan@.",
   "funciones": [
@@ -582,9 +584,10 @@
   "estatus": "activa",
   "fuentes": [
    "https://play.google.com/store/apps/details?id=com.telecomm.vapp",
-   "https://www.xataka.com.mx/banca-digital/mexico-presenta-tarjeta-finabien-paisan-para-envio-remesas-ee-uu-su-app-permite-transferencias-aranceles-trump"
+   "https://www.xataka.com.mx/banca-digital/mexico-presenta-tarjeta-finabien-paisan-para-envio-remesas-ee-uu-su-app-permite-transferencias-aranceles-trump",
+   "https://apps.apple.com/mx/app/id1641745926"
   ],
-  "notas": "El package conserva el prefijo 'telecomm' (Telecomm cambió de nombre por decreto DOF 21-oct-2022). Play 500k+. iOS no verificado."
+  "notas": "El package conserva el prefijo 'telecomm' (Telecomm cambió de nombre por decreto DOF 21-oct-2022). Play 500k+. iOS no verificado. [ios_id 1641745926 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "BanjeCel",
@@ -669,16 +672,17 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "727371545",
   "desarrollador_tienda": "Banco de México",
   "proposito": "Indicadores y noticias de Banxico.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/",
+   "https://apps.apple.com/mx/app/id727371545"
   ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null. [ios_id 727371545 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "UbiCajeros Banxico",
@@ -688,16 +692,17 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "771288365",
   "desarrollador_tienda": "Banco de México",
   "proposito": "Localizador de cajeros.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/",
+   "https://apps.apple.com/mx/app/id771288365"
   ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null. [ios_id 771288365 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Canje de efectivo",
@@ -806,7 +811,7 @@
    "https://expansion.mx/finanzas-personales/2019/07/02/la-profeco-lanza-app-para-comparar-precios-de-gasolina",
    "https://dplnews.com/?p=24921"
   ],
-  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit)."
+  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit). [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
  },
  {
   "nombre": "¿Quién es Quién en los Precios?",
@@ -829,7 +834,7 @@
    "https://www.xataka.com.mx/empresas-y-economia/profeco-anuncia-una-nueva-version-de-su-aplicacion-quien-es-quien-en-los-precios",
    "https://www.gob.mx/cms/uploads/attachment/file/879516/Sondeo_en_linea_sobre_los_productos_y_servicios_de_la_Coordinacion_General_de_Educacion_y_Divulgacion__4to_trimestre_2023_.pdf"
   ],
-  "notas": "IDs no verificados."
+  "notas": "IDs no verificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
  },
  {
   "nombre": "Gasoapp",
@@ -838,8 +843,8 @@
   "nivel": "federal",
   "estado": "Nacional",
   "sector": "energía",
-  "android_id": null,
-  "ios_id": null,
+  "android_id": "cre.comercializacion.mobile",
+  "ios_id": "1190356107",
   "desarrollador_tienda": "desconocido",
   "proposito": "Precios de gasolina por estación y reportes a la CRE.",
   "funciones": [
@@ -850,9 +855,11 @@
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://expansion.mx/tecnologia/2017/04/04/gasoapp-auto-chilango-y-waze-te-dicen-los-precios-de-las-gasolinas"
+   "https://expansion.mx/tecnologia/2017/04/04/gasoapp-auto-chilango-y-waze-te-dicen-los-precios-de-las-gasolinas",
+   "https://play.google.com/store/apps/details?id=cre.comercializacion.mobile",
+   "https://apps.apple.com/mx/app/id1190356107"
   ],
-  "notas": "Lanzada en 2017 con Profeco; calificaciones bajas. La CRE fue sustituida por la CNE (2025): probablemente retirada, sin fuente."
+  "notas": "Lanzada en 2017 con Profeco; calificaciones bajas. La CRE fue sustituida por la CNE (2025): probablemente retirada, sin fuente. [android_id cre.comercializacion.mobile verificado en Google Play 2026-10-20; ios_id 1190356107 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Apoyo Ciudadano - INE",
@@ -862,7 +869,7 @@
   "estado": "Nacional",
   "sector": "elecciones",
   "android_id": "mx.ine.apoyociudadano",
-  "ios_id": null,
+  "ios_id": "1238790658",
   "desarrollador_tienda": "Instituto Nacional Electoral",
   "proposito": "Recabar firmas de apoyo para candidaturas independientes, revocación de mandato y consultas.",
   "funciones": [
@@ -877,9 +884,10 @@
    "https://play.google.com/store/apps/details?id=mx.ine.apoyociudadano",
    "https://www.elfinanciero.com.mx/nacional/simpatizantes-de-marichuy-denuncian-que-app-del-ine-pone-en-riesgo-datos-personales-de-ciudadanos/",
    "https://zetatijuana.com/2023/12/verastegui-senala-omision-del-ine-ante-denuncia-por-fallas-en-aplicacion-para-recabar-firmas/",
-   "https://ine.mx/wp-content/uploads/2026/05/Manual_Proceso2_Android-Ver-122025.pdf"
+   "https://ine.mx/wp-content/uploads/2026/05/Manual_Proceso2_Android-Ver-122025.pdf",
+   "https://apps.apple.com/mx/app/id1238790658"
   ],
-  "notas": "Controversias: en 2017 se denunció que las imágenes de credenciales quedaban en los teléfonos de los auxiliares; fallas reportadas en 2017 y 2023 (sin soporte iOS 17); ~52 mil firmas irregulares en la revocación de mandato. iOS no verificado."
+  "notas": "Controversias: en 2017 se denunció que las imágenes de credenciales quedaban en los teléfonos de los auxiliares; fallas reportadas en 2017 y 2023 (sin soporte iOS 17); ~52 mil firmas irregulares en la revocación de mandato. iOS no verificado. [ios_id 1238790658 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Valida INE-QR",
@@ -934,17 +942,19 @@
   "nivel": "autonomo",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
-  "ios_id": null,
+  "android_id": "mx.org.inegi.MexicoCifras",
+  "ios_id": "999089545",
   "desarrollador_tienda": "desconocido",
   "proposito": "Indicadores estadísticos por área geográfica.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://play.google.com/store/apps/details?id=mx.org.inegi.MexicoCifras",
+   "https://apps.apple.com/mx/app/id999089545"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [android_id mx.org.inegi.MexicoCifras verificado en Google Play 2026-10-20; ios_id 999089545 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Directorio de Establecimientos (DENUE)",
@@ -953,17 +963,19 @@
   "nivel": "autonomo",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
-  "ios_id": null,
+  "android_id": "mx.org.inegi.denuemv",
+  "ios_id": "1016053690",
   "desarrollador_tienda": "desconocido",
   "proposito": "Búsqueda de unidades económicas del DENUE.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://play.google.com/store/apps/details?id=mx.org.inegi.denuemv",
+   "https://apps.apple.com/mx/app/id1016053690"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [android_id mx.org.inegi.denuemv verificado en Google Play 2026-10-20; ios_id 1016053690 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Brújula",
@@ -973,16 +985,17 @@
   "estado": "Nacional",
   "sector": "otro",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1122062911",
   "desarrollador_tienda": "desconocido",
   "proposito": "Orientación/ubicación geográfica INEGI.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://apps.apple.com/mx/app/id1122062911"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [ios_id 1122062911 verificado en App Store 2026-10-20; android_id no encontrado en tienda al 2026-10-20]"
  },
  {
   "nombre": "Estaciones de la RGNP Móvil",
@@ -991,7 +1004,7 @@
   "nivel": "autonomo",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
+  "android_id": "mx.org.inegi.dggma.sds.marcas",
   "ios_id": null,
   "desarrollador_tienda": "desconocido",
   "proposito": "Ubicación de estaciones de la Red Geodésica Nacional Pasiva.",
@@ -999,9 +1012,10 @@
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://play.google.com/store/apps/details?id=mx.org.inegi.dggma.sds.marcas"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [android_id mx.org.inegi.dggma.sds.marcas verificado en Google Play 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
  },
  {
   "nombre": "App CNDH",
@@ -1022,7 +1036,7 @@
   "fuentes": [
    "https://www.cndh.org.mx/sites/default/files/documentos/2020-03/COM_2020_104.pdf"
   ],
-  "notas": "Nombre e IDs no identificados."
+  "notas": "Nombre e IDs no identificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
  },
  {
   "nombre": "Tribunal Abierto",
@@ -1151,16 +1165,17 @@
   "estado": "Nacional",
   "sector": "movilidad",
   "android_id": "com.oicb.aicm",
-  "ios_id": null,
+  "ios_id": "1664586297",
   "desarrollador_tienda": "Jandre",
   "proposito": "App de terceros con información del AICM.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=com.oicb.aicm"
+   "https://play.google.com/store/apps/details?id=com.oicb.aicm",
+   "https://apps.apple.com/mx/app/id1664586297"
   ],
-  "notas": "Desarrollador particular; no es del AICM."
+  "notas": "Desarrollador particular; no es del AICM. [ios_id 1664586297 verificado en App Store 2026-10-20; iOS bajo cuenta individual (Jandre Labuschagne) pero mismo bundleId com.oicb.aicm que Android.]"
  },
  {
   "nombre": "IPN Oficial",
@@ -1197,16 +1212,17 @@
   "estado": "Nacional",
   "sector": "educación",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1628356633",
   "desarrollador_tienda": "desconocido",
   "proposito": "Museos universitarios: ubicación, costos y horarios.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.unotv.com/ciencia-y-tecnologia/lanzan-museos-unam-app-gratuita-y-disponible-en-25-paises/"
+   "https://www.unotv.com/ciencia-y-tecnologia/lanzan-museos-unam-app-gratuita-y-disponible-en-25-paises/",
+   "https://apps.apple.com/mx/app/id1628356633"
   ],
-  "notas": "IDs no verificados. La UNAM publica apps institucionales (AMI) bajo lineamientos de DGTIC: https://www.apps.unam.mx"
+  "notas": "IDs no verificados. La UNAM publica apps institucionales (AMI) bajo lineamientos de DGTIC: https://www.apps.unam.mx [ios_id 1628356633 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "Bibliotecas UNAM",
@@ -1216,16 +1232,17 @@
   "estado": "Nacional",
   "sector": "educación",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1490641197",
   "desarrollador_tienda": "desconocido",
   "proposito": "Servicios de la Dirección General de Bibliotecas.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.chilango.com/noticias/app-museos-unam/"
+   "https://www.chilango.com/noticias/app-museos-unam/",
+   "https://apps.apple.com/mx/app/id1490641197"
   ],
-  "notas": "IDs no verificados."
+  "notas": "IDs no verificados. [ios_id 1490641197 verificado en App Store 2026-10-20]"
  },
  {
   "nombre": "CONALITEG Digital",
@@ -1507,16 +1524,17 @@
   "estado": "Nacional",
   "sector": "otro",
   "android_id": "com.flyhighware.mailtracker",
-  "ios_id": null,
+  "ios_id": "6769905095",
   "desarrollador_tienda": "FlyHighWare Games",
   "proposito": "Rastreo de envíos, de terceros.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=com.flyhighware.mailtracker"
+   "https://play.google.com/store/apps/details?id=com.flyhighware.mailtracker",
+   "https://apps.apple.com/mx/app/id6769905095"
   ],
-  "notas": "No se localizó app oficial de Correos de México; el rastreo oficial es web."
+  "notas": "No se localizó app oficial de Correos de México; el rastreo oficial es web. [ios_id 6769905095 verificado en App Store 2026-10-20; iOS es el mismo app de tercero (mismo bundleId com.flyhighware.mailtracker), ahora titulado 'Paquetes México - Seguimiento' por ULISES MANUEL.]"
  },
  {
   "nombre": "LICONSA - SAO",

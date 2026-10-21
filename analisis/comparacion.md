@@ -4,7 +4,7 @@
 Certificate Transparency, un GET a páginas públicas) + búsqueda web. Sin escaneo intrusivo,
 login ajeno ni envío de datos personales.
 
-**Cobertura del inventario:** 468 apps únicas · 231 portales web · 5,244 subdominios `.gob.mx`
+**Cobertura del inventario:** 467 apps únicas · 231 portales web · 12,812 subdominios `.gob.mx` (6,036 propios por CT + dotgob-mx)
 vistos en Certificate Transparency. Los datos crudos están en `apps/`, `sitios/` y `servicios/`;
 esto es la lectura.
 
@@ -21,7 +21,7 @@ esto es la lectura.
 | Nivel | Apps | % |
 |---|---:|---:|
 | Estatal | 277 | 59% |
-| Federal (secretarías) | 65 | 14% |
+| Federal (secretarías) | 64 | 14% |
 | Municipal | 64 | 14% |
 | Paraestatal | 38 | 8% |
 | Autónomo | 20 | 4% |
@@ -46,7 +46,7 @@ tienen su propia app de pánico, casi ninguna funciona bien.
 
 ### Cobertura por plataforma
 
-- **Android:** 344 apps (74%) · **iOS:** 303 (65%) · **ambas:** 227 (49%).
+- **Android:** 350 apps (75%) · **iOS:** 322 (69%) · **ambas:** 244 (52%).
 - Una de cada dos apps de gobierno vive en una sola tienda. Las solo-iOS son comunes a nivel estatal
   (Sinaloa solo publica en iOS); las solo-Android abundan en municipios.
 

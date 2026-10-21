@@ -42,7 +42,7 @@ def ios(trackid):
 
 
 apps, vistos = [], {}
-for f in sorted((raiz / "segmentos").glob("*.json")):
+for f in sorted((raiz / "apps/inventario").glob("*.json")):
     for a in json.loads(f.read_text()):
         a["segmento"] = f.stem
         a["android_id"] = a.get("android_id") or None

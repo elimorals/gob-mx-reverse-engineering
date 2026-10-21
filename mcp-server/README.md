@@ -23,7 +23,7 @@ Devuelve: `apps`, `sitios`, `servicios` (totales) y los desgloses `apps_por_nive
 {
   "apps": 468, "sitios": 231, "servicios": 6141,
   "apps_por_nivel": {"estatal": 277, "federal": 65, "municipal": 64, "paraestatal": 38, "autonomo": 20, "no_oficial": 4},
-  "apps_con_android": 344, "apps_con_ios": 303
+  "apps_con_android": 350, "apps_con_ios": 322
 }
 ```
 
@@ -73,7 +73,7 @@ dependencia("CFE")    → 5 apps + sitio
 ```
 
 ### `buscar_subdominio(texto="", solo_activos=False, limite=100) -> list`
-Busca en los **12,110 subdominios `.gob.mx`** de `sitios/subdominios-consolidado.csv`
+Busca en los **12,812 subdominios `.gob.mx`** de `sitios/subdominios-consolidado.csv`
 (Certificate Transparency + dotgob-mx). `texto` hace match en el host; `solo_activos=True` deja solo
 los marcados activos por dotgob-mx (corte 13/10/2026). Cada fila: `host, fuente, activo_dotgob,
 dependencia_o_estado`.
@@ -99,6 +99,19 @@ claude mcp add gobmx-inventario -- uv run --no-project --quiet --with "mcp<2" \
 
 Verifica: `claude mcp list` debe mostrar `gobmx-inventario ... ✔ Connected`.
 Quitar: `claude mcp remove gobmx-inventario`.
+
+> **Vía rápida (recomendada en local):** `uv run --with "mcp<2"` resuelve el paquete en cada arranque
+> y en **caché frío puede pasar de los 30 s de timeout de conexión** (el server se marca como no
+> conectado). Para evitarlo, apunta a un venv que ya tenga `mcp` instalado y así el arranque es ~0.3 s:
+>
+> ```bash
+> uv venv .venv && VIRTUAL_ENV=.venv uv pip install "mcp<2"
+> claude mcp add gobmx-inventario -- \
+>   /ruta/al/repo/.venv/bin/python -I /ruta/al/repo/mcp-server/server.py
+> ```
+>
+> La forma `uv run` de `example.mcp.json` sigue siendo la portable entre máquinas; úsala cuando el
+> arranque lento no importe, o pre-calienta la caché una vez con `uv run --with "mcp<2" python -c ""`.
 
 ### Config manual (cualquier cliente MCP)
 

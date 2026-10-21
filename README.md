@@ -20,7 +20,7 @@ gob-mx-reverse-engineering/
 ├── sitios/
 │   ├── *.json                   ← portales web por segmento (esquema-sitios-servicios.md)
 │   ├── subdominios/*.txt        ← subdominios por dependencia desde Certificate Transparency
-│   └── subdominios-consolidado.csv  ← 12,110 hosts .gob.mx (nuestro CT + dotgob-mx) con flag de actividad
+│   └── subdominios-consolidado.csv  ← 12,812 hosts .gob.mx (nuestro CT + dotgob-mx) con flag de actividad
 ├── servicios/
 │   ├── *.json                   ← trámites/servicios y por qué canal se pueden hacer (web/app/presencial)
 │   └── catalogo-conamer.json    ← trámites desde el Catálogo Nacional (CONAMER), cruzados con apps/sitios

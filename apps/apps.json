@@ -848,7 +848,7 @@
   "estado": "Baja California",
   "sector": "otro",
   "android_id": "aguaalerta.cespt.app",
-  "ios_id": null,
+  "ios_id": "6742666630",
   "desarrollador_tienda": "Comisión Estatal de Servicios Públicos de Tijuana",
   "proposito": "Concientización sobre ahorro y buen uso del agua.",
   "funciones": [
@@ -858,9 +858,10 @@
   "requiere_cuenta": "ninguna",
   "estatus": "activa",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=aguaalerta.cespt.app"
+   "https://play.google.com/store/apps/details?id=aguaalerta.cespt.app",
+   "https://apps.apple.com/mx/app/id6742666630"
   ],
-  "notas": "1.000+ instalaciones.",
+  "notas": "1.000+ instalaciones. [ios_id 6742666630 verificado en App Store 2026-10-20]",
   "segmento": "estatal-a",
   "play": {
    "title": "AGUALERTA CulturaDelAgua CESPT",
@@ -881,7 +882,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=aguaalerta.cespt.app&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 6742666630,
+   "trackName": "AGUALERTA CulturaDelAgua CESPT",
+   "sellerName": "COMISION ESTATAL DE SERVICIOS PUBLICOS DE TIJUANA",
+   "artistName": "COMISION ESTATAL DE SERVICIOS PUBLICOS DE TIJUANA",
+   "version": "1.0.3",
+   "currentVersionReleaseDate": "2025-08-20T18:22:11Z",
+   "releaseDate": "2025-03-12T07:00:00Z",
+   "averageUserRating": 0,
+   "userRatingCount": 0,
+   "primaryGenreName": "Entertainment",
+   "minimumOsVersion": "12.0",
+   "fileSizeBytes": "144343040",
+   "trackViewUrl": "https://apps.apple.com/mx/app/agualerta-culturadelagua-cespt/id6742666630?uo=4"
+  }
  },
  {
   "nombre": "Cultura BC",
@@ -3000,7 +3015,7 @@
   "estado": "Chihuahua",
   "sector": "salud",
   "android_id": "com.pcechihuahua.mipcemobileapp",
-  "ios_id": null,
+  "ios_id": "6805178341",
   "desarrollador_tienda": "PENSIONES CIVILES DEL ESTADO DE CHIHUAHUA",
   "proposito": "Acceso de derechohabientes a servicios de PCE.",
   "funciones": [
@@ -3009,9 +3024,10 @@
   "requiere_cuenta": "otra",
   "estatus": "activa",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=com.pcechihuahua.mipcemobileapp"
+   "https://play.google.com/store/apps/details?id=com.pcechihuahua.mipcemobileapp",
+   "https://apps.apple.com/mx/app/id6805178341"
   ],
-  "notas": "100+ instalaciones; contacto @gmail.com. Ojo: 'DPCE APP' (mx.com.dpceapp, dev 'Pensiones Civiles del Estado') es de Michoacán, no de Chihuahua.",
+  "notas": "100+ instalaciones; contacto @gmail.com. Ojo: 'DPCE APP' (mx.com.dpceapp, dev 'Pensiones Civiles del Estado') es de Michoacán, no de Chihuahua. [ios_id 6805178341 verificado en App Store 2026-10-20]",
   "segmento": "estatal-a",
   "play": {
    "title": "MiPCE",
@@ -3032,7 +3048,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=com.pcechihuahua.mipcemobileapp&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 6805178341,
+   "trackName": "MiPCE",
+   "sellerName": "PENSIONES CIVILES DEL ESTADO DE CHIHUAHUA",
+   "artistName": "PENSIONES CIVILES DEL ESTADO DE CHIHUAHUA",
+   "version": "1.3.1",
+   "currentVersionReleaseDate": "2026-09-26T17:03:15Z",
+   "releaseDate": "2026-09-19T07:00:00Z",
+   "averageUserRating": 0,
+   "userRatingCount": 0,
+   "primaryGenreName": "Utilities",
+   "minimumOsVersion": "15.1",
+   "fileSizeBytes": "42328064",
+   "trackViewUrl": "https://apps.apple.com/mx/app/mipce/id6805178341?uo=4"
+  }
  },
  {
   "nombre": "JMAS Móvil",
@@ -3158,7 +3188,7 @@
   "estado": "Chihuahua",
   "sector": "movilidad",
   "android_id": "mx.gob.puentesfronterizos.lineaexpres",
-  "ios_id": null,
+  "ios_id": "1635387549",
   "desarrollador_tienda": "FIDEICOMISO DE PUENTES FRONTERIZOS DE CHIHUAHUA",
   "proposito": "Trámites y pagos de puentes internacionales (Línea Exprés).",
   "funciones": [
@@ -3168,9 +3198,10 @@
   "requiere_cuenta": "otra",
   "estatus": "activa",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=mx.gob.puentesfronterizos.lineaexpres"
+   "https://play.google.com/store/apps/details?id=mx.gob.puentesfronterizos.lineaexpres",
+   "https://apps.apple.com/mx/app/id1635387549"
   ],
-  "notas": "10.000+ instalaciones. Versión iOS no localizada.",
+  "notas": "10.000+ instalaciones. Versión iOS no localizada. [ios_id 1635387549 verificado en App Store 2026-10-20]",
   "segmento": "estatal-a",
   "play": {
    "title": "Puentes Fronterizos",
@@ -3191,7 +3222,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=mx.gob.puentesfronterizos.lineaexpres&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1635387549,
+   "trackName": "Puentes Fronterizos",
+   "sellerName": "FIDEICOMISO DE PUENTES FRONTERIZOS DE CHIHUAHUA 2243",
+   "artistName": "FIDEICOMISO DE PUENTES FRONTERIZOS DE CHIHUAHUA 2243",
+   "version": "9.1.6",
+   "currentVersionReleaseDate": "2025-12-23T03:15:28Z",
+   "releaseDate": "2023-06-06T07:00:00Z",
+   "averageUserRating": 3.66667,
+   "userRatingCount": 6,
+   "primaryGenreName": "Travel",
+   "minimumOsVersion": "17.5",
+   "fileSizeBytes": "7823360",
+   "trackViewUrl": "https://apps.apple.com/mx/app/puentes-fronterizos/id1635387549?uo=4"
+  }
  },
  {
   "nombre": "IEE Chihuahua",
@@ -4316,7 +4361,7 @@
   "nivel": "estatal",
   "estado": "Guanajuato",
   "sector": "identidad",
-  "android_id": null,
+  "android_id": "gob.mx.guanajuato.dgtit.gsign",
   "ios_id": "1123808316",
   "desarrollador_tienda": "Autoridad Certificadora del Poder Ejecutivo del Gobierno del Estado de Guanajuato",
   "proposito": "Firma electrónica avanzada del Poder Ejecutivo estatal.",
@@ -4326,11 +4371,30 @@
   "requiere_cuenta": "otra",
   "estatus": "desconocido",
   "fuentes": [
-   "https://apps.apple.com/mx/developer/autoridad-certificadora-del-poder-ejecutivo-del-gobierno/id1123808315"
+   "https://apps.apple.com/mx/developer/autoridad-certificadora-del-poder-ejecutivo-del-gobierno/id1123808315",
+   "https://play.google.com/store/apps/details?id=gob.mx.guanajuato.dgtit.gsign"
   ],
-  "notas": "Funciones inferidas por el desarrollador (autoridad certificadora); no verificadas. Misma cuenta publica 'Campus Virtual UVEG' (iOS 6557086150) de la Universidad Virtual del Estado de Guanajuato.",
+  "notas": "Funciones inferidas por el desarrollador (autoridad certificadora); no verificadas. Misma cuenta publica 'Campus Virtual UVEG' (iOS 6557086150) de la Universidad Virtual del Estado de Guanajuato. [android_id gob.mx.guanajuato.dgtit.gsign verificado en Google Play 2026-10-20]",
   "segmento": "estatal-a",
-  "play": null,
+  "play": {
+   "title": "GSign",
+   "developer": "COORDINACION DE FIRMA ELECTRÓNICA, NORMAS Y PROCED",
+   "developerEmail": "acertgobgto@guanajuato.gob.mx",
+   "developerWebsite": "http://eguanajuato.gob.mx",
+   "installs": "1.000+",
+   "realInstalls": 1878,
+   "score": 4.5555553,
+   "ratings": 11,
+   "reviews": 5,
+   "updated": null,
+   "version": "Varies with device",
+   "released": "21 jul 2016",
+   "genre": "Productividad",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=gob.mx.guanajuato.dgtit.gsign&hl=es&gl=mx"
+  },
   "appstore": {
    "trackId": 1123808316,
    "trackName": "GSign",
@@ -4820,7 +4884,7 @@
   "nivel": "estatal",
   "estado": "Hidalgo",
   "sector": "educación",
-  "android_id": null,
+  "android_id": "mx.gob.hidalgo.caasim.goticon_adventures",
   "ios_id": "6744415224",
   "desarrollador_tienda": "Gobierno del Estado de Hidalgo",
   "proposito": "Juego educativo infantil sobre el cuidado del agua.",
@@ -4831,11 +4895,30 @@
   "requiere_cuenta": "ninguna",
   "estatus": "activa",
   "fuentes": [
-   "https://apps.apple.com/mx/app/id6744415224"
+   "https://apps.apple.com/mx/app/id6744415224",
+   "https://play.google.com/store/apps/details?id=mx.gob.hidalgo.caasim.goticon_adventures"
   ],
-  "notas": "No localizada en Google Play.",
+  "notas": "No localizada en Google Play. [android_id mx.gob.hidalgo.caasim.goticon_adventures verificado en Google Play 2026-10-20]",
   "segmento": "estatal-b",
-  "play": null,
+  "play": {
+   "title": "CAASIM Aventuras de Goticón",
+   "developer": "Gobierno del Estado de Hidalgo",
+   "developerEmail": "gabriela.mendoza@hidalgo.gob.mx",
+   "developerWebsite": "https://caasim.hidalgo.gob.mx",
+   "installs": "100+",
+   "realInstalls": 171,
+   "score": null,
+   "ratings": null,
+   "reviews": null,
+   "updated": 1743187744,
+   "version": "1.0.00",
+   "released": "28 mar 2025",
+   "genre": "Aventura",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=mx.gob.hidalgo.caasim.goticon_adventures&hl=es&gl=mx"
+  },
   "appstore": {
    "trackId": 6744415224,
    "trackName": "CAASIM Aventuras de Goticón",
@@ -17527,7 +17610,7 @@
    "https://www.cronica.com.mx/nacional/2026/10/15/efirma-del-sat-se-puede-renovar-en-linea/",
    "https://satid.sat.gob.mx/"
   ],
-  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null.",
+  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
   "appstore": null
@@ -18193,7 +18276,7 @@
   "nivel": "paraestatal",
   "estado": "Nacional",
   "sector": "energía",
-  "android_id": null,
+  "android_id": "com.axog.cfecalificadapp",
   "ios_id": "6741329995",
   "desarrollador_tienda": "CFE Calificados, S.A. de C.V.",
   "proposito": "App de la filial de CFE para suministro calificado (inferido del nombre).",
@@ -18201,11 +18284,30 @@
   "requiere_cuenta": "otra",
   "estatus": "desconocido",
   "fuentes": [
-   "https://apps.apple.com/mx/app/id6741329995"
+   "https://apps.apple.com/mx/app/id6741329995",
+   "https://play.google.com/store/apps/details?id=com.axog.cfecalificadapp"
   ],
-  "notas": "Propósito no verificado; Android no verificado.",
+  "notas": "Propósito no verificado; Android no verificado. [android_id com.axog.cfecalificadapp verificado en Google Play 2026-10-20; Android publicado por cuenta de proveedor (axog); package cfecalificadapp coincide con el programa CFE Calificados.]",
   "segmento": "federal-autonomos-paraestatales",
-  "play": null,
+  "play": {
+   "title": "CFE Calificados",
+   "developer": "CFE Calificados",
+   "developerEmail": "adminisitracion@calificados.cfe.mx",
+   "developerWebsite": "https://calificados.cfe.mx/",
+   "installs": "100+",
+   "realInstalls": 442,
+   "score": null,
+   "ratings": null,
+   "reviews": null,
+   "updated": null,
+   "version": "Varies with device",
+   "released": "17 ene 2025",
+   "genre": "Empresa",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=com.axog.cfecalificadapp&hl=es&gl=mx"
+  },
   "appstore": {
    "trackId": 6741329995,
    "trackName": "CFE_Calificados",
@@ -18413,7 +18515,7 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": "gob.bancodelbienestar.bcobienapp",
-  "ios_id": null,
+  "ios_id": "1645341041",
   "desarrollador_tienda": "Banco del Bienestar",
   "proposito": "Consulta de saldo y operaciones de cuentas del Banco del Bienestar (pensiones y becas).",
   "funciones": [
@@ -18427,9 +18529,10 @@
    "https://play.google.com/store/apps/details?id=gob.bancodelbienestar.bcobienapp",
    "https://www.nmas.com.mx/nacional/hay-fallas-app-bienestar-consultar-saldo-de-tarjeta-ya-cayo-pago-pension-beca-julio-2025/",
    "https://www.foxsports.com.mx/2024/02/02/pension-bienestar-2024-por-que-no-puedes-abrir-la-app-y-ves-el-mensaje-error/",
-   "https://vanguardia.com.mx/informacion/app-banco-del-bienestar-2026-como-usarla-hacer-transferencias-y-cuidar-tu-dinero-de-la-pension-del-bienestar-AM22487160"
+   "https://vanguardia.com.mx/informacion/app-banco-del-bienestar-2026-como-usarla-hacer-transferencias-y-cuidar-tu-dinero-de-la-pension-del-bienestar-AM22487160",
+   "https://apps.apple.com/mx/app/id1645341041"
   ],
-  "notas": "Play 10M+. Quejas recurrentes: errores de validación por saturación (2024), cierres de sesión (jul 2025), ~1 estrella en sus inicios. Activación con número de tarjeta + NIP. iOS no verificado (rate-limit).",
+  "notas": "Play 10M+. Quejas recurrentes: errores de validación por saturación (2024), cierres de sesión (jul 2025), ~1 estrella en sus inicios. Activación con número de tarjeta + NIP. iOS no verificado (rate-limit). [ios_id 1645341041 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": {
    "title": "Banco del Bienestar Móvil",
@@ -18450,7 +18553,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=gob.bancodelbienestar.bcobienapp&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1645341041,
+   "trackName": "Banco del Bienestar Movil",
+   "sellerName": "Banco del Bienestar, Sociedad Nacional de Credito, Institucion de Banca de Desarrollo",
+   "artistName": "Banco del Bienestar, Sociedad Nacional de Credito, Institucion de Banca de Desarrollo",
+   "version": "7.17.0.53465",
+   "currentVersionReleaseDate": "2026-09-29T00:46:57Z",
+   "releaseDate": "2022-12-22T08:00:00Z",
+   "averageUserRating": 2.91429,
+   "userRatingCount": 9707,
+   "primaryGenreName": "Finance",
+   "minimumOsVersion": "15.0",
+   "fileSizeBytes": "62609408",
+   "trackViewUrl": "https://apps.apple.com/mx/app/banco-del-bienestar-movil/id1645341041?uo=4"
+  }
  },
  {
   "nombre": "Financiera para el Bienestar",
@@ -18460,7 +18577,7 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": "com.telecomm.vapp",
-  "ios_id": null,
+  "ios_id": "1641745926",
   "desarrollador_tienda": "Financiera para el Bienestar",
   "proposito": "App de Finabien (ex Telecomm): cuenta/tarjeta y remesas Finabien Paisan@.",
   "funciones": [
@@ -18472,9 +18589,10 @@
   "estatus": "activa",
   "fuentes": [
    "https://play.google.com/store/apps/details?id=com.telecomm.vapp",
-   "https://www.xataka.com.mx/banca-digital/mexico-presenta-tarjeta-finabien-paisan-para-envio-remesas-ee-uu-su-app-permite-transferencias-aranceles-trump"
+   "https://www.xataka.com.mx/banca-digital/mexico-presenta-tarjeta-finabien-paisan-para-envio-remesas-ee-uu-su-app-permite-transferencias-aranceles-trump",
+   "https://apps.apple.com/mx/app/id1641745926"
   ],
-  "notas": "El package conserva el prefijo 'telecomm' (Telecomm cambió de nombre por decreto DOF 21-oct-2022). Play 500k+. iOS no verificado.",
+  "notas": "El package conserva el prefijo 'telecomm' (Telecomm cambió de nombre por decreto DOF 21-oct-2022). Play 500k+. iOS no verificado. [ios_id 1641745926 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": {
    "title": "Financiera para el Bienestar",
@@ -18495,7 +18613,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=com.telecomm.vapp&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1641745926,
+   "trackName": "Financiera para el Bienestar",
+   "sellerName": "Telecomunicaciones de Mexico",
+   "artistName": "Telecomunicaciones de Mexico",
+   "version": "6.1.035",
+   "currentVersionReleaseDate": "2026-08-31T14:34:37Z",
+   "releaseDate": "2022-10-18T07:00:00Z",
+   "averageUserRating": 4.41885,
+   "userRatingCount": 1528,
+   "primaryGenreName": "Finance",
+   "minimumOsVersion": "15.0",
+   "fileSizeBytes": "156099584",
+   "trackViewUrl": "https://apps.apple.com/mx/app/financiera-para-el-bienestar/id1641745926?uo=4"
+  }
  },
  {
   "nombre": "BanjeCel",
@@ -18657,19 +18789,34 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "727371545",
   "desarrollador_tienda": "Banco de México",
   "proposito": "Indicadores y noticias de Banxico.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/",
+   "https://apps.apple.com/mx/app/id727371545"
   ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null.",
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null. [ios_id 727371545 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
-  "appstore": null
+  "appstore": {
+   "trackId": 727371545,
+   "trackName": "Banxico al día para iPhone",
+   "sellerName": "BANCO DE MEXICO",
+   "artistName": "Banco de México",
+   "version": "2.0.10",
+   "currentVersionReleaseDate": "2024-04-17T00:04:18Z",
+   "releaseDate": "2013-11-01T01:01:03Z",
+   "averageUserRating": 3.17021,
+   "userRatingCount": 47,
+   "primaryGenreName": "Finance",
+   "minimumOsVersion": "15.0",
+   "fileSizeBytes": "2533376",
+   "trackViewUrl": "https://apps.apple.com/mx/app/banxico-al-d%C3%ADa-para-iphone/id727371545?uo=4"
+  }
  },
  {
   "nombre": "UbiCajeros Banxico",
@@ -18679,19 +18826,34 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "771288365",
   "desarrollador_tienda": "Banco de México",
   "proposito": "Localizador de cajeros.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/",
+   "https://apps.apple.com/mx/app/id771288365"
   ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null.",
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null. [ios_id 771288365 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
-  "appstore": null
+  "appstore": {
+   "trackId": 771288365,
+   "trackName": "UbiCajeros Banxico",
+   "sellerName": "BANCO DE MEXICO",
+   "artistName": "Banco de México",
+   "version": "3.3.0",
+   "currentVersionReleaseDate": "2026-06-23T21:33:16Z",
+   "releaseDate": "2013-12-10T08:00:00Z",
+   "averageUserRating": 2.58696,
+   "userRatingCount": 46,
+   "primaryGenreName": "Reference",
+   "minimumOsVersion": "15.6",
+   "fileSizeBytes": "33728512",
+   "trackViewUrl": "https://apps.apple.com/mx/app/ubicajeros-banxico/id771288365?uo=4"
+  }
  },
  {
   "nombre": "Canje de efectivo",
@@ -18830,7 +18992,7 @@
    "https://expansion.mx/finanzas-personales/2019/07/02/la-profeco-lanza-app-para-comparar-precios-de-gasolina",
    "https://dplnews.com/?p=24921"
   ],
-  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit).",
+  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit). [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
   "appstore": null
@@ -18856,7 +19018,7 @@
    "https://www.xataka.com.mx/empresas-y-economia/profeco-anuncia-una-nueva-version-de-su-aplicacion-quien-es-quien-en-los-precios",
    "https://www.gob.mx/cms/uploads/attachment/file/879516/Sondeo_en_linea_sobre_los_productos_y_servicios_de_la_Coordinacion_General_de_Educacion_y_Divulgacion__4to_trimestre_2023_.pdf"
   ],
-  "notas": "IDs no verificados.",
+  "notas": "IDs no verificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
   "appstore": null
@@ -18868,8 +19030,8 @@
   "nivel": "federal",
   "estado": "Nacional",
   "sector": "energía",
-  "android_id": null,
-  "ios_id": null,
+  "android_id": "cre.comercializacion.mobile",
+  "ios_id": "1190356107",
   "desarrollador_tienda": "desconocido",
   "proposito": "Precios de gasolina por estación y reportes a la CRE.",
   "funciones": [
@@ -18880,12 +19042,49 @@
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://expansion.mx/tecnologia/2017/04/04/gasoapp-auto-chilango-y-waze-te-dicen-los-precios-de-las-gasolinas"
+   "https://expansion.mx/tecnologia/2017/04/04/gasoapp-auto-chilango-y-waze-te-dicen-los-precios-de-las-gasolinas",
+   "https://play.google.com/store/apps/details?id=cre.comercializacion.mobile",
+   "https://apps.apple.com/mx/app/id1190356107"
   ],
-  "notas": "Lanzada en 2017 con Profeco; calificaciones bajas. La CRE fue sustituida por la CNE (2025): probablemente retirada, sin fuente.",
+  "notas": "Lanzada en 2017 con Profeco; calificaciones bajas. La CRE fue sustituida por la CNE (2025): probablemente retirada, sin fuente. [android_id cre.comercializacion.mobile verificado en Google Play 2026-10-20; ios_id 1190356107 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
-  "play": null,
-  "appstore": null
+  "tambien_en": [
+   "federal-secretarias"
+  ],
+  "play": {
+   "title": "Gasoapp",
+   "developer": "Comision Nacional de Energía",
+   "developerEmail": "app@cre.gob.mx",
+   "developerWebsite": "http://www.gob.mx/cre",
+   "installs": "500.000+",
+   "realInstalls": 528358,
+   "score": 1.2197802,
+   "ratings": 2743,
+   "reviews": 1885,
+   "updated": 1726763325,
+   "version": "4.0.03",
+   "released": "30 mar 2017",
+   "genre": "Finanzas",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=cre.comercializacion.mobile&hl=es&gl=mx"
+  },
+  "appstore": {
+   "trackId": 1190356107,
+   "trackName": "Gasoapp",
+   "sellerName": "Comision Reguladora de Energia",
+   "artistName": "Comisión Reguladora de Energía",
+   "version": "2.1.1",
+   "currentVersionReleaseDate": "2020-10-22T15:49:20Z",
+   "releaseDate": "2017-01-09T18:07:56Z",
+   "averageUserRating": 2.30952,
+   "userRatingCount": 420,
+   "primaryGenreName": "Utilities",
+   "minimumOsVersion": "8.0",
+   "fileSizeBytes": "46563328",
+   "trackViewUrl": "https://apps.apple.com/mx/app/gasoapp/id1190356107?uo=4"
+  }
  },
  {
   "nombre": "Apoyo Ciudadano - INE",
@@ -18895,7 +19094,7 @@
   "estado": "Nacional",
   "sector": "elecciones",
   "android_id": "mx.ine.apoyociudadano",
-  "ios_id": null,
+  "ios_id": "1238790658",
   "desarrollador_tienda": "Instituto Nacional Electoral",
   "proposito": "Recabar firmas de apoyo para candidaturas independientes, revocación de mandato y consultas.",
   "funciones": [
@@ -18910,9 +19109,10 @@
    "https://play.google.com/store/apps/details?id=mx.ine.apoyociudadano",
    "https://www.elfinanciero.com.mx/nacional/simpatizantes-de-marichuy-denuncian-que-app-del-ine-pone-en-riesgo-datos-personales-de-ciudadanos/",
    "https://zetatijuana.com/2023/12/verastegui-senala-omision-del-ine-ante-denuncia-por-fallas-en-aplicacion-para-recabar-firmas/",
-   "https://ine.mx/wp-content/uploads/2026/05/Manual_Proceso2_Android-Ver-122025.pdf"
+   "https://ine.mx/wp-content/uploads/2026/05/Manual_Proceso2_Android-Ver-122025.pdf",
+   "https://apps.apple.com/mx/app/id1238790658"
   ],
-  "notas": "Controversias: en 2017 se denunció que las imágenes de credenciales quedaban en los teléfonos de los auxiliares; fallas reportadas en 2017 y 2023 (sin soporte iOS 17); ~52 mil firmas irregulares en la revocación de mandato. iOS no verificado.",
+  "notas": "Controversias: en 2017 se denunció que las imágenes de credenciales quedaban en los teléfonos de los auxiliares; fallas reportadas en 2017 y 2023 (sin soporte iOS 17); ~52 mil firmas irregulares en la revocación de mandato. iOS no verificado. [ios_id 1238790658 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": {
    "title": "Apoyo Ciudadano - INE",
@@ -18933,7 +19133,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=mx.ine.apoyociudadano&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1238790658,
+   "trackName": "Apoyo Ciudadano - INE",
+   "sellerName": "Instituto Nacional Electoral",
+   "artistName": "Instituto Nacional Electoral",
+   "version": "6.91",
+   "currentVersionReleaseDate": "2025-12-23T10:10:22Z",
+   "releaseDate": "2017-10-02T22:01:50Z",
+   "averageUserRating": 1.85276,
+   "userRatingCount": 326,
+   "primaryGenreName": "Productivity",
+   "minimumOsVersion": "15.6",
+   "fileSizeBytes": "24836096",
+   "trackViewUrl": "https://apps.apple.com/mx/app/apoyo-ciudadano-ine/id1238790658?uo=4"
+  }
  },
  {
   "nombre": "Valida INE-QR",
@@ -19030,20 +19244,54 @@
   "nivel": "autonomo",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
-  "ios_id": null,
+  "android_id": "mx.org.inegi.MexicoCifras",
+  "ios_id": "999089545",
   "desarrollador_tienda": "desconocido",
   "proposito": "Indicadores estadísticos por área geográfica.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://play.google.com/store/apps/details?id=mx.org.inegi.MexicoCifras",
+   "https://apps.apple.com/mx/app/id999089545"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado).",
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [android_id mx.org.inegi.MexicoCifras verificado en Google Play 2026-10-20; ios_id 999089545 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
-  "play": null,
-  "appstore": null
+  "play": {
+   "title": "México en cifras",
+   "developer": "INEGI",
+   "developerEmail": "atencion.usuarios@inegi.org.mx",
+   "developerWebsite": "http://www.inegi.org.mx",
+   "installs": "50.000+",
+   "realInstalls": 64416,
+   "score": 1.95,
+   "ratings": 268,
+   "reviews": 120,
+   "updated": null,
+   "version": "Varies with device",
+   "released": "18 feb 2015",
+   "genre": "Empresa",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=mx.org.inegi.MexicoCifras&hl=es&gl=mx"
+  },
+  "appstore": {
+   "trackId": 999089545,
+   "trackName": "México en cifras",
+   "sellerName": "Instituto Nacional de Estadistica y Geografia",
+   "artistName": "Instituto Nacional de Estadistica y Geografia",
+   "version": "2",
+   "currentVersionReleaseDate": "2023-08-31T15:23:42Z",
+   "releaseDate": "2015-06-11T02:54:57Z",
+   "averageUserRating": 2.67647,
+   "userRatingCount": 34,
+   "primaryGenreName": "Business",
+   "minimumOsVersion": "15.5",
+   "fileSizeBytes": "29654016",
+   "trackViewUrl": "https://apps.apple.com/mx/app/m%C3%A9xico-en-cifras/id999089545?uo=4"
+  }
  },
  {
   "nombre": "Directorio de Establecimientos (DENUE)",
@@ -19052,20 +19300,54 @@
   "nivel": "autonomo",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
-  "ios_id": null,
+  "android_id": "mx.org.inegi.denuemv",
+  "ios_id": "1016053690",
   "desarrollador_tienda": "desconocido",
   "proposito": "Búsqueda de unidades económicas del DENUE.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://play.google.com/store/apps/details?id=mx.org.inegi.denuemv",
+   "https://apps.apple.com/mx/app/id1016053690"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado).",
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [android_id mx.org.inegi.denuemv verificado en Google Play 2026-10-20; ios_id 1016053690 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
-  "play": null,
-  "appstore": null
+  "play": {
+   "title": "DENUE",
+   "developer": "INEGI",
+   "developerEmail": "atencion.usuarios@inegi.org.mx",
+   "developerWebsite": "http://www.inegi.org.mx",
+   "installs": "100.000+",
+   "realInstalls": 175852,
+   "score": 4.029703,
+   "ratings": 670,
+   "reviews": 190,
+   "updated": 1780688330,
+   "version": "3.1",
+   "released": "20 ene 2015",
+   "genre": "Empresa",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=mx.org.inegi.denuemv&hl=es&gl=mx"
+  },
+  "appstore": {
+   "trackId": 1016053690,
+   "trackName": "DENUE",
+   "sellerName": "Instituto Nacional de Estadistica y Geografia",
+   "artistName": "Instituto Nacional de Estadistica y Geografia",
+   "version": "2.4",
+   "currentVersionReleaseDate": "2023-08-19T19:25:33Z",
+   "releaseDate": "2015-07-14T18:46:06Z",
+   "averageUserRating": 3,
+   "userRatingCount": 20,
+   "primaryGenreName": "Business",
+   "minimumOsVersion": "13.0",
+   "fileSizeBytes": "14398464",
+   "trackViewUrl": "https://apps.apple.com/mx/app/denue/id1016053690?uo=4"
+  }
  },
  {
   "nombre": "Brújula",
@@ -19075,19 +19357,34 @@
   "estado": "Nacional",
   "sector": "otro",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1122062911",
   "desarrollador_tienda": "desconocido",
   "proposito": "Orientación/ubicación geográfica INEGI.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://apps.apple.com/mx/app/id1122062911"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado).",
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [ios_id 1122062911 verificado en App Store 2026-10-20; android_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
-  "appstore": null
+  "appstore": {
+   "trackId": 1122062911,
+   "trackName": "Brújula INEGI",
+   "sellerName": "Instituto Nacional de Estadistica y Geografia",
+   "artistName": "Instituto Nacional de Estadistica y Geografia",
+   "version": "2.0.0",
+   "currentVersionReleaseDate": "2016-06-24T21:49:02Z",
+   "releaseDate": "2016-06-24T21:49:02Z",
+   "averageUserRating": 3.5,
+   "userRatingCount": 2,
+   "primaryGenreName": "Navigation",
+   "minimumOsVersion": "8.0",
+   "fileSizeBytes": "3888128",
+   "trackViewUrl": "https://apps.apple.com/mx/app/br%C3%BAjula-inegi/id1122062911?uo=4"
+  }
  },
  {
   "nombre": "Estaciones de la RGNP Móvil",
@@ -19096,7 +19393,7 @@
   "nivel": "autonomo",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
+  "android_id": "mx.org.inegi.dggma.sds.marcas",
   "ios_id": null,
   "desarrollador_tienda": "desconocido",
   "proposito": "Ubicación de estaciones de la Red Geodésica Nacional Pasiva.",
@@ -19104,11 +19401,30 @@
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.inegi.org.mx/siscon/default.html"
+   "https://www.inegi.org.mx/siscon/default.html",
+   "https://play.google.com/store/apps/details?id=mx.org.inegi.dggma.sds.marcas"
   ],
-  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado).",
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado). [android_id mx.org.inegi.dggma.sds.marcas verificado en Google Play 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
-  "play": null,
+  "play": {
+   "title": "Estaciones de la RGNP Móvil",
+   "developer": "INEGI",
+   "developerEmail": "inegi.dev@gmail.com",
+   "developerWebsite": "http://www.inegi.org.mx",
+   "installs": "10.000+",
+   "realInstalls": 37668,
+   "score": 3.77,
+   "ratings": 154,
+   "reviews": 93,
+   "updated": null,
+   "version": "Varies with device",
+   "released": "14 sept 2016",
+   "genre": "Herramientas",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=mx.org.inegi.dggma.sds.marcas&hl=es&gl=mx"
+  },
   "appstore": null
  },
  {
@@ -19130,7 +19446,7 @@
   "fuentes": [
    "https://www.cndh.org.mx/sites/default/files/documentos/2020-03/COM_2020_104.pdf"
   ],
-  "notas": "Nombre e IDs no identificados.",
+  "notas": "Nombre e IDs no identificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
   "appstore": null
@@ -19341,16 +19657,17 @@
   "estado": "Nacional",
   "sector": "movilidad",
   "android_id": "com.oicb.aicm",
-  "ios_id": null,
+  "ios_id": "1664586297",
   "desarrollador_tienda": "Jandre",
   "proposito": "App de terceros con información del AICM.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=com.oicb.aicm"
+   "https://play.google.com/store/apps/details?id=com.oicb.aicm",
+   "https://apps.apple.com/mx/app/id1664586297"
   ],
-  "notas": "Desarrollador particular; no es del AICM.",
+  "notas": "Desarrollador particular; no es del AICM. [ios_id 1664586297 verificado en App Store 2026-10-20; iOS bajo cuenta individual (Jandre Labuschagne) pero mismo bundleId com.oicb.aicm que Android.]",
   "segmento": "federal-autonomos-paraestatales",
   "play": {
    "title": "AICM Mobile",
@@ -19371,7 +19688,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=com.oicb.aicm&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1664586297,
+   "trackName": "AICM Mobile",
+   "sellerName": "Jandre Labuschagne",
+   "artistName": "Jandre Labuschagne",
+   "version": "1.1.15",
+   "currentVersionReleaseDate": "2026-06-15T19:36:01Z",
+   "releaseDate": "2023-01-13T08:00:00Z",
+   "averageUserRating": 0,
+   "userRatingCount": 0,
+   "primaryGenreName": "Lifestyle",
+   "minimumOsVersion": "13.0",
+   "fileSizeBytes": "54671360",
+   "trackViewUrl": "https://apps.apple.com/mx/app/aicm-mobile/id1664586297?uo=4"
+  }
  },
  {
   "nombre": "IPN Oficial",
@@ -19443,19 +19774,34 @@
   "estado": "Nacional",
   "sector": "educación",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1628356633",
   "desarrollador_tienda": "desconocido",
   "proposito": "Museos universitarios: ubicación, costos y horarios.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.unotv.com/ciencia-y-tecnologia/lanzan-museos-unam-app-gratuita-y-disponible-en-25-paises/"
+   "https://www.unotv.com/ciencia-y-tecnologia/lanzan-museos-unam-app-gratuita-y-disponible-en-25-paises/",
+   "https://apps.apple.com/mx/app/id1628356633"
   ],
-  "notas": "IDs no verificados. La UNAM publica apps institucionales (AMI) bajo lineamientos de DGTIC: https://www.apps.unam.mx",
+  "notas": "IDs no verificados. La UNAM publica apps institucionales (AMI) bajo lineamientos de DGTIC: https://www.apps.unam.mx [ios_id 1628356633 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
-  "appstore": null
+  "appstore": {
+   "trackId": 1628356633,
+   "trackName": "Museos UNAM",
+   "sellerName": "Universidad Nacional Autonoma de Mexico",
+   "artistName": "Universidad Nacional Autonoma de Mexico",
+   "version": "2.1.0",
+   "currentVersionReleaseDate": "2024-10-03T09:03:13Z",
+   "releaseDate": "2022-08-03T07:00:00Z",
+   "averageUserRating": 3.2,
+   "userRatingCount": 5,
+   "primaryGenreName": "Education",
+   "minimumOsVersion": "14.0",
+   "fileSizeBytes": "37327872",
+   "trackViewUrl": "https://apps.apple.com/mx/app/museos-unam/id1628356633?uo=4"
+  }
  },
  {
   "nombre": "Bibliotecas UNAM",
@@ -19465,19 +19811,34 @@
   "estado": "Nacional",
   "sector": "educación",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1490641197",
   "desarrollador_tienda": "desconocido",
   "proposito": "Servicios de la Dirección General de Bibliotecas.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://www.chilango.com/noticias/app-museos-unam/"
+   "https://www.chilango.com/noticias/app-museos-unam/",
+   "https://apps.apple.com/mx/app/id1490641197"
   ],
-  "notas": "IDs no verificados.",
+  "notas": "IDs no verificados. [ios_id 1490641197 verificado en App Store 2026-10-20]",
   "segmento": "federal-autonomos-paraestatales",
   "play": null,
-  "appstore": null
+  "appstore": {
+   "trackId": 1490641197,
+   "trackName": "Bibliotecas UNAM",
+   "sellerName": "Universidad Nacional Autonoma de Mexico",
+   "artistName": "Universidad Nacional Autonoma de Mexico",
+   "version": "3.3.3",
+   "currentVersionReleaseDate": "2026-03-24T12:12:19Z",
+   "releaseDate": "2021-08-06T07:00:00Z",
+   "averageUserRating": 3.25,
+   "userRatingCount": 56,
+   "primaryGenreName": "Education",
+   "minimumOsVersion": "11.0",
+   "fileSizeBytes": "7251968",
+   "trackViewUrl": "https://apps.apple.com/mx/app/bibliotecas-unam/id1490641197?uo=4"
+  }
  },
  {
   "nombre": "CONALITEG Digital",
@@ -20056,16 +20417,17 @@
   "estado": "Nacional",
   "sector": "otro",
   "android_id": "com.flyhighware.mailtracker",
-  "ios_id": null,
+  "ios_id": "6769905095",
   "desarrollador_tienda": "FlyHighWare Games",
   "proposito": "Rastreo de envíos, de terceros.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
   "estatus": "desconocido",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=com.flyhighware.mailtracker"
+   "https://play.google.com/store/apps/details?id=com.flyhighware.mailtracker",
+   "https://apps.apple.com/mx/app/id6769905095"
   ],
-  "notas": "No se localizó app oficial de Correos de México; el rastreo oficial es web.",
+  "notas": "No se localizó app oficial de Correos de México; el rastreo oficial es web. [ios_id 6769905095 verificado en App Store 2026-10-20; iOS es el mismo app de tercero (mismo bundleId com.flyhighware.mailtracker), ahora titulado 'Paquetes México - Seguimiento' por ULISES MANUEL.]",
   "segmento": "federal-autonomos-paraestatales",
   "play": {
    "title": "Correos México - Seguimiento",
@@ -20086,7 +20448,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=com.flyhighware.mailtracker&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 6769905095,
+   "trackName": "Paquetes México - Seguimiento",
+   "sellerName": "ULISES MANUEL",
+   "artistName": "ULISES MANUEL",
+   "version": "1.0",
+   "currentVersionReleaseDate": "2026-05-28T07:56:28Z",
+   "releaseDate": "2026-05-28T07:00:00Z",
+   "averageUserRating": 5,
+   "userRatingCount": 1,
+   "primaryGenreName": "Utilities",
+   "minimumOsVersion": "15.1",
+   "fileSizeBytes": "58820608",
+   "trackViewUrl": "https://apps.apple.com/mx/app/paquetes-m%C3%A9xico-seguimiento/id6769905095?uo=4"
+  }
  },
  {
   "nombre": "LICONSA - SAO",
@@ -20136,7 +20512,7 @@
   "estado": "Nacional",
   "sector": "turismo",
   "android_id": "mx.gob.mexicoinvita",
-  "ios_id": null,
+  "ios_id": "6769856042",
   "desarrollador_tienda": "Gobierno de México",
   "proposito": "App turística oficial lanzada para el Mundial 2026; información de las 32 entidades, sedes, movilidad y emergencias.",
   "funciones": [
@@ -20150,9 +20526,10 @@
   "estatus": "activa",
   "fuentes": [
    "https://play.google.com/store/apps/details?id=mx.gob.mexicoinvita",
-   "https://expansion.mx/tecnologia/2026/05/21/como-es-mexico-invita-app-para-atraer-turistas-mundial"
+   "https://expansion.mx/tecnologia/2026/05/21/como-es-mexico-invita-app-para-atraer-turistas-mundial",
+   "https://apps.apple.com/mx/app/id6769856042"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. Única app en la cuenta Play 'Gobierno de México' (contacto cnid@transformaciondigital.gob.mx). Medios dicen que también está en App Store; ID no verificado. 5.000+ instalaciones.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. Única app en la cuenta Play 'Gobierno de México' (contacto cnid@transformaciondigital.gob.mx). Medios dicen que también está en App Store; ID no verificado. 5.000+ instalaciones. [ios_id 6769856042 verificado en App Store 2026-10-20; iOS por INFOTEC/ATDT, bundle mx.gob.atdt.mexicoinvita.]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "México Invita",
@@ -20173,7 +20550,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=mx.gob.mexicoinvita&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 6769856042,
+   "trackName": "México Invita",
+   "sellerName": "INFOTEC, Centro de Investigacion e Innovacion en Tecnologias de la Informacion y Comunicacion",
+   "artistName": "INFOTEC, Centro de Investigacion e Innovacion en Tecnologias de la Informacion y Comunicacion",
+   "version": "1.3.3",
+   "currentVersionReleaseDate": "2026-09-08T19:45:32Z",
+   "releaseDate": "2026-05-19T07:00:00Z",
+   "averageUserRating": 4.75,
+   "userRatingCount": 20,
+   "primaryGenreName": "Travel",
+   "minimumOsVersion": "16.6",
+   "fileSizeBytes": "40089600",
+   "trackViewUrl": "https://apps.apple.com/mx/app/m%C3%A9xico-invita/id6769856042?uo=4"
+  }
  },
  {
   "nombre": "App México (App MX)",
@@ -20283,7 +20674,7 @@
    "https://www.xataka.com.mx/aplicaciones/911-emergencias-la-aplicacion-para-reportar-cualquier-problema-en-todo-mexico",
    "https://web.archive.org/web/2019/https://www.gob.mx/apps"
   ],
-  "notas": "Aparece como 'recomendada' en gob.mx/apps (2019). IDs no verificados; hoy los estados publican sus propias apps 911.",
+  "notas": "Aparece como 'recomendada' en gob.mx/apps (2019). IDs no verificados; hoy los estados publican sus propias apps 911. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": null,
   "appstore": null
@@ -20523,7 +20914,7 @@
   "fuentes": [
    "https://play.google.com/store/apps/details?id=com.sedena.refam"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. Propósito no verificado en esta pasada. Cuenta con correo Gmail (refamsedena2024@gmail.com) y web gob.mx/sedena; 100k+ instalaciones, 2.2★.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. Propósito no verificado en esta pasada. Cuenta con correo Gmail (refamsedena2024@gmail.com) y web gob.mx/sedena; 100k+ instalaciones, 2.2★. [ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "REFAyGN",
@@ -20554,7 +20945,7 @@
   "estado": "Nacional",
   "sector": "clima",
   "android_id": "mx.gob.semar.cat.app",
-  "ios_id": null,
+  "ios_id": "1491423579",
   "desarrollador_tienda": "Tensegrity Services",
   "proposito": "Boletines en tiempo real del Centro de Alerta de Tsunamis (CAT) y nivel de riesgo.",
   "funciones": [
@@ -20567,9 +20958,10 @@
   "fuentes": [
    "https://play.google.com/store/apps/details?id=mx.gob.semar.cat.app",
    "https://amp.milenio.com/estados/tsunami-mx-app-alerta-poblacion-maremotos-mexico",
-   "https://www.gob.mx/cms/uploads/attachment/file/668557/MARINA_NOTA__CAT.pdf"
+   "https://www.gob.mx/cms/uploads/attachment/file/668557/MARINA_NOTA__CAT.pdf",
+   "https://apps.apple.com/mx/app/id1491423579"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. Publicada bajo la cuenta del proveedor Tensegrity Services (tenser.mx), no de SEMAR. Medios indican que existe en App Store y AppGallery.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. Publicada bajo la cuenta del proveedor Tensegrity Services (tenser.mx), no de SEMAR. Medios indican que existe en App Store y AppGallery. [ios_id 1491423579 verificado en App Store 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "TSUNAMI MX",
@@ -20590,7 +20982,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=mx.gob.semar.cat.app&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1491423579,
+   "trackName": "TSUNAMI MX",
+   "sellerName": "Diseno, Desarrollo y Produccion en Tecnologias, S.A. de C.V.",
+   "artistName": "Diseno, Desarrollo y Produccion en Tecnologias, S.A. de C.V.",
+   "version": "1.3.8",
+   "currentVersionReleaseDate": "2025-02-17T17:30:12Z",
+   "releaseDate": "2020-07-03T07:00:00Z",
+   "averageUserRating": 5,
+   "userRatingCount": 4,
+   "primaryGenreName": "Utilities",
+   "minimumOsVersion": "12.0",
+   "fileSizeBytes": "56768512",
+   "trackViewUrl": "https://apps.apple.com/mx/app/tsunami-mx/id1491423579?uo=4"
+  }
  },
  {
   "nombre": "CONAGUAClima",
@@ -20718,7 +21124,23 @@
   "notas": "android_id e ios_id verificados en tienda (2026-10-20). Bundle iOS gob.semarnatdgpeea.miAmbiente.",
   "segmento": "federal-secretarias",
   "play": {
-   "error": "ConnectionResetError(54, 'Connection reset by peer')"
+   "title": "Mi Ambiente",
+   "developer": "DGIT, SEMARNAT",
+   "developerEmail": "web@semarnat.gob.mx",
+   "developerWebsite": "https://www.gob.mx/semarnat",
+   "installs": "1.000+",
+   "realInstalls": 3057,
+   "score": 4.3333335,
+   "ratings": 9,
+   "reviews": 1,
+   "updated": null,
+   "version": "Varies with device",
+   "released": "19 ago 2024",
+   "genre": "Comunicación",
+   "contentRating": "Para todos",
+   "containsAds": false,
+   "free": true,
+   "url": "https://play.google.com/store/apps/details?id=gob.semarnatdgpeea.appmiAmb&hl=es&gl=mx"
   },
   "appstore": {
    "trackId": 6472815712,
@@ -20861,7 +21283,7 @@
   "estado": "Nacional",
   "sector": "movilidad",
   "android_id": "mx.sct.licencia",
-  "ios_id": null,
+  "ios_id": "1560728116",
   "desarrollador_tienda": "Dirección General de Autotransporte Federal",
   "proposito": "Licencia federal de conductor en formato digital.",
   "funciones": [
@@ -20871,9 +21293,10 @@
   "requiere_cuenta": "CURP",
   "estatus": "activa",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=mx.sct.licencia"
+   "https://play.google.com/store/apps/details?id=mx.sct.licencia",
+   "https://apps.apple.com/mx/app/id1560728116"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. 1M+ instalaciones, 4.35★. Última actualización Play 2024-02.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. 1M+ instalaciones, 4.35★. Última actualización Play 2024-02. [ios_id 1560728116 verificado en App Store 2026-10-20; iOS por SCT, bundle mx.sct.lfd.]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "Licencia Federal Digital",
@@ -20894,7 +21317,21 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=mx.sct.licencia&hl=es&gl=mx"
   },
-  "appstore": null
+  "appstore": {
+   "trackId": 1560728116,
+   "trackName": "Licencia Federal Digital",
+   "sellerName": "SECRETARIA DE COMUNICACIONES Y TRANSPORTES",
+   "artistName": "Secretaria de Comunicaciones y Transportes Gobierno de México",
+   "version": "1.0.14",
+   "currentVersionReleaseDate": "2021-04-20T17:09:17Z",
+   "releaseDate": "2021-03-31T07:00:00Z",
+   "averageUserRating": 2.05505,
+   "userRatingCount": 436,
+   "primaryGenreName": "Productivity",
+   "minimumOsVersion": "12.0",
+   "fileSizeBytes": "29368320",
+   "trackViewUrl": "https://apps.apple.com/mx/app/licencia-federal-digital/id1560728116?uo=4"
+  }
  },
  {
   "nombre": "Registro Nacional de Turismo",
@@ -20916,7 +21353,7 @@
   "fuentes": [
    "https://play.google.com/store/apps/details?id=com.registroNacionalTurismo.app"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. [ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "Registro Nacional de Turismo",
@@ -20959,7 +21396,7 @@
   "fuentes": [
    "https://play.google.com/store/apps/details?id=com.angeles.verdes.app"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. 5k+ instalaciones.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. 5k+ instalaciones. [ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "Angeles Verdes",
@@ -21085,7 +21522,7 @@
   "fuentes": [
    "https://play.google.com/store/apps/details?id=senasica.mx.gob.tramitesyservicios"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. [ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "Senasica Tramites y Servicios",
@@ -21612,16 +22049,17 @@
   "estado": "Nacional",
   "sector": "energía",
   "android_id": "com.appenergia.pumc.conductor",
-  "ios_id": null,
+  "ios_id": "6753318768",
   "desarrollador_tienda": "Secretaría de Energía",
   "proposito": "Versión para conductores de la app PUMC (propósito no verificado; posiblemente distribución de combustibles).",
   "funciones": [],
   "requiere_cuenta": "desconocido",
   "estatus": "activa",
   "fuentes": [
-   "https://play.google.com/store/apps/details?id=com.appenergia.pumc.conductor"
+   "https://play.google.com/store/apps/details?id=com.appenergia.pumc.conductor",
+   "https://apps.apple.com/mx/app/id6753318768"
   ],
-  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null.",
+  "notas": "android_id verificado en Google Play (2026-10-20); ios_id no localizado en App Store MX (búsqueda por desarrollador throttled), null. [ios_id 6753318768 verificado en App Store 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": {
    "title": "PUMC Conductor",
@@ -21642,65 +22080,20 @@
    "free": true,
    "url": "https://play.google.com/store/apps/details?id=com.appenergia.pumc.conductor&hl=es&gl=mx"
   },
-  "appstore": null
- },
- {
-  "nombre": "Gasoapp",
-  "dependencia": "Comisión Nacional de Energía (antes CRE)",
-  "siglas": "CNE",
-  "nivel": "federal",
-  "estado": "Nacional",
-  "sector": "energía",
-  "android_id": "cre.comercializacion.mobile",
-  "ios_id": "1190356107",
-  "desarrollador_tienda": "Comision Nacional de Energía",
-  "proposito": "Precios de gasolina y diésel por estación.",
-  "funciones": [
-   "precios por gasolinera",
-   "mapa"
-  ],
-  "requiere_cuenta": "ninguna",
-  "estatus": "activa",
-  "fuentes": [
-   "https://play.google.com/store/apps/details?id=cre.comercializacion.mobile",
-   "https://apps.apple.com/mx/app/id1190356107",
-   "https://web.archive.org/web/2019/https://www.gob.mx/apps"
-  ],
-  "notas": "Ambos IDs verificados. En iOS el vendedor sigue siendo 'Comision Reguladora de Energia' y no se actualiza desde 2020-10. Android 1.2★ (2.7k reseñas, muy negativas); la cuenta Play ya se renombró a CNE (desconcentrado de SENER desde 2025).",
-  "segmento": "federal-secretarias",
-  "play": {
-   "title": "Gasoapp",
-   "developer": "Comision Nacional de Energía",
-   "developerEmail": "app@cre.gob.mx",
-   "developerWebsite": "http://www.gob.mx/cre",
-   "installs": "500.000+",
-   "realInstalls": 528358,
-   "score": 1.2197802,
-   "ratings": 2743,
-   "reviews": 1885,
-   "updated": 1726763325,
-   "version": "4.0.03",
-   "released": "30 mar 2017",
-   "genre": "Finanzas",
-   "contentRating": "Para todos",
-   "containsAds": false,
-   "free": true,
-   "url": "https://play.google.com/store/apps/details?id=cre.comercializacion.mobile&hl=es&gl=mx"
-  },
   "appstore": {
-   "trackId": 1190356107,
-   "trackName": "Gasoapp",
-   "sellerName": "Comision Reguladora de Energia",
-   "artistName": "Comisión Reguladora de Energía",
-   "version": "2.1.1",
-   "currentVersionReleaseDate": "2020-10-22T15:49:20Z",
-   "releaseDate": "2017-01-09T18:07:56Z",
-   "averageUserRating": 2.30952,
-   "userRatingCount": 420,
-   "primaryGenreName": "Utilities",
-   "minimumOsVersion": "8.0",
-   "fileSizeBytes": "46563328",
-   "trackViewUrl": "https://apps.apple.com/mx/app/gasoapp/id1190356107?uo=4"
+   "trackId": 6753318768,
+   "trackName": "PUMC Conductor",
+   "sellerName": "Secretaria de Energia",
+   "artistName": "Secretaría de Energía",
+   "version": "1.3.42 (1)",
+   "currentVersionReleaseDate": "2026-09-16T19:25:36Z",
+   "releaseDate": "2025-12-05T08:00:00Z",
+   "averageUserRating": 5,
+   "userRatingCount": 1,
+   "primaryGenreName": "Navigation",
+   "minimumOsVersion": "16",
+   "fileSizeBytes": "76267520",
+   "trackViewUrl": "https://apps.apple.com/mx/app/pumc-conductor/id6753318768?uo=4"
   }
  },
  {
@@ -22393,7 +22786,7 @@
   "fuentes": [
    "https://www.ejecentral.com.mx/impi-entra-al-mundo-digital"
   ],
-  "notas": "Prensa reporta app 'IMPI Móvil' para iOS y Android; no se localizó en tiendas (Play throttled 429). IDs null.",
+  "notas": "Prensa reporta app 'IMPI Móvil' para iOS y Android; no se localizó en tiendas (Play throttled 429). IDs null. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]",
   "segmento": "federal-secretarias",
   "play": null,
   "appstore": null
