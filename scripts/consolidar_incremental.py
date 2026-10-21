@@ -2,10 +2,13 @@
 
 Lee métricas previas de apps/apps.json (o un respaldo), las reusa cuando el ID no cambió,
 y solo llama a la tienda para apps cuyo ID es nuevo o cuya métrica falta.
+Copia todos los campos del segmento (incluye orden/poder/subtipo/municipio del clasificador).
 uso: .venv/bin/python -I scripts/consolidar_incremental.py <raíz> [apps.json_previo]
+     SIN_RED=1 ... → no consulta tiendas (las apps nuevas quedan con play/appstore null)
 """
 import csv
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -62,22 +65,23 @@ for f in sorted((raiz / "apps/inventario").glob("*.json")):
         vistos[clave] = a
         apps.append(a)
 
+SIN_RED = os.environ.get("SIN_RED") == "1"  # SIN_RED=1: no consulta tiendas; lo que falte queda null
 nuevas_p = nuevas_i = 0
 for a in apps:
     aid, iid = a["android_id"], a["ios_id"]
     # Play: reusa si ya hay métrica no-error; si no, baja
     pm = previo.get(("a", aid)) if aid else None
-    if aid and (not pm or "error" in pm):
+    if aid and (not pm or "error" in pm) and not SIN_RED:
         pm = play(aid); nuevas_p += 1
     a["play"] = pm
     im = previo.get(("i", iid)) if iid else None
-    if iid and (not im or "error" in im):
+    if iid and (not im or "error" in im) and not SIN_RED:
         im = ios(iid); nuevas_i += 1
     a["appstore"] = im
 
 (raiz / "apps/apps.json").write_text(json.dumps(apps, ensure_ascii=False, indent=1, default=str))
 
-cols = ["nombre", "siglas", "dependencia", "nivel", "estado", "sector", "android_id", "ios_id", "requiere_cuenta",
+cols = ["nombre", "siglas", "dependencia", "nivel", "orden", "poder", "subtipo", "municipio", "estado", "sector", "android_id", "ios_id", "requiere_cuenta",
         "estatus", "play_dev", "play_instalaciones", "play_instalaciones_reales", "play_score", "play_ratings",
         "play_actualizada", "play_version", "ios_vendedor", "ios_score", "ios_ratings", "ios_actualizada",
         "ios_version", "proposito", "segmento"]

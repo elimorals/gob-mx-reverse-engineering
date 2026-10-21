@@ -6,7 +6,7 @@ Mismo dato que el CLI `gobmx.py`; reusa su lógica (`import gobmx`), no duplica 
 
 - **Estado real:** instalado y validado en vivo el 2026-10-20 en macOS (Darwin 25.6.0), Python 3.13,
   `mcp 1.x`. `claude mcp list` → `✔ Connected`. Prueba end-to-end por protocolo (stdio JSON-RPC):
-  las 7 tools responden sin error (`mcp-server/test_smoke.py`).
+  las tools responden sin error (`mcp-server/test_smoke.py`; 8 tools desde 2026-10-21 con `comparar`).
 - **Sin red, sin escritura:** solo lee los JSON/CSV del repo. No sale a internet ni modifica nada.
 
 ---
@@ -16,20 +16,29 @@ Mismo dato que el CLI `gobmx.py`; reusa su lógica (`import gobmx`), no duplica 
 ### `stats() -> dict`
 Resumen del inventario. Sin parámetros.
 Devuelve: `apps`, `sitios`, `servicios`, `permisos` (totales) y los desgloses `apps_por_nivel`,
-`apps_por_sector`, `apps_por_estatus`, `apps_con_android`, `apps_con_ios`.
+`apps_por_sector`, `apps_por_estatus`, `apps_con_android`, `apps_con_ios`, y las matrices
+`apps_orden_poder` / `sitios_orden_poder` (orden × poder con todas las celdas, incluidas las de 0,
+más `sin_orden(no_oficial)`).
 
 ```jsonc
 // stats()
 {
-  "apps": 466, "sitios": 231, "servicios": 6141, "permisos": 20,
+  "apps": 519, "sitios": 394, "servicios": 6141, "permisos": 387,
   "apps_por_nivel": {"estatal": 277, "municipal": 64, "federal": 64, "paraestatal": 38, "autonomo": 19, "no_oficial": 4},
-  "apps_con_android": 351, "apps_con_ios": 326
+  "apps_con_android": 387, "apps_con_ios": 371,
+  "apps_orden_poder": {"federal": {"ejecutivo": 102, "legislativo": 0, "judicial": 2, "autonomo": 17},
+                       "estatal": {"ejecutivo": 258, "legislativo": 0, "judicial": 5, "autonomo": 14},
+                       "municipal": {"ejecutivo": 64, "legislativo": 0, "judicial": 0, "autonomo": 0},
+                       "sin_orden(no_oficial)": {"null": 4}}
 }
 ```
 
-### `buscar_apps(nivel="", estado="", sector="", estatus="", texto="", limite=50) -> list`
-Busca apps. Todos los filtros son opcionales y hacen match **parcial, sin distinguir mayúsculas**.
-- `nivel`: `federal` · `estatal` · `municipal` · `paraestatal` · `autonomo` · `no_oficial`
+### `buscar_apps(nivel="", estado="", sector="", estatus="", texto="", orden="", poder="", limite=50) -> list`
+Busca apps. Todos los filtros son opcionales; `orden` y `poder` son **exactos** (sin acentos ni
+mayúsculas), el resto hace match **parcial, sin distinguir mayúsculas**.
+- `orden`: `federal` · `estatal` · `municipal`
+- `poder`: `ejecutivo` · `legislativo` · `judicial` · `autonomo`
+- `nivel` (campo heredado): `federal` · `estatal` · `municipal` · `paraestatal` · `autonomo` · `no_oficial`
 - `estado`: entidad federativa (p.ej. `Jalisco`, `Ciudad de México`)
 - `sector`: `seguridad` · `movilidad` · `salud` · `fiscal` · `finanzas` · `identidad` · `trámites` ·
   `educación` · `turismo` · `clima` · `vivienda` · `energía` · `trabajo` · `elecciones` · `otro`
@@ -43,10 +52,11 @@ Cada resultado es el objeto app completo (incluye `android_id`, `ios_id`, `play`
 buscar_apps(sector="identidad")                → 12 apps de identidad digital estatal
 buscar_apps(estado="Jalisco", estatus="activa")
 buscar_apps(texto="licencia", nivel="estatal")
+buscar_apps(orden="estatal", poder="judicial")  → apps de poderes judiciales estatales
 ```
 
-### `buscar_sitios(nivel="", estado="", texto="", limite=50) -> list`
-Busca portales web. Filtros: `nivel`, `estado`, `texto` (dependencia/url/propósito), `limite`.
+### `buscar_sitios(nivel="", estado="", texto="", orden="", poder="", limite=50) -> list`
+Busca portales web. Filtros: `orden`, `poder`, `nivel`, `estado`, `texto` (dependencia/url/propósito), `limite`.
 Cada resultado trae `url`, `tipo`, `plataforma`, `anti_bot`, `autenticacion` y `estado_real` (evidencia fechada).
 
 ```
@@ -54,9 +64,10 @@ buscar_sitios(nivel="federal")
 buscar_sitios(estado="Veracruz")          → incluye el hallazgo de TLS inválido
 ```
 
-### `buscar_servicios(texto="", limite=50) -> list`
+### `buscar_servicios(texto="", orden="", poder="", limite=50) -> list`
 Busca trámites/servicios: el catálogo CONAMER (`catalogo-conamer.json`, `cnts-federal.json`) y las
 brechas (`brechas.json`). `texto` busca en `servicio`/`nombre_tramite`/`dependencia`/`brecha`/`siglas`.
+`orden`/`poder` filtran; los 6,125 trámites CNTS se clasifican al cargar (orden federal, poder ejecutivo).
 
 ```
 buscar_servicios(texto="CURP")
@@ -73,21 +84,45 @@ dependencia("IMSS")   → 2 apps (con permisos) + su portal
 dependencia("CFE")    → 5 apps + sitio
 ```
 
-### `permisos(texto="", limite=50) -> list`
-Análisis de permisos y privacidad de apps (351 apps con Android). Cada entrada trae
-`permisos_peligrosos`, `trackers` (si hay) y `notas` de qué no cuadra con el propósito.
+### `permisos(nivel="", estado="", sector="", texto="", orden="", poder="", solo_peligrosos=False, limite=50) -> list`
+Análisis de permisos y privacidad de apps (387 apps con Android). Cada entrada trae
+`permisos_peligrosos`, `trackers` (si hay) y `notas` de qué no cuadra con el propósito, más
+`orden`/`poder`/`subtipo`/`municipio` de la app (join por `android_id`).
 `texto` hace match en nombre/dependencia/android_id.
 
 ```
 permisos(texto="IMSS")   → IMSS Digital: 10 permisos peligrosos (micrófono, calendario…)
-permisos()               → las 351 apps analizadas
+permisos(orden="municipal", solo_peligrosos=True)
+```
+
+### `comparar(orden, nombres="", ordenar_por="") -> dict`
+Compara **entidades** (`orden="estatal"`, las 32) o **municipios** (`orden="municipal"`).
+`nombres`: lista separada por comas, match sin acentos (`"Jalisco, nuevo leon"`); vacío = todos.
+`ordenar_por`: ranking descendente por una métrica con ruta de punto (`apps`, `por_100k_hab.sitios`,
+`por_mil_mdp.apps`, `egreso_por_hab`, `instalaciones_por_hab`…); las filas sin dato van al final.
+**Rechaza `orden="federal"`** (devuelve `{"error": ...}`): su presupuesto, extensión y población no
+son comparables con los de una entidad o un municipio.
+
+Devuelve `{orden, metodologia, ordenado_por, presupuesto_disponible, filas}`. Cada fila: `estado`, `cve_ent`,
+(`municipio`, `cve_mun` en municipal), `apps`, `apps_activas`, `instalaciones`, `sitios`,
+`subdominios`, `subdominios_activos`, `poderes` (conteo por poder), `cobertura_poderes` (0-4),
+`poblacion_2020`, `egresos_mxn`, `egresos_anio`, `egreso_por_hab`, `transferencias_pef_mxn` (Ramos 28+33),
+`transferencias_pef_anio`, `presupuesto_notas` (p. ej. CDMX con dato trimestral preliminar), `por_100k_hab`,
+`instalaciones_por_hab`, `por_mil_mdp` (tasas `null` si no hay `datos/presupuesto/*.json`).
+
+```
+comparar(orden="estatal", nombres="Jalisco, Nuevo León")
+comparar(orden="municipal", nombres="Monterrey, Guadalajara")
+comparar(orden="estatal", ordenar_por="por_100k_hab.apps")   # ranking de las 32
+comparar(orden="federal")   → {"error": "No se compara el orden federal: ..."}
 ```
 
 ### `buscar_subdominio(texto="", solo_activos=False, limite=100) -> list`
 Busca en los **12,812 subdominios `.gob.mx`** de `sitios/subdominios-consolidado.csv`
 (Certificate Transparency + dotgob-mx). `texto` hace match en el host; `solo_activos=True` deja solo
 los marcados activos por dotgob-mx (corte 13/10/2026). Cada fila: `host, fuente, activo_dotgob,
-dependencia_o_estado`.
+dependencia_o_estado, estado, municipio` (estado/municipio `null` si el slug no está mapeado en
+`sitios/subdominios/slugs.json`).
 
 ```
 buscar_subdominio(texto="sat", solo_activos=True)
@@ -134,7 +169,7 @@ Copia el bloque de [`example.mcp.json`](example.mcp.json) a la config de tu clie
 ## Probar
 
 ```bash
-# prueba end-to-end por el protocolo MCP (handshake + llamada a las 7 tools)
+# prueba end-to-end por el protocolo MCP (handshake + llamada a las 8 tools, incluido comparar rechazando federal)
 uv run --no-project --with "mcp<2" python mcp-server/test_smoke.py
 ```
 

@@ -1,6 +1,6 @@
 """Prueba de humo end-to-end del server por el protocolo MCP (stdio JSON-RPC).
 
-Arranca el server como subproceso, hace el handshake, lista las tools y llama a cada una.
+Arranca el server como subproceso, hace el handshake, lista las tools y llama a cada una (incluye comparar federal, que debe rechazarse).
 uso: uv run --no-project --with "mcp<2" python mcp-server/test_smoke.py
 """
 import asyncio
@@ -21,7 +21,7 @@ async def main():
             tools = (await s.list_tools()).tools
             print("tools:", [t.name for t in tools])
             assert {"stats", "buscar_apps", "buscar_sitios", "buscar_servicios",
-                    "dependencia", "buscar_subdominio", "permisos"} <= {t.name for t in tools}
+                    "dependencia", "buscar_subdominio", "permisos", "comparar"} <= {t.name for t in tools}
 
             llamadas = [
                 ("stats", {}),
@@ -32,11 +32,22 @@ async def main():
                 ("dependencia", {"nombre": "IMSS"}),
                 ("permisos", {"texto": "IMSS"}),
                 ("buscar_subdominio", {"texto": "imss", "solo_activos": True, "limite": 5}),
+                ("buscar_apps", {"orden": "estatal", "poder": "judicial"}),
+                ("buscar_sitios", {"orden": "federal", "poder": "legislativo"}),
+                ("buscar_servicios", {"orden": "federal", "texto": "pasaporte", "limite": 2}),
+                ("permisos", {"orden": "municipal", "limite": 2}),
+                ("comparar", {"orden": "estatal", "nombres": "Jalisco, Nuevo León"}),
+                ("comparar", {"orden": "municipal", "nombres": "Monterrey"}),
+                ("comparar", {"orden": "federal"}),
             ]
             for nombre, args in llamadas:
                 res = await s.call_tool(nombre, args)
                 assert not res.isError, f"{nombre} devolvió error"
                 txt = res.content[0].text if res.content else ""
+                if nombre == "comparar" and args["orden"] == "federal":
+                    assert "no son comparables" in txt, txt
+                if nombre == "stats":
+                    assert "apps_orden_poder" in txt
                 print(f"OK {nombre}({args}) -> {len(txt)} chars")
     print("\n✅ todas las tools respondieron por el protocolo MCP")
 

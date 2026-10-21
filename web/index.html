@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Observatorio de gobierno digital · Presencia digital del Estado mexicano</title>
-<meta name="description" content="Inventario y análisis de la presencia digital del gobierno de México: 466 apps móviles, 231 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios en los tres órdenes de gobierno (federal, estatal, municipal), con evidencia técnica fechada y análisis de permisos/privacidad.">
+<meta name="description" content="Inventario y análisis de la presencia digital del gobierno de México: 519 apps móviles, 394 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios en los tres órdenes de gobierno (federal, estatal, municipal), con evidencia técnica fechada y análisis de permisos/privacidad.">
 <meta name="keywords" content="gobierno de México, apps gubernamentales, trámites en línea, gob.mx, transformación digital, catálogo nacional de trámites, gobierno digital, datos abiertos, IMSS, SAT, CFE, permisos de apps, privacidad, Certificate Transparency">
 <meta name="author" content="Elias Rashid Morales Mendoza (elimorals)">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Observatorio de gobierno digital · México">
 <meta property="og:title" content="Presencia digital del Estado mexicano">
-<meta property="og:description" content="466 apps móviles, 231 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios del gobierno de México — federal, estatal y municipal — con evidencia técnica fechada.">
+<meta property="og:description" content="519 apps móviles, 394 sitios web, 12,812 subdominios .gob.mx y 6,000+ servicios del gobierno de México — federal, estatal y municipal — con evidencia técnica fechada.">
 <meta property="og:url" content="https://elimorals.github.io/gobmx-presencia-digital/web/">
 <meta property="og:image" content="https://elimorals.github.io/gobmx-presencia-digital/og.png">
 <meta property="og:image:width" content="1200">
@@ -187,6 +187,7 @@ nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:26px 0 18px;position:sticky;
 .rows{display:flex;flex-direction:column;gap:8px}
 .r{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:12px 15px;animation:rise .5s both}
 .r:hover{border-color:var(--oro-dim)}
+.r{overflow-wrap:anywhere}
 .r .rt{font-family:var(--disp);font-size:16px;font-weight:600}
 .r .ru{font-family:var(--mono);font-size:11.5px;color:var(--oro);word-break:break-all}
 
@@ -238,7 +239,41 @@ footer{border-top:1px solid var(--line);margin-top:50px;padding:24px 0 40px;colo
 .card:hover{box-shadow:var(--shadow)}
 .drawer{box-shadow:var(--shadow)}
 
+/* matriz orden × poder */
+.mx{grid-column:span 2}
+.mxg{display:grid;grid-template-columns:minmax(66px,auto) repeat(4,minmax(0,1fr)) minmax(34px,auto);gap:4px;font-family:var(--mono);font-size:11px}
+.mxg button,.mxg span{font:inherit;border-radius:6px;padding:7px 4px;text-align:center;border:1px solid transparent;background:none;color:var(--ink-dim);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mxg .mh{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.mxg .mh.r{text-align:left}
+.mxg span.mh{cursor:default}
+.mxg button:hover{border-color:var(--oro-dim);color:var(--ink)}
+.mxg .mc{background:var(--panel2);border-color:var(--line);color:var(--ink);font-weight:600;cursor:pointer;line-height:1.15}
+.mxg .mc small{display:block;font-size:8px;font-weight:400;color:var(--ink-faint);letter-spacing:.04em;text-transform:uppercase}
+.mxg .mc.z{background:transparent;border-style:dashed;border-color:var(--bad);color:var(--bad)}
+.mxg .on{background:var(--guinda-deep)!important;border-color:var(--guinda)!important;color:#fff!important}
+.mxg .on small{color:#fff}
+.mxg .mt{color:var(--ink-faint)}
+.mxleg{font-size:11.5px;color:var(--ink-faint);margin:10px 0 0;line-height:1.45}
+.mxleg b{color:var(--bad);font-weight:500}
+.ab-s{display:none}
+.tag.sub{border-style:dashed;color:var(--warn);border-color:var(--warn)}
+/* comparar */
+.seg{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 12px}
+.cmp .brow .bl{width:118px}
+.cmp .brow .bn{white-space:nowrap}
+.cmpsel{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+.cmpsel select{font-family:var(--mono);font-size:12.5px;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 11px;max-width:100%}
+.chip.add{background:var(--panel2);color:var(--ink-dim);border:1px solid var(--line)}
+.scat{width:100%;max-width:620px;height:auto;display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.scat text{font-family:var(--mono);font-size:10px;fill:var(--ink-faint)}
+.scat .lb{fill:var(--ink);font-size:10.5px}
+.scat line{stroke:var(--line)}
+.nota{font-size:12px;color:var(--ink-faint);max-width:80ch;margin:10px 0}
+.nota b{color:var(--ink-dim);font-weight:500}
+
 @media(max-width:720px){
+  .mx{grid-column:auto}
+  .cmp .brow .bl{width:104px}
   .kpis{grid-template-columns:repeat(2,1fr)}
   .count{margin-left:0;width:100%}
   nav.tabs{top:0}
@@ -248,6 +283,7 @@ footer{border-top:1px solid var(--line);margin-top:50px;padding:24px 0 40px;colo
   .grid{grid-template-columns:1fr}
   .dist{grid-template-columns:1fr}
 }
+@media(max-width:480px){ .ab-l{display:none} .ab-s{display:inline} .mxg{grid-template-columns:58px repeat(4,minmax(0,1fr)) 30px;gap:3px} .mxg .mh{font-size:8.5px;letter-spacing:0;padding:7px 1px} .mxg .mc small{font-size:7px;letter-spacing:0} }
 @media(max-width:400px){ .kpis{grid-template-columns:1fr} }
 @media(prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important;scroll-behavior:auto!important} }
 </style>
@@ -315,7 +351,7 @@ $('#kpis').innerHTML='';
 .forEach(([n,l],i)=>{const k=el('div','kpi');k.innerHTML=`<div class="n">${typeof n==='number'?num(n):n}</div><div class="l">${l}</div>`;$('#kpis').appendChild(k);});
 
 // Tabs
-const TABS=[['apps','Apps'],['sitios','Sitios'],['servicios','Servicios'],['subdominios','Subdominios'],['guia','Guía']];
+const TABS=[['apps','Apps'],['sitios','Sitios'],['servicios','Servicios'],['subdominios','Subdominios'],['comparar','Comparar'],['guia','Guía']];
 let cur='apps';
 const nav=$('#tabs');
 const fmtK = n => n>=10000?(n/1000).toFixed(0)+'k':n>=1000?(n/1000).toFixed(1)+'k':String(n);
@@ -323,7 +359,7 @@ const TABCOUNT={apps:D.apps.length,sitios:D.sitios.length,servicios:D.servicios.
 TABS.forEach(([id,label])=>{
   const n=TABCOUNT[id];
   const b=el('button','tab'+(id===cur?' on':''),label+(n!=null?` <span class="tc">${fmtK(n)}</span>`:''));
-  b.onclick=()=>{cur=id;F={};[...nav.children].forEach(c=>c.classList.remove('on'));b.classList.add('on');render();};
+  b.onclick=()=>{cur=id;[...nav.children].forEach(c=>c.classList.remove('on'));b.classList.add('on');render();};
   nav.appendChild(b);});
 
 const SCORE = s => s==null?['','—']: s>=4?['sc-good',s.toFixed(1)]: s>=3?['sc-mid',s.toFixed(1)]:['sc-bad',s.toFixed(1)];
@@ -343,13 +379,42 @@ function bars(title,counter,color,filterKey){
 }
 function tally(arr,k){const m={};arr.forEach(x=>{const v=x[k]||'—';m[v]=(m[v]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);}
 
-let F={}; // filtros activos
-const FLABEL={nivel:'Nivel',estado:'Entidad',sector:'Sector',estatus:'Estatus',anti_bot:'Anti-bot',q:'Buscar',sub_fuente:'Fuente',sub_dep:'Dependencia',sub_activo:'Actividad'};
+let F={}; // filtros activos: persisten entre pestañas; cada pestaña aplica solo los suyos (TK)
+const FLABEL={orden:'Orden',poder:'Poder',estado:'Entidad',sector:'Sector',estatus:'Estatus',anti_bot:'Anti-bot',q:'Buscar',sub_fuente:'Fuente',sub_dep:'Dependencia',sub_activo:'Actividad'};
+const TK={apps:['orden','poder','estado','sector','estatus'],sitios:['orden','poder','estado','anti_bot'],servicios:['orden','poder'],subdominios:['sub_fuente','sub_dep','sub_activo']};
+const ORD=[['federal','Federal'],['estatal','Estatal'],['municipal','Municipal']];
+const POD=[['ejecutivo','Ejecutivo','Ejec.'],['legislativo','Legislativo','Legis.'],['judicial','Judicial','Judic.'],['autonomo','Autónomo','Autón.']];
+const OLAB=Object.fromEntries(ORD), PLAB=Object.fromEntries(POD.map(p=>[p[0],p[1]]));
+const plab=(p,o)=>p==='autonomo'&&o==='federal'?'Autónomos nacionales':(PLAB[p]||p);
+const fval=(k,v)=>k==='orden'?OLAB[v]||v:k==='poder'?plab(v,F.orden):v;
+const ordTags=x=>`<span class="tag nivel">${x.orden?OLAB[x.orden]:'no oficial'}</span>${x.poder?`<span class="tag">${plab(x.poder,x.orden)}</span>`:''}${x.subtipo?`<span class="tag sub">${x.subtipo.replace(/_/g,' ')}</span>`:''}${x.municipio?`<span class="tag">${x.municipio}</span>`:''}`;
+const BUSQ='https://github.com/elimorals/gobmx-presencia-digital/blob/main/apps/inventario/BUSQUEDA-PODERES.md';
+// matriz orden × poder sobre la lista ya filtrada por todo menos orden/poder; los 0 se muestran
+function matrix(base,what){
+  const c=el('div','distcard mx'), n={}, tot={};
+  base.forEach(x=>{if(!x.orden)return;const k=x.orden+'|'+x.poder;n[k]=(n[k]||0)+1;tot[x.orden]=(tot[x.orden]||0)+1;tot[x.poder]=(tot[x.poder]||0)+1;});
+  const sinOrden=base.filter(x=>!x.orden).length, all=base.length-sinOrden;
+  const on=(o,p)=>(F.orden||'')===o&&(F.poder||'')===p?' on':'';
+  const hd=(p,l,s)=>`<span class="ab-l">${l}</span><span class="ab-s">${s}</span>`;
+  let h=`<span></span>${POD.map(([p,l,s])=>`<button class="mh${on('',p)}" data-o="" data-p="${p}" title="${l}">${hd(p,l,s)}</button>`).join('')}<span class="mh">Total</span>`;
+  ORD.forEach(([o,ol])=>{
+    h+=`<button class="mh r${on(o,'')}" data-o="${o}" data-p="">${ol}</button>`;
+    POD.forEach(([p])=>{const v=n[o+'|'+p]||0;
+      h+=`<button class="mc${v?'':' z'}${on(o,p)}" data-o="${o}" data-p="${p}" title="${ol} · ${plab(p,o)}: ${num(v)}">${num(v)}${o==='federal'&&p==='autonomo'?'<small>nacionales</small>':''}</button>`;});
+    h+=`<span class="mt">${num(tot[o]||0)}</span>`;});
+  h+=`<button class="mh r${on('','')}" data-o="" data-p="">Nacional</button>${POD.map(([p])=>`<span class="mt">${num(tot[p]||0)}</span>`).join('')}<span class="mt">${num(all)}</span>`;
+  c.innerHTML=`<h3>Orden × poder · ${what}<span class="hint">clic para filtrar</span></h3><div class="mxg">${h}</div>
+    <p class="mxleg">Las celdas en <b>0</b> (borde punteado) son ausencias reales, no huecos de captura: están respaldadas por búsqueda dirigida en tiendas y portales (<a href="${BUSQ}" target="_blank" rel="noopener">BUSQUEDA-PODERES.md</a>). «Autónomo» en el orden federal = autónomos nacionales (INE, Banxico, INEGI, CNDH…).${sinOrden?` ${sinOrden} registro(s) no oficiales quedan fuera de la matriz.`:''}</p>`;
+  c.querySelectorAll('button').forEach(b=>b.onclick=()=>{const o=b.dataset.o||undefined,p=b.dataset.p||undefined;
+    if(on(b.dataset.o,b.dataset.p)&&(o||p)){F.orden=F.poder=undefined;}else{F.orden=o;F.poder=p;}render();});
+  return c;
+}
 function chipsRow(){
-  const act=Object.keys(F).filter(k=>F[k]);
+  const ok=(TK[cur]||[]).concat('q');
+  const act=Object.keys(F).filter(k=>F[k]&&ok.includes(k));
   if(!act.length)return null;
   const box=el('div','chips');
-  act.forEach(k=>{const ch=el('button','chip',`${FLABEL[k]||k}: ${F[k]} <span class="cx">×</span>`);
+  act.forEach(k=>{const ch=el('button','chip',`${FLABEL[k]||k}: ${fval(k,F[k])} <span class="cx">×</span>`);
     ch.onclick=()=>{F[k]=undefined;render();};box.appendChild(ch);});
   if(act.length>1){const cl=el('button','chip clear','limpiar todo');cl.onclick=()=>{F={};render();};box.appendChild(cl);}
   return box;
@@ -359,7 +424,7 @@ function selectRow(opts){
   opts.forEach(o=>{
     if(o.search){const inp=el('input');inp.placeholder=o.ph||'Buscar…';inp.value=F.q||'';inp.oninput=()=>{F.q=inp.value||undefined;_keep=true;render();setTimeout(()=>{const n=$('#'+'srch');if(n){n.focus();n.setSelectionRange(n.value.length,n.value.length);}});};inp.id='srch';bar.appendChild(inp);return;}
     if(o.sort){const sel=el('select','sortsel');sel.innerHTML=o.opts.map(([val,lab])=>`<option value="${val}"${SORT===val?' selected':''}>↕ ${lab}</option>`).join('');sel.onchange=()=>{SORT=sel.value;render();};bar.appendChild(sel);return;}
-    const sel=el('select');sel.innerHTML=`<option value="">${o.label}</option>`+o.vals.map(v=>`<option${F[o.key]===v?' selected':''}>${v}</option>`).join('');
+    const sel=el('select');sel.innerHTML=`<option value="">${o.label}</option>`+o.vals.map(v=>{const [val,lab]=Array.isArray(v)?v:[v,v];return `<option value="${val}"${F[o.key]===val?' selected':''}>${lab}</option>`;}).join('');
     sel.onchange=()=>{F[o.key]=sel.value||undefined;render();};bar.appendChild(sel);
   });
   const c=el('span','count');c.id='cnt';bar.appendChild(c);
@@ -371,8 +436,10 @@ function moreBtn(total,shown,onMore){
   const b=el('button','more',`cargar más · ${shown} de ${num(total)}`);
   b.onclick=()=>{_keep=true;PAGE+=60;onMore();};return b;
 }
-function match(x){
-  for(const k of ['nivel','estado','sector','estatus','tipo','anti_bot']) if(F[k]&&x[k]!==F[k]) return false;
+const ordSel=()=>({key:'orden',label:'Orden: Nacional',vals:ORD});
+const podSel=()=>({key:'poder',label:'Poder: todos',vals:POD.map(([p])=>[p,plab(p,F.orden)])});
+function match(x,sinOP){
+  for(const k of TK[cur]||[]) if(F[k]&&!(sinOP&&(k==='orden'||k==='poder'))&&x[k]!==F[k]) return false;
   if(F.q){const q=F.q.toLowerCase();const blob=[x.nombre,x.dependencia,x.siglas,x.url,x.servicio,x.prop,x.brecha].filter(Boolean).join(' ').toLowerCase();if(!blob.includes(q))return false;}
   return true;
 }
@@ -384,6 +451,7 @@ function render(){
   else if(cur==='sitios') renderSitios(v);
   else if(cur==='servicios') renderServicios(v);
   else if(cur==='subdominios') renderSub(v);
+  else if(cur==='comparar') renderComparar(v);
   else renderGuia(v);
 }
 
@@ -401,14 +469,18 @@ git clone https://github.com/elimorals/gobmx-presencia-digital
 cd gobmx-presencia-digital
 
 <span class="c"># comandos</span>
-python3 gobmx.py stats                    <span class="c"># resumen por nivel/sector/estatus</span>
+python3 gobmx.py stats                    <span class="c"># resumen + matriz orden × poder</span>
 python3 gobmx.py apps --estado Jalisco    <span class="c"># apps de un estado</span>
 python3 gobmx.py apps --sector seguridad --json
-python3 gobmx.py sitios --nivel federal
+python3 gobmx.py apps --orden estatal --poder judicial
+python3 gobmx.py sitios --orden federal --poder autonomo   <span class="c"># autónomos nacionales</span>
+python3 gobmx.py comparar --orden estatal --nombres "Jalisco,Nuevo León"
+python3 gobmx.py comparar --orden municipal              <span class="c"># federal se rechaza</span>
+python3 gobmx.py comparar --orden estatal --ordenar por_100k_hab.apps   <span class="c"># ranking</span>
 python3 gobmx.py servicios --busca CURP
 python3 gobmx.py permisos --busca IMSS     <span class="c"># permisos peligrosos y trackers por app</span>
 python3 gobmx.py dep IMSS                  <span class="c"># apps + sitios de una dependencia</span></pre>
-  <p>Filtros de <code>apps</code>: <code>--nivel</code>, <code>--estado</code>, <code>--sector</code>, <code>--estatus</code>, <code>--busca</code>, <code>--json</code>.</p>
+  <p>Filtros de <code>apps</code>/<code>sitios</code>/<code>servicios</code>: <code>--orden</code> (federal · estatal · municipal), <code>--poder</code> (ejecutivo · legislativo · judicial · autonomo), <code>--estado</code>, <code>--sector</code>, <code>--estatus</code>, <code>--busca</code>, <code>--json</code>; <code>--nivel</code> se conserva por compatibilidad. <code>comparar</code> solo acepta <code>--orden estatal</code> o <code>municipal</code>: el federal no es comparable en presupuesto, extensión ni población (igual que la pestaña <b>Comparar</b> de este dashboard).</p>
 
   <h2>MCP — <code>gobmx-inventario</code></h2>
   <p>Servidor <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a> de solo lectura: expone el inventario como herramientas que puedes consultar en lenguaje natural desde Claude u otro cliente MCP.</p>
@@ -424,11 +496,12 @@ claude mcp list        <span class="c"># debe decir: gobmx-inventario ... ✔ Co
   <div class="toolgrid">
     ${[
       ['stats()','Resumen del inventario. Sin parámetros.','Devuelve <code>apps</code>, <code>sitios</code>, <code>servicios</code> (totales) y los desgloses <code>apps_por_nivel</code>, <code>apps_por_sector</code>, <code>apps_por_estatus</code>, <code>apps_con_android</code>, <code>apps_con_ios</code>.'],
-      ['buscar_apps(nivel, estado, sector, estatus, texto, limite=50)','Busca apps. Filtros opcionales, match parcial sin distinguir mayúsculas.','<b>nivel</b>: federal · estatal · municipal · paraestatal · autonomo · no_oficial<br><b>sector</b>: seguridad · movilidad · salud · fiscal · finanzas · identidad · trámites · educación · turismo · clima · vivienda · energía · trabajo · elecciones · otro<br><b>estatus</b>: activa · retirada · «sin actualizar &gt;2 años» · desconocido<br><b>texto</b>: busca en nombre/dependencia/propósito'],
-      ['buscar_sitios(nivel, estado, texto, limite=50)','Busca portales web.','Cada resultado trae <code>url</code>, <code>plataforma</code>, <code>anti_bot</code>, <code>autenticacion</code> y <code>estado_real</code> (evidencia fechada).'],
-      ['buscar_servicios(texto, limite=50)','Busca trámites y brechas (CONAMER + cruce apps×sitios).','<b>texto</b> busca en servicio/nombre_tramite/dependencia/brecha.'],
+      ['buscar_apps(orden, poder, estado, sector, estatus, texto, nivel, limite=50)','Busca apps. Filtros opcionales, match parcial sin distinguir mayúsculas.','<b>orden</b>: federal · estatal · municipal<br><b>poder</b>: ejecutivo · legislativo · judicial · autonomo<br><b>nivel</b>: federal · estatal · municipal · paraestatal · autonomo · no_oficial<br><b>sector</b>: seguridad · movilidad · salud · fiscal · finanzas · identidad · trámites · educación · turismo · clima · vivienda · energía · trabajo · elecciones · otro<br><b>estatus</b>: activa · retirada · «sin actualizar &gt;2 años» · desconocido<br><b>texto</b>: busca en nombre/dependencia/propósito'],
+      ['comparar(orden, nombres="", ordenar_por="")','Compara entidades o municipios con tasas por 100k hab y por mil mdp de egreso, egreso por habitante y transferencias PEF (Ramos 28+33).','<b>orden</b>: estatal · municipal (federal se rechaza)<br><b>nombres</b>: lista separada por comas; vacío = todos<br><b>ordenar_por</b>: ranking por métrica (<code>por_100k_hab.apps</code>, <code>egreso_por_hab</code>…).'],
+      ['buscar_sitios(nivel, estado, texto, orden, poder, limite=50)','Busca portales web.','Cada resultado trae <code>url</code>, <code>plataforma</code>, <code>anti_bot</code>, <code>autenticacion</code> y <code>estado_real</code> (evidencia fechada).'],
+      ['buscar_servicios(texto, orden, poder, limite=50)','Busca trámites y brechas (CONAMER + cruce apps×sitios).','<b>texto</b> busca en servicio/nombre_tramite/dependencia/brecha.'],
       ['dependencia(nombre)','Todo lo de una dependencia en un llamado.','Devuelve <code>{apps:[…], sitios:[…]}</code>; cada app trae sus <code>permisos</code> si existen. <b>nombre</b> hace match en dependencia o siglas.'],
-      ['permisos(texto, limite=50)','Permisos peligrosos y trackers por app (351 apps con Android).','Cada entrada: <code>permisos_peligrosos</code>, <code>trackers</code> y notas de qué no cuadra con el propósito.'],
+      ['permisos(texto, limite=50)','Permisos peligrosos y trackers por app (387 apps con Android).','Cada entrada: <code>permisos_peligrosos</code>, <code>trackers</code> y notas de qué no cuadra con el propósito.'],
       ['buscar_subdominio(texto, solo_activos=false, limite=100)','Busca en los 12,812 subdominios .gob.mx (CT + dotgob-mx).','<b>solo_activos</b>: solo los marcados activos por dotgob-mx. Cada fila: host, fuente, activo_dotgob, dependencia.'],
     ].map(([n,d,p])=>`<div class="toolcard"><div class="tn">${n}</div><div class="td">${d}</div><div class="td" style="margin-top:7px;color:var(--ink-faint)">${p}</div></div>`).join('')}
   </div>
@@ -453,7 +526,7 @@ https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/ap
 <span class="c"># sitios web, servicios y subdominios</span>
 .../main/sitios/federal.json   .../main/servicios/brechas.json
 .../main/sitios/subdominios-consolidado.csv</pre>
-  <p>Esquema de cada app (campos principales): <code>nombre</code>, <code>dependencia</code>, <code>siglas</code>, <code>nivel</code>, <code>estado</code>, <code>sector</code>, <code>estatus</code>, <code>android_id</code>, <code>ios_id</code>, <code>requiere_cuenta</code>, <code>play</code>/<code>appstore</code> (métricas), <code>proposito</code>, <code>fuentes</code>, <code>notas</code>. Esquemas completos en <code>scripts/esquema.md</code> y <code>scripts/esquema-sitios-servicios.md</code>.</p>
+  <p>Esquema de cada app (campos principales): <code>nombre</code>, <code>dependencia</code>, <code>siglas</code>, <code>orden</code>, <code>poder</code>, <code>subtipo</code>, <code>municipio</code>, <code>nivel</code> (heredado), <code>estado</code>, <code>sector</code>, <code>estatus</code>, <code>android_id</code>, <code>ios_id</code>, <code>requiere_cuenta</code>, <code>play</code>/<code>appstore</code> (métricas), <code>proposito</code>, <code>fuentes</code>, <code>notas</code>. Esquemas completos en <code>scripts/esquema.md</code> y <code>scripts/esquema-sitios-servicios.md</code>.</p>
   <p>El MCP es el camino más rico (filtros + cruces en un llamado); el JSON crudo sirve para pipelines y análisis masivo.</p>
 
   <h2>Cómo se regenera</h2>
@@ -473,19 +546,19 @@ https://raw.githubusercontent.com/elimorals/gobmx-presencia-digital/main/apps/ap
 const SORTS={inst:(a,b)=>b.inst-a.inst, score:(a,b)=>(b.play_score??b.ios_score??0)-(a.play_score??a.ios_score??0),
   nombre:(a,b)=>(a.nombre||'').localeCompare(b.nombre||'','es'), ratings:(a,b)=>(b.play_ratings||0)-(a.play_ratings||0)};
 function renderApps(v){
-  v.appendChild(el('p','intro','<b>Apps móviles oficiales</b> del gobierno de México. Clic en una barra para filtrar; clic en una tarjeta para ver su ficha y permisos. Ordenadas por instalaciones.'));
+  v.appendChild(el('p','intro','<b>Apps móviles oficiales</b> del gobierno de México. Clic en una celda de la matriz o en una barra para filtrar (los filtros se conservan al cambiar de pestaña); clic en una tarjeta para ver su ficha y permisos.'));
   v.appendChild(selectRow([
     {search:true,ph:'Buscar app o dependencia…'},
-    {key:'nivel',label:'Nivel',vals:uniq(D.apps,'nivel')},
+    ordSel(),podSel(),
     {key:'estado',label:'Entidad',vals:uniq(D.apps,'estado')},
     {key:'sector',label:'Sector',vals:uniq(D.apps,'sector')},
     {key:'estatus',label:'Estatus',vals:uniq(D.apps,'estatus')},
     {sort:true,opts:[['inst','instalaciones'],['score','calificación'],['ratings','reseñas'],['nombre','nombre']]},
   ]));
   const chips=chipsRow();if(chips)v.appendChild(chips);
-  let list=D.apps.filter(match);
+  let list=D.apps.filter(x=>match(x));
   const dist=el('div','dist');
-  dist.appendChild(bars('Por nivel',tally(list,'nivel'),null,'nivel'));
+  dist.appendChild(matrix(D.apps.filter(x=>match(x,true)),'apps'));
   dist.appendChild(bars('Por sector',tally(list,'sector').slice(0,8),'var(--oro)','sector'));
   dist.appendChild(bars('Por estatus',tally(list,'estatus'),null,'estatus'));
   v.appendChild(dist);
@@ -498,7 +571,7 @@ function renderApps(v){
     const perm=(D.permisos||[]).find(p=>p.android_id===a.android);
     c.innerHTML=`<div class="stat ${STCLASS(a.estatus)}">${a.estatus||''}</div>
       <p class="nm">${a.nombre||'—'}</p><p class="dep">${a.dependencia||''}</p>
-      <div class="tags"><span class="tag nivel">${a.nivel||''}</span>${a.sector?`<span class="tag">${a.sector}</span>`:''}
+      <div class="tags">${ordTags(a)}${a.sector?`<span class="tag">${a.sector}</span>`:''}
         ${a.estado&&a.estado!=='Nacional'?`<span class="tag">${a.estado}</span>`:''}
         ${perm?`<span class="tag" style="border-color:var(--bad);color:var(--bad)">⚑ ${(perm.permisos_peligrosos||[]).length} permisos</span>`:''}</div>
       <div class="meta">
@@ -516,17 +589,17 @@ function renderApps(v){
 }
 
 function renderSitios(v){
-  v.appendChild(el('p','intro','<b>Portales web</b> de dependencias federales, estatales y municipales, con su plataforma, anti-bot y el resultado de un GET pasivo fechado. Clic en una barra para filtrar por nivel.'));
+  v.appendChild(el('p','intro','<b>Portales web</b> de dependencias federales, estatales y municipales, con su plataforma, anti-bot y el resultado de un GET pasivo fechado. Clic en una celda de la matriz para filtrar por orden y poder.'));
   v.appendChild(selectRow([
     {search:true,ph:'Buscar portal o dependencia…'},
-    {key:'nivel',label:'Nivel',vals:uniq(D.sitios,'nivel')},
+    ordSel(),podSel(),
     {key:'estado',label:'Entidad',vals:uniq(D.sitios,'estado')},
     {key:'anti_bot',label:'Anti-bot',vals:uniq(D.sitios,'anti_bot')},
   ]));
   const chips=chipsRow();if(chips)v.appendChild(chips);
-  const list=D.sitios.filter(match);
+  const list=D.sitios.filter(x=>match(x));
   const dist=el('div','dist');
-  dist.appendChild(bars('Por nivel',tally(list,'nivel'),null,'nivel'));
+  dist.appendChild(matrix(D.sitios.filter(x=>match(x,true)),'sitios'));
   dist.appendChild(bars('Por plataforma',tally(list,'plataforma').filter(x=>x[0]!=='—').slice(0,8),'var(--oro)'));
   dist.appendChild(bars('Por anti-bot',tally(list.filter(s=>s.anti_bot&&s.anti_bot!=='ninguno'),'anti_bot').slice(0,8),null,'anti_bot'));
   v.appendChild(dist);
@@ -536,7 +609,7 @@ function renderSitios(v){
     r.innerHTML=`<div class="rt">${s.siglas||s.dependencia||'—'}</div>
       <div class="dep" style="font-size:12px;color:var(--ink-dim)">${s.dependencia||''}</div>
       <a class="ru" href="${s.url}" target="_blank" rel="noopener">${s.url||''}</a>
-      <div class="tags"><span class="tag nivel">${s.nivel||''}</span>
+      <div class="tags">${ordTags(s)}
         ${s.estado&&s.estado!=='Nacional'?`<span class="tag">${s.estado}</span>`:''}
         ${s.plataforma?`<span class="tag plat">${(s.plataforma||'').slice(0,40)}</span>`:''}
         ${s.anti_bot&&s.anti_bot!=='ninguno'?`<span class="tag">⛨ ${s.anti_bot}</span>`:''}</div>
@@ -548,9 +621,10 @@ function renderSitios(v){
 
 function renderServicios(v){
   v.appendChild(el('p','intro','<b>Servicios y trámites.</b> Primero las <b>brechas</b> detectadas al cruzar apps y sitios (qué servicio falta o solo existe en un canal); después el catálogo federal de CONAMER con su homoclave.'));
-  v.appendChild(selectRow([{search:true,ph:'Buscar servicio, trámite o dependencia…'}]));
+  v.appendChild(selectRow([{search:true,ph:'Buscar servicio, trámite o dependencia…'},ordSel(),podSel()]));
   const chips=chipsRow();if(chips)v.appendChild(chips);
-  const list=D.servicios.filter(match);
+  const list=D.servicios.filter(x=>match(x));
+  const dist=el('div','dist');dist.appendChild(matrix(D.servicios.filter(x=>match(x,true)),'servicios'));v.appendChild(dist);
   const tramites=list.filter(s=>s._fuente==='cnts');
   const brechas=list.filter(s=>s._fuente!=='cnts');
   $('#cnt').textContent=`${brechas.length} clave · ${num(tramites.length)} trámites federales`;
@@ -560,7 +634,8 @@ function renderServicios(v){
     const g=el('div','grid');
     brechas.forEach((s,i)=>{const c=el('div','card');c.style.cursor='default';c.style.animationDelay=Math.min(i*15,300)+'ms';
       c.innerHTML=`<p class="nm">${s.servicio||s.nombre_tramite||'—'}</p>
-        <p class="dep">${s.dependencia||''} ${s.nivel?'· '+s.nivel:''}</p>
+        <p class="dep">${s.dependencia||''}</p>
+        <div class="tags">${ordTags(s)}</div>
         ${s.brecha?`<div class="meta" style="color:var(--bad)">⚠ ${s.brecha}</div>`:''}
         ${s.canales?`<div class="tags">${Object.entries(s.canales).map(([k,val])=>`<span class="tag">${k}: ${val}</span>`).join('')}</div>`:''}`;
       g.appendChild(c);});
@@ -573,11 +648,112 @@ function renderServicios(v){
       r.innerHTML=`<div class="rt" style="font-size:15px">${s.nombre_tramite||s.servicio||'—'}</div>
         <div class="dep" style="font-size:12px;color:var(--ink-dim)">${s.dependencia||s.siglas||''}</div>
         ${s.homoclave?`<span class="ru" style="color:var(--ink-faint)">${s.homoclave}</span>`:''}
-        ${s.nivel_digitalizacion?`<div class="tags"><span class="tag">${s.nivel_digitalizacion}</span></div>`:''}`;
+        <div class="tags">${ordTags(s)}${s.nivel_digitalizacion?`<span class="tag">${s.nivel_digitalizacion}</span>`:''}</div>`;
       rows.appendChild(r);});
     v.appendChild(rows);
     const more=moreBtn(tramites.length,Math.min(PAGE,tramites.length),render);if(more)v.appendChild(more);
   }
+}
+
+// --- Comparar: estatal↔estatal o municipal↔municipal (federal no se ofrece) ---
+const CMP={modo:'estatal',rank:'apps_100k',sel:{estatal:['Ciudad de México','Jalisco','Nuevo León'],municipal:['Guadalajara, Jalisco','Monterrey, Nuevo León']}};
+const ckey=x=>x.municipio?x.municipio+', '+x.estado:x.estado;
+const nn=v=>v==null?'s/d':num(v);
+const dec=v=>v==null?'s/d':v.toLocaleString('es-MX',{maximumFractionDigits:2});
+const mmdp=v=>v==null?'s/d':(v/1e9).toLocaleString('es-MX',{maximumFractionDigits:1})+' mmdp';
+const pesos=v=>v==null?'s/d':'$'+num(Math.round(v));
+const sub=(o,k)=>o&&o[k]!=null?o[k]:null;
+const epc=x=>x.egresos_mxn!=null&&x.poblacion_2020?x.egresos_mxn/x.poblacion_2020:null;
+const dig=x=>{const a=sub(x.por_100k_hab,'apps'),s=sub(x.por_100k_hab,'sitios');return a==null||s==null?null:a+s;};
+// [id, etiqueta, valor, formato, grupo]
+const METS=[
+  ['apps','Apps',x=>x.apps,nn,'abs'],['apps_activas','Apps activas',x=>x.apps_activas,nn,'abs'],
+  ['sitios','Sitios web',x=>x.sitios,nn,'abs'],['subdominios','Subdominios .gob.mx',x=>x.subdominios,nn,'abs'],
+  ['instalaciones','Instalaciones Android',x=>x.instalaciones,nn,'abs'],
+  ['cobertura','Cobertura de poderes (de 4)',x=>x.cobertura_poderes,v=>v==null?'s/d':v+'/4','abs'],
+  ['apps_100k','Apps por 100k hab',x=>sub(x.por_100k_hab,'apps'),dec,'hab'],
+  ['activas_100k','Apps activas por 100k hab',x=>sub(x.por_100k_hab,'apps_activas'),dec,'hab'],
+  ['sitios_100k','Sitios por 100k hab',x=>sub(x.por_100k_hab,'sitios'),dec,'hab'],
+  ['subd_100k','Subdominios por 100k hab',x=>sub(x.por_100k_hab,'subdominios'),dec,'hab'],
+  ['inst_hab','Instalaciones por habitante',x=>x.instalaciones_por_hab,dec,'hab'],
+  ['apps_mmdp','Apps por mil mdp de egreso',x=>sub(x.por_mil_mdp,'apps'),dec,'mdp'],
+  ['activas_mmdp','Apps activas por mil mdp',x=>sub(x.por_mil_mdp,'apps_activas'),dec,'mdp'],
+  ['sitios_mmdp','Sitios por mil mdp',x=>sub(x.por_mil_mdp,'sitios'),dec,'mdp'],
+  ['subd_mmdp','Subdominios por mil mdp',x=>sub(x.por_mil_mdp,'subdominios'),dec,'mdp'],
+  ['poblacion','Población 2020',x=>x.poblacion_2020,nn,'pres'],
+  ['egresos','Egresos (INEGI)',x=>x.egresos_mxn,mmdp,'pres'],
+  ['egreso_pc','Egreso por habitante',epc,pesos,'pres'],
+  ['pef','Transferencias PEF (R28+R33)',x=>x.transferencias_pef_mxn,mmdp,'pres'],
+];
+const MBY=Object.fromEntries(METS.map(m=>[m[0],m]));
+const GRUPOS=[['abs','Absolutos'],['hab','Por habitante · Censo 2020'],['mdp','Por presupuesto · cada mil millones de pesos de egreso'],['pres','Presupuesto y población · complementario']];
+function cbars(title,rows,fmt,onRow,isOn){ // rows: [[etiqueta,valor,titulo]]; null → s/d sin barra
+  const c=el('div','distcard'); c.innerHTML=`<h3>${title}</h3>`;
+  const max=Math.max(...rows.map(r=>r[1]||0),1e-9);
+  rows.forEach(([k,v,t])=>{const row=el('div','brow'+(onRow?' btn':'')+(isOn&&isOn(t)?' on':''));
+    row.innerHTML=`<span class="bl" title="${t||k}">${k}</span>${v==null?'':`<span class="bar" style="width:${Math.max(2,v/max*90)}px"></span>`}<span class="bn">${fmt(v)}</span>`;
+    if(onRow)row.onclick=()=>onRow(t);c.appendChild(row);});
+  return c;
+}
+function scatter(L,sel){
+  const P=L.map(x=>[epc(x),dig(x),x]).filter(p=>p[0]!=null&&p[1]!=null);
+  if(P.length<2)return el('p','nota','Sin datos suficientes de población y egreso para el diagrama.');
+  const W=420,H=260,m={l:38,r:12,t:12,b:32},mx=Math.max(...P.map(p=>p[0]))*1.05,my=Math.max(...P.map(p=>p[1]))*1.1||1;
+  const X=v=>m.l+v/mx*(W-m.l-m.r),Y=v=>H-m.b-v/my*(H-m.t-m.b);
+  let s=`<svg class="scat" viewBox="0 0 ${W} ${H}" role="img" aria-label="Digitalización contra egreso por habitante">`;
+  for(let i=0;i<=4;i++){const xv=mx*i/4,yv=my*i/4;
+    s+=`<line x1="${X(xv)}" x2="${X(xv)}" y1="${m.t}" y2="${H-m.b}"/><text x="${X(xv)}" y="${H-m.b+13}" text-anchor="middle">${num(Math.round(xv/1000))}k</text>`;
+    s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${Y(yv)}" y2="${Y(yv)}"/><text x="${m.l-5}" y="${Y(yv)+3}" text-anchor="end">${yv.toFixed(1)}</text>`;}
+  s+=`<text x="${W-m.r}" y="${H-4}" text-anchor="end">egreso por habitante ($ miles) →</text>`;
+  P.forEach(([a,b,x])=>{const on=sel.includes(ckey(x));
+    s+=`<circle cx="${X(a).toFixed(1)}" cy="${Y(b).toFixed(1)}" r="${on?5.5:3.5}" style="fill:${on?'var(--oro)':'var(--guinda)'};opacity:${on?1:.7}"><title>${ckey(x)}: ${pesos(a)} por hab · ${dec(b)} apps+sitios por 100k</title></circle>`;
+    const der=X(a)>W*.65; // etiqueta a la izquierda cerca del borde derecho
+    if(on)s+=`<text class="lb" x="${(X(a)+(der?-7:7)).toFixed(1)}" y="${(Y(b)+3).toFixed(1)}" text-anchor="${der?'end':'start'}">${x.municipio||x.estado}</text>`;});
+  return el('div','',s+'</svg>');
+}
+function renderComparar(v){
+  const mun=CMP.modo==='municipal', L=(mun?D.municipios:D.entidades)||[], key=CMP.modo;
+  const valid=new Set(L.map(ckey)); CMP.sel[key]=CMP.sel[key].filter(k=>valid.has(k));
+  const sel=CMP.sel[key], byK=Object.fromEntries(L.map(x=>[ckey(x),x])), S=sel.map(k=>byK[k]);
+  const anio=(L.find(x=>x.egresos_anio)||{}).egresos_anio;
+  const conDato=L.filter(x=>x.poblacion_2020!=null).length;
+  const toggle=k=>{const i=sel.indexOf(k);if(i>-1)sel.splice(i,1);else if(sel.length<6)sel.push(k);render();};
+  v.appendChild(el('p','intro',`<b>Comparar ${mun?'municipios':'entidades'}</b> lado a lado: conteos absolutos, tasas por 100 mil habitantes y por cada mil millones de pesos de egreso, y cobertura de poderes. Elige de 2 a 6.`));
+  const seg=el('div','seg');
+  [['estatal','Estatal'],['municipal','Municipal']].forEach(([m,l])=>{const b=el('button','tab'+(CMP.modo===m?' on':''),l);b.onclick=()=>{CMP.modo=m;render();};seg.appendChild(b);});
+  v.appendChild(seg);
+  v.appendChild(el('p','nota',`<b>¿Y el orden federal?</b> No se ofrece: el gobierno federal tiene un presupuesto, una extensión y una población de referencia que no son comparables con los de un estado o un municipio. ${(D.comparacion||{}).metodologia||''}`));
+  const box=el('div','cmpsel');
+  sel.forEach(k=>{const ch=el('button','chip',`${k} <span class="cx">×</span>`);ch.onclick=()=>toggle(k);box.appendChild(ch);});
+  if(sel.length<6){const s=el('select');
+    const opts=L.filter(x=>!sel.includes(ckey(x))).sort((a,b)=>ckey(a).localeCompare(ckey(b),'es'));
+    s.innerHTML=`<option value="">＋ agregar ${mun?'municipio':'entidad'} (${sel.length}/6)</option>`+opts.map(x=>`<option value="${ckey(x)}">${ckey(x)}${mun&&x.poblacion_2020==null?' · s/d presupuesto':''}</option>`).join('');
+    s.onchange=()=>{if(s.value)toggle(s.value);};box.appendChild(s);}
+  v.appendChild(box);
+  const wrap=el('div','cmp');v.appendChild(wrap);
+  if(sel.length<2)wrap.appendChild(el('p','intro','Elige al menos 2 para comparar.'));
+  else GRUPOS.forEach(([g,gl])=>{
+    wrap.appendChild(el('div','secttitle',gl+(g==='pres'&&anio?` <span class="sc">egresos ${anio}</span>`:'')));
+    const d=el('div','dist');
+    METS.filter(m=>m[4]===g&&!(mun&&m[0]==='pef'&&S.every(x=>x.transferencias_pef_mxn==null))).forEach(([id,l,f,fmt])=>
+      d.appendChild(cbars(l,S.map(x=>[x.municipio||x.estado,f(x),ckey(x)]),fmt)));
+    wrap.appendChild(d);});
+  // digitalización vs egreso per cápita
+  wrap.appendChild(el('div','secttitle',`Digitalización vs egreso por habitante <span class="sc">${mun?'municipios':'entidades'} con dato</span>`));
+  wrap.appendChild(el('p','nota','Eje vertical: apps + sitios por 100 mil habitantes. Eje horizontal: egreso total por habitante. En dorado, los seleccionados; pasa el cursor sobre un punto para ver el nombre.'));
+  wrap.appendChild(scatter(L,sel));
+  // ranking
+  const [rid,rl,rf,rfmt]=MBY[CMP.rank]||METS[0];
+  const t=el('div','secttitle',`Ranking · ${rl} <span class="sc">clic para agregar o quitar</span>`);wrap.appendChild(t);
+  const rs=el('select');rs.className='sortsel';rs.style.marginLeft='0';
+  rs.innerHTML=GRUPOS.map(([g,gl])=>`<optgroup label="${gl}">${METS.filter(m=>m[4]===g).map(m=>`<option value="${m[0]}"${m[0]===rid?' selected':''}>↕ ${m[1]}</option>`).join('')}</optgroup>`).join('');
+  rs.onchange=()=>{CMP.rank=rs.value;render();};
+  const fb=el('div','cmpsel');fb.appendChild(rs);wrap.appendChild(fb);
+  const R=L.map(x=>[x,rf(x)]).filter(r=>r[1]!=null).sort((a,b)=>b[1]-a[1]);
+  const sd=L.length-R.length;
+  const rc=cbars(`${R.length} ${mun?'municipios':'entidades'} con dato${sd?` · ${sd} s/d`:''}`,R.map(([x,val],i)=>[(i+1)+'. '+(x.municipio||x.estado),val,ckey(x)]),rfmt,toggle,k=>sel.includes(k));
+  wrap.appendChild(rc);
+  wrap.appendChild(el('p','nota',`<b>Nota de método.</b> Población: Censo de Población y Vivienda 2020 (INEGI). Egresos: <a href="https://www.inegi.org.mx/programas/finanzas/" target="_blank" rel="noopener">Finanzas públicas estatales y municipales (EFIPEM, INEGI)</a>, egreso total${anio?' '+anio:''} en pesos corrientes. Transferencias: <a href="https://www.transparenciapresupuestaria.gob.mx/es/PTP/Datos_Abiertos" target="_blank" rel="noopener">PEF · Transparencia Presupuestaria (SHCP)</a>, Ramo 28 (participaciones) + Ramo 33 (aportaciones) por entidad; es un dato complementario, no el gasto total. mmdp = miles de millones de pesos. <b>s/d</b> = sin dato, nunca cero.${mun?` Presupuesto municipal cargado para ${conDato} de ${L.length} municipios; el resto aparece con s/d en las tasas.`:''}`));
 }
 
 let SUBROWS=null; // caché de la lista completa (carga diferida)
@@ -647,7 +823,7 @@ function openApp(a){
   d.innerHTML=`<button class="x" onclick="closeDrawer()">×</button>
     <h2>${a.nombre||'—'}</h2>
     <div class="kv">${a.dependencia||''}</div>
-    <div class="tags"><span class="tag nivel">${a.nivel||''}</span>${a.sector?`<span class="tag">${a.sector}</span>`:''}
+    <div class="tags">${ordTags(a)}${a.sector?`<span class="tag">${a.sector}</span>`:''}
       <span class="tag ${STCLASS(a.estatus)}">${a.estatus||''}</span></div>
     ${a.prop?`<p style="color:var(--ink-dim);font-size:13px;margin-top:14px">${a.prop}</p>`:''}
     <div class="sect">Ficha</div>
