@@ -6,7 +6,7 @@ Mismo dato que el CLI `gobmx.py`; reusa su lógica (`import gobmx`), no duplica 
 
 - **Estado real:** instalado y validado en vivo el 2026-10-20 en macOS (Darwin 25.6.0), Python 3.13,
   `mcp 1.x`. `claude mcp list` → `✔ Connected`. Prueba end-to-end por protocolo (stdio JSON-RPC):
-  las 6 tools responden sin error (`mcp-server/test_smoke.py`).
+  las 7 tools responden sin error (`mcp-server/test_smoke.py`).
 - **Sin red, sin escritura:** solo lee los JSON/CSV del repo. No sale a internet ni modifica nada.
 
 ---
@@ -15,14 +15,14 @@ Mismo dato que el CLI `gobmx.py`; reusa su lógica (`import gobmx`), no duplica 
 
 ### `stats() -> dict`
 Resumen del inventario. Sin parámetros.
-Devuelve: `apps`, `sitios`, `servicios` (totales) y los desgloses `apps_por_nivel`,
+Devuelve: `apps`, `sitios`, `servicios`, `permisos` (totales) y los desgloses `apps_por_nivel`,
 `apps_por_sector`, `apps_por_estatus`, `apps_con_android`, `apps_con_ios`.
 
 ```jsonc
 // stats()
 {
-  "apps": 466, "sitios": 231, "servicios": 6141,
-  "apps_por_nivel": {"estatal": 277, "federal": 65, "municipal": 64, "paraestatal": 38, "autonomo": 20, "no_oficial": 4},
+  "apps": 466, "sitios": 231, "servicios": 6141, "permisos": 20,
+  "apps_por_nivel": {"estatal": 277, "municipal": 64, "federal": 64, "paraestatal": 38, "autonomo": 19, "no_oficial": 4},
   "apps_con_android": 351, "apps_con_ios": 326
 }
 ```
@@ -65,11 +65,22 @@ buscar_servicios(texto="pasaporte")
 
 ### `dependencia(nombre) -> dict`
 Todo lo de una dependencia en un solo llamado: `{apps: [...], sitios: [...]}`.
-`nombre` hace match en el campo dependencia o en las siglas.
+`nombre` hace match en el campo dependencia o en las siglas. Cada app incluye su análisis de
+`permisos` cuando existe.
 
 ```
-dependencia("IMSS")   → 2 apps + su portal
+dependencia("IMSS")   → 2 apps (con permisos) + su portal
 dependencia("CFE")    → 5 apps + sitio
+```
+
+### `permisos(texto="", limite=50) -> list`
+Análisis de permisos y privacidad de apps (piloto, 20 apps). Cada entrada trae
+`permisos_peligrosos`, `trackers` (si hay) y `notas` de qué no cuadra con el propósito.
+`texto` hace match en nombre/dependencia/android_id.
+
+```
+permisos(texto="IMSS")   → IMSS Digital: 10 permisos peligrosos (micrófono, calendario…)
+permisos()               → las 20 apps analizadas
 ```
 
 ### `buscar_subdominio(texto="", solo_activos=False, limite=100) -> list`
@@ -123,7 +134,7 @@ Copia el bloque de [`example.mcp.json`](example.mcp.json) a la config de tu clie
 ## Probar
 
 ```bash
-# prueba end-to-end por el protocolo MCP (handshake + llamada a las 6 tools)
+# prueba end-to-end por el protocolo MCP (handshake + llamada a las 7 tools)
 uv run --no-project --with "mcp<2" python mcp-server/test_smoke.py
 ```
 

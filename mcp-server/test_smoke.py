@@ -21,7 +21,7 @@ async def main():
             tools = (await s.list_tools()).tools
             print("tools:", [t.name for t in tools])
             assert {"stats", "buscar_apps", "buscar_sitios", "buscar_servicios",
-                    "dependencia", "buscar_subdominio"} <= {t.name for t in tools}
+                    "dependencia", "buscar_subdominio", "permisos"} <= {t.name for t in tools}
 
             llamadas = [
                 ("stats", {}),
@@ -30,6 +30,7 @@ async def main():
                 ("buscar_sitios", {"nivel": "federal", "limite": 3}),
                 ("buscar_servicios", {"texto": "CURP"}),
                 ("dependencia", {"nombre": "IMSS"}),
+                ("permisos", {"texto": "IMSS"}),
                 ("buscar_subdominio", {"texto": "imss", "solo_activos": True, "limite": 5}),
             ]
             for nombre, args in llamadas:

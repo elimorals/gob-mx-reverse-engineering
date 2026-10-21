@@ -5,6 +5,7 @@ uso:
   gobmx apps [--nivel N] [--estado E] [--sector S] [--estatus T] [--busca TXT] [--json]
   gobmx sitios [--nivel N] [--estado E] [--busca TXT] [--json]
   gobmx servicios [--busca TXT] [--json]
+  gobmx permisos [--busca TXT] [--json]   # permisos peligrosos y trackers por app (piloto)
   gobmx stats                      # resumen por nivel/sector/estatus
   gobmx dep "<dependencia>"        # todo (apps+sitios) de una dependencia
 
@@ -75,10 +76,31 @@ def cmd_servicios(args):
     imprime(items, args, ["servicio", "nivel", "estado", "brecha"])
 
 
+def permisos():
+    j = RAIZ / "apps/permisos/permisos.json"
+    return json.loads(j.read_text()) if j.exists() else []
+
+
+def cmd_permisos(args):
+    items = filtra(permisos(), args, ["nombre", "dependencia", "android_id"])
+    if args.json:
+        print(json.dumps(items, ensure_ascii=False, indent=1))
+        return
+    print(f"{len(items)} apps con análisis de permisos\n")
+    for p in items:
+        peligro = p.get("permisos_peligrosos") or []
+        trk = p.get("trackers") or []
+        print(f"• {p.get('nombre')} ({p.get('sector') or '·'}) — {len(peligro)} permisos peligrosos"
+              f"{', ' + str(len(trk)) + ' trackers' if trk else ''}")
+        if peligro:
+            print("    ", ", ".join(peligro))
+
+
 def cmd_stats(args):
     from collections import Counter
     a, s = apps(), cargar("sitios")
-    print(f"APPS: {len(a)}  |  SITIOS: {len(s)}  |  SERVICIOS: {len(cargar('servicios'))}\n")
+    print(f"APPS: {len(a)}  |  SITIOS: {len(s)}  |  SERVICIOS: {len(cargar('servicios'))}"
+          f"  |  PERMISOS: {len(permisos())}\n")
     for campo in ("nivel", "sector", "estatus"):
         c = Counter((x.get(campo) or "—") for x in a)
         print(f"apps por {campo}:", dict(c.most_common()))
@@ -101,7 +123,7 @@ def cmd_dep(args):
 def main():
     p = argparse.ArgumentParser(prog="gobmx", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
-    for nombre, fn in [("apps", cmd_apps), ("sitios", cmd_sitios), ("servicios", cmd_servicios)]:
+    for nombre, fn in [("apps", cmd_apps), ("sitios", cmd_sitios), ("servicios", cmd_servicios), ("permisos", cmd_permisos)]:
         sp = sub.add_parser(nombre)
         sp.add_argument("--nivel"); sp.add_argument("--estado"); sp.add_argument("--sector")
         sp.add_argument("--estatus"); sp.add_argument("--busca"); sp.add_argument("--json", action="store_true")

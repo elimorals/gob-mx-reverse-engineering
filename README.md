@@ -50,7 +50,7 @@ gob-mx-reverse-engineering/
 │   └── harvest-subnacional.md   ← por qué los trámites estatales/municipales no están centralizados
 ├── web/                         ← dashboard (index.html + data.js) y bundler
 ├── gobmx.py                     ← CLI para consultar el inventario
-├── mcp-server/                  ← MCP server (FastMCP) con 6 tools de consulta + README y prueba e2e
+├── mcp-server/                  ← MCP server (FastMCP) con 7 tools de consulta + README y prueba e2e
 └── scripts/                     ← helpers (tiendas, CT, consolidar, qa, stats, regenerar) + esquemas
 ```
 
@@ -78,7 +78,7 @@ python3 gobmx.py dep IMSS                  # apps + sitios de una dependencia
 
 ## MCP — `gobmx-inventario`
 
-Servidor [MCP](https://modelcontextprotocol.io) de solo lectura: expone el inventario como 6 tools
+Servidor [MCP](https://modelcontextprotocol.io) de solo lectura: expone el inventario como 7 tools
 consultables desde Claude u otro cliente. Instalación, referencia de tools y prueba end-to-end en
 [`mcp-server/README.md`](mcp-server/README.md).
 

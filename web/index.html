@@ -406,6 +406,7 @@ python3 gobmx.py apps --estado Jalisco    <span class="c"># apps de un estado</s
 python3 gobmx.py apps --sector seguridad --json
 python3 gobmx.py sitios --nivel federal
 python3 gobmx.py servicios --busca CURP
+python3 gobmx.py permisos --busca IMSS     <span class="c"># permisos peligrosos y trackers por app</span>
 python3 gobmx.py dep IMSS                  <span class="c"># apps + sitios de una dependencia</span></pre>
   <p>Filtros de <code>apps</code>: <code>--nivel</code>, <code>--estado</code>, <code>--sector</code>, <code>--estatus</code>, <code>--busca</code>, <code>--json</code>.</p>
 
@@ -426,7 +427,8 @@ claude mcp list        <span class="c"># debe decir: gobmx-inventario ... ✔ Co
       ['buscar_apps(nivel, estado, sector, estatus, texto, limite=50)','Busca apps. Filtros opcionales, match parcial sin distinguir mayúsculas.','<b>nivel</b>: federal · estatal · municipal · paraestatal · autonomo · no_oficial<br><b>sector</b>: seguridad · movilidad · salud · fiscal · finanzas · identidad · trámites · educación · turismo · clima · vivienda · energía · trabajo · elecciones · otro<br><b>estatus</b>: activa · retirada · «sin actualizar &gt;2 años» · desconocido<br><b>texto</b>: busca en nombre/dependencia/propósito'],
       ['buscar_sitios(nivel, estado, texto, limite=50)','Busca portales web.','Cada resultado trae <code>url</code>, <code>plataforma</code>, <code>anti_bot</code>, <code>autenticacion</code> y <code>estado_real</code> (evidencia fechada).'],
       ['buscar_servicios(texto, limite=50)','Busca trámites y brechas (CONAMER + cruce apps×sitios).','<b>texto</b> busca en servicio/nombre_tramite/dependencia/brecha.'],
-      ['dependencia(nombre)','Todo lo de una dependencia en un llamado.','Devuelve <code>{apps:[…], sitios:[…]}</code>. <b>nombre</b> hace match en dependencia o siglas.'],
+      ['dependencia(nombre)','Todo lo de una dependencia en un llamado.','Devuelve <code>{apps:[…], sitios:[…]}</code>; cada app trae sus <code>permisos</code> si existen. <b>nombre</b> hace match en dependencia o siglas.'],
+      ['permisos(texto, limite=50)','Permisos peligrosos y trackers por app (piloto, 20 apps).','Cada entrada: <code>permisos_peligrosos</code>, <code>trackers</code> y notas de qué no cuadra con el propósito.'],
       ['buscar_subdominio(texto, solo_activos=false, limite=100)','Busca en los 12,812 subdominios .gob.mx (CT + dotgob-mx).','<b>solo_activos</b>: solo los marcados activos por dotgob-mx. Cada fila: host, fuente, activo_dotgob, dependencia.'],
     ].map(([n,d,p])=>`<div class="toolcard"><div class="tn">${n}</div><div class="td">${d}</div><div class="td" style="margin-top:7px;color:var(--ink-faint)">${p}</div></div>`).join('')}
   </div>

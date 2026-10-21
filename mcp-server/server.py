@@ -38,6 +38,7 @@ def stats() -> dict:
     a, s = gobmx.apps(), gobmx.cargar("sitios")
     return {
         "apps": len(a), "sitios": len(s), "servicios": len(gobmx.cargar("servicios")),
+        "permisos": len(gobmx.permisos()),
         "apps_por_nivel": dict(Counter((x.get("nivel") or "—") for x in a).most_common()),
         "apps_por_sector": dict(Counter((x.get("sector") or "—") for x in a).most_common()),
         "apps_por_estatus": dict(Counter((x.get("estatus") or "—") for x in a).most_common()),
@@ -75,12 +76,37 @@ def buscar_servicios(texto: str = "", limite: int = 50) -> list:
 
 @mcp.tool()
 def dependencia(nombre: str) -> dict:
-    """Todo lo de una dependencia: sus apps y sus sitios. 'nombre' hace match en dependencia o siglas."""
+    """Todo lo de una dependencia: sus apps (con permisos si los hay) y sus sitios.
+    'nombre' hace match en dependencia o siglas."""
     t = nombre.lower()
+    perm = {p.get("android_id"): p for p in gobmx.permisos()}
     def m(x):
         return t in str(x.get("dependencia", "")).lower() or t in str(x.get("siglas", "")).lower()
-    return {"apps": [x for x in gobmx.apps() if m(x)],
-            "sitios": [x for x in gobmx.cargar("sitios") if m(x)]}
+    aps = []
+    for x in gobmx.apps():
+        if m(x):
+            x = dict(x)
+            if x.get("android_id") in perm:
+                x["permisos"] = perm[x["android_id"]]
+            aps.append(x)
+    return {"apps": aps, "sitios": [x for x in gobmx.cargar("sitios") if m(x)]}
+
+
+@mcp.tool()
+def permisos(texto: str = "", limite: int = 50) -> list:
+    """Análisis de permisos y privacidad de apps (piloto). Cada entrada trae
+    permisos_peligrosos, trackers (si hay) y notas de qué no cuadra con el propósito.
+    'texto' hace match en nombre/dependencia/android_id."""
+    out = []
+    for p in gobmx.permisos():
+        if texto:
+            blob = f"{p.get('nombre','')} {p.get('dependencia','')} {p.get('android_id','')}".lower()
+            if texto.lower() not in blob:
+                continue
+        out.append(p)
+        if len(out) >= limite:
+            break
+    return out
 
 
 @mcp.tool()
