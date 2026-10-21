@@ -29,6 +29,7 @@ gob-mx-reverse-engineering/
 │   ├── seguridad.md             ← hallazgos transversales (paquetes de prueba, anti-bot, incidentes)
 │   └── benchmark-existentes.md  ← qué otros directorios/catálogos existen y qué les falta
 ├── gobmx.py                     ← CLI para consultar el inventario (python3 gobmx.py stats|apps|sitios|dep)
+├── mcp-server/                  ← MCP server (FastMCP) con 6 tools de consulta
 └── scripts/                     ← helpers (tiendas, CT, consolidar, stats) + esquemas
 ```
 

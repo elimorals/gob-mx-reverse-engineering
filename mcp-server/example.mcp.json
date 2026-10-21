@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gobmx-inventario": {
+      "command": "uv",
+      "args": [
+        "run", "--no-project", "--quiet", "--with", "mcp<2",
+        "python", "/Users/elias/Downloads/gob-mx-reverse-engineering/mcp-server/server.py"
+      ]
+    }
+  }
+}
