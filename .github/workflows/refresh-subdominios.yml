@@ -1,0 +1,50 @@
+name: refresh-subdominios
+
+# Refresca los subdominios .gob.mx desde Certificate Transparency (crt.sh) una vez al mes.
+# NOTA: solo refresca subdominios + corre QA. Las métricas de tienda (Google Play / App Store)
+# NO se refrescan aquí: esas APIs bloquean IPs de datacenter (429/403), así que ese paso se
+# corre en local con `scripts/regenerar.sh`.
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"   # día 1 de cada mes, 09:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar cliente psql (para crt.sh)
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+
+      - name: Enumerar subdominios por dependencia (CT)
+        run: |
+          set -e
+          mkdir -p sitios/subdominios
+          # Un dominio de 2o nivel por línea; se puede ampliar esta lista.
+          for d in sat.gob.mx imss.gob.mx issste.gob.mx infonavit.org.mx cfe.gob.mx \
+                   gob.mx cdmx.gob.mx jalisco.gob.mx nl.gob.mx; do
+            python3 -I scripts/ct_dominio.py "$d" > "sitios/subdominios/${d%%.*}.txt" || true
+          done
+
+      - name: Consolidar subdominios y QA
+        run: |
+          python3 -I scripts/merge_subdominios.py || true
+          python3 -I scripts/qa.py || true
+
+      - name: Commit si hubo cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sitios/
+          git diff --cached --quiet || git commit -m "chore: refresh mensual de subdominios (CT)"
+          git push

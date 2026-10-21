@@ -23,7 +23,7 @@ Devuelve: `apps`, `sitios`, `servicios` (totales) y los desgloses `apps_por_nive
 {
   "apps": 468, "sitios": 231, "servicios": 6141,
   "apps_por_nivel": {"estatal": 277, "federal": 65, "municipal": 64, "paraestatal": 38, "autonomo": 20, "no_oficial": 4},
-  "apps_con_android": 350, "apps_con_ios": 322
+  "apps_con_android": 351, "apps_con_ios": 326
 }
 ```
 

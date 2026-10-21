@@ -4,7 +4,7 @@
 Certificate Transparency, un GET a páginas públicas) + búsqueda web. Sin escaneo intrusivo,
 login ajeno ni envío de datos personales.
 
-**Cobertura del inventario:** 467 apps únicas · 231 portales web · 12,812 subdominios `.gob.mx` (6,036 propios por CT + dotgob-mx)
+**Cobertura del inventario:** 466 apps únicas · 231 portales web · 12,812 subdominios `.gob.mx` (6,036 propios por CT + dotgob-mx)
 vistos en Certificate Transparency. Los datos crudos están en `apps/`, `sitios/` y `servicios/`;
 esto es la lectura.
 
@@ -24,7 +24,7 @@ esto es la lectura.
 | Federal (secretarías) | 64 | 14% |
 | Municipal | 64 | 14% |
 | Paraestatal | 38 | 8% |
-| Autónomo | 20 | 4% |
+| Autónomo | 19 | 4% |
 | No oficial (imita a una institución) | 4 | 1% |
 
 ### Apps por sector
@@ -46,7 +46,7 @@ tienen su propia app de pánico, casi ninguna funciona bien.
 
 ### Cobertura por plataforma
 
-- **Android:** 350 apps (75%) · **iOS:** 322 (69%) · **ambas:** 244 (52%).
+- **Android:** 351 apps (75%) · **iOS:** 326 (70%) · **ambas:** 246 (53%).
 - Una de cada dos apps de gobierno vive en una sola tienda. Las solo-iOS son comunes a nivel estatal
   (Sinaloa solo publica en iOS); las solo-Android abundan en municipios.
 
@@ -54,12 +54,12 @@ tienen su propia app de pánico, casi ninguna funciona bien.
 
 | Estatus | Apps | |
 |---|---:|---|
-| Activa | 291 | 62% |
-| Desconocido | 84 | 18% |
-| **Sin actualizar >2 años** | **75** | **16%** |
-| **Retirada** | **18** | **4%** |
+| Activa | 292 | 63% |
+| Desconocido | 78 | 17% |
+| **Sin actualizar >2 años** | **76** | **16%** |
+| **Retirada** | **20** | **4%** |
 
-**Uno de cada cinco productos (93 apps) está abandonado o muerto** pero varios siguen publicados y
+**Uno de cada cinco productos (96 apps) está abandonado o muerto** pero varios siguen publicados y
 descargables. Abandonware de gobierno: sigue pidiendo permisos y datos sin nadie detrás.
 
 ---

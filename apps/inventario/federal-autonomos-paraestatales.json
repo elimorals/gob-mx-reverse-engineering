@@ -94,7 +94,7 @@
    "https://www.cronica.com.mx/nacional/2026/10/15/efirma-del-sat-se-puede-renovar-en-linea/",
    "https://satid.sat.gob.mx/"
   ],
-  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
+  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]. 2026-10-21: no encontrada en Play ni App Store; 'SAT ID' es un portal web (satid.sat.gob.mx), no una app de tienda (las apps del SAT son 'SAT Móvil' y 'SAT Factura Móvil'); sin evidencia de baja."
  },
  {
   "nombre": "IMSS Digital",
@@ -649,7 +649,7 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": "org.banxico.dge.movil",
-  "ios_id": null,
+  "ios_id": "639872278",
   "desarrollador_tienda": "Banco de México",
   "proposito": "Realidad aumentada para conocer los elementos de seguridad de los billetes.",
   "funciones": [
@@ -662,7 +662,7 @@
    "https://play.google.com/store/apps/details?id=org.banxico.dge.movil",
    "https://elceo.com/economia/banxico-aclara-que-app-billetes-mx-no-verifica-autenticidad-de-piezas/"
   ],
-  "notas": "Banxico aclaró que no autentica billetes. iOS no verificado."
+  "notas": "Banxico aclaró que no autentica billetes. iOS no verificado. | ios_id verificado en tienda 2026-10-21"
  },
  {
   "nombre": "Banxico al día",
@@ -721,7 +721,7 @@
   "fuentes": [
    "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
   ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null. 2026-10-21: no encontrada en Play ni App Store; listada como app real de Banxico en 2017; sin evidencia de baja."
  },
  {
   "nombre": "Estadísticas Banxico",
@@ -731,35 +731,17 @@
   "estado": "Nacional",
   "sector": "finanzas",
   "android_id": null,
-  "ios_id": null,
+  "ios_id": "1058989957",
   "desarrollador_tienda": "Banco de México",
   "proposito": "Series estadísticas de Banxico.",
   "funciones": [],
   "requiere_cuenta": "ninguna",
-  "estatus": "desconocido",
+  "estatus": "sin actualizar >2 años",
   "fuentes": [
-   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/",
+   "https://apps.apple.com/mx/app/estad%C3%ADsticas-banxico/id1058989957"
   ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
- },
- {
-  "nombre": "Billetes Monedas MX",
-  "dependencia": "Banco de México",
-  "siglas": "Banxico",
-  "nivel": "autonomo",
-  "estado": "Nacional",
-  "sector": "finanzas",
-  "android_id": null,
-  "ios_id": null,
-  "desarrollador_tienda": "Banco de México",
-  "proposito": "Características de billetes y monedas (posible antecesora de BilletesMx).",
-  "funciones": [],
-  "requiere_cuenta": "ninguna",
-  "estatus": "desconocido",
-  "fuentes": [
-   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
-  ],
-  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+  "notas": "verificado en tienda 2026-10-21: app oficial de iOS 'Estadísticas Banxico' (id1058989957, Banco de México), v1.0.2 última actualización 2023-03 (por eso 'sin actualizar >2 años'). Sin versión confirmada en Play (posible contraparte 'Banxico al día' org.banxico.dgie.android, no verificada); android_id null para no inventar."
  },
  {
   "nombre": "Mi IFT: Herramientas para usuarios",
@@ -806,12 +788,13 @@
    "denuncia anónima"
   ],
   "requiere_cuenta": "ninguna",
-  "estatus": "desconocido",
+  "estatus": "retirada",
   "fuentes": [
    "https://expansion.mx/finanzas-personales/2019/07/02/la-profeco-lanza-app-para-comparar-precios-de-gasolina",
-   "https://dplnews.com/?p=24921"
+   "https://dplnews.com/?p=24921",
+   "https://www.elimparcial.com/dinero/2024/10/30/desactivan-temporalmente-la-app-litro-x-litro-profeco/"
   ],
-  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit). [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
+  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit). [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]. 2026-10-21: desactivada oficialmente por Profeco en oct-2024 para rediseño con la ATDT ('temporalmente inactiva'), sin reactivación confirmada; no está en Play ni App Store. Estatus 'retirada' por anuncio oficial de baja."
  },
  {
   "nombre": "¿Quién es Quién en los Precios?",
@@ -834,7 +817,7 @@
    "https://www.xataka.com.mx/empresas-y-economia/profeco-anuncia-una-nueva-version-de-su-aplicacion-quien-es-quien-en-los-precios",
    "https://www.gob.mx/cms/uploads/attachment/file/879516/Sondeo_en_linea_sobre_los_productos_y_servicios_de_la_Coordinacion_General_de_Educacion_y_Divulgacion__4to_trimestre_2023_.pdf"
   ],
-  "notas": "IDs no verificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
+  "notas": "IDs no verificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]. 2026-10-21: no encontrada en Play ni App Store; el programa de Profeco seguía operando/promocionándose en 2025 (aparentemente migrado a herramienta web); sin evidencia de baja de la app."
  },
  {
   "nombre": "Gasoapp",
@@ -1036,7 +1019,7 @@
   "fuentes": [
    "https://www.cndh.org.mx/sites/default/files/documentos/2020-03/COM_2020_104.pdf"
   ],
-  "notas": "Nombre e IDs no identificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]"
+  "notas": "Nombre e IDs no identificados. [android_id no encontrado en tienda al 2026-10-20; ios_id no encontrado en tienda al 2026-10-20]. 2026-10-21: no encontrada en Play ni App Store; solo menciones de 2020 a una app CNDH durante COVID, nunca identificada por ID; sin evidencia de baja."
  },
  {
   "nombre": "Tribunal Abierto",
@@ -1155,7 +1138,7 @@
   "fuentes": [
    "https://factorenergetico.mx/aicm-lanza-aplicacion-para-conocer-estatus-de-vuelos-en-dispositivos-moviles"
   ],
-  "notas": "IDs no verificados. Ojo: 'AICM Mobile' (com.oicb.aicm, dev Jandre) es de terceros."
+  "notas": "IDs no verificados. Ojo: 'AICM Mobile' (com.oicb.aicm, dev Jandre) es de terceros. 2026-10-21: no encontrada en Play ni App Store con cuenta oficial; prensa reporta app oficial del AICM anunciada con actualizaciones por etapas; sin evidencia de baja."
  },
  {
   "nombre": "AICM Mobile",
@@ -1367,19 +1350,23 @@
   "nivel": "paraestatal",
   "estado": "Nacional",
   "sector": "otro",
-  "android_id": null,
-  "ios_id": null,
-  "desarrollador_tienda": "desconocido",
-  "proposito": "Resultados de sorteos y contenido interactivo.",
+  "android_id": "alegrialoteriaapp.loterianacional.gob.mx",
+  "ios_id": "6544785750",
+  "desarrollador_tienda": "Loteria Nacional",
+  "proposito": "App oficial de la Lotería Nacional: compra/consulta de boletos, resultados de sorteos y contenido interactivo.",
   "funciones": [
-   "resultados"
+   "resultados",
+   "boletos",
+   "sorteos"
   ],
   "requiere_cuenta": "ninguna",
-  "estatus": "desconocido",
+  "estatus": "activa",
   "fuentes": [
-   "https://www.laps4.com/preguntas-y-respuestas/cual-es-la-app-oficial-de-loteria-nacional"
+   "https://www.laps4.com/preguntas-y-respuestas/cual-es-la-app-oficial-de-loteria-nacional",
+   "https://play.google.com/store/apps/details?id=alegrialoteriaapp.loterianacional.gob.mx",
+   "https://apps.apple.com/mx/app/miloter%C3%ADa/id6544785750"
   ],
-  "notas": "Solo hay referencia secundaria a un post de Facebook; IDs no verificados. 'Lotería de México' (loterianacional.mx, alonsoapps) y 'Consulta tu Premio' (com.fwy.LoteriaNacional, TGS) son de terceros o no confirmadas."
+  "notas": "verificado en tienda 2026-10-21: app oficial 'MILOTERÍA' (alegrialoteriaapp.loterianacional.gob.mx / iOS 6544785750, dev Loteria Nacional, miloteria.mx), lanzada ago-2024, actualizada 2026."
  },
  {
   "nombre": "Lotería de México",
