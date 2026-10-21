@@ -1,6 +1,6 @@
 # Esquema: sitios web y servicios digitales
 
-Inspirado en la sección "Estado real" de Skills_MX (`~/Developer/Skills_MX/mcp-servers/*/README.md`):
+Inspirado en la sección "Estado real" de los README de [Skills_MX](https://github.com/elimorals/Skills_MX):
 cada afirmación sobre un portal lleva fecha, URL y resultado observado.
 
 ## `inventario/sitios/<segmento>.json` — lista de objetos

@@ -105,7 +105,7 @@ falta clonar nada más ni activar un venv.
 
 ```bash
 claude mcp add gobmx-inventario -- uv run --no-project --quiet --with "mcp<2" \
-  python /Users/elias/Downloads/gob-mx-reverse-engineering/mcp-server/server.py
+  python /ruta/absoluta/a/gobmx-presencia-digital/mcp-server/server.py
 ```
 
 Verifica: `claude mcp list` debe mostrar `gobmx-inventario ... ✔ Connected`.
