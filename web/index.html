@@ -583,7 +583,7 @@ function renderServicios(v){
 let SUBROWS=null; // caché de la lista completa (carga diferida)
 function renderSub(v){
   const s=D.subdominios;
-  v.appendChild(el('p','intro',`<b>Subdominios <code>.gob.mx</code></b> vistos en Certificate Transparency y en <a href="https://github.com/AlejandroTC/dotgob-mx" target="_blank" rel="noopener">dotgob-mx</a>. ${num(s.total)} hosts; <b>${num(s.activos)}</b> marcados activos. Clic en una barra para filtrar; la lista completa se carga abajo.`));
+  v.appendChild(el('p','intro',`<b>Subdominios <code>.gob.mx</code></b> vistos en Certificate Transparency (registro público de certificados TLS) y en <a href="https://github.com/AlejandroTC/dotgob-mx" target="_blank" rel="noopener">dotgob-mx</a>. ${num(s.total)} hosts, pero <b>solo ${num(s.activos)} responden</b>: el resto son internos, dados de baja o de prueba y <b>no cargan en el navegador</b> (por eso solo los activos son enlaces). Es la superficie histórica, útil para mapeo y seguridad. Clic en una barra para filtrar.`));
   const info=el('div','dist');
   info.appendChild(bars('Por fuente',(s.fuentes||[]),'var(--oro)','sub_fuente'));
   info.appendChild(bars('Top dependencias / entidades',s.top.slice(0,20),'var(--guinda)','sub_dep'));
@@ -592,7 +592,7 @@ function renderSub(v){
   v.appendChild(selectRow([
     {search:true,ph:'Buscar host, p.ej. sat, pruebas, api…'},
     {key:'sub_fuente',label:'Fuente',vals:(s.fuentes||[]).map(x=>x[0])},
-    {key:'sub_activo',label:'Actividad',vals:['activo','inactivo']},
+    {key:'sub_activo',label:'Actividad',vals:['activo','inactivo','sin verificar']},
   ]));
   const chips=chipsRow();if(chips)v.appendChild(chips);
   const holder=el('div');v.appendChild(holder);
@@ -602,18 +602,26 @@ function renderSub(v){
     let list=SUBROWS.filter(r=>{
       if(F.sub_fuente&&r.fuente!==F.sub_fuente)return false;
       if(F.sub_dep&&r.dep!==F.sub_dep)return false;
-      if(F.sub_activo==='activo'&&!r.activo)return false;
-      if(F.sub_activo==='inactivo'&&r.activo)return false;
+      if(F.sub_activo&&r.estado!==F.sub_activo)return false;
       if(F.q&&!r.host.toLowerCase().includes(F.q.toLowerCase()))return false;
       return true;
     });
-    $('#cnt').textContent=num(list.length)+' hosts';
+    // activos primero (son los que de verdad cargan)
+    list=list.slice().sort((a,b)=>(b.activo?1:0)-(a.activo?1:0));
+    const act=list.filter(r=>r.activo).length;
+    $('#cnt').textContent=`${num(list.length)} hosts · ${num(act)} activos`;
     const rows=el('div','rows');
+    const EST={activo:['var(--ok)','activo'],inactivo:['var(--ink-faint)','inactivo'],'sin verificar':['var(--ink-faint)','sin verificar']};
     list.slice(0,PAGE).forEach((r,i)=>{const row=el('div','r');row.style.animationDelay=Math.min(i*4,200)+'ms';
-      row.innerHTML=`<a class="ru" href="https://${r.host}" target="_blank" rel="noopener">${r.host}</a>
+      const [col,lab]=EST[r.estado]||EST['sin verificar'];
+      // solo los activos son enlaces; los demás, texto plano (no resuelven)
+      const host=r.activo
+        ? `<a class="ru" href="https://${r.host}" target="_blank" rel="noopener">${r.host}</a>`
+        : `<span class="ru" style="color:var(--ink-dim)">${r.host}</span>`;
+      row.innerHTML=`${host}
         <div class="tags"><span class="tag">${r.dep||'—'}</span>
           <span class="tag" style="${r.fuente==='ambos'?'border-color:var(--oro-dim);color:var(--oro)':''}">${r.fuente}</span>
-          ${r.activo?'<span class="tag" style="border-color:var(--ok);color:var(--ok)">activo</span>':'<span class="tag">inactivo</span>'}</div>`;
+          <span class="tag" style="border-color:${col};color:${col}">${lab}</span></div>`;
       rows.appendChild(row);});
     holder.appendChild(rows);
     const more=moreBtn(list.length,Math.min(PAGE,list.length),()=>{_keep=true;render();});if(more)holder.appendChild(more);
@@ -625,7 +633,9 @@ function renderSub(v){
     const lines=txt.split('\n');lines.shift();
     SUBROWS=[];
     for(const ln of lines){if(!ln)continue;const [host,fuente,activo,dep]=ln.split(',');
-      SUBROWS.push({host,fuente,dep,activo:(activo||'').startsWith('activo')});}
+      const act=(activo||'').startsWith('activo');
+      const estado=act?'activo':(activo==='inactivo'?'inactivo':'sin verificar');
+      SUBROWS.push({host,fuente,dep,activo:act,estado});}
     paint();
   }).catch(()=>{holder.innerHTML='<p class="intro">No se pudo cargar la lista completa (sirve el sitio por HTTP). El total y el top siguen arriba.</p>';});
 }
