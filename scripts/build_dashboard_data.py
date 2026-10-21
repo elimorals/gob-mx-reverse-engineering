@@ -73,17 +73,21 @@ def permisos():
 
 
 def subdominios():
+    import shutil
     f = R / "sitios/subdominios-consolidado.csv"
-    por_dep, activos = Counter(), 0
-    total = 0
+    por_dep, por_fuente, activos, total = Counter(), Counter(), 0, 0
     if f.exists():
         with f.open() as fh:
             for row in csv.DictReader(fh):
                 total += 1
                 por_dep[row.get("dependencia_o_estado") or "—"] += 1
+                por_fuente[row.get("fuente") or "—"] += 1
                 if str(row.get("activo_dotgob", "")).startswith("activo"):
                     activos += 1
-    return {"total": total, "activos": activos, "top": por_dep.most_common(25)}
+        # copia junto al dashboard para carga diferida (fetch same-origin)
+        shutil.copyfile(f, R / "web/subdominios.csv")
+    return {"total": total, "activos": activos,
+            "top": por_dep.most_common(30), "fuentes": por_fuente.most_common()}
 
 
 data = {"apps": apps(), "sitios": sitios(), "servicios": servicios(),

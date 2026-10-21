@@ -344,7 +344,7 @@ function bars(title,counter,color,filterKey){
 function tally(arr,k){const m={};arr.forEach(x=>{const v=x[k]||'—';m[v]=(m[v]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);}
 
 let F={}; // filtros activos
-const FLABEL={nivel:'Nivel',estado:'Entidad',sector:'Sector',estatus:'Estatus',anti_bot:'Anti-bot',q:'Buscar'};
+const FLABEL={nivel:'Nivel',estado:'Entidad',sector:'Sector',estatus:'Estatus',anti_bot:'Anti-bot',q:'Buscar',sub_fuente:'Fuente',sub_dep:'Dependencia',sub_activo:'Actividad'};
 function chipsRow(){
   const act=Object.keys(F).filter(k=>F[k]);
   if(!act.length)return null;
@@ -580,15 +580,54 @@ function renderServicios(v){
   }
 }
 
+let SUBROWS=null; // caché de la lista completa (carga diferida)
 function renderSub(v){
   const s=D.subdominios;
+  v.appendChild(el('p','intro',`<b>Subdominios <code>.gob.mx</code></b> vistos en Certificate Transparency y en <a href="https://github.com/AlejandroTC/dotgob-mx" target="_blank" rel="noopener">dotgob-mx</a>. ${num(s.total)} hosts; <b>${num(s.activos)}</b> marcados activos. Clic en una barra para filtrar; la lista completa se carga abajo.`));
   const info=el('div','dist');
-  info.appendChild((()=>{const c=el('div','distcard');c.innerHTML=`<h3>Total consolidado</h3>
-    <div class="kpi" style="padding:0"><div class="n" style="font-family:var(--disp);font-weight:800;font-size:40px;color:var(--oro)">${num(s.total)}</div>
-    <div class="l">hosts .gob.mx (CT + dotgob-mx)</div></div>
-    <div class="kv" style="margin-top:14px"><b>${num(s.activos)}</b> marcados activos por dotgob-mx</div>`;return c;})());
-  info.appendChild(bars('Top dependencias / entidades',s.top.slice(0,20),'var(--guinda)'));
+  info.appendChild(bars('Por fuente',(s.fuentes||[]),'var(--oro)','sub_fuente'));
+  info.appendChild(bars('Top dependencias / entidades',s.top.slice(0,20),'var(--guinda)','sub_dep'));
   v.appendChild(info);
+
+  v.appendChild(selectRow([
+    {search:true,ph:'Buscar host, p.ej. sat, pruebas, api…'},
+    {key:'sub_fuente',label:'Fuente',vals:(s.fuentes||[]).map(x=>x[0])},
+    {key:'sub_activo',label:'Actividad',vals:['activo','inactivo']},
+  ]));
+  const chips=chipsRow();if(chips)v.appendChild(chips);
+  const holder=el('div');v.appendChild(holder);
+
+  const paint=()=>{
+    holder.innerHTML='';
+    let list=SUBROWS.filter(r=>{
+      if(F.sub_fuente&&r.fuente!==F.sub_fuente)return false;
+      if(F.sub_dep&&r.dep!==F.sub_dep)return false;
+      if(F.sub_activo==='activo'&&!r.activo)return false;
+      if(F.sub_activo==='inactivo'&&r.activo)return false;
+      if(F.q&&!r.host.toLowerCase().includes(F.q.toLowerCase()))return false;
+      return true;
+    });
+    $('#cnt').textContent=num(list.length)+' hosts';
+    const rows=el('div','rows');
+    list.slice(0,PAGE).forEach((r,i)=>{const row=el('div','r');row.style.animationDelay=Math.min(i*4,200)+'ms';
+      row.innerHTML=`<a class="ru" href="https://${r.host}" target="_blank" rel="noopener">${r.host}</a>
+        <div class="tags"><span class="tag">${r.dep||'—'}</span>
+          <span class="tag" style="${r.fuente==='ambos'?'border-color:var(--oro-dim);color:var(--oro)':''}">${r.fuente}</span>
+          ${r.activo?'<span class="tag" style="border-color:var(--ok);color:var(--ok)">activo</span>':'<span class="tag">inactivo</span>'}</div>`;
+      rows.appendChild(row);});
+    holder.appendChild(rows);
+    const more=moreBtn(list.length,Math.min(PAGE,list.length),()=>{_keep=true;render();});if(more)holder.appendChild(more);
+  };
+
+  if(SUBROWS){paint();return;}
+  holder.innerHTML='<p class="intro">Cargando los '+num(s.total)+' subdominios…</p>';
+  fetch('subdominios.csv').then(r=>r.text()).then(txt=>{
+    const lines=txt.split('\n');lines.shift();
+    SUBROWS=[];
+    for(const ln of lines){if(!ln)continue;const [host,fuente,activo,dep]=ln.split(',');
+      SUBROWS.push({host,fuente,dep,activo:(activo||'').startsWith('activo')});}
+    paint();
+  }).catch(()=>{holder.innerHTML='<p class="intro">No se pudo cargar la lista completa (sirve el sitio por HTTP). El total y el top siguen arriba.</p>';});
 }
 
 function openApp(a){
