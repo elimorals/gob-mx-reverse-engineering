@@ -1,0 +1,1 @@
+# Sin datos: crt.sh (Certificate Transparency) devolvio 502/timeout el 2026-10-20. Reintentar.

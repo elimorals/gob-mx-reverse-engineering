@@ -1,0 +1,1540 @@
+[
+ {
+  "nombre": "SAT Móvil",
+  "dependencia": "Servicio de Administración Tributaria",
+  "siglas": "SAT",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "fiscal",
+  "android_id": "mx.gob.sat",
+  "ios_id": "1558245095",
+  "desarrollador_tienda": "Servicio de Administración Tributaria (SAT) / Servicio de Administracion Tributaria",
+  "proposito": "App principal del SAT para trámites y consultas fiscales.",
+  "funciones": [
+   "buzón tributario",
+   "citas",
+   "calendario fiscal",
+   "orientación",
+   "constancia de situación fiscal"
+  ],
+  "requiere_cuenta": "RFC+e.firma",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.gob.sat",
+   "https://apps.apple.com/mx/app/id1558245095",
+   "https://www.elimparcial.com/mexico/2025/08/28/que-tramites-del-sat-se-pueden-realizar-desde-tu-celular/"
+  ],
+  "notas": "Órgano desconcentrado de SHCP. Play: 10M+ instalaciones, calificación ~3.0; publicada 30 mar 2021 (v2.4.4). Email dev satappmx.movil@sat.gob.mx."
+ },
+ {
+  "nombre": "SAT Factura Móvil",
+  "dependencia": "Servicio de Administración Tributaria",
+  "siglas": "SAT",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "fiscal",
+  "android_id": "mx.gob.sat.facmovapp",
+  "ios_id": "6445901882",
+  "desarrollador_tienda": "Servicio de Administración Tributaria (SAT)",
+  "proposito": "Emisión y consulta de CFDI desde el celular.",
+  "funciones": [
+   "emitir facturas",
+   "consultar/cancelar CFDI",
+   "complementos Carta Porte y otros derechos e impuestos"
+  ],
+  "requiere_cuenta": "RFC+e.firma",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.gob.sat.facmovapp",
+   "https://apps.apple.com/mx/app/id6445901882",
+   "https://www.cronista.com/mexico/finanzas-economia/sat-movil-y-sat-id-incorporan-herramientas-que-agilizan-la-gestion-de-facturas-y-constancias-en-linea/"
+  ],
+  "notas": ""
+ },
+ {
+  "nombre": "Verificador SAT",
+  "dependencia": "Servicio de Administración Tributaria",
+  "siglas": "SAT",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "fiscal",
+  "android_id": null,
+  "ios_id": "1394236964",
+  "desarrollador_tienda": "Servicio de Administracion Tributaria",
+  "proposito": "Verificación de comprobantes/documentos del SAT (inferido del nombre).",
+  "funciones": [
+   "verificar comprobantes"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "sin actualizar >2 años",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id1394236964"
+  ],
+  "notas": "Solo encontrada en App Store; última versión 2020-08-13. Android no encontrado (búsquedas Play limitadas por rate-limit 429)."
+ },
+ {
+  "nombre": "SAT ID",
+  "dependencia": "Servicio de Administración Tributaria",
+  "siglas": "SAT",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "fiscal",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Renovación de e.firma (vencida <1 año) y trámites con verificación facial.",
+  "funciones": [
+   "renovar e.firma",
+   "constancia de situación fiscal",
+   "video de verificación"
+  ],
+  "requiere_cuenta": "RFC+e.firma",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.cronica.com.mx/nacional/2026/10/15/efirma-del-sat-se-puede-renovar-en-linea/",
+   "https://satid.sat.gob.mx/"
+  ],
+  "notas": "Las fuentes describen sobre todo el portal web satid.sat.gob.mx; no se verificó ficha en tiendas. IDs null."
+ },
+ {
+  "nombre": "IMSS Digital",
+  "dependencia": "Instituto Mexicano del Seguro Social",
+  "siglas": "IMSS",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "salud",
+  "android_id": "st.android.imsspublico",
+  "ios_id": "975273006",
+  "desarrollador_tienda": "IMSS / Instituto Mexicano del Seguro Social",
+  "proposito": "App principal del IMSS para derechohabientes.",
+  "funciones": [
+   "citas médicas",
+   "semanas cotizadas",
+   "NSS",
+   "incapacidades",
+   "Cédula Digital de Salud con enrolamiento biométrico"
+  ],
+  "requiere_cuenta": "CURP",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=st.android.imsspublico",
+   "https://apps.apple.com/mx/app/id975273006",
+   "https://www.adn40.mx/es-tendencia/2026-04-19/tramites-247-imss-y-las-aplicaciones-oficiales-que-todo-mexicano-debe-tener-en-el-celular-para-ahorrar-tiempo/",
+   "https://www.xataka.com.mx/seguridad/filtran-venden-base-datos-imss-20-millones-pensionados-nombre-curp-nss-padecimientos-circulan-dark-web"
+  ],
+  "notas": "Organismo descentralizado. iOS desde 2015-03-18, ~550k calificaciones (4.7). Contexto: en 2025 se vendió en dark web una base de ~20M pensionados del IMSS (IMSS lo atribuyó a mal uso de accesos internos, no a la app)."
+ },
+ {
+  "nombre": "ASISSSTE Móvil",
+  "dependencia": "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado",
+  "siglas": "ISSSTE",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "salud",
+  "android_id": "com.app.asssistemovilapp",
+  "ios_id": "1661031126",
+  "desarrollador_tienda": "ISSSTE Oficial / Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado",
+  "proposito": "Citas médicas y trámites del ISSSTE.",
+  "funciones": [
+   "agendar citas",
+   "talón de pago de pensión",
+   "trámites"
+  ],
+  "requiere_cuenta": "CURP",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.app.asssistemovilapp",
+   "https://apps.apple.com/mx/app/id1661031126",
+   "https://politica.expansion.mx/sociedad/2023/09/12/issste-app-asissste-agendar-citas",
+   "https://www.razon.com.mx/negocios/como-descargo-app-asissste-del-issste-como-me-registro-544558"
+  ],
+  "notas": "Lanzada sept 2023. Play 1M+. Registro pide CURP, RFC y NSS."
+ },
+ {
+  "nombre": "ISSSTE Móvil",
+  "dependencia": "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado",
+  "siglas": "ISSSTE",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "salud",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "App de 2018 del programa Hospital Abierto: citas y avisos de estancias infantiles.",
+  "funciones": [
+   "agendar/cancelar citas",
+   "avisos de estancias infantiles",
+   "talón de pensionados"
+  ],
+  "requiere_cuenta": "CURP",
+  "estatus": "retirada",
+  "fuentes": [
+   "https://www.xataka.com.mx/aplicaciones/issste-ya-tiene-su-propia-app-ahora-podremos-agendar-citas-desde-el-smartphone",
+   "https://www.eluniversal.com.mx/nacion/sociedad/programa-issste-hospital-abierto-permitira-visitas-pacientes-de-8-8/"
+  ],
+  "notas": "Histórica (28 mar 2018). Sucedida por ASISSSTE; no hay fuente explícita de retiro, se infiere porque no aparece en tiendas. IDs no encontrados."
+ },
+ {
+  "nombre": "Mi Cuenta Infonavit Móvil",
+  "dependencia": "Instituto del Fondo Nacional de la Vivienda para los Trabajadores",
+  "siglas": "Infonavit",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": "com.infonavit.micuentainfonavit",
+  "ios_id": "1542403564",
+  "desarrollador_tienda": "Instituto del fondo nacional de la vivienda / Instituto del Fondo Nacional de la Vivienda Para Los Trabajadores",
+  "proposito": "Consulta de ahorro y crédito Infonavit.",
+  "funciones": [
+   "saldo subcuenta de vivienda",
+   "saldo y movimientos de crédito",
+   "avisos de retención/suspensión",
+   "constancia de intereses",
+   "aportaciones extraordinarias",
+   "actualizar datos",
+   "calculadora VSM"
+  ],
+  "requiere_cuenta": "NSS",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.infonavit.micuentainfonavit",
+   "https://apps.apple.com/mx/app/id1542403564",
+   "https://www.elimparcial.com/dinero/2024/01/27/que-servicios-ofrece-la-aplicacion-movil-del-infonavit"
+  ],
+  "notas": "Calificación iOS MX muy baja (~1.4/5). Requiere registro previo en el portal Mi Cuenta Infonavit."
+ },
+ {
+  "nombre": "Infonavit en tus Manos",
+  "dependencia": "Instituto del Fondo Nacional de la Vivienda para los Trabajadores",
+  "siglas": "Infonavit",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "App antigua del Infonavit para consultar crédito/ahorro y ubicar CESI.",
+  "funciones": [
+   "consulta crédito y ahorro",
+   "ubicar CESI",
+   "Infonatel"
+  ],
+  "requiere_cuenta": "NSS",
+  "estatus": "retirada",
+  "fuentes": [
+   "https://contadormx.com/aplicacion-del-infonavit-para-moviles-o-smartphone-informacion-para-trabajadores-patrones-y-proveedores/"
+  ],
+  "notas": "Histórica; estatus inferido (no aparece en tiendas). IDs no encontrados."
+ },
+ {
+  "nombre": "ConstruYO Infonavit Trabajador",
+  "dependencia": "Infonavit / Registro Único de Vivienda",
+  "siglas": "RUV",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": null,
+  "ios_id": "1534073697",
+  "desarrollador_tienda": "Fideicomiso Registro Unico de Vivienda",
+  "proposito": "App del programa ConstruYO (autoproducción de vivienda con crédito Infonavit) para trabajadores.",
+  "funciones": [
+   "seguimiento de obra"
+  ],
+  "requiere_cuenta": "NSS",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id1534073697"
+  ],
+  "notas": "RUV es un fideicomiso ligado a Infonavit/Conavi. Android no verificado (rate-limit)."
+ },
+ {
+  "nombre": "ConstruYO Infonavit Aliados",
+  "dependencia": "Infonavit / Registro Único de Vivienda",
+  "siglas": "RUV",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": null,
+  "ios_id": "1533474787",
+  "desarrollador_tienda": "Fideicomiso Registro Unico de Vivienda",
+  "proposito": "Versión para aliados/constructores del programa ConstruYO.",
+  "funciones": [
+   "seguimiento de obra"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id1533474787"
+  ],
+  "notas": "Android no verificado."
+ },
+ {
+  "nombre": "Avalúos Infonavit",
+  "dependencia": "Infonavit / Registro Único de Vivienda",
+  "siglas": "RUV",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": null,
+  "ios_id": "1572691655",
+  "desarrollador_tienda": "Fideicomiso Registro Unico de Vivienda",
+  "proposito": "Captura de avalúos para créditos Infonavit (uso de valuadores).",
+  "funciones": [
+   "avalúos"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id1572691655"
+  ],
+  "notas": "App profesional. Android no verificado."
+ },
+ {
+  "nombre": "RUV Avalúos",
+  "dependencia": "Registro Único de Vivienda",
+  "siglas": "RUV",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": null,
+  "ios_id": "6466364666",
+  "desarrollador_tienda": "Fideicomiso Registro Unico de Vivienda",
+  "proposito": "Avalúos inmobiliarios RUV.",
+  "funciones": [
+   "avalúos"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id6466364666"
+  ],
+  "notas": "Android no verificado."
+ },
+ {
+  "nombre": "App Crédito Fonacot",
+  "dependencia": "Instituto del Fondo Nacional para el Consumo de los Trabajadores",
+  "siglas": "INFONACOT",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": null,
+  "ios_id": "6443942736",
+  "desarrollador_tienda": "Instituto del Fondo Nacional para el Consumo de los Trabajadores",
+  "proposito": "Consulta y gestión del crédito Fonacot.",
+  "funciones": [
+   "consulta de crédito",
+   "histórico",
+   "citas",
+   "sucursales",
+   "renovación/crédito nuevo"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id6443942736",
+   "https://www.fonacot.gob.mx/serviciosenlinea/Documents/appmovil/Manual_Android_V7.pdf",
+   "https://fonacot.gob.mx/serviciosenlinea/Documents/appmovil/Manual%20Cr%C3%A9dito%20Nuevo%202024%20vf.pdf"
+  ],
+  "notas": "Existe versión Android según los manuales oficiales, pero el package id no se pudo verificar (búsquedas Play bloqueadas por 429). Activación con número de cliente + código por correo tras firmar convenio en sucursal."
+ },
+ {
+  "nombre": "AforeMóvil",
+  "dependencia": "Comisión Nacional del Sistema de Ahorro para el Retiro (operada por Procesar)",
+  "siglas": "CONSAR/Procesar",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "trabajo",
+  "android_id": "mx.com.procesar.aforemovil",
+  "ios_id": "1240001519",
+  "desarrollador_tienda": "AforeMóvil / Procesar S.A. de C.V.",
+  "proposito": "App del SAR para consultar y operar la cuenta Afore.",
+  "funciones": [
+   "estado de cuenta",
+   "aportaciones voluntarias",
+   "retiro parcial por desempleo (desde 2021)",
+   "registro/traspaso",
+   "biometría facial"
+  ],
+  "requiere_cuenta": "CURP",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.com.procesar.aforemovil",
+   "https://apps.apple.com/mx/app/id1240001519",
+   "https://expansion.mx/dinero/2018/03/05/ya-puedes-disponer-dinero-de-tu-afore-desde-una-tableta-o-un-celular",
+   "https://www.eluniversal.com.mx/cartera/con-esta-app-puedes-realizar-retiros-de-tu-afore-por-desempleo/"
+  ],
+  "notas": "Procesar es empresa privada (propiedad de las Afores) que opera la Base de Datos Nacional SAR bajo regulación de CONSAR; la app la promueve oficialmente CONSAR. Hay variantes marca blanca de Afores privadas (mx.com.procesar.aforemovil.citi / iOS 1359245857, .inbursa, .principal, .nuevosura) que no se incluyeron como apps estatales."
+ },
+ {
+  "nombre": "CFE Contigo",
+  "dependencia": "Comisión Federal de Electricidad",
+  "siglas": "CFE",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": "mx.com.cfe.cfecontigo",
+  "ios_id": "1354232135",
+  "desarrollador_tienda": "CFE SSB / CFE Suministrador de Servicios Basicos",
+  "proposito": "Pago y gestión del servicio eléctrico.",
+  "funciones": [
+   "consultar saldo",
+   "pagar recibo",
+   "descargar recibo",
+   "reportar fallas",
+   "varios RPU",
+   "centros de atención"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.com.cfe.cfecontigo",
+   "https://apps.apple.com/mx/app/id1354232135",
+   "https://www.luznoticias.mx/2026-06-02/mexico/guia-para-la-app-de-la-cfe-contigo-como-pagar-varios-recibos-de-luz-en-un-solo-lugar-/291578"
+  ],
+  "notas": "Empresa pública del Estado; la publica la subsidiaria CFE Suministrador de Servicios Básicos. Requiere número de servicio (RPU)."
+ },
+ {
+  "nombre": "CFE Proveedores",
+  "dependencia": "Comisión Federal de Electricidad",
+  "siglas": "CFE",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": "mx.com.cfe.proveedores",
+  "ios_id": "1558205458",
+  "desarrollador_tienda": "CFE SSB / CFE Suministrador de Servicios Basicos",
+  "proposito": "App para proveedores de CFE (inferido del nombre).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.com.cfe.proveedores",
+   "https://apps.apple.com/mx/app/id1558205458"
+  ],
+  "notas": "Propósito inferido del nombre."
+ },
+ {
+  "nombre": "Que Has",
+  "dependencia": "Comisión Federal de Electricidad",
+  "siglas": "CFE",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": null,
+  "ios_id": "1545964688",
+  "desarrollador_tienda": "CFE Suministrador de Servicios Basicos",
+  "proposito": "App de CFE SSB (propósito no verificado).",
+  "funciones": [],
+  "requiere_cuenta": "desconocido",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id1545964688"
+  ],
+  "notas": "Solo vista en App Store; propósito no investigado."
+ },
+ {
+  "nombre": "CFE Calificados",
+  "dependencia": "CFE Calificados, S.A. de C.V. (filial de CFE)",
+  "siglas": "CFE",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": null,
+  "ios_id": "6741329995",
+  "desarrollador_tienda": "CFE Calificados, S.A. de C.V.",
+  "proposito": "App de la filial de CFE para suministro calificado (inferido del nombre).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id6741329995"
+  ],
+  "notas": "Propósito no verificado; Android no verificado."
+ },
+ {
+  "nombre": "Internet para el Bienestar",
+  "dependencia": "CFE Telecomunicaciones e Internet para Todos",
+  "siglas": "CFE TEIT",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "com.qvantel.bienestar.preprod",
+  "ios_id": null,
+  "desarrollador_tienda": "Qvantel Software Solutions Limited",
+  "proposito": "Autogestión de líneas del servicio Internet/telefonía del Bienestar (CFE TEIT), inferido del nombre.",
+  "funciones": [
+   "gestión de línea"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.qvantel.bienestar.preprod",
+   "https://emprendedor.com/cfe-lanza-internet-y-telefonia-del-bienestar-estos-son-sus-paquetes/"
+  ],
+  "notas": "Publicada por el proveedor Qvantel con package '.preprod' (sufijo de preproducción en una app de producción) y 100k+ instalaciones; oficialidad no confirmada por fuente de CFE TEIT. iOS no verificado."
+ },
+ {
+  "nombre": "Guía Pemex",
+  "dependencia": "Petróleos Mexicanos",
+  "siglas": "Pemex",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": "com.pemex.guiapemex",
+  "ios_id": "603636606",
+  "desarrollador_tienda": "Petróleos Mexicanos / Petroleos Mexicanos",
+  "proposito": "Localizador de gasolineras Pemex con precios y métodos de pago.",
+  "funciones": [
+   "ubicar gasolineras",
+   "precios",
+   "rutas"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.pemex.guiapemex",
+   "https://apps.apple.com/mx/app/id603636606",
+   "https://www.chilango.com/noticias/tecnologia/guia-pemex/"
+  ],
+  "notas": "Calificación iOS ~2.2/5."
+ },
+ {
+  "nombre": "Pemex ASISTE",
+  "dependencia": "Petróleos Mexicanos",
+  "siglas": "Pemex",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": "com.pemex.asiste",
+  "ios_id": null,
+  "desarrollador_tienda": "Petróleos Mexicanos",
+  "proposito": "App de Pemex (asistencia; propósito no verificado).",
+  "funciones": [],
+  "requiere_cuenta": "desconocido",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.pemex.asiste"
+  ],
+  "notas": "Solo verificada en Play por búsqueda; sin fuente adicional."
+ },
+ {
+  "nombre": "Asistente T.I.",
+  "dependencia": "Petróleos Mexicanos",
+  "siglas": "Pemex",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "com.pemex.AsistenteTI_App",
+  "ios_id": null,
+  "desarrollador_tienda": "Petróleos Mexicanos",
+  "proposito": "App interna de soporte TI de Pemex (inferido del nombre).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.pemex.AsistenteTI_App"
+  ],
+  "notas": "Probablemente de uso interno."
+ },
+ {
+  "nombre": "Banco del Bienestar Móvil",
+  "dependencia": "Banco del Bienestar, S.N.C.",
+  "siglas": "BB",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": "gob.bancodelbienestar.bcobienapp",
+  "ios_id": null,
+  "desarrollador_tienda": "Banco del Bienestar",
+  "proposito": "Consulta de saldo y operaciones de cuentas del Banco del Bienestar (pensiones y becas).",
+  "funciones": [
+   "consulta de saldo",
+   "movimientos",
+   "transferencias (versiones recientes)"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=gob.bancodelbienestar.bcobienapp",
+   "https://www.nmas.com.mx/nacional/hay-fallas-app-bienestar-consultar-saldo-de-tarjeta-ya-cayo-pago-pension-beca-julio-2025/",
+   "https://www.foxsports.com.mx/2024/02/02/pension-bienestar-2024-por-que-no-puedes-abrir-la-app-y-ves-el-mensaje-error/",
+   "https://vanguardia.com.mx/informacion/app-banco-del-bienestar-2026-como-usarla-hacer-transferencias-y-cuidar-tu-dinero-de-la-pension-del-bienestar-AM22487160"
+  ],
+  "notas": "Play 10M+. Quejas recurrentes: errores de validación por saturación (2024), cierres de sesión (jul 2025), ~1 estrella en sus inicios. Activación con número de tarjeta + NIP. iOS no verificado (rate-limit)."
+ },
+ {
+  "nombre": "Financiera para el Bienestar",
+  "dependencia": "Financiera para el Bienestar (antes Telecomm)",
+  "siglas": "Finabien",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": "com.telecomm.vapp",
+  "ios_id": null,
+  "desarrollador_tienda": "Financiera para el Bienestar",
+  "proposito": "App de Finabien (ex Telecomm): cuenta/tarjeta y remesas Finabien Paisan@.",
+  "funciones": [
+   "tarjeta Finabien",
+   "envío de remesas",
+   "transferencias"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.telecomm.vapp",
+   "https://www.xataka.com.mx/banca-digital/mexico-presenta-tarjeta-finabien-paisan-para-envio-remesas-ee-uu-su-app-permite-transferencias-aranceles-trump"
+  ],
+  "notas": "El package conserva el prefijo 'telecomm' (Telecomm cambió de nombre por decreto DOF 21-oct-2022). Play 500k+. iOS no verificado."
+ },
+ {
+  "nombre": "BanjeCel",
+  "dependencia": "Banco Nacional del Ejército, Fuerza Aérea y Armada",
+  "siglas": "Banjercito",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": "mx.com.banjercito.model.common.VTUserApplicationBJCTMB",
+  "ios_id": "553650538",
+  "desarrollador_tienda": "Banjercito / BANCO NACIONAL DEL EJÉRCITO, FUERZA AÉREA Y ARMADA, S.N.C.",
+  "proposito": "Banca móvil de Banjercito.",
+  "funciones": [
+   "transferencias SPEI",
+   "pago de tarjetas",
+   "créditos PQ",
+   "estados de cuenta",
+   "pago de servicios",
+   "recargas"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.com.banjercito.model.common.VTUserApplicationBJCTMB",
+   "https://apps.apple.com/mx/app/id553650538",
+   "https://mwm.ai/apps/banjecel/553650538"
+  ],
+  "notas": "Disponible desde 2012."
+ },
+ {
+  "nombre": "CoDi Banxico",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": "org.banxico.dgspim.mobile.codi",
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "App de Banxico para cobros digitales CoDi (QR/NFC sobre SPEI).",
+  "funciones": [
+   "cobro con QR",
+   "pagos SPEI"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=org.banxico.dgspim.mobile.codi",
+   "https://elfinanciero.com.mx/economia/banco-de-mexico-presenta-codi-la-plataforma-para-pagar-desde-el-celular",
+   "https://www.forbes.com.mx/el-codi-ha-fracasado-como-medio-de-pago-por-la-informalidad-el-miedo-al-sat-y-la-pandemia/"
+  ],
+  "notas": "CoDi (2019) tuvo baja adopción según un estudio que encargó Banxico. DiMo no es app propia (se usa dentro de las apps bancarias). iOS no verificado."
+ },
+ {
+  "nombre": "BilletesMx",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": "org.banxico.dge.movil",
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "Realidad aumentada para conocer los elementos de seguridad de los billetes.",
+  "funciones": [
+   "elementos de seguridad",
+   "realidad aumentada"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=org.banxico.dge.movil",
+   "https://elceo.com/economia/banxico-aclara-que-app-billetes-mx-no-verifica-autenticidad-de-piezas/"
+  ],
+  "notas": "Banxico aclaró que no autentica billetes. iOS no verificado."
+ },
+ {
+  "nombre": "Banxico al día",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "Indicadores y noticias de Banxico.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+  ],
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+ },
+ {
+  "nombre": "UbiCajeros Banxico",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "Localizador de cajeros.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+  ],
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+ },
+ {
+  "nombre": "Canje de efectivo",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "Ubicar bancos para canjear monedas y billetes.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+  ],
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+ },
+ {
+  "nombre": "Estadísticas Banxico",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "Series estadísticas de Banxico.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+  ],
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+ },
+ {
+  "nombre": "Billetes Monedas MX",
+  "dependencia": "Banco de México",
+  "siglas": "Banxico",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "finanzas",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "Banco de México",
+  "proposito": "Características de billetes y monedas (posible antecesora de BilletesMx).",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.eluniversal.com.mx/articulo/cartera/finanzas/2017/05/21/banxico-desarrolla-apps-sobre-servicios-e-indicadores/"
+  ],
+  "notas": "Listada en nota de 2017; no verificada en tiendas, IDs null."
+ },
+ {
+  "nombre": "Mi IFT: Herramientas para usuarios",
+  "dependencia": "Instituto Federal de Telecomunicaciones (extinto; funciones a CRT/ATDT)",
+  "siglas": "IFT",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "com.ift.comparador",
+  "ios_id": null,
+  "desarrollador_tienda": "Instituto Federal de Telecomunicaciones",
+  "proposito": "Herramientas para usuarios de telecomunicaciones.",
+  "funciones": [
+   "Soy Usuario (quejas)",
+   "mapas de cobertura",
+   "simulador de consumo de datos",
+   "comparador de planes",
+   "conoce tu velocidad",
+   "comparador de contratos",
+   "portabilidad"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "sin actualizar >2 años",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.ift.comparador",
+   "https://www.xataka.com.mx/telecomunicaciones/ift-tiene-app-para-comparar-planes-telefonia-simular-consumo-datos-para-levantar-quejas-operadores",
+   "https://www.ift.org.mx/sites/default/files/ift_informa_170621.pdf"
+  ],
+  "notas": "Lanzada jun 2021. Play: última actualización 2024-09-05, 50k+. El boletín del IFT cita iOS id 1545979797, pero el lookup en App Store MX no lo devolvió (posible retirada), así que ios_id va null. El IFT se extinguió en 2025 por reforma y sus funciones pasaron a la CRT."
+ },
+ {
+  "nombre": "Litro x Litro",
+  "dependencia": "Procuraduría Federal del Consumidor",
+  "siglas": "Profeco",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Comparador de precios de gasolina/diésel y denuncias.",
+  "funciones": [
+   "precios de combustibles por radio",
+   "denuncia anónima"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://expansion.mx/finanzas-personales/2019/07/02/la-profeco-lanza-app-para-comparar-precios-de-gasolina",
+   "https://dplnews.com/?p=24921"
+  ],
+  "notas": "Lanzada jul 2019. IDs no verificados (búsquedas en tiendas bloqueadas por rate-limit)."
+ },
+ {
+  "nombre": "¿Quién es Quién en los Precios?",
+  "dependencia": "Procuraduría Federal del Consumidor",
+  "siglas": "Profeco",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Consulta de precios de productos de consumo.",
+  "funciones": [
+   "comparar precios",
+   "canasta"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.xataka.com.mx/empresas-y-economia/profeco-anuncia-una-nueva-version-de-su-aplicacion-quien-es-quien-en-los-precios",
+   "https://www.gob.mx/cms/uploads/attachment/file/879516/Sondeo_en_linea_sobre_los_productos_y_servicios_de_la_Coordinacion_General_de_Educacion_y_Divulgacion__4to_trimestre_2023_.pdf"
+  ],
+  "notas": "IDs no verificados."
+ },
+ {
+  "nombre": "Gasoapp",
+  "dependencia": "Comisión Reguladora de Energía",
+  "siglas": "CRE",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "energía",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Precios de gasolina por estación y reportes a la CRE.",
+  "funciones": [
+   "gasolineras cercanas/baratas",
+   "calificar estación",
+   "reportes"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://expansion.mx/tecnologia/2017/04/04/gasoapp-auto-chilango-y-waze-te-dicen-los-precios-de-las-gasolinas"
+  ],
+  "notas": "Lanzada en 2017 con Profeco; calificaciones bajas. La CRE fue sustituida por la CNE (2025): probablemente retirada, sin fuente."
+ },
+ {
+  "nombre": "Apoyo Ciudadano - INE",
+  "dependencia": "Instituto Nacional Electoral",
+  "siglas": "INE",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "elecciones",
+  "android_id": "mx.ine.apoyociudadano",
+  "ios_id": null,
+  "desarrollador_tienda": "Instituto Nacional Electoral",
+  "proposito": "Recabar firmas de apoyo para candidaturas independientes, revocación de mandato y consultas.",
+  "funciones": [
+   "captura de credencial",
+   "foto viva",
+   "firma",
+   "envío al INE"
+  ],
+  "requiere_cuenta": "INE",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.ine.apoyociudadano",
+   "https://www.elfinanciero.com.mx/nacional/simpatizantes-de-marichuy-denuncian-que-app-del-ine-pone-en-riesgo-datos-personales-de-ciudadanos/",
+   "https://zetatijuana.com/2023/12/verastegui-senala-omision-del-ine-ante-denuncia-por-fallas-en-aplicacion-para-recabar-firmas/",
+   "https://ine.mx/wp-content/uploads/2026/05/Manual_Proceso2_Android-Ver-122025.pdf"
+  ],
+  "notas": "Controversias: en 2017 se denunció que las imágenes de credenciales quedaban en los teléfonos de los auxiliares; fallas reportadas en 2017 y 2023 (sin soporte iOS 17); ~52 mil firmas irregulares en la revocación de mandato. iOS no verificado."
+ },
+ {
+  "nombre": "Valida INE-QR",
+  "dependencia": "Instituto Nacional Electoral",
+  "siglas": "INE",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "identidad",
+  "android_id": "mx.ine.rfe.lectorqr",
+  "ios_id": null,
+  "desarrollador_tienda": "Instituto Nacional Electoral",
+  "proposito": "Lector del QR de la credencial para votar para validar autenticidad y vigencia.",
+  "funciones": [
+   "leer QR de credencial",
+   "validar datos"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.ine.rfe.lectorqr"
+  ],
+  "notas": "iOS no verificado."
+ },
+ {
+  "nombre": "Mi INE – Mi Voto donde esté",
+  "dependencia": "Instituto Nacional Electoral",
+  "siglas": "INE",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "elecciones",
+  "android_id": "mx.ine.srva",
+  "ios_id": null,
+  "desarrollador_tienda": "Instituto Nacional Electoral",
+  "proposito": "Solicitud de inscripción a la Lista Nominal de Electores Residentes en el Extranjero.",
+  "funciones": [
+   "captura de credencial",
+   "validación biométrica/prueba de vida",
+   "folio de seguimiento"
+  ],
+  "requiere_cuenta": "INE",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.ine.srva",
+   "https://www.cronica.com.mx/metropoli/2026/10/13/iecm-promueve-el-registro-de-mexicanos-en-el-extranjero-para-las-elecciones-de-2027/"
+  ],
+  "notas": "Presentada oct 2026 para las elecciones de 2027; Play 1k+. iOS no verificado."
+ },
+ {
+  "nombre": "México en Cifras",
+  "dependencia": "Instituto Nacional de Estadística y Geografía",
+  "siglas": "INEGI",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Indicadores estadísticos por área geográfica.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.inegi.org.mx/siscon/default.html"
+  ],
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+ },
+ {
+  "nombre": "Directorio de Establecimientos (DENUE)",
+  "dependencia": "Instituto Nacional de Estadística y Geografía",
+  "siglas": "INEGI",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Búsqueda de unidades económicas del DENUE.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.inegi.org.mx/siscon/default.html"
+  ],
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+ },
+ {
+  "nombre": "Brújula",
+  "dependencia": "Instituto Nacional de Estadística y Geografía",
+  "siglas": "INEGI",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Orientación/ubicación geográfica INEGI.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.inegi.org.mx/siscon/default.html"
+  ],
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+ },
+ {
+  "nombre": "Estaciones de la RGNP Móvil",
+  "dependencia": "Instituto Nacional de Estadística y Geografía",
+  "siglas": "INEGI",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Ubicación de estaciones de la Red Geodésica Nacional Pasiva.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.inegi.org.mx/siscon/default.html"
+  ],
+  "notas": "Listada en la página oficial de apps de INEGI sin enlaces a tiendas; IDs no verificados (para DENUE, mwm.ai cita iOS 1016053690, no verificado)."
+ },
+ {
+  "nombre": "App CNDH",
+  "dependencia": "Comisión Nacional de los Derechos Humanos",
+  "siglas": "CNDH",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "App que la CNDH mencionó en 2020 para atención remota y quejas.",
+  "funciones": [
+   "quejas"
+  ],
+  "requiere_cuenta": "desconocido",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.cndh.org.mx/sites/default/files/documentos/2020-03/COM_2020_104.pdf"
+  ],
+  "notas": "Nombre e IDs no identificados."
+ },
+ {
+  "nombre": "Tribunal Abierto",
+  "dependencia": "Tribunal Electoral del Poder Judicial de la Federación",
+  "siglas": "TEPJF",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "elecciones",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Avisos de sesión pública, alertas y transmisión de sesiones.",
+  "funciones": [
+   "avisos de sesión",
+   "alertas",
+   "sesiones en vivo"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "retirada",
+  "fuentes": [
+   "https://www.te.gob.mx/front3/bulletins/detail/2240/0"
+  ],
+  "notas": "Presentada oct 2015; no localizada en tiendas (estatus inferido)."
+ },
+ {
+  "nombre": "FiREL PJF",
+  "dependencia": "Consejo de la Judicatura Federal / Poder Judicial de la Federación",
+  "siglas": "CJF",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "identidad",
+  "android_id": "gob.mx.android.firel",
+  "ios_id": "1525323808",
+  "desarrollador_tienda": "CJF / Unidad para la Implementacion de la Reforma Penal en el CJF",
+  "proposito": "Trámite en línea de la Firma Electrónica Certificada del PJF (FIREL).",
+  "funciones": [
+   "folio",
+   "carga de documentos",
+   "prueba de vida"
+  ],
+  "requiere_cuenta": "CURP",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=gob.mx.android.firel",
+   "https://apps.apple.com/mx/app/id1525323808",
+   "https://www.scjn.gob.mx/justicia-digital/",
+   "https://www.unotv.com/nacional/firel-nuevas-reglas-tramite-linea-requisitos-vigencia-2026/"
+  ],
+  "notas": "Poder Judicial (no autónomo en sentido estricto). El CJF fue sustituido por el Órgano de Administración Judicial tras la reforma 2024-2025. iOS ~1.0/5 con 1 reseña."
+ },
+ {
+  "nombre": "Tren Maya Boletos",
+  "dependencia": "Tren Maya, S.A. de C.V.",
+  "siglas": "Tren Maya",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "movilidad",
+  "android_id": "com.indra.trenmaya.pro",
+  "ios_id": null,
+  "desarrollador_tienda": "Tren Maya",
+  "proposito": "Compra de boletos del Tren Maya.",
+  "funciones": [
+   "compra de boletos",
+   "selección de asientos"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.indra.trenmaya.pro",
+   "https://trenmaya.gob.mx/pdf/Dossier_Tianguis_Turistico_2026.pdf",
+   "https://www.nmas.com.mx/nacional/fraude-boletos-del-tren-maya-alertan-por-sitios-falsos-de-venta-pasajes/"
+  ],
+  "notas": "Empresa de participación estatal (Sedena). El package indica desarrollo de Indra. Play 100k+. El dossier oficial dice que hay versión iOS, pero el ID no se verificó."
+ },
+ {
+  "nombre": "Mexicana",
+  "dependencia": "Aerolínea del Estado Mexicano, S.A. de C.V.",
+  "siglas": "Mexicana",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "turismo",
+  "android_id": null,
+  "ios_id": "6745802556",
+  "desarrollador_tienda": "Aerolinea del Estado Mexicano",
+  "proposito": "Compra de vuelos, check-in y promociones de Mexicana de Aviación.",
+  "funciones": [
+   "reservas",
+   "check-in",
+   "promociones exclusivas de la app"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "activa",
+  "fuentes": [
+   "https://apps.apple.com/mx/app/id6745802556",
+   "https://www.rivieramayanews.mx/mexican-airline-launches-flights-starting-at-99-pesos-details-eligible-destinations/"
+  ],
+  "notas": "Android no verificado (rate-limit)."
+ },
+ {
+  "nombre": "AICM Experiencia",
+  "dependencia": "Aeropuerto Internacional de la Ciudad de México, S.A. de C.V.",
+  "siglas": "AICM",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "movilidad",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Estatus de vuelos y servicios en terminal.",
+  "funciones": [
+   "guía de vuelos",
+   "servicios en terminal"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://factorenergetico.mx/aicm-lanza-aplicacion-para-conocer-estatus-de-vuelos-en-dispositivos-moviles"
+  ],
+  "notas": "IDs no verificados. Ojo: 'AICM Mobile' (com.oicb.aicm, dev Jandre) es de terceros."
+ },
+ {
+  "nombre": "AICM Mobile",
+  "dependencia": "(no oficial) Aeropuerto Internacional de la Ciudad de México",
+  "siglas": "AICM",
+  "nivel": "no_oficial",
+  "estado": "Nacional",
+  "sector": "movilidad",
+  "android_id": "com.oicb.aicm",
+  "ios_id": null,
+  "desarrollador_tienda": "Jandre",
+  "proposito": "App de terceros con información del AICM.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.oicb.aicm"
+  ],
+  "notas": "Desarrollador particular; no es del AICM."
+ },
+ {
+  "nombre": "IPN Oficial",
+  "dependencia": "Instituto Politécnico Nacional",
+  "siglas": "IPN",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "educación",
+  "android_id": "com.ipnmx.AppIPN",
+  "ios_id": "1627277737",
+  "desarrollador_tienda": "Instituto Politécnico Nacional (IPN-Oficial) / INSTITUTO POLITECNICO NACIONAL",
+  "proposito": "App institucional del IPN.",
+  "funciones": [
+   "noticias y gacetas",
+   "calendarios",
+   "mapas de campus",
+   "consulta académica",
+   "botón de pánico con ubicación a seguridad pública CDMX"
+  ],
+  "requiere_cuenta": "otra",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.ipnmx.AppIPN",
+   "https://apps.apple.com/mx/app/id1627277737",
+   "https://www.ipn.mx/assets/files/ccs/docs/comunicados/2022/11/c-145-2022.pdf"
+  ],
+  "notas": "Órgano desconcentrado de la SEP. Lanzada en 2022. El botón de pánico comparte geolocalización."
+ },
+ {
+  "nombre": "Museos UNAM",
+  "dependencia": "Universidad Nacional Autónoma de México",
+  "siglas": "UNAM",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "educación",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Museos universitarios: ubicación, costos y horarios.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.unotv.com/ciencia-y-tecnologia/lanzan-museos-unam-app-gratuita-y-disponible-en-25-paises/"
+  ],
+  "notas": "IDs no verificados. La UNAM publica apps institucionales (AMI) bajo lineamientos de DGTIC: https://www.apps.unam.mx"
+ },
+ {
+  "nombre": "Bibliotecas UNAM",
+  "dependencia": "Universidad Nacional Autónoma de México",
+  "siglas": "UNAM",
+  "nivel": "autonomo",
+  "estado": "Nacional",
+  "sector": "educación",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Servicios de la Dirección General de Bibliotecas.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.chilango.com/noticias/app-museos-unam/"
+  ],
+  "notas": "IDs no verificados."
+ },
+ {
+  "nombre": "CONALITEG Digital",
+  "dependencia": "Comisión Nacional de Libros de Texto Gratuitos",
+  "siglas": "CONALITEG",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "educación",
+  "android_id": "gob.mx.conaliteg.bibliotecadigital",
+  "ios_id": null,
+  "desarrollador_tienda": "Comisión Nacional de Libros de Texto Gratuitos",
+  "proposito": "Biblioteca digital de libros de texto gratuitos.",
+  "funciones": [
+   "libros de texto en línea"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "activa",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=gob.mx.conaliteg.bibliotecadigital"
+  ],
+  "notas": "iOS no verificado."
+ },
+ {
+  "nombre": "CONAVI Campo",
+  "dependencia": "Comisión Nacional de Vivienda",
+  "siglas": "CONAVI",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": "mx.gob.conavi.campo",
+  "ios_id": null,
+  "desarrollador_tienda": "Conavi Desarrollo",
+  "proposito": "Levantamiento en campo de programas de vivienda (uso operativo).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=mx.gob.conavi.campo"
+  ],
+  "notas": "App operativa interna."
+ },
+ {
+  "nombre": "CONAVI - Cédula de Daños",
+  "dependencia": "Comisión Nacional de Vivienda",
+  "siglas": "CONAVI",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": "com.app.CedulaDanio",
+  "ios_id": null,
+  "desarrollador_tienda": "Conavi Desarrollo",
+  "proposito": "Levantamiento de daños a viviendas (desastres).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.app.CedulaDanio"
+  ],
+  "notas": "App operativa interna."
+ },
+ {
+  "nombre": "SIAMC",
+  "dependencia": "Comisión Nacional de Vivienda",
+  "siglas": "CONAVI",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": "com.app.conavisupervision",
+  "ios_id": null,
+  "desarrollador_tienda": "Conavi Desarrollo",
+  "proposito": "Supervisión de obras de programas Conavi (inferido del package).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.app.conavisupervision"
+  ],
+  "notas": "App operativa interna."
+ },
+ {
+  "nombre": "Levantamiento de la CIS-CONAVI",
+  "dependencia": "Comisión Nacional de Vivienda",
+  "siglas": "CONAVI",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": "com.conavi.cis.offline",
+  "ios_id": null,
+  "desarrollador_tienda": "Conavi Desarrollo",
+  "proposito": "Levantamiento offline de la Cédula de Información Socioeconómica.",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.conavi.cis.offline"
+  ],
+  "notas": "Recolecta datos socioeconómicos de beneficiarios."
+ },
+ {
+  "nombre": "CONAVI Levantamiento CIS 2022",
+  "dependencia": "Comisión Nacional de Vivienda",
+  "siglas": "CONAVI",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "vivienda",
+  "android_id": "com.cis_offline.conavi_2022",
+  "ios_id": null,
+  "desarrollador_tienda": "Conavi Desarrollo",
+  "proposito": "Versión 2022 del levantamiento CIS.",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "sin actualizar >2 años",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.cis_offline.conavi_2022"
+  ],
+  "notas": "Estatus inferido por el año en el nombre."
+ },
+ {
+  "nombre": "Lotería Nacional Mx",
+  "dependencia": "Lotería Nacional",
+  "siglas": "Lotenal",
+  "nivel": "paraestatal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": null,
+  "ios_id": null,
+  "desarrollador_tienda": "desconocido",
+  "proposito": "Resultados de sorteos y contenido interactivo.",
+  "funciones": [
+   "resultados"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://www.laps4.com/preguntas-y-respuestas/cual-es-la-app-oficial-de-loteria-nacional"
+  ],
+  "notas": "Solo hay referencia secundaria a un post de Facebook; IDs no verificados. 'Lotería de México' (loterianacional.mx, alonsoapps) y 'Consulta tu Premio' (com.fwy.LoteriaNacional, TGS) son de terceros o no confirmadas."
+ },
+ {
+  "nombre": "Lotería de México",
+  "dependencia": "(no oficial) Lotería Nacional",
+  "siglas": "Lotenal",
+  "nivel": "no_oficial",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "loterianacional.mx",
+  "ios_id": null,
+  "desarrollador_tienda": "alonsoapps",
+  "proposito": "App de terceros con resultados de la Lotería Nacional; usa un package que imita el dominio.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=loterianacional.mx"
+  ],
+  "notas": "Package 'loterianacional.mx' de un desarrollador particular."
+ },
+ {
+  "nombre": "GN Reporta",
+  "dependencia": "Guardia Nacional",
+  "siglas": "GN",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "seguridad",
+  "android_id": "sspc.gn.cientifica",
+  "ios_id": null,
+  "desarrollador_tienda": "Guardia Nacional",
+  "proposito": "Denuncia/reporte ciudadano a la Guardia Nacional (inferido del nombre).",
+  "funciones": [
+   "reportes"
+  ],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=sspc.gn.cientifica"
+  ],
+  "notas": "Antes órgano de la SSPC, ahora Sedena; puede solaparse con el segmento de secretarías."
+ },
+ {
+  "nombre": "GN Carreteras",
+  "dependencia": "Guardia Nacional",
+  "siglas": "GN",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "movilidad",
+  "android_id": "sspc.gn.cientifica.gncarreteras",
+  "ios_id": null,
+  "desarrollador_tienda": "Guardia Nacional",
+  "proposito": "Información y auxilio en carreteras.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=sspc.gn.cientifica.gncarreteras"
+  ],
+  "notas": ""
+ },
+ {
+  "nombre": "SIIGNA Móvil",
+  "dependencia": "Guardia Nacional",
+  "siglas": "GN",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "seguridad",
+  "android_id": "sspc.gn.cientifica.siigna",
+  "ios_id": null,
+  "desarrollador_tienda": "Guardia Nacional",
+  "proposito": "Sistema de información interno de la GN (inferido del nombre).",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=sspc.gn.cientifica.siigna"
+  ],
+  "notas": "Probablemente de uso interno."
+ },
+ {
+  "nombre": "México en Guardia",
+  "dependencia": "Guardia Nacional",
+  "siglas": "GN",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "seguridad",
+  "android_id": "com.gn.cientifica.revistadigital",
+  "ios_id": null,
+  "desarrollador_tienda": "Guardia Nacional",
+  "proposito": "Revista digital de la Guardia Nacional.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.gn.cientifica.revistadigital"
+  ],
+  "notas": ""
+ },
+ {
+  "nombre": "Mi PROFEPA",
+  "dependencia": "Procuraduría Federal de Protección al Ambiente",
+  "siglas": "PROFEPA",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "profepa.app.inspectores",
+  "ios_id": null,
+  "desarrollador_tienda": "PROFEPA",
+  "proposito": "App para inspectores de Profepa.",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=profepa.app.inspectores"
+  ],
+  "notas": "Órgano desconcentrado de Semarnat."
+ },
+ {
+  "nombre": "Mi PROFEPA V2",
+  "dependencia": "Procuraduría Federal de Protección al Ambiente",
+  "siglas": "PROFEPA",
+  "nivel": "federal",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "profepa.app.inspectoresV2",
+  "ios_id": null,
+  "desarrollador_tienda": "PROFEPA",
+  "proposito": "Segunda versión de la app de inspectores.",
+  "funciones": [],
+  "requiere_cuenta": "otra",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=profepa.app.inspectoresV2"
+  ],
+  "notas": ""
+ },
+ {
+  "nombre": "Correos México - Seguimiento",
+  "dependencia": "(no oficial) Correos de México",
+  "siglas": "SEPOMEX",
+  "nivel": "no_oficial",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "com.flyhighware.mailtracker",
+  "ios_id": null,
+  "desarrollador_tienda": "FlyHighWare Games",
+  "proposito": "Rastreo de envíos, de terceros.",
+  "funciones": [],
+  "requiere_cuenta": "ninguna",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=com.flyhighware.mailtracker"
+  ],
+  "notas": "No se localizó app oficial de Correos de México; el rastreo oficial es web."
+ },
+ {
+  "nombre": "LICONSA - SAO",
+  "dependencia": "(no confirmada) Liconsa / Leche para el Bienestar",
+  "siglas": "Liconsa",
+  "nivel": "no_oficial",
+  "estado": "Nacional",
+  "sector": "otro",
+  "android_id": "in.kehila",
+  "ios_id": null,
+  "desarrollador_tienda": "Manuel González López",
+  "proposito": "App con nombre Liconsa publicada por una persona física.",
+  "funciones": [],
+  "requiere_cuenta": "desconocido",
+  "estatus": "desconocido",
+  "fuentes": [
+   "https://play.google.com/store/apps/details?id=in.kehila"
+  ],
+  "notas": "Oficialidad no confirmada; podría ser una app operativa de proveedor."
+ }
+]

@@ -1,0 +1,55 @@
+[
+ {
+  "servicio": "Servicios del DIF (asistencia social, inscripción a programas)",
+  "nivel": "estatal", "estado": "todos", "sector": "otro",
+  "canales": {"web": "parcial", "app": "no", "presencial_obligatorio": true, "whatsapp_telefono": false},
+  "brecha": "Ningún estado tiene app del DIF; el servicio social no existe en el canal móvil.",
+  "fuentes": ["inventario apps/ — búsqueda sin resultados en los 32 estados"]
+ },
+ {
+  "servicio": "Consulta y pago de agua potable",
+  "nivel": "estatal", "estado": "mayoría", "sector": "agua",
+  "canales": {"web": "parcial", "app": "parcial", "presencial_obligatorio": true, "whatsapp_telefono": false},
+  "acceso_programatico": "web_con_captcha",
+  "brecha": "Solo organismos sueltos tienen canal digital (JMAS Juárez, SIAPA, CESPT, JCAS, CAASIM, SAPAL, Japay). La mayoría de los organismos operadores no ofrece consulta/pago en línea.",
+  "fuentes": ["sitios/estatal-ab.json", "Skills_MX mp_agua_mx (cobertura parcial)"]
+ },
+ {
+  "servicio": "Denuncia ciudadana / fiscalía en línea",
+  "nivel": "estatal", "estado": "mayoría", "sector": "justicia",
+  "canales": {"web": "parcial", "app": "no", "presencial_obligatorio": true, "whatsapp_telefono": true},
+  "acceso_programatico": "web_con_captcha",
+  "brecha": "Muy pocas apps de fiscalía (IdSonora). La denuncia vive en web con CAPTCHA; varios municipios la mandaron a WhatsApp (Torreón, Cancún).",
+  "fuentes": ["apps/inventario/*.json", "sitios/*.json"]
+ },
+ {
+  "servicio": "Transporte público masivo (saldo, rutas, recarga)",
+  "nivel": "estatal", "estado": "CDMX, Jalisco, NL, Edomex, Puebla", "sector": "movilidad",
+  "canales": {"web": "parcial", "app": "parcial", "presencial_obligatorio": true, "whatsapp_telefono": false},
+  "brecha": "Metro CDMX, Metrobús, Cablebús, Mi Tren/SITEUR, Mexibús, Metrorrey y RUTA Puebla no tienen app oficial propia. Donde hay app, suele publicarla un proveedor privado (Urbani, Mi Macro, ECOBICI/Lyft) o la tarjeta se gestiona en una app privada (Movimex→Stori).",
+  "fuentes": ["apps/inventario/*.json"]
+ },
+ {
+  "servicio": "Salud estatal (citas, expediente, farmacia)",
+  "nivel": "estatal", "estado": "mayoría", "sector": "salud",
+  "canales": {"web": "parcial", "app": "no", "presencial_obligatorio": true, "whatsapp_telefono": false},
+  "brecha": "Tras retirarse las apps de COVID, casi no queda app de salud subnacional. La salud digital sigue concentrada en el IMSS/ISSSTE federales.",
+  "fuentes": ["apps/inventario/estatal-*.json"]
+ },
+ {
+  "servicio": "Pago en línea de obligaciones estatales/municipales (predial, tenencia, control vehicular, multas)",
+  "nivel": "municipal", "estado": "varios", "sector": "finanzas",
+  "canales": {"web": "parcial", "app": "parcial", "presencial_obligatorio": false, "whatsapp_telefono": false},
+  "acceso_programatico": "web_con_captcha",
+  "brecha": "Existe pero es frágil: portales en mantenimiento o caídos el día del corte (SACMEX 503, Chihuahua y Hermosillo 'pago en línea en mantenimiento', hacienda de Chiapas resetea). Muchos municipios grandes sin MCP ni API (Morelia, Hermosillo, Culiacán, Cancún, Saltillo, Torreón, Aguascalientes, San Nicolás, Mexicali, San Pedro, Chihuahua).",
+  "fuentes": ["sitios/*.json", "Skills_MX mp_predial_mx y municipales"]
+ },
+ {
+  "servicio": "Identidad digital única",
+  "nivel": "federal", "estado": "Nacional", "sector": "identidad",
+  "canales": {"web": "completo", "app": "parcial", "presencial_obligatorio": false, "whatsapp_telefono": false},
+  "acceso_programatico": "requiere_login",
+  "brecha": "Fragmentada: Llave MX (federal) coexiste con Llave CDMX, Identidad Digital BC, Gobierno Digital EdoMex, Nayarit, Morelia ID. No hay una identidad interoperable entre niveles.",
+  "fuentes": ["sitios/federal.json", "sitios/estatal-*.json"]
+ }
+]

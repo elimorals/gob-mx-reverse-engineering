@@ -1,0 +1,3064 @@
+[
+ {
+  "dependencia": "Gobierno del Estado de Aguascalientes",
+  "nivel": "estatal",
+  "estado": "Aguascalientes",
+  "url": "https://www.aguascalientes.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.aguascalientes.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://www.aguascalientes.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Stack IIS/ASP.NET. eservicios2 = pagos/trámites. datosabiertos y transparencia por subdominio no resolvieron (la transparencia suele colgar del portal principal /y PNT)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Aguascalientes",
+  "url": "https://tramites.aguascalientes.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.aguascalientes.gob.mx",
+    "resultado": "HTTP 200, 2 redirección(es) -> https://www.aguascalientes.gob.mx/tramites/, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.aguascalientes.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Stack IIS/ASP.NET. eservicios2 = pagos/trámites. datosabiertos y transparencia por subdominio no resolvieron (la transparencia suele colgar del portal principal /y PNT)."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas/Hacienda",
+  "nivel": "estatal",
+  "estado": "Aguascalientes",
+  "url": "https://eservicios2.aguascalientes.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://eservicios2.aguascalientes.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://eservicios2.aguascalientes.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Stack IIS/ASP.NET. eservicios2 = pagos/trámites. datosabiertos y transparencia por subdominio no resolvieron (la transparencia suele colgar del portal principal /y PNT)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Aguascalientes",
+  "url": "https://datosabiertos.aguascalientes.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datosabiertos.aguascalientes.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datosabiertos.aguascalientes.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datosabiertos.aguascalientes.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Stack IIS/ASP.NET. eservicios2 = pagos/trámites. datosabiertos y transparencia por subdominio no resolvieron (la transparencia suele colgar del portal principal /y PNT)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Aguascalientes",
+  "url": "https://transparencia.aguascalientes.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.aguascalientes.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: transparencia.aguascalientes.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.aguascalientes.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Stack IIS/ASP.NET. eservicios2 = pagos/trámites. datosabiertos y transparencia por subdominio no resolvieron (la transparencia suele colgar del portal principal /y PNT)."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Baja California",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://www.bajacalifornia.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.bajacalifornia.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://www.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://www.ventanilladigital.bajacalifornia.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "Apache (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.ventanilladigital.bajacalifornia.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://www.ventanilladigital.bajacalifornia.gob.mx/auth/login, Server: Apache/2.4.58 (Ubuntu); señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://www.ventanilladigital.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://pagoimpuestos.bajacalifornia.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [
+   "pago de impuestos estatales"
+  ],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://pagoimpuestos.bajacalifornia.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: pagoimpuestos.bajacalifornia.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://pagoimpuestos.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Agencia/Coordinación de Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://www.identidadbc.bajacalifornia.gob.mx",
+  "tipo": "identidad",
+  "proposito": "Identidad digital estatal: una cuenta para acceder a trámites y servicios del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "cuenta propia (identidad digital estatal)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.identidadbc.bajacalifornia.gob.mx",
+    "resultado": "inalcanzable: curl: (60) SSL: no alternative certificate subject name matches target host name 'www.identidadbc.bajacalifornia.gob.mx'"
+   }
+  ],
+  "fuentes": [
+   "https://www.identidadbc.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Agencia/Coordinación de Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://www.llave.bajacalifornia.gob.mx",
+  "tipo": "identidad",
+  "proposito": "Identidad digital estatal: una cuenta para acceder a trámites y servicios del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "cuenta propia (identidad digital estatal)",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.llave.bajacalifornia.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://www.llave.bajacalifornia.gob.mx/oauthV2.xhtml?client_id=201910171350301234&redirect_url=https%3A%2F%2Fwww.llave.bajacalifornia.gob.mx%2Findex.xhtml&state=-obsajrrPTie5ojN2P2DIuI1zvpCGBt0npsAX9ROMjMQMAteqlzih44SUHmIQwdb, Server: nginx/1.20.1; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://www.llave.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://datosbc.bajacalifornia.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datosbc.bajacalifornia.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://www.ceieg.bajacalifornia.gob.mx/, Server: Microsoft-IIS/10.0; señales: WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://datosbc.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Baja California",
+  "url": "https://gobiernoabierto.bajacalifornia.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Apache (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://gobiernoabierto.bajacalifornia.gob.mx",
+    "resultado": "HTTP 200, Server: Apache/2.4.58 (Ubuntu)"
+   }
+  ],
+  "fuentes": [
+   "https://gobiernoabierto.bajacalifornia.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT: identidadbc, www.llave (SSO), ventanillabc y ventanilladigital, datosbc, gobiernoabierto, pagoimpuestos. 'Identidad Digital BC' es además app móvil ligada a Ventanilla Única (ventanillabc)."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Baja California Sur",
+  "nivel": "estatal",
+  "estado": "Baja California Sur",
+  "url": "https://www.bcs.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.bcs.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: Cloudflare, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://www.bcs.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal, tramites, transparencia y datos en WordPress tras Cloudflare; control-vehicular operativo como host de pagos."
+ },
+ {
+  "dependencia": "Recaudación / control vehicular",
+  "nivel": "estatal",
+  "estado": "Baja California Sur",
+  "url": "https://control-vehicular.bcs.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [
+   "control vehicular"
+  ],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "Apache (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://control-vehicular.bcs.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://control-vehicular.bcs.gob.mx/cgi-sys/suspendedpage.cgi, Server: Apache"
+   }
+  ],
+  "fuentes": [
+   "https://control-vehicular.bcs.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal, tramites, transparencia y datos en WordPress tras Cloudflare; control-vehicular operativo como host de pagos."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Baja California Sur",
+  "url": "https://datos.bcs.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.bcs.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://datos.bcs.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal, tramites, transparencia y datos en WordPress tras Cloudflare; control-vehicular operativo como host de pagos."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Baja California Sur",
+  "url": "https://tramites.bcs.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.bcs.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: Cloudflare, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.bcs.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal, tramites, transparencia y datos en WordPress tras Cloudflare; control-vehicular operativo como host de pagos."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Baja California Sur",
+  "url": "https://transparencia.bcs.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.bcs.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: Cloudflare, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.bcs.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal, tramites, transparencia y datos en WordPress tras Cloudflare; control-vehicular operativo como host de pagos."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Campeche",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "url": "https://www.campeche.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.campeche.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://campeche.gob.mx/, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://www.campeche.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone llave.pruebas.campeche.gob.mx (instancia de PRUEBAS de 'llave'/identidad accesible), más siacam/endpoint/convenios en finanzas.campeche.gob.mx. contribunet corre sobre Tomcat (Apache-Coyote)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "url": "https://tramites.campeche.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.campeche.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.campeche.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone llave.pruebas.campeche.gob.mx (instancia de PRUEBAS de 'llave'/identidad accesible), más siacam/endpoint/convenios en finanzas.campeche.gob.mx. contribunet corre sobre Tomcat (Apache-Coyote)."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "url": "https://contribunet.campeche.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [
+   "pago de contribuciones estatales"
+  ],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "Java (Tomcat/Payara)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://contribunet.campeche.gob.mx",
+    "resultado": "HTTP 200, Server: Apache-Coyote/1.1"
+   }
+  ],
+  "fuentes": [
+   "https://contribunet.campeche.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone llave.pruebas.campeche.gob.mx (instancia de PRUEBAS de 'llave'/identidad accesible), más siacam/endpoint/convenios en finanzas.campeche.gob.mx. contribunet corre sobre Tomcat (Apache-Coyote)."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "url": "https://finanzas.campeche.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "Joomla",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://finanzas.campeche.gob.mx",
+    "resultado": "HTTP 200; señales: Joomla"
+   }
+  ],
+  "fuentes": [
+   "https://finanzas.campeche.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone llave.pruebas.campeche.gob.mx (instancia de PRUEBAS de 'llave'/identidad accesible), más siacam/endpoint/convenios en finanzas.campeche.gob.mx. contribunet corre sobre Tomcat (Apache-Coyote)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "url": "https://datosabiertos.campeche.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datosabiertos.campeche.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datosabiertos.campeche.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datosabiertos.campeche.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone llave.pruebas.campeche.gob.mx (instancia de PRUEBAS de 'llave'/identidad accesible), más siacam/endpoint/convenios en finanzas.campeche.gob.mx. contribunet corre sobre Tomcat (Apache-Coyote)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Campeche",
+  "url": "https://transparencia.campeche.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.campeche.gob.mx",
+    "resultado": "inalcanzable: curl: (28) Connection timed out after 25006 milliseconds"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.campeche.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone llave.pruebas.campeche.gob.mx (instancia de PRUEBAS de 'llave'/identidad accesible), más siacam/endpoint/convenios en finanzas.campeche.gob.mx. contribunet corre sobre Tomcat (Apache-Coyote)."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Chiapas",
+  "nivel": "estatal",
+  "estado": "Chiapas",
+  "url": "https://www.chiapas.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.chiapas.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://www.chiapas.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh 502/timeout). www.haciendachiapas.gob.mx (pagos) resetea la conexión; tramites/datos/transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Secretaría de Hacienda",
+  "nivel": "estatal",
+  "estado": "Chiapas",
+  "url": "https://www.haciendachiapas.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.haciendachiapas.gob.mx",
+    "resultado": "inalcanzable: curl: (28) Connection timed out after 25006 milliseconds"
+   }
+  ],
+  "fuentes": [
+   "https://www.haciendachiapas.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh 502/timeout). www.haciendachiapas.gob.mx (pagos) resetea la conexión; tramites/datos/transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Chiapas",
+  "url": "https://tramites.chiapas.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.chiapas.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: tramites.chiapas.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.chiapas.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh 502/timeout). www.haciendachiapas.gob.mx (pagos) resetea la conexión; tramites/datos/transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Chiapas",
+  "url": "https://datos.chiapas.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.chiapas.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.chiapas.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.chiapas.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh 502/timeout). www.haciendachiapas.gob.mx (pagos) resetea la conexión; tramites/datos/transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Chiapas",
+  "url": "https://www.transparencia.chiapas.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.transparencia.chiapas.gob.mx",
+    "resultado": "inalcanzable: curl: (28) Connection timed out after 25002 milliseconds"
+   }
+  ],
+  "fuentes": [
+   "https://www.transparencia.chiapas.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh 502/timeout). www.haciendachiapas.gob.mx (pagos) resetea la conexión; tramites/datos/transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Chihuahua",
+  "nivel": "estatal",
+  "estado": "Chihuahua",
+  "url": "https://www.chihuahua.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "Drupal",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.chihuahua.gob.mx",
+    "resultado": "HTTP 200, Server: Apache/2.4.62 (Debian); señales: Cloudflare, Drupal"
+   }
+  ],
+  "fuentes": [
+   "https://www.chihuahua.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ipagos corre Payara 4.1.1 con banner 'badassfish' expuesto; X-Powered-By enmascarado por WAF. Portal en Drupal tras Cloudflare."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Chihuahua",
+  "url": "https://ipagos.chihuahua.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "Java (Tomcat/Payara)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://ipagos.chihuahua.gob.mx",
+    "resultado": "HTTP 200, Server: Payara Server  4.1.1.164 #badassfish; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://ipagos.chihuahua.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ipagos corre Payara 4.1.1 con banner 'badassfish' expuesto; X-Powered-By enmascarado por WAF. Portal en Drupal tras Cloudflare."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Chihuahua",
+  "url": "https://epagos.chihuahua.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://epagos.chihuahua.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/7.5"
+   }
+  ],
+  "fuentes": [
+   "https://epagos.chihuahua.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ipagos corre Payara 4.1.1 con banner 'badassfish' expuesto; X-Powered-By enmascarado por WAF. Portal en Drupal tras Cloudflare."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Chihuahua",
+  "url": "https://tramites.chihuahua.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.chihuahua.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.chihuahua.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ipagos corre Payara 4.1.1 con banner 'badassfish' expuesto; X-Powered-By enmascarado por WAF. Portal en Drupal tras Cloudflare."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Chihuahua",
+  "url": "https://datos.chihuahua.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.chihuahua.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.chihuahua.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.chihuahua.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ipagos corre Payara 4.1.1 con banner 'badassfish' expuesto; X-Powered-By enmascarado por WAF. Portal en Drupal tras Cloudflare."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Chihuahua",
+  "url": "https://transparencia.chihuahua.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.chihuahua.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.chihuahua.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ipagos corre Payara 4.1.1 con banner 'badassfish' expuesto; X-Powered-By enmascarado por WAF. Portal en Drupal tras Cloudflare."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Coahuila",
+  "nivel": "estatal",
+  "estado": "Coahuila",
+  "url": "https://coahuila.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "PHP",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://coahuila.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://coahuila.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "www.coahuila.gob.mx presenta certificado que NO coincide con el host (usar coahuila.gob.mx, que corre PHP 5.4.45 EOL). sefincoahuila y pagos tras Sucuri WAF."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (SEFIN)",
+  "nivel": "estatal",
+  "estado": "Coahuila",
+  "url": "https://www.sefincoahuila.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "Sucuri WAF",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.sefincoahuila.gob.mx",
+    "resultado": "HTTP 307, Server: Sucuri/Cloudproxy"
+   }
+  ],
+  "fuentes": [
+   "https://www.sefincoahuila.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "www.coahuila.gob.mx presenta certificado que NO coincide con el host (usar coahuila.gob.mx, que corre PHP 5.4.45 EOL). sefincoahuila y pagos tras Sucuri WAF."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Coahuila",
+  "url": "https://tramites.coahuila.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.coahuila.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: tramites.coahuila.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.coahuila.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "www.coahuila.gob.mx presenta certificado que NO coincide con el host (usar coahuila.gob.mx, que corre PHP 5.4.45 EOL). sefincoahuila y pagos tras Sucuri WAF."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Coahuila",
+  "url": "https://datosabiertos.coahuila.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datosabiertos.coahuila.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datosabiertos.coahuila.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datosabiertos.coahuila.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "www.coahuila.gob.mx presenta certificado que NO coincide con el host (usar coahuila.gob.mx, que corre PHP 5.4.45 EOL). sefincoahuila y pagos tras Sucuri WAF."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Coahuila",
+  "url": "https://www.coahuilatransparente.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "detrás de Cloudflare",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.coahuilatransparente.gob.mx",
+    "resultado": "HTTP 403, Server: cloudflare; señales: Cloudflare"
+   }
+  ],
+  "fuentes": [
+   "https://www.coahuilatransparente.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "www.coahuila.gob.mx presenta certificado que NO coincide con el host (usar coahuila.gob.mx, que corre PHP 5.4.45 EOL). sefincoahuila y pagos tras Sucuri WAF."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Colima",
+  "nivel": "estatal",
+  "estado": "Colima",
+  "url": "https://www.col.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "reCAPTCHA",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.col.gob.mx",
+    "resultado": "HTTP 200, Server: nginx; señales: reCAPTCHA"
+   }
+  ],
+  "fuentes": [
+   "https://www.col.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ventanillaunica.col.gob.mx agotó el tiempo; finanzas (pagos) 403; portal con reCAPTCHA. Estado con identidad digital propia (mencionado en prensa)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Colima",
+  "url": "https://ventanillaunica.col.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://ventanillaunica.col.gob.mx",
+    "resultado": "inalcanzable: curl: (28) Operation timed out after 25006 milliseconds with 0 bytes received"
+   }
+  ],
+  "fuentes": [
+   "https://ventanillaunica.col.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ventanillaunica.col.gob.mx agotó el tiempo; finanzas (pagos) 403; portal con reCAPTCHA. Estado con identidad digital propia (mencionado en prensa)."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas",
+  "nivel": "estatal",
+  "estado": "Colima",
+  "url": "https://www.finanzas.col.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.finanzas.col.gob.mx",
+    "resultado": "HTTP 403, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://www.finanzas.col.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ventanillaunica.col.gob.mx agotó el tiempo; finanzas (pagos) 403; portal con reCAPTCHA. Estado con identidad digital propia (mencionado en prensa)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Colima",
+  "url": "https://datos.col.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.col.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.col.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ventanillaunica.col.gob.mx agotó el tiempo; finanzas (pagos) 403; portal con reCAPTCHA. Estado con identidad digital propia (mencionado en prensa)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Colima",
+  "url": "https://www.transparencia.col.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.transparencia.col.gob.mx",
+    "resultado": "inalcanzable: curl: (60) SSL: no alternative certificate subject name matches target host name 'www.transparencia.col.gob.mx'More deta"
+   }
+  ],
+  "fuentes": [
+   "https://www.transparencia.col.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "ventanillaunica.col.gob.mx agotó el tiempo; finanzas (pagos) 403; portal con reCAPTCHA. Estado con identidad digital propia (mencionado en prensa)."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Durango",
+  "nivel": "estatal",
+  "estado": "Durango",
+  "url": "https://www.durango.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "PHP",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.durango.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.26.3"
+   }
+  ],
+  "fuentes": [
+   "https://www.durango.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone loginrecaudador, recaudador y sistemaingresos (login de recaudación); pagos y tramites servidos como estáticos en Amazon S3; transparencia en Next.js."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Durango",
+  "url": "https://tramites.durango.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "Estático en Amazon S3",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.durango.gob.mx",
+    "resultado": "HTTP 200, Server: AmazonS3; señales: Cloudflare"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.durango.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone loginrecaudador, recaudador y sistemaingresos (login de recaudación); pagos y tramites servidos como estáticos en Amazon S3; transparencia en Next.js."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Durango",
+  "url": "https://pagos.durango.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "Estático en Amazon S3",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://pagos.durango.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://www.pagos.durango.gob.mx/, Server: AmazonS3; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://pagos.durango.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone loginrecaudador, recaudador y sistemaingresos (login de recaudación); pagos y tramites servidos como estáticos en Amazon S3; transparencia en Next.js."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Durango",
+  "url": "https://loginrecaudador.durango.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://loginrecaudador.durango.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: loginrecaudador.durango.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://loginrecaudador.durango.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone loginrecaudador, recaudador y sistemaingresos (login de recaudación); pagos y tramites servidos como estáticos en Amazon S3; transparencia en Next.js."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Durango",
+  "url": "https://gobiernoabierto.durango.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://gobiernoabierto.durango.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.24.0 (Ubuntu)"
+   }
+  ],
+  "fuentes": [
+   "https://gobiernoabierto.durango.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone loginrecaudador, recaudador y sistemaingresos (login de recaudación); pagos y tramites servidos como estáticos en Amazon S3; transparencia en Next.js."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Durango",
+  "url": "https://transparencia.durango.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "React/Next.js",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.durango.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.18.0 (Ubuntu); señales: Next.js"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.durango.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone loginrecaudador, recaudador y sistemaingresos (login de recaudación); pagos y tramites servidos como estáticos en Amazon S3; transparencia en Next.js."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Guanajuato",
+  "nivel": "estatal",
+  "estado": "Guanajuato",
+  "url": "https://www.guanajuato.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Apache (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.guanajuato.gob.mx",
+    "resultado": "HTTP 200, Server: Apache"
+   }
+  ],
+  "fuentes": [
+   "https://www.guanajuato.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el stack SFIA de trámites por nombre: api-sfia-dgi-tramites-{citas,ciudadano,consulta,gestion,solicitudes}, admin-sfia-tramites, app-sfia-tramites, apidoc-sfia-tramites. tramitesyservicios.strc y pagonet.strc no resolvieron hoy."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Guanajuato",
+  "url": "https://tramitesyservicios.strc.guanajuato.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramitesyservicios.strc.guanajuato.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: tramitesyservicios.strc.guanajuato.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://tramitesyservicios.strc.guanajuato.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el stack SFIA de trámites por nombre: api-sfia-dgi-tramites-{citas,ciudadano,consulta,gestion,solicitudes}, admin-sfia-tramites, app-sfia-tramites, apidoc-sfia-tramites. tramitesyservicios.strc y pagonet.strc no resolvieron hoy."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas/Administración",
+  "nivel": "estatal",
+  "estado": "Guanajuato",
+  "url": "https://pagonet.strc.guanajuato.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://pagonet.strc.guanajuato.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: pagonet.strc.guanajuato.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://pagonet.strc.guanajuato.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el stack SFIA de trámites por nombre: api-sfia-dgi-tramites-{citas,ciudadano,consulta,gestion,solicitudes}, admin-sfia-tramites, app-sfia-tramites, apidoc-sfia-tramites. tramitesyservicios.strc y pagonet.strc no resolvieron hoy."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Guanajuato",
+  "url": "https://datosabiertos.guanajuato.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datosabiertos.guanajuato.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datosabiertos.guanajuato.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datosabiertos.guanajuato.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el stack SFIA de trámites por nombre: api-sfia-dgi-tramites-{citas,ciudadano,consulta,gestion,solicitudes}, admin-sfia-tramites, app-sfia-tramites, apidoc-sfia-tramites. tramitesyservicios.strc y pagonet.strc no resolvieron hoy."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Guanajuato",
+  "url": "https://transparencia.guanajuato.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.guanajuato.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.guanajuato.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el stack SFIA de trámites por nombre: api-sfia-dgi-tramites-{citas,ciudadano,consulta,gestion,solicitudes}, admin-sfia-tramites, app-sfia-tramites, apidoc-sfia-tramites. tramitesyservicios.strc y pagonet.strc no resolvieron hoy."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Guerrero",
+  "nivel": "estatal",
+  "estado": "Guerrero",
+  "url": "https://guerrero.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://guerrero.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://www.guerrero.gob.mx/, Server: Apache; señales: WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://guerrero.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "datos y tramites por subdominio fallan TLS (SSL_ERROR_SYSCALL). recibosefina (pagos) operativo; transparencia WordPress con reCAPTCHA."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (SEFIN)",
+  "nivel": "estatal",
+  "estado": "Guerrero",
+  "url": "https://recibosefina.guerrero.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://recibosefina.guerrero.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.18.0 (Ubuntu)"
+   }
+  ],
+  "fuentes": [
+   "https://recibosefina.guerrero.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "datos y tramites por subdominio fallan TLS (SSL_ERROR_SYSCALL). recibosefina (pagos) operativo; transparencia WordPress con reCAPTCHA."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Guerrero",
+  "url": "https://tramites.guerrero.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.guerrero.gob.mx",
+    "resultado": "inalcanzable: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to tramites.guerrero.gob.mx:443 "
+   }
+  ],
+  "fuentes": [
+   "https://tramites.guerrero.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "datos y tramites por subdominio fallan TLS (SSL_ERROR_SYSCALL). recibosefina (pagos) operativo; transparencia WordPress con reCAPTCHA."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Guerrero",
+  "url": "https://datos.guerrero.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.guerrero.gob.mx",
+    "resultado": "inalcanzable: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datos.guerrero.gob.mx:443 "
+   }
+  ],
+  "fuentes": [
+   "https://datos.guerrero.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "datos y tramites por subdominio fallan TLS (SSL_ERROR_SYSCALL). recibosefina (pagos) operativo; transparencia WordPress con reCAPTCHA."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Guerrero",
+  "url": "https://transparencia.guerrero.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "reCAPTCHA",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.guerrero.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: reCAPTCHA, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.guerrero.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "datos y tramites por subdominio fallan TLS (SSL_ERROR_SYSCALL). recibosefina (pagos) operativo; transparencia WordPress con reCAPTCHA."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Hidalgo",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "url": "https://www.hidalgo.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.hidalgo.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.20.1"
+   }
+  ],
+  "fuentes": [
+   "https://www.hidalgo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone ehacienda/ehacienda2, otrsfinanzas y otrshacienda (OTRS ticketing), bihacienda/bifinanzas (BI). datos servido en Amazon S3 (Next.js)."
+ },
+ {
+  "dependencia": "Secretaría de Hacienda",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "url": "https://ehacienda.hidalgo.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://ehacienda.hidalgo.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://ehacienda.hidalgo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone ehacienda/ehacienda2, otrsfinanzas y otrshacienda (OTRS ticketing), bihacienda/bifinanzas (BI). datos servido en Amazon S3 (Next.js)."
+ },
+ {
+  "dependencia": "Recaudación / control vehicular",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "url": "https://verificacionvehicular.hidalgo.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [
+   "verificación vehicular"
+  ],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://verificacionvehicular.hidalgo.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://verificacionvehicular.hidalgo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone ehacienda/ehacienda2, otrsfinanzas y otrshacienda (OTRS ticketing), bihacienda/bifinanzas (BI). datos servido en Amazon S3 (Next.js)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "url": "https://ingresos.hidalgo.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://ingresos.hidalgo.gob.mx",
+    "resultado": "inalcanzable: curl: (7) Failed to connect to ingresos.hidalgo.gob.mx port 443 after 135 ms: Couldn't connect to server"
+   }
+  ],
+  "fuentes": [
+   "https://ingresos.hidalgo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone ehacienda/ehacienda2, otrsfinanzas y otrshacienda (OTRS ticketing), bihacienda/bifinanzas (BI). datos servido en Amazon S3 (Next.js)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "url": "https://datos.hidalgo.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "React/Next.js",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.hidalgo.gob.mx",
+    "resultado": "HTTP 200, Server: AmazonS3; señales: Next.js"
+   }
+  ],
+  "fuentes": [
+   "https://datos.hidalgo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone ehacienda/ehacienda2, otrsfinanzas y otrshacienda (OTRS ticketing), bihacienda/bifinanzas (BI). datos servido en Amazon S3 (Next.js)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Hidalgo",
+  "url": "https://transparencia.hidalgo.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.hidalgo.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.31.1"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.hidalgo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone ehacienda/ehacienda2, otrsfinanzas y otrshacienda (OTRS ticketing), bihacienda/bifinanzas (BI). datos servido en Amazon S3 (Next.js)."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Jalisco",
+  "nivel": "estatal",
+  "estado": "Jalisco",
+  "url": "https://www.jalisco.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Angular",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.jalisco.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.25.2; señales: Angular"
+   }
+  ],
+  "fuentes": [
+   "https://www.jalisco.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal en Node/Express+Angular; tramites.jalisco en Next.js; transparencia en Drupal (login). datos.jalisco y pagoselectronicos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Jalisco",
+  "url": "https://tramites.jalisco.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "React/Next.js",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.jalisco.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://tramites.jalisco.gob.mx/catalogo.jalisco/ciudadania, Server: nginx/1.18.0 (Ubuntu); señales: Next.js"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.jalisco.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal en Node/Express+Angular; tramites.jalisco en Next.js; transparencia en Drupal (login). datos.jalisco y pagoselectronicos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Jalisco",
+  "url": "https://pagoselectronicos.jalisco.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://pagoselectronicos.jalisco.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: pagoselectronicos.jalisco.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://pagoselectronicos.jalisco.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal en Node/Express+Angular; tramites.jalisco en Next.js; transparencia en Drupal (login). datos.jalisco y pagoselectronicos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Jalisco",
+  "url": "https://datos.jalisco.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.jalisco.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.jalisco.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.jalisco.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal en Node/Express+Angular; tramites.jalisco en Next.js; transparencia en Drupal (login). datos.jalisco y pagoselectronicos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Jalisco",
+  "url": "https://transparencia.info.jalisco.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "Drupal",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.info.jalisco.gob.mx",
+    "resultado": "HTTP 200, Server: Apache/2.4.18 (Ubuntu); señales: pantalla de login, Drupal"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.info.jalisco.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal en Node/Express+Angular; tramites.jalisco en Next.js; transparencia en Drupal (login). datos.jalisco y pagoselectronicos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Estado de México",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "url": "https://edomex.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Drupal",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://edomex.gob.mx",
+    "resultado": "HTTP 200; señales: Drupal, Angular"
+   }
+  ],
+  "fuentes": [
+   "https://edomex.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal responde en edomex.gob.mx (Drupal+Angular); www.edomex.gob.mx da HTTP 400. gobiernodigital.edomex (hub de identidad/Gobierno Digital) en Drupal tras Cloudflare. EdoMex figura entre los estados con identidad digital propia; a nivel federal coexiste con Llave MX (llave.gob.mx). sfpya (pagos) y datos no resolvieron hoy."
+ },
+ {
+  "dependencia": "Agencia/Coordinación de Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "url": "https://gobiernodigital.edomex.gob.mx",
+  "tipo": "identidad",
+  "proposito": "Identidad digital estatal: una cuenta para acceder a trámites y servicios del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "cuenta propia (identidad digital estatal)",
+  "anti_bot": "Cloudflare",
+  "plataforma": "Drupal",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://gobiernodigital.edomex.gob.mx",
+    "resultado": "HTTP 200, Server: cloudflare; señales: Cloudflare, Drupal"
+   }
+  ],
+  "fuentes": [
+   "https://gobiernodigital.edomex.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal responde en edomex.gob.mx (Drupal+Angular); www.edomex.gob.mx da HTTP 400. gobiernodigital.edomex (hub de identidad/Gobierno Digital) en Drupal tras Cloudflare. EdoMex figura entre los estados con identidad digital propia; a nivel federal coexiste con Llave MX (llave.gob.mx). sfpya (pagos) y datos no resolvieron hoy."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas/Hacienda",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "url": "https://sfpya.edomex.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://sfpya.edomex.gob.mx",
+    "resultado": "inalcanzable: curl: (28) Connection timed out after 25004 milliseconds"
+   }
+  ],
+  "fuentes": [
+   "https://sfpya.edomex.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal responde en edomex.gob.mx (Drupal+Angular); www.edomex.gob.mx da HTTP 400. gobiernodigital.edomex (hub de identidad/Gobierno Digital) en Drupal tras Cloudflare. EdoMex figura entre los estados con identidad digital propia; a nivel federal coexiste con Llave MX (llave.gob.mx). sfpya (pagos) y datos no resolvieron hoy."
+ },
+ {
+  "dependencia": "Recaudación / control vehicular",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "url": "https://vehiculos.seduo.edomex.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [
+   "servicios vehiculares"
+  ],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://vehiculos.seduo.edomex.gob.mx",
+    "resultado": "HTTP 404"
+   }
+  ],
+  "fuentes": [
+   "https://vehiculos.seduo.edomex.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal responde en edomex.gob.mx (Drupal+Angular); www.edomex.gob.mx da HTTP 400. gobiernodigital.edomex (hub de identidad/Gobierno Digital) en Drupal tras Cloudflare. EdoMex figura entre los estados con identidad digital propia; a nivel federal coexiste con Llave MX (llave.gob.mx). sfpya (pagos) y datos no resolvieron hoy."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "url": "https://datos.edomex.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.edomex.gob.mx",
+    "resultado": "inalcanzable: curl: (28) Connection timed out after 25002 milliseconds"
+   }
+  ],
+  "fuentes": [
+   "https://datos.edomex.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal responde en edomex.gob.mx (Drupal+Angular); www.edomex.gob.mx da HTTP 400. gobiernodigital.edomex (hub de identidad/Gobierno Digital) en Drupal tras Cloudflare. EdoMex figura entre los estados con identidad digital propia; a nivel federal coexiste con Llave MX (llave.gob.mx). sfpya (pagos) y datos no resolvieron hoy."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Estado de México",
+  "url": "https://transparenciafiscal.edomex.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "Drupal",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparenciafiscal.edomex.gob.mx",
+    "resultado": "HTTP 200; señales: Cloudflare, Drupal"
+   }
+  ],
+  "fuentes": [
+   "https://transparenciafiscal.edomex.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal responde en edomex.gob.mx (Drupal+Angular); www.edomex.gob.mx da HTTP 400. gobiernodigital.edomex (hub de identidad/Gobierno Digital) en Drupal tras Cloudflare. EdoMex figura entre los estados con identidad digital propia; a nivel federal coexiste con Llave MX (llave.gob.mx). sfpya (pagos) y datos no resolvieron hoy."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Michoacán",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "url": "https://www.michoacan.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.michoacan.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://michoacan.gob.mx/, Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fip; señales: WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://www.michoacan.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal WordPress sobre Apache 2.4.6/CentOS/PHP 7.1.1 (stack EOL). sfa.emichoacan (finanzas), tramites, datos y transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas/Hacienda",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "url": "https://sfa.emichoacan.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://sfa.emichoacan.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: sfa.emichoacan.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://sfa.emichoacan.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal WordPress sobre Apache 2.4.6/CentOS/PHP 7.1.1 (stack EOL). sfa.emichoacan (finanzas), tramites, datos y transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "url": "https://tramites.michoacan.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.michoacan.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: tramites.michoacan.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.michoacan.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal WordPress sobre Apache 2.4.6/CentOS/PHP 7.1.1 (stack EOL). sfa.emichoacan (finanzas), tramites, datos y transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "url": "https://datos.michoacan.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.michoacan.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.michoacan.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.michoacan.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal WordPress sobre Apache 2.4.6/CentOS/PHP 7.1.1 (stack EOL). sfa.emichoacan (finanzas), tramites, datos y transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Michoacán",
+  "url": "https://transparencia.michoacan.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.michoacan.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: transparencia.michoacan.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.michoacan.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Subdominios CT no disponibles hoy (crt.sh). Portal WordPress sobre Apache 2.4.6/CentOS/PHP 7.1.1 (stack EOL). sfa.emichoacan (finanzas), tramites, datos y transparencia por subdominio no resolvieron."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Morelos",
+  "nivel": "estatal",
+  "estado": "Morelos",
+  "url": "https://www.morelos.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "detrás de Cloudflare",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.morelos.gob.mx",
+    "resultado": "HTTP 200, Server: cloudflare; señales: Cloudflare"
+   }
+  ],
+  "fuentes": [
+   "https://www.morelos.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y datos tras Cloudflare; tramites/ingresos en IIS/ASP.NET; www.hacienda (pagos) no resolvió (usar hacienda.morelos.gob.mx)."
+ },
+ {
+  "dependencia": "Secretaría de Hacienda",
+  "nivel": "estatal",
+  "estado": "Morelos",
+  "url": "https://www.hacienda.morelos.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.hacienda.morelos.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: www.hacienda.morelos.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://www.hacienda.morelos.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y datos tras Cloudflare; tramites/ingresos en IIS/ASP.NET; www.hacienda (pagos) no resolvió (usar hacienda.morelos.gob.mx)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Morelos",
+  "url": "https://www.ingresos.morelos.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "ASP.NET / IIS",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.ingresos.morelos.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0"
+   }
+  ],
+  "fuentes": [
+   "https://www.ingresos.morelos.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y datos tras Cloudflare; tramites/ingresos en IIS/ASP.NET; www.hacienda (pagos) no resolvió (usar hacienda.morelos.gob.mx)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Morelos",
+  "url": "https://datos.morelos.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "detrás de Cloudflare",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.morelos.gob.mx",
+    "resultado": "HTTP 200, 2 redirección(es) -> https://www.morelos.gob.mx/access-denied?usredir=%2Fatd%2Fdatos-morelos, Server: cloudflare; señales: Cloudflare"
+   }
+  ],
+  "fuentes": [
+   "https://datos.morelos.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y datos tras Cloudflare; tramites/ingresos en IIS/ASP.NET; www.hacienda (pagos) no resolvió (usar hacienda.morelos.gob.mx)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Morelos",
+  "url": "https://transparencia.morelos.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "OpenResty/nginx",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.morelos.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://transparencia.morelos.gob.mx/index.php/login, Server: openresty"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.morelos.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y datos tras Cloudflare; tramites/ingresos en IIS/ASP.NET; www.hacienda (pagos) no resolvió (usar hacienda.morelos.gob.mx)."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Nayarit",
+  "nivel": "estatal",
+  "estado": "Nayarit",
+  "url": "https://nayarit.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "AWS ELB (403 sin sesión)",
+  "plataforma": "AWS ELB",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://nayarit.gob.mx",
+    "resultado": "HTTP 403, Server: awselb/2.0"
+   }
+  ],
+  "fuentes": [
+   "https://nayarit.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal (nayarit.gob.mx y www) responde 403 tras AWS ELB a GET pasivo; www con error de versión TLS. gobiernodigital (identidad) 403 AWS ELB."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Nayarit",
+  "url": "https://tramites.nayarit.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.nayarit.gob.mx",
+    "resultado": "HTTP 200, Server: envoy"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.nayarit.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal (nayarit.gob.mx y www) responde 403 tras AWS ELB a GET pasivo; www con error de versión TLS. gobiernodigital (identidad) 403 AWS ELB."
+ },
+ {
+  "dependencia": "Agencia/Coordinación de Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Nayarit",
+  "url": "https://gobiernodigital.nayarit.gob.mx",
+  "tipo": "identidad",
+  "proposito": "Identidad digital estatal: una cuenta para acceder a trámites y servicios del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "cuenta propia (identidad digital estatal)",
+  "anti_bot": "AWS ELB (403 sin sesión)",
+  "plataforma": "AWS ELB",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://gobiernodigital.nayarit.gob.mx",
+    "resultado": "HTTP 403, Server: awselb/2.0"
+   }
+  ],
+  "fuentes": [
+   "https://gobiernodigital.nayarit.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal (nayarit.gob.mx y www) responde 403 tras AWS ELB a GET pasivo; www con error de versión TLS. gobiernodigital (identidad) 403 AWS ELB."
+ },
+ {
+  "dependencia": "Recaudación / control vehicular",
+  "nivel": "estatal",
+  "estado": "Nayarit",
+  "url": "https://nube-vehiculos.nayarit.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://nube-vehiculos.nayarit.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: nube-vehiculos.nayarit.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://nube-vehiculos.nayarit.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal (nayarit.gob.mx y www) responde 403 tras AWS ELB a GET pasivo; www con error de versión TLS. gobiernodigital (identidad) 403 AWS ELB."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Nayarit",
+  "url": "https://datos.nayarit.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.nayarit.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.nayarit.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.nayarit.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal (nayarit.gob.mx y www) responde 403 tras AWS ELB a GET pasivo; www con error de versión TLS. gobiernodigital (identidad) 403 AWS ELB."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Nayarit",
+  "url": "https://transparencia.nayarit.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Joomla",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.nayarit.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0; señales: Joomla"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.nayarit.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal (nayarit.gob.mx y www) responde 403 tras AWS ELB a GET pasivo; www con error de versión TLS. gobiernodigital (identidad) 403 AWS ELB."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Nuevo León",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "url": "https://www.nl.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "AWS ELB (403 sin sesión)",
+  "plataforma": "AWS ELB",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.nl.gob.mx",
+    "resultado": "HTTP 403, Server: awselb/2.0"
+   }
+  ],
+  "fuentes": [
+   "https://www.nl.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal 403 tras AWS ELB a GET pasivo; tramites/pagos operativos (nginx/PHP 7.3); recaudacion y datosabiertos operativos."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "url": "https://tramites.nl.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "PHP",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.nl.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.16.1"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.nl.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal 403 tras AWS ELB a GET pasivo; tramites/pagos operativos (nginx/PHP 7.3); recaudacion y datosabiertos operativos."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "url": "https://pagos-tramites.nl.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "PHP",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://pagos-tramites.nl.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.16.1"
+   }
+  ],
+  "fuentes": [
+   "https://pagos-tramites.nl.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal 403 tras AWS ELB a GET pasivo; tramites/pagos operativos (nginx/PHP 7.3); recaudacion y datosabiertos operativos."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "url": "https://recaudacion.nl.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "Estático en Amazon S3",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://recaudacion.nl.gob.mx",
+    "resultado": "HTTP 200, Server: AmazonS3"
+   }
+  ],
+  "fuentes": [
+   "https://recaudacion.nl.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal 403 tras AWS ELB a GET pasivo; tramites/pagos operativos (nginx/PHP 7.3); recaudacion y datosabiertos operativos."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "url": "https://datosabiertos.nl.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datosabiertos.nl.gob.mx",
+    "resultado": "HTTP 200, Server: nginx/1.18.0 (Ubuntu)"
+   }
+  ],
+  "fuentes": [
+   "https://datosabiertos.nl.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal 403 tras AWS ELB a GET pasivo; tramites/pagos operativos (nginx/PHP 7.3); recaudacion y datosabiertos operativos."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Nuevo León",
+  "url": "https://transparencia.nl.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Drupal",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.nl.gob.mx",
+    "resultado": "HTTP 200, Server: Microsoft-IIS/10.0; señales: Drupal"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.nl.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal 403 tras AWS ELB a GET pasivo; tramites/pagos operativos (nginx/PHP 7.3); recaudacion y datosabiertos operativos."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Oaxaca",
+  "nivel": "estatal",
+  "estado": "Oaxaca",
+  "url": "https://www.oaxaca.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.oaxaca.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://www.oaxaca.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone coolify-apitramitesdigitales (deploy en Coolify/PaaS) y db-apitramitesdigitales (host de base de datos nombrado) para el API de trámites; catastro-sigiceo no resolvió."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas",
+  "nivel": "estatal",
+  "estado": "Oaxaca",
+  "url": "https://www.finanzasoaxaca.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "reCAPTCHA",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.finanzasoaxaca.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: reCAPTCHA, pantalla de login, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://www.finanzasoaxaca.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone coolify-apitramitesdigitales (deploy en Coolify/PaaS) y db-apitramitesdigitales (host de base de datos nombrado) para el API de trámites; catastro-sigiceo no resolvió."
+ },
+ {
+  "dependencia": "Catastro estatal",
+  "nivel": "estatal",
+  "estado": "Oaxaca",
+  "url": "https://catastro-sigiceo.oaxaca.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://catastro-sigiceo.oaxaca.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: catastro-sigiceo.oaxaca.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://catastro-sigiceo.oaxaca.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone coolify-apitramitesdigitales (deploy en Coolify/PaaS) y db-apitramitesdigitales (host de base de datos nombrado) para el API de trámites; catastro-sigiceo no resolvió."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Oaxaca",
+  "url": "https://tramites.oaxaca.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.oaxaca.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.oaxaca.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone coolify-apitramitesdigitales (deploy en Coolify/PaaS) y db-apitramitesdigitales (host de base de datos nombrado) para el API de trámites; catastro-sigiceo no resolvió."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Oaxaca",
+  "url": "https://datos.oaxaca.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.oaxaca.gob.mx",
+    "resultado": "HTTP 403, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.oaxaca.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone coolify-apitramitesdigitales (deploy en Coolify/PaaS) y db-apitramitesdigitales (host de base de datos nombrado) para el API de trámites; catastro-sigiceo no resolvió."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Oaxaca",
+  "url": "https://transparencia.oaxaca.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.oaxaca.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: transparencia.oaxaca.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.oaxaca.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone coolify-apitramitesdigitales (deploy en Coolify/PaaS) y db-apitramitesdigitales (host de base de datos nombrado) para el API de trámites; catastro-sigiceo no resolvió."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Puebla",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "url": "https://puebla.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Joomla",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://puebla.gob.mx",
+    "resultado": "HTTP 200; señales: Joomla"
+   }
+  ],
+  "fuentes": [
+   "https://puebla.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y transparencia en Joomla. validadorlicencias en Google App Engine (Google Frontend) con reCAPTCHA. tramitapue, rcc (pagos) y datos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "url": "https://www.tramitapue.puebla.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.tramitapue.puebla.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: www.tramitapue.puebla.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://www.tramitapue.puebla.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y transparencia en Joomla. validadorlicencias en Google App Engine (Google Frontend) con reCAPTCHA. tramitapue, rcc (pagos) y datos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas/Hacienda",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "url": "https://rcc.puebla.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://rcc.puebla.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: rcc.puebla.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://rcc.puebla.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y transparencia en Joomla. validadorlicencias en Google App Engine (Google Frontend) con reCAPTCHA. tramitapue, rcc (pagos) y datos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Dependencia emisora estatal",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "url": "https://validadorlicencias.puebla.gob.mx",
+  "tipo": "consulta_publica",
+  "proposito": "Consulta/validación pública de documentos oficiales.",
+  "servicios_en_linea": [
+   "validación de licencias de conducir"
+  ],
+  "autenticacion": "ninguna",
+  "anti_bot": "reCAPTCHA",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://validadorlicencias.puebla.gob.mx",
+    "resultado": "HTTP 200, Server: Google Frontend; señales: reCAPTCHA"
+   }
+  ],
+  "fuentes": [
+   "https://validadorlicencias.puebla.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y transparencia en Joomla. validadorlicencias en Google App Engine (Google Frontend) con reCAPTCHA. tramitapue, rcc (pagos) y datos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "url": "https://datos.puebla.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.puebla.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.puebla.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.puebla.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y transparencia en Joomla. validadorlicencias en Google App Engine (Google Frontend) con reCAPTCHA. tramitapue, rcc (pagos) y datos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Puebla",
+  "url": "https://transparencia.puebla.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "Joomla",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.puebla.gob.mx",
+    "resultado": "HTTP 200; señales: Joomla"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.puebla.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "Portal y transparencia en Joomla. validadorlicencias en Google App Engine (Google Frontend) con reCAPTCHA. tramitapue, rcc (pagos) y datos no resolvieron con esos nombres."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Querétaro",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "url": "https://www.queretaro.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://www.queretaro.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://www.queretaro.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "transparencia.queretaro.gob.mx con certificado TLS VENCIDO. recaudanetisr (pagos) en Next.js."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas (recaudación)",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "url": "https://recaudanetisr.queretaro.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "React/Next.js",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://recaudanetisr.queretaro.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://portal-tributario.queretaro.gob.mx/app/ingresos, Server: nginx; señales: Next.js"
+   }
+  ],
+  "fuentes": [
+   "https://recaudanetisr.queretaro.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "transparencia.queretaro.gob.mx con certificado TLS VENCIDO. recaudanetisr (pagos) en Next.js."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "url": "https://tramites.queretaro.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramites.queretaro.gob.mx",
+    "resultado": "HTTP 200; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://tramites.queretaro.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "transparencia.queretaro.gob.mx con certificado TLS VENCIDO. recaudanetisr (pagos) en Next.js."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "url": "https://datos.queretaro.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://datos.queretaro.gob.mx",
+    "resultado": "inalcanzable: curl: (6) Could not resolve host: datos.queretaro.gob.mx"
+   }
+  ],
+  "fuentes": [
+   "https://datos.queretaro.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "transparencia.queretaro.gob.mx con certificado TLS VENCIDO. recaudanetisr (pagos) en Next.js."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Querétaro",
+  "url": "https://transparencia.queretaro.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "desconocido",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.queretaro.gob.mx",
+    "resultado": "inalcanzable: curl: (60) SSL certificate problem: certificate has expiredMore details here: https://curl.se/docs/sslcerts.htmlcurl fai"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.queretaro.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "transparencia.queretaro.gob.mx con certificado TLS VENCIDO. recaudanetisr (pagos) en Next.js."
+ },
+ {
+  "dependencia": "Gobierno del Estado de Quintana Roo",
+  "nivel": "estatal",
+  "estado": "Quintana Roo",
+  "url": "https://qroo.gob.mx",
+  "tipo": "portal_institucional",
+  "proposito": "Portal institucional del Gobierno del Estado; punto de entrada y comunicación.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://qroo.gob.mx",
+    "resultado": "HTTP 200, Server: Apache; señales: Cloudflare, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://qroo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el ecosistema SEFIPLAN (ingresos, egresos, opergob, correspondencia, mail, efirma, shacienda) y dobles de transparencia. tramitesbasicos corre PHP 5.6.40 sobre CentOS/Apache 2.4.6 (stack EOL). ventanilladigital alojada en Railway (PaaS externo)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Quintana Roo",
+  "url": "https://ventanilladigital.qroo.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "reCAPTCHA",
+  "plataforma": "Railway (PaaS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://ventanilladigital.qroo.gob.mx",
+    "resultado": "HTTP 200, Server: railway-hikari; señales: reCAPTCHA"
+   }
+  ],
+  "fuentes": [
+   "https://ventanilladigital.qroo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el ecosistema SEFIPLAN (ingresos, egresos, opergob, correspondencia, mail, efirma, shacienda) y dobles de transparencia. tramitesbasicos corre PHP 5.6.40 sobre CentOS/Apache 2.4.6 (stack EOL). ventanilladigital alojada en Railway (PaaS externo)."
+ },
+ {
+  "dependencia": "Secretaría de Finanzas y Planeación (SEFIPLAN)",
+  "nivel": "estatal",
+  "estado": "Quintana Roo",
+  "url": "https://sefiplan.qroo.gob.mx",
+  "tipo": "pagos",
+  "proposito": "Recaudación y pagos estatales (control vehicular, predial, refrendo/tenencia, licencias u otros según el portal).",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna o consulta por referencia (no verificado a fondo)",
+  "anti_bot": "ninguno",
+  "plataforma": "Apache (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://sefiplan.qroo.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://sefiplan.qroo.gob.mx/site/, Server: Apache"
+   }
+  ],
+  "fuentes": [
+   "https://sefiplan.qroo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el ecosistema SEFIPLAN (ingresos, egresos, opergob, correspondencia, mail, efirma, shacienda) y dobles de transparencia. tramitesbasicos corre PHP 5.6.40 sobre CentOS/Apache 2.4.6 (stack EOL). ventanilladigital alojada en Railway (PaaS externo)."
+ },
+ {
+  "dependencia": "Ventanilla única / Gobierno Digital estatal",
+  "nivel": "estatal",
+  "estado": "Quintana Roo",
+  "url": "https://tramitesbasicos.qroo.gob.mx",
+  "tipo": "ventanilla_tramites",
+  "proposito": "Ventanilla única / catálogo de trámites y servicios en línea del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "requiere cuenta/login",
+  "anti_bot": "ninguno",
+  "plataforma": "PHP",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://tramitesbasicos.qroo.gob.mx",
+    "resultado": "HTTP 200, 1 redirección(es) -> https://tramitesbasicos.qroo.gob.mx/co-users/login, Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fip; señales: pantalla de login"
+   }
+  ],
+  "fuentes": [
+   "https://tramitesbasicos.qroo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el ecosistema SEFIPLAN (ingresos, egresos, opergob, correspondencia, mail, efirma, shacienda) y dobles de transparencia. tramitesbasicos corre PHP 5.6.40 sobre CentOS/Apache 2.4.6 (stack EOL). ventanilladigital alojada en Railway (PaaS externo)."
+ },
+ {
+  "dependencia": "Gobierno Digital / Datos Abiertos estatal",
+  "nivel": "estatal",
+  "estado": "Quintana Roo",
+  "url": "https://comedatos.qroo.gob.mx",
+  "tipo": "datos_abiertos",
+  "proposito": "Portal de datos abiertos del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "ninguno",
+  "plataforma": "nginx (sin huella CMS)",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://comedatos.qroo.gob.mx",
+    "resultado": "HTTP 200, Server: nginx"
+   }
+  ],
+  "fuentes": [
+   "https://comedatos.qroo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el ecosistema SEFIPLAN (ingresos, egresos, opergob, correspondencia, mail, efirma, shacienda) y dobles de transparencia. tramitesbasicos corre PHP 5.6.40 sobre CentOS/Apache 2.4.6 (stack EOL). ventanilladigital alojada en Railway (PaaS externo)."
+ },
+ {
+  "dependencia": "Órgano de Transparencia estatal / portal del Ejecutivo",
+  "nivel": "estatal",
+  "estado": "Quintana Roo",
+  "url": "https://transparencia.qroo.gob.mx",
+  "tipo": "transparencia",
+  "proposito": "Transparencia y acceso a la información pública del estado.",
+  "servicios_en_linea": [],
+  "autenticacion": "ninguna",
+  "anti_bot": "Cloudflare",
+  "plataforma": "WordPress",
+  "api_publica": null,
+  "estado_real": [
+   {
+    "fecha": "2026-10-20",
+    "url": "https://transparencia.qroo.gob.mx",
+    "resultado": "HTTP 200, Server: openresty; señales: Cloudflare, WordPress"
+   }
+  ],
+  "fuentes": [
+   "https://transparencia.qroo.gob.mx",
+   "crt.sh (Certificate Transparency)"
+  ],
+  "notas": "CT expone el ecosistema SEFIPLAN (ingresos, egresos, opergob, correspondencia, mail, efirma, shacienda) y dobles de transparencia. tramitesbasicos corre PHP 5.6.40 sobre CentOS/Apache 2.4.6 (stack EOL). ventanilladigital alojada en Railway (PaaS externo)."
+ }
+]
