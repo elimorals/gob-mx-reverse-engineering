@@ -219,7 +219,7 @@ Detalle completo en [`seguridad.md`](seguridad.md). Resumen:
 
 ## 9. Conclusiones
 
-1. **La presencia digital del Estado mexicano es amplia pero poco profunda.** 468 apps y 231 portales,
+1. **La presencia digital del Estado mexicano es amplia pero poco profunda.** 466 apps y 231 portales,
    pero el uso real se concentra en ~8 apps federales de dinero y salud.
 2. **El nivel subnacional produce mucho y mantiene poco:** 59% de las apps son estatales, y es ahí
    donde se concentran el abandono (16% sin actualizar >2 años) y las malas calificaciones.
